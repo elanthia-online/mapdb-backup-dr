@@ -6,7 +6,7 @@ on:
         description: 'Force checkout of map to HASH version'
         required: false
   schedule:
-    - cron: '25 */3 * * *'
+    - cron: '28 */3 * * *'
   push:
     branches:
     - main
@@ -46,6 +46,7 @@ jobs:
           wget --tries=5 --retry-connrefused --retry-on-host-error https://github.com/elanthia-online/jinxp/releases/download/v0.4.0/jinxp \
           && chmod +x jinxp \
           && ./jinxp -i map_files
+          ls -Rlha
           sed -i 's|/assets/|/map_files/|g' dist/manifest.json
           mv dist/manifest.json ./
           mv dist/headers ./
