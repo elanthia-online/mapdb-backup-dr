@@ -1,44 +1,19 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-1064 [[Arthe Dale, Inn Courtyard]]  (u150006)
-  added wayto:
-    51775: [[Arthe Hollow Inn, Front Room]] => "go inn"
-  added timeto:
-    51775: [[Arthe Hollow Inn, Front Room]] => 0.2
-    added uid:   [150006]
+6243 [[The Western Road, Stream Bank]]  (u2108008)
+  old wayto['6244'] =    "southeast"
+  new wayto['6244'] =    "se"
+    added uid:   [2108008]
 --------------------------------------------------
-19240 [[Feta's Kitchen, Fresh Dairy and Baked Goods]]  (u)
+6244 [[The Western Road, Big Meadow]]  (u2108009)
+    added uid:   [2108009]
 --------------------------------------------------
-51775 [[Arthe Hollow Inn, Front Room]] -- new room
-{"id"=>51775, "title"=>["[[Arthe Hollow Inn, Front Room]]"], "description"=>["The Arthe Hollow Inn has a warm, homey atmosphere, accentuated by the comfortably low ceilings and the acanth wood paneling.  The murmur of conversation and a ripple of laughter come from an open archway.  Wilibald Burdock, the exceptionally short (even by Halfling standards) and completely round innkeeper, is carefully polishing the paneling to a glossy finish."], "paths"=>["Obvious exits: out."], "wayto"=>{"51776"=>"go corner", "1064"=>"out", "51777"=>"go hallway", "51778"=>"go corridor", "51780"=>"go archway"}, "timeto"=>{"1064"=>0.2, "51776"=>0.2, "51777"=>0.2, "51778"=>0.2, "51780"=>0.2}, "uid"=>[151001]}
---------------------------------------------------
-51776 [[Arthe Hollow Inn, Secluded Corner]] -- new room
-{"id"=>51776, "title"=>["[[Arthe Hollow Inn, Secluded Corner]]"], "description"=>["A pitted brass sconce bearing a sputtering candle casts a cheerful glow upon this cozy niche.  Nestled close to a small oak table is a wooden chair with a colorful soft cushion tied to the seat with bright orange twine.  Securely attached to the acanth wood paneling is a sturdy shelf."], "paths"=>["Obvious exits: out."], "wayto"=>{"51775"=>"out"}, "timeto"=>{"51775"=>0.2}, "uid"=>[151029]}
---------------------------------------------------
-51777 [[Arthe Hollow Inn, Hallway]] -- new room
-{"id"=>51777, "title"=>["[[Arthe Hollow Inn, Hallway]]"], "description"=>["The small low hallway leads to some of the guests' chambers.  Judging from the height of the ceiling, only a Halfling would enjoy a stay in this section of the inn.  A round green door leads to one of the rooms."], "paths"=>["Obvious exits: out."], "wayto"=>{"51775"=>"out", "51779"=>"go round door"}, "timeto"=>{"51775"=>0.2, "51779"=>0.2}, "uid"=>[151005]}
---------------------------------------------------
-51778 [[Arthe Hollow Inn, Corridor]] -- new room
-{"id"=>51778, "title"=>["[[Arthe Hollow Inn, Corridor]]"], "description"=>["The upward sloping ceilings and tall doors make this area more comfortable for the guests of a larger size.  The acanth wood paneling from the front room continues down the hall, and the walls above it are painted a creamy pale yellow.  A carved wooden door is trimmed with a flowery design."], "paths"=>["Obvious exits: out."], "wayto"=>{"51775"=>"out"}, "timeto"=>{"51775"=>0.2}, "uid"=>[151003]}
---------------------------------------------------
-51779 [[Arthe Hollow Inn, Sicle Room]] -- new room
-{"id"=>51779, "title"=>["[[Arthe Hollow Inn, Sicle Room]]"], "description"=>["The apple green walls of this cheerful room are accented with three still-life paintings of bright red sicle fruit.  A small feather bed is covered with a soft down comforter, and a canary yellow chair sits next to a round window.  A bowl of fresh sicle fruit has been placed on a small table next to the chair."], "paths"=>["Obvious exits: none."], "wayto"=>{"51777"=>"go door"}, "timeto"=>{"51777"=>0.2}}
---------------------------------------------------
-51780 [[Arthe Hollow Inn, Common Room]] -- new room
-{"id"=>51780, "title"=>["[[Arthe Hollow Inn, Common Room]]"], "description"=>["The room is filled with jovial conversation, laughter, much toasting and a layer of smoky haze.  Guests of all races mingle at the long, low tables.  A Halfling holding a very large mug of beer jumps in front of the stone fireplace, lets out a whoop and bursts into a spontaneous song.  Daisy Burdock, the inn's waitress, maneuvers adeptly through the crowd carrying a tray of mugs and occasionally glancing out the window.  A menu is posted at the archway next to a prominent sign."], "paths"=>["Obvious exits: out."], "wayto"=>{"51781"=>"go doorway", "51782"=>"climb stairs", "51775"=>"out"}, "timeto"=>{"51775"=>0.2, "51781"=>0.2, "51782"=>0.2}, "uid"=>[151002]}
---------------------------------------------------
-51781 [[Arthe Hollow Inn, Dance Hall]] -- new room
-{"id"=>51781, "title"=>["[[Arthe Hollow Inn, Dance Hall]]"], "description"=>["This low, snug hall is filled with music and laughter at all hours of the day and night, as the village residents never seem to lose their passion for dance and drink.  Silk streamers dyed with vibrant reds, blues and yellows drape out from the center of the ceiling and hang down the walls.  Lively music is provided by a group of Halfling minstrels, and the heady aroma of roasted meat wafts through the air."], "paths"=>["Obvious exits: out."], "wayto"=>{"51780"=>"out"}, "timeto"=>{"51780"=>0.2}, "uid"=>[151100]}
---------------------------------------------------
-51782 [[Arthe Hollow Inn, Cellar]] -- new room
-{"id"=>51782, "title"=>["[[Arthe Hollow Inn, Cellar]]"], "description"=>["Candle sconces light the stone cellar, revealing walls lined with wine racks and rows of beer kegs.  A worktable takes up the center of the room, and a wooden cabinet sits nearby.  Despite the dimly lit dampness, the room is immaculately neat with not a cobweb in sight."], "paths"=>["Obvious exits: none."], "wayto"=>{"51780"=>"climb stairs"}, "timeto"=>{"51780"=>0.2}, "uid"=>[151008]}
---------------------------------------------------
-old map max: 51774
+old map max: 51782
 current map max: 51782
-old map size: 18662
+old map size: 18670
 current map size: 18670
 2 rooms with changes found.
-8 new rooms
+0 new rooms
 0 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found
