@@ -1,19 +1,48 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-6243 [[The Western Road, Stream Bank]]  (u2108008)
-  old wayto['6244'] =    "southeast"
-  new wayto['6244'] =    "se"
-    added uid:   [2108008]
+7898 [[Bards' Guild, Commons]]  (u)
+  added wayto:
+    51783: [[Bard's Guild, The Quill and Quaver]] => "go gold-gilded archway"
+  old wayto['7899'] =    "east"
+  new wayto['7899'] =    "e"
+  old wayto['8801'] =    "go portal"
+  new wayto['8801'] =    "go mirrorlike portal"
+  added timeto:
+    51783: [[Bard's Guild, The Quill and Quaver]] => 0.2
 --------------------------------------------------
-6244 [[The Western Road, Big Meadow]]  (u2108009)
-    added uid:   [2108009]
+7899 [[Bards' Guild, Repair Room]]  (u17018)
+  old wayto['7898'] =    "west"
+  new wayto['7898'] =    "w"
+    added uid:   [17018]
+--------------------------------------------------
+8801 [[Bards' Guild, Performance Hall]]  (u)
+  old wayto['13563'] =    "go arch"
+  new wayto['13563'] =    "go draped archway"
+--------------------------------------------------
+13563 [[Bards' Guild, Backstage Stairwell]]  (u)
+  old wayto['14247'] =    "go trap"
+  new wayto['14247'] =    "go trapdoor"
+--------------------------------------------------
+13564 [[Bards' Guild, Prop Room]]  (u)
+  old wayto['13563'] =    "go door"
+  new wayto['13563'] =    "go narrow door"
+--------------------------------------------------
+14247 [[Bards' Guild, Wine Cellar]]  (u)
+  old wayto['13563'] =    "climb ladder"
+  new wayto['13563'] =    "climb oak ladder"
+--------------------------------------------------
+51783 [[Bard's Guild, The Quill and Quaver]] -- new room
+{"id"=>51783, "title"=>["[[Bard's Guild, The Quill and Quaver]]"], "description"=>["Ruby-red banners hang from the upper walls, edged with thin gold trim, while brass windchimes shaped like tiny harps and lute silhouettes are suspended from overhead beams.  The floor is composed of dark hardwood planks, and one wall bears a series of mounted, polished metal strings stretched across small frames, their tension creating straight, taut lines strung with glass music notes."], "paths"=>["Obvious exits: east."], "wayto"=>{"51784"=>"e", "7898"=>"go gold-gilded archway"}, "timeto"=>{"51784"=>0.2, "7898"=>0.2}, "uid"=>[17545]}
+--------------------------------------------------
+51784 [[Bard's Guild, The Quill and Quaver]] -- new room
+{"id"=>51784, "title"=>["[[Bard's Guild, The Quill and Quaver]]"], "description"=>["Dark hardwood covers the floor in wide, uniform boards, intersected by a narrow strip of lighter inlay along the perimeter.  The walls are painted deep ruby and punctuated with small golden sconces, each shaped like giant zills.  Hanging from iron brackets are metal wind bells shaped like tiny flutes, their surfaces polished to a reflective shine.  Sections of the wall feature vertical panels of ruby-colored fabric with fine gold embroidery in repeating stave and clef motifs."], "paths"=>["Obvious exits: west."], "wayto"=>{"51783"=>"w"}, "timeto"=>{"51783"=>0.2}, "uid"=>[17546]}
 --------------------------------------------------
 old map max: 51782
-current map max: 51782
+current map max: 51784
 old map size: 18670
-current map size: 18670
-2 rooms with changes found.
-0 new rooms
+current map size: 18672
+6 rooms with changes found.
+2 new rooms
 0 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found
