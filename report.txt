@@ -1,50 +1,138 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-7898 [[Bards' Guild, Commons]]  (u)
+4277 [[Vela'Tohr Overlook, Cliff's Edge]]  (u4220008)
+  old wayto['4278'] =    "northwest"
+  new wayto['4278'] =    "nw"
+    added uid:   [4220008]
+--------------------------------------------------
+4278 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220009)
+  old wayto['4279'] =    "west"
+  new wayto['4279'] =    "w"
+  old wayto['4277'] =    "southeast"
+  new wayto['4277'] =    "se"
+    added uid:   [4220009]
+--------------------------------------------------
+4279 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220010)
+  old wayto['4278'] =    "east"
+  new wayto['4278'] =    "e"
+  old wayto['4280'] =    "northwest"
+  new wayto['4280'] =    "nw"
+  old wayto['4325'] =    "climb crev"
+  new wayto['4325'] =    "climb icy crevice"
+  old wayto['4287'] =    "southwest"
+  new wayto['4287'] =    "sw"
+    added uid:   [4220010]
+--------------------------------------------------
+4280 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220011)
+paths: Obvious paths: southeast, southwest, west. is now Obvious paths: northeast, southeast, southwest, west.
   added wayto:
-    51783: [[Bard's Guild, The Quill and Quaver]] => "go gold-gilded archway"
-  old wayto['7899'] =    "east"
-  new wayto['7899'] =    "e"
-  old wayto['8801'] =    "go portal"
-  new wayto['8801'] =    "go mirrorlike portal"
+    51786: [[Hag's Crag, Star Shrine]] => "ne"
+  old wayto['4279'] =    "southeast"
+  new wayto['4279'] =    "se"
+  old wayto['4281'] =    "west"
+  new wayto['4281'] =    "w"
+  old wayto['4286'] =    "southwest"
+  new wayto['4286'] =    "sw"
   added timeto:
-    51783: [[Bard's Guild, The Quill and Quaver]] => 0.2
+    51786: [[Hag's Crag, Star Shrine]] => 0.2
+    added uid:   [4220011]
 --------------------------------------------------
-7899 [[Bards' Guild, Repair Room]]  (u17018)
-  old wayto['7898'] =    "west"
-  new wayto['7898'] =    "w"
-    added uid:   [17018]
+4281 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220012)
+  old wayto['4280'] =    "east"
+  new wayto['4280'] =    "e"
+  old wayto['4282'] =    "southwest"
+  new wayto['4282'] =    "sw"
+  old wayto['4286'] =    "southeast"
+  new wayto['4286'] =    "se"
+  old wayto['4288'] =    "climb rock"
+  new wayto['4288'] =    "climb massive rockslide"
+  added timeto:
+    51787: [[Hag's Crag, Vela'Tohr Overlook]] => 0.2
+    added uid:   [4220012]
 --------------------------------------------------
-8801 [[Bards' Guild, Performance Hall]]  (u)
-  old wayto['13563'] =    "go arch"
-  new wayto['13563'] =    "go draped archway"
+4282 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220013)
+  old wayto['4281'] =    "northeast"
+  new wayto['4281'] =    "ne"
+  old wayto['4283'] =    "west"
+  new wayto['4283'] =    "w"
+  old wayto['4285'] =    "southeast"
+  new wayto['4285'] =    "se"
+    added uid:   [4220013]
 --------------------------------------------------
-13563 [[Bards' Guild, Backstage Stairwell]]  (u)
-  old wayto['14247'] =    "go trap"
-  new wayto['14247'] =    "go trapdoor"
+4283 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220018)
+  old wayto['4282'] =    "east"
+  new wayto['4282'] =    "e"
+  old wayto['4284'] =    "west"
+  new wayto['4284'] =    "w"
+    added uid:   [4220018]
 --------------------------------------------------
-13564 [[Bards' Guild, Prop Room]]  (u)
-  old wayto['13563'] =    "go door"
-  new wayto['13563'] =    "go narrow door"
+4284 [[Hag's Crag, Overhang]]  (u4220019)
+  old wayto['4283'] =    "east"
+  new wayto['4283'] =    "e"
+  old wayto['4321'] =    "go fissu"
+  new wayto['4321'] =    "go fissure"
+    added uid:   [4220019]
 --------------------------------------------------
-14247 [[Bards' Guild, Wine Cellar]]  (u)
-  old wayto['13563'] =    "climb ladder"
-  new wayto['13563'] =    "climb oak ladder"
+4285 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220014)
+  old wayto['4282'] =    "northwest"
+  new wayto['4282'] =    "nw"
+  old wayto['4286'] =    "northeast"
+  new wayto['4286'] =    "ne"
+  old wayto['4287'] =    "east"
+  new wayto['4287'] =    "e"
+    added uid:   [4220014]
 --------------------------------------------------
-51783 [[Bard's Guild, The Quill and Quaver]] -- new room
-{"id"=>51783, "title"=>["[[Bard's Guild, The Quill and Quaver]]"], "description"=>["Ruby-red banners hang from the upper walls, edged with thin gold trim, while brass windchimes shaped like tiny harps and lute silhouettes are suspended from overhead beams.  The floor is composed of dark hardwood planks, and one wall bears a series of mounted, polished metal strings stretched across small frames, their tension creating straight, taut lines strung with glass music notes."], "paths"=>["Obvious exits: east."], "wayto"=>{"51784"=>"e", "7898"=>"go gold-gilded archway"}, "timeto"=>{"51784"=>0.2, "7898"=>0.2}, "uid"=>[17545]}
+4286 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220016)
+  old wayto['4280'] =    "northeast"
+  new wayto['4280'] =    "ne"
+  old wayto['4281'] =    "northwest"
+  new wayto['4281'] =    "nw"
+  old wayto['4285'] =    "southwest"
+  new wayto['4285'] =    "sw"
+  old wayto['4287'] =    "southeast"
+  new wayto['4287'] =    "se"
+    added uid:   [4220016]
 --------------------------------------------------
-51784 [[Bard's Guild, The Quill and Quaver]] -- new room
-{"id"=>51784, "title"=>["[[Bard's Guild, The Quill and Quaver]]"], "description"=>["Dark hardwood covers the floor in wide, uniform boards, intersected by a narrow strip of lighter inlay along the perimeter.  The walls are painted deep ruby and punctuated with small golden sconces, each shaped like giant zills.  Hanging from iron brackets are metal wind bells shaped like tiny flutes, their surfaces polished to a reflective shine.  Sections of the wall feature vertical panels of ruby-colored fabric with fine gold embroidery in repeating stave and clef motifs."], "paths"=>["Obvious exits: west."], "wayto"=>{"51783"=>"w"}, "timeto"=>{"51783"=>0.2}, "uid"=>[17546]}
+4287 [[Hag's Crag, Vela'Tohr Overlook]]  (u4220015)
+  old wayto['4279'] =    "northeast"
+  new wayto['4279'] =    "ne"
+  old wayto['4285'] =    "west"
+  new wayto['4285'] =    "w"
+    added uid:   [4220015]
 --------------------------------------------------
-old map max: 51782
-current map max: 51784
-old map size: 18670
-current map size: 18672
-6 rooms with changes found.
+4288 [[Hag's Crag, Cliff Base]]  (u4220017)
+  old wayto['4281'] =    "climb rock"
+  new wayto['4281'] =    "climb massive rockslide"
+    added uid:   [4220017]
+--------------------------------------------------
+4321 [[Vela'Tohr Woods, Dark Burrows]]  (u4218401)
+  old wayto['4284'] =    "go fissu"
+  new wayto['4284'] =    "go fissure"
+    added uid:   [4218401]
+--------------------------------------------------
+4325 [[Hag's Crag, Glacial Precipice]]  (u4220020)
+  old wayto['4279'] =    "climb crev"
+  new wayto['4279'] =    "climb icy crevice"
+    added uid:   [4220020]
+--------------------------------------------------
+4820 [[Ratha, Tierskel Way]]  (u)
+  added description: Deep gouges formed by wind and ice mar the hard granite of the mountainside.  Rivulets of water that have dribbled down from these small crevices are forever frozen, forming strangely shaped ice sculptures upon the sleek rock.
+  added description: Deep gouges formed by wind and ice mar the hard granite of the mountainside.  Rivulets of water that have dribbled down from these small crevices are forever frozen, forming strangely shaped ice sculptures upon the sleek rock.
+--------------------------------------------------
+51786 [[Hag's Crag, Star Shrine]] -- new room
+{"id"=>51786, "title"=>["[[Hag's Crag, Star Shrine]]"], "description"=>["Carved into the mountainside, a simple shrine is set in reverence to the heavens.  Swirled channels carved into the broad plinth gather frost, and a deep alcove provides modest shelter against the howling winds, set with a pair of sconces holding wide burning flames.  Though open to the elements, the shelter is clean and warm."], "paths"=>["Obvious paths: southwest."], "wayto"=>{"4280"=>"sw"}, "timeto"=>{"4280"=>0.2}, "tags"=>["Aevargwem"], "uid"=>[4220043]}
+--------------------------------------------------
+51787 [[Hag's Crag, Vela'Tohr Overlook]] -- new room
+{"id"=>51787, "title"=>["[[Hag's Crag, Vela'Tohr Overlook]]"], "description"=>["Deep gouges formed by wind and ice mar the hard granite of the mountainside.  Rivulets of water that have dribbled down from these small crevices are forever frozen, forming strangely shaped ice sculptures upon the sleek rock."], "paths"=>["Obvious paths: northeast, southeast, southwest, west."], "wayto"=>{}, "timeto"=>{}, "uid"=>[4220011]}
+--------------------------------------------------
+old map max: 51784
+current map max: 51787
+old map size: 18672
+current map size: 18674
+15 rooms with changes found.
 2 new rooms
 0 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found
-0 new tags: []
+1 new tags: ["Aevargwem"]
 0 tags gone: []
