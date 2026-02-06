@@ -181949,11 +181949,13 @@
   ],
   "wayto": {
     "6410": "west",
-    "6412": "southeast"
+    "6412": "southeast",
+    "51789": "go path"
   },
   "timeto": {
     "6410": 0.2,
-    "6412": 0.2
+    "6412": 0.2,
+    "51789": 0.2
   },
   "image": "Ilitha, 70, Shard West Gate.gif",
   "image_coords": [
@@ -181961,6 +181963,9 @@
     22,
     302,
     38
+  ],
+  "uid": [
+    2107137
   ]
 },{
   "id": 6412,
@@ -485084,4 +485089,172 @@
   "timeto": {
     "19078": 0.2
   }
+},{
+  "id": 51789,
+  "title": [
+    "[[Western Road, Valley Path]]"
+  ],
+  "description": [
+    "Winding between some low hills, the faint path climbs slowly as it passes amongst the thick grass.  The rolling foothills lack trees, although an occasional low shrub clings to the rocky soil."
+  ],
+  "paths": [
+    "Obvious paths: north."
+  ],
+  "wayto": {
+    "51790": "north",
+    "6411": "go path"
+  },
+  "timeto": {
+    "6411": 0.2,
+    "51790": 0.2
+  },
+  "uid": [
+    2107201
+  ]
+},{
+  "id": 51790,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "A grass-covered valley opens up between the rolling foothills."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south."
+  ],
+  "wayto": {
+    "51789": "s",
+    "51792": "northeast",
+    "51791": "e"
+  },
+  "timeto": {
+    "51789": 0.2,
+    "51791": 0.2,
+    "51792": 0.2
+  },
+  "uid": [
+    2107202
+  ]
+},{
+  "id": 51791,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "Bent by the wind, a lone shrub stands surrounded by thick clumps of bluestem and switchgrass.  The constant winds have bent the branches almost sideways, but the bush clings stubbornly to life even in the face of adversity."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, west."
+  ],
+  "wayto": {
+    "51794": "southeast",
+    "51792": "north",
+    "51793": "e",
+    "51790": "w"
+  },
+  "timeto": {
+    "51790": 0.2,
+    "51793": 0.2,
+    "51792": 0.2,
+    "51794": 0.2
+  },
+  "uid": [
+    2107203
+  ]
+},{
+  "id": 51792,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "Swaying in the constant wind, the tall grasses lap up against the rocky foothills.  A few birds cling to the stems, searching for bugs or other food amongst the verdant vegetation."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south, southwest."
+  ],
+  "wayto": {
+    "51790": "southwest",
+    "51795": "northeast",
+    "51793": "southeast",
+    "51791": "s"
+  },
+  "timeto": {
+    "51790": 0.2,
+    "51791": 0.2,
+    "51795": 0.2,
+    "51793": 0.2
+  },
+  "uid": [
+    2107204
+  ]
+},{
+  "id": 51793,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "A tall cliff rises to the east, its granite face almost sheer as it rises from the valley floor.  High atop the bluff, some large nests perch precariously above the grassy valley."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west, northwest."
+  ],
+  "wayto": {
+    "51791": "west",
+    "51792": "northwest",
+    "51794": "s",
+    "51795": "north"
+  },
+  "timeto": {
+    "51791": 0.2,
+    "51794": 0.2,
+    "51795": 0.2,
+    "51792": 0.2
+  },
+  "uid": [
+    2107206
+  ]
+},{
+  "id": 51794,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "Tumbled down from the granite cliff, a few rough boulders rise above the verdant grasses of the valley.  The thick vegetation completely covers the ground, the thick stems providing cover for an unknown number of animals and insects."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest."
+  ],
+  "wayto": {
+    "51791": "nw",
+    "51793": "north"
+  },
+  "timeto": {
+    "51793": 0.2,
+    "51791": 0.2
+  },
+  "uid": [
+    2107207
+  ]
+},{
+  "id": 51795,
+  "title": [
+    "[[Valley, Meadow]]"
+  ],
+  "description": [
+    "Surrounded on most sides by steep hillsides, the prairie grasses cover the valley floor in a deep mat of vegetation.  The sounds of scurrying animals can be heard within the plants, but the thick stems and leaves hide the animals from sight."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest."
+  ],
+  "wayto": {
+    "51793": "south",
+    "51792": "southwest"
+  },
+  "timeto": {
+    "51793": 0.2,
+    "51792": 0.2
+  },
+  "uid": [
+    2107205
+  ]
 }]
