@@ -112344,11 +112344,13 @@
   ],
   "wayto": {
     "3893": "southeast",
-    "7396": "go boulder"
+    "7396": "go boulder",
+    "3938": "north"
   },
   "timeto": {
     "3893": 0.2,
-    "7396": 0.2
+    "7396": 0.2,
+    "3938": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -112359,6 +112361,9 @@
   ],
   "tags": [
     "rock"
+  ],
+  "uid": [
+    4010041
   ]
 },{
   "id": 3895,
@@ -112859,10 +112864,12 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "3910": "northwest"
+    "3910": "northwest",
+    "3942": "south"
   },
   "timeto": {
-    "3910": 0.2
+    "3910": 0.2,
+    "3942": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -112870,6 +112877,9 @@
     93,
     145,
     109
+  ],
+  "uid": [
+    4010044
   ]
 },{
   "id": 3913,
@@ -113573,8 +113583,14 @@
   "paths": [
     "Obvious paths: north, south."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3894": "south",
+    "3942": "north"
+  },
+  "timeto": {
+    "3894": 0.2,
+    "3942": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     128,
@@ -113623,10 +113639,12 @@
     "Obvious paths: east, west."
   ],
   "wayto": {
-    "3934": "west"
+    "3934": "west",
+    "3941": "east"
   },
   "timeto": {
-    "3934": 0.2
+    "3934": 0.2,
+    "3941": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -113634,6 +113652,9 @@
     602,
     264,
     618
+  ],
+  "uid": [
+    4010105
   ]
 },{
   "id": 3941,
@@ -113646,14 +113667,23 @@
   "paths": [
     "Obvious paths: northeast, west."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3953": "northeast",
+    "3940": "west"
+  },
+  "timeto": {
+    "3953": 0.2,
+    "3940": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     279,
     604,
     295,
     620
+  ],
+  "uid": [
+    4010106
   ]
 },{
   "id": 3942,
@@ -113666,8 +113696,14 @@
   "paths": [
     "Obvious paths: north, south."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3938": "south",
+    "3912": "north"
+  },
+  "timeto": {
+    "3938": 0.2,
+    "3912": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     126,
@@ -113677,6 +113713,9 @@
   ],
   "tags": [
     "rock"
+  ],
+  "uid": [
+    4010043
   ]
 },{
   "id": 3943,
@@ -113718,16 +113757,14 @@
   "wayto": {
     "3949": "east",
     "3943": "west",
-    "14338": "northeast",
-    "14339": "southeast",
-    "3948": "SE"
+    "3948": "southeast",
+    "3947": "northeast"
   },
   "timeto": {
     "3949": 0.2,
     "3943": 0.2,
-    "14338": 0.2,
-    "14339": 0.2,
-    "3948": 0.2
+    "3948": 0.2,
+    "3947": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -113776,16 +113813,14 @@
   "wayto": {
     "3949": "west",
     "3945": "northeast",
-    "14338": "northwest",
-    "14339": "southwest",
-    "3948": "SW"
+    "3948": "southwest",
+    "3947": "northwest"
   },
   "timeto": {
     "3949": 0.2,
     "3945": 0.2,
-    "14338": 0.2,
-    "14339": 0.2,
-    "3948": 0.2
+    "3948": 0.2,
+    "3947": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -113800,19 +113835,31 @@
     "[[Haalikshal Highway, East Park]]"
   ],
   "description": [
-    "A meadow slopes gently to the north, then ends abruptly at an iron railing.  One would have the sense of a vast emptiness on the other side of the railing even without moonlight or starlight.  The occasional sound from that dark void seems impossibly remote."
+    "A meadow slopes gently to the north, then ends abruptly at an iron railing.  One would have the sense of a vast emptiness on the other side of the railing even without moonlight or starlight.  The occasional sound from that dark void seems impossibly remote.",
+    "A meadow slopes gently to the north, then ends abruptly in a sheer drop of hundreds of feet.  An iron railing keeps the unwary from falling but does not obscure the view.  Far below, the Segoltha River rolls along, and the lands north of it stretch to a far horizon in a landscape surpassing those of even the most talented painter.  One can see why a picnic table and benches have been placed here."
   ],
   "paths": [
     "Obvious paths: southeast, south, southwest."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3944": "southwest",
+    "3946": "southeast",
+    "3949": "south"
+  },
+  "timeto": {
+    "3944": 0.2,
+    "3946": 0.2,
+    "3949": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     530,
     64,
     546,
     80
+  ],
+  "uid": [
+    4510005
   ]
 },{
   "id": 3948,
@@ -113820,7 +113867,8 @@
     "[[Haalikshal Highway, East Park]]"
   ],
   "description": [
-    "A quiet open space lines the road, dotted here and there with an occasional tree.  Dark masses beneath the trees hint at bushes that by their shape may be cultivated rather than natural.  To the south, high cliffs rise in the distance."
+    "A quiet open space lines the road, dotted here and there with an occasional tree.  Dark masses beneath the trees hint at bushes that by their shape may be cultivated rather than natural.  To the south, high cliffs rise in the distance.",
+    "A pleasant, park-like field lies along the road, covered with thick meadow grass and here and there dotted with pines and hemlocks surrounded by mountain laurel and rhododendron.  The dark color of the evergreens blends almost unnoticeably into the cliffs to the south."
   ],
   "paths": [
     "Obvious paths: north, northeast, northwest."
@@ -113841,6 +113889,9 @@
     124,
     548,
     142
+  ],
+  "uid": [
+    4510003
   ]
 },{
   "id": 3949,
@@ -113856,16 +113907,14 @@
   "wayto": {
     "3944": "west",
     "3946": "east",
-    "14338": "north",
-    "14339": "south",
-    "3948": "S"
+    "3948": "south",
+    "3947": "north"
   },
   "timeto": {
     "3944": 0.2,
     "3946": 0.2,
-    "14338": 0.2,
-    "14339": 0.2,
-    "3948": 0.2
+    "3948": 0.2,
+    "3947": 0.2
   },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
@@ -113937,14 +113986,21 @@
   "paths": [
     "Obvious paths: southwest."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3953": "southwest"
+  },
+  "timeto": {
+    "3953": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     337,
     542,
     355,
     560
+  ],
+  "uid": [
+    4010108
   ]
 },{
   "id": 3953,
@@ -113957,14 +114013,23 @@
   "paths": [
     "Obvious paths: northeast, southwest."
   ],
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "3952": "northeast",
+    "3941": "southwest"
+  },
+  "timeto": {
+    "3952": 0.2,
+    "3941": 0.2
+  },
   "image": "Forfedhdar, 116, Outer Hib.gif",
   "image_coords": [
     307,
     571,
     325,
     589
+  ],
+  "uid": [
+    4010107
   ]
 },{
   "id": 3954,
@@ -381396,62 +381461,6 @@
     "pawn",
     "riverhaven pawn",
     "haven pawn"
-  ]
-},{
-  "id": 14338,
-  "title": [
-    "[[Haalikshal Highway, East Park]]"
-  ],
-  "description": [
-    "A meadow slopes gently to the north, then ends abruptly in a sheer drop of hundreds of feet.  An iron railing keeps the unwary from falling but does not obscure the view.  Far below, the Segoltha River rolls along, and the lands north of it stretch to a far horizon in a landscape surpassing those of even the most talented painter.  One can see why a picnic table and benches have been placed here."
-  ],
-  "paths": [
-    "Obvious paths: southeast, south, southwest."
-  ],
-  "wayto": {
-    "3944": "southwest",
-    "3946": "southeast",
-    "3949": "south"
-  },
-  "timeto": {
-    "3944": 0.2,
-    "3946": 0.2,
-    "3949": 0.2
-  },
-  "image": "Forfedhdar, 116, Outer Hib.gif",
-  "image_coords": [
-    531,
-    63,
-    547,
-    79
-  ]
-},{
-  "id": 14339,
-  "title": [
-    "[[Haalikshal Highway, East Park]]"
-  ],
-  "description": [
-    "A pleasant, park-like field lies along the road, covered with thick meadow grass and here and there dotted with pines and hemlocks surrounded by mountain laurel and rhododendron.  The dark color of the evergreens blends almost unnoticeably into the cliffs to the south."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, northwest."
-  ],
-  "wayto": {
-    "3946": "northeast",
-    "3944": "northwest",
-    "3949": "north"
-  },
-  "timeto": {
-    "3946": 0.2,
-    "3944": 0.2,
-    "3949": 0.2
-  },
-  "image": "Forfedhdar, 116, Outer Hib.gif",
-  "image_coords": [
-    534,
-    127,
-    547,
-    142
   ]
 },{
   "id": 14340,
