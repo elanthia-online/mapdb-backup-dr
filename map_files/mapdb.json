@@ -11909,6 +11909,9 @@
     502,
     322,
     518
+  ],
+  "uid": [
+    1010122
   ]
 },{
   "id": 425,
@@ -381387,16 +381390,22 @@
     "This shop is filled with perfume scents and the underlying aroma of chocolate.  Despite the humble surroundings, this business offers quality gifts for the romantic.  A square \"box\" sits above the large hole cut into the ceiling, obviously an attempt to reach a taller market."
   ],
   "paths": [
+    "Obvious exits: east, out.",
     "Obvious exits: out."
   ],
   "wayto": {
     "14334": "go swinging door",
+    "51796": "e",
     "424": "out"
   },
   "timeto": {
     "424": 0.2,
-    "14334": 0.2
-  }
+    "14334": 0.2,
+    "51796": 0.2
+  },
+  "uid": [
+    1017122
+  ]
 },{
   "id": 14334,
   "title": [
@@ -381413,7 +381422,10 @@
   },
   "timeto": {
     "14333": 0.2
-  }
+  },
+  "uid": [
+    1017123
+  ]
 },{
   "id": 14335,
   "title": [
@@ -485262,5 +485274,25 @@
   },
   "uid": [
     2107205
+  ]
+},{
+  "id": 51796,
+  "title": [
+    "[[Smaragdaus' Joy, Alcove]]"
+  ],
+  "description": [
+    "The surrounding walls are painted a soft pink and feature a large stained glass window in the shape of a heart.  Carefully arranged alongside the walls, two wide cases and an enormous display show off their wares."
+  ],
+  "paths": [
+    "Obvious exits: west."
+  ],
+  "wayto": {
+    "14333": "w"
+  },
+  "timeto": {
+    "14333": 0.2
+  },
+  "uid": [
+    1017130
   ]
 }]
