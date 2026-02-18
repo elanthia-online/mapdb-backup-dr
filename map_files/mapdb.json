@@ -58880,11 +58880,13 @@
   ],
   "wayto": {
     "1982": "southeast",
-    "1984": "northwest"
+    "1984": "northwest",
+    "51797": "go whitewashed cottage"
   },
   "timeto": {
     "1982": 0.2,
-    "1984": 0.2
+    "1984": 0.2,
+    "51797": 0.2
   },
   "image": "zoluren-61-leth_deriel-1377283956.png",
   "image_coords": [
@@ -485294,5 +485296,25 @@
   },
   "uid": [
     1017130
+  ]
+},{
+  "id": 51797,
+  "title": [
+    "[[Leth Deriel, The Crafty Cat]]"
+  ],
+  "description": [
+    "Long worktables line the whitewashed stone walls, one side of the open room arranged with weapon racks and armor stands, the other hosting a colorful array of partially completed craft projects.  A brick-lined opening in the far wall provides access to a forge, while the main body of the fire pit extends behind the building.  Tall open-beam ceilings rise overhead with vents near the peak, and expansive accordion windows admit ambient light and fresh air."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "1983": "go ironwood doorway"
+  },
+  "timeto": {
+    "1983": 0.2
+  },
+  "uid": [
+    0
   ]
 }]
