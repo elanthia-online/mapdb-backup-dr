@@ -35718,8 +35718,8 @@
     "Obvious paths: northwest."
   ],
   "wayto": {
-    "1192": "go pool",
-    "1185": "northwest"
+    "1185": "northwest",
+    "1192": "go silvery pool"
   },
   "timeto": {
     "1192": 0.2,
@@ -35893,10 +35893,12 @@
     "Obvious paths: out."
   ],
   "wayto": {
-    "1186": "out"
+    "1186": "out",
+    "51798": ";e start_script('bescort', ['eluned']); wait_while{running?('bescort')};"
   },
   "timeto": {
-    "1186": 0.2
+    "1186": 0.2,
+    "51798": 60.0
   },
   "image": "Zoluren, 11, NTR, Vipers & Rock Guardians.png",
   "image_coords": [
@@ -41339,13 +41341,11 @@
   ],
   "wayto": {
     "1380": "east",
-    "1382": "west",
-    "3569": ";e fput('stow left') if checkleft; fput('stow right') if checkright;fput('scout trail');pause 1;waitrt?;fput('go trail');waitfor('As your journey')"
+    "1382": "west"
   },
   "timeto": {
     "1380": 0.2,
-    "1382": 0.2,
-    "3569": ";e unless DRSkill.getmodrank('Instinct') > 260 then nil else 160 end"
+    "1382": 0.2
   },
   "image": "Zoluren, 14, Crocs, Homes, etc.gif",
   "image_coords": [
@@ -100707,12 +100707,10 @@
     "Obvious paths: southeast."
   ],
   "wayto": {
-    "3475": "southeast",
-    "4336": ";e fput('stow left') if checkleft; fput('stow right') if checkright;fput('scout trail');pause 1;waitrt?;fput('go trail');waitfor('As your journey')"
+    "3475": "southeast"
   },
   "timeto": {
-    "3475": 0.2,
-    "4336": ";e unless DRSkill.getmodrank('Instinct') > 200 then nil else 200 end"
+    "3475": 0.2
   },
   "image": "Therengia, Siksraja-1.png",
   "image_coords": [
@@ -103345,12 +103343,10 @@
     "Obvious paths: north."
   ],
   "wayto": {
-    "3572": "north",
-    "1377": ";e fput('stow left') if checkleft; fput('stow right') if checkright;fput('scout trail');pause 1;waitrt?;fput('go trail');waitfor('As your journey')"
+    "3572": "north"
   },
   "timeto": {
-    "3572": 0.2,
-    "1377": ";e unless DRSkill.getmodrank('Instinct') > 200 then nil else 160 end"
+    "3572": 0.2
   },
   "image": "Therengia, 40a, Fendryads in Lang.gif",
   "image_coords": [
@@ -124920,13 +124916,11 @@
   ],
   "wayto": {
     "4334": "west",
-    "4337": "northeast",
-    "3476": ";e fput('stow left') if checkleft; fput('stow right') if checkright;fput('scout trail');pause 1;waitrt?;fput('go trail');waitfor('As your journey')"
+    "4337": "northeast"
   },
   "timeto": {
     "4334": 0.2,
-    "4337": 0.2,
-    "3476": ";e unless DRSkill.getmodrank('Instinct') > 200 then nil else 200 end"
+    "4337": 0.2
   },
   "image": "Forfedhdar, 137, Hags Crag.gif",
   "image_coords": [
@@ -485313,6 +485307,26 @@
   },
   "timeto": {
     "1983": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51798,
+  "title": [
+    "[[Crystal Cavern]]"
+  ],
+  "description": [
+    "This tiny cavern inside the stone outcropping is alive with the sparkle of a thousand tiny crystals embedded into every facet of rock.  The deep, cool waters of the hidden pool surround you, brushing against your skin and lapping at the base of a polished limestone statue of a dolphin emerging from the water.  The pleasant echo of dripping water rolls through the cave."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "1192": ";e start_script('bescort', ['eluned']); wait_while{running?('bescort')};"
+  },
+  "timeto": {
+    "1192": 60.0
   },
   "uid": [
     0
