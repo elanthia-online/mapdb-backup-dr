@@ -18478,7 +18478,7 @@
   "wayto": {
     "647": "northeast",
     "649": "northwest",
-    "13103": "climb staircase"
+    "13103": "climb spiral staircase"
   },
   "timeto": {
     "647": 0.2,
@@ -352914,10 +352914,12 @@
     "Obvious paths: none."
   ],
   "wayto": {
-    "648": "climb staircase"
+    "648": "climb spiral staircase",
+    "14321": "go mosaic pathway"
   },
   "timeto": {
-    "648": 0.2
+    "648": 0.2,
+    "14321": 0.2
   },
   "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
   "image_coords": [
@@ -381175,12 +381177,15 @@
   ],
   "wayto": {
     "13103": "go mosaic pathway",
-    "14322": "southwest"
+    "14322": "sw"
   },
   "timeto": {
     "13103": 0.2,
     "14322": 0.2
-  }
+  },
+  "uid": [
+    208301
+  ]
 },{
   "id": 14322,
   "title": [
@@ -381193,13 +381198,16 @@
     "Obvious paths: northeast, west."
   ],
   "wayto": {
-    "14321": "northeast",
-    "14323": "west"
+    "14321": "ne",
+    "14323": "w"
   },
   "timeto": {
     "14321": 0.2,
     "14323": 0.2
-  }
+  },
+  "uid": [
+    208303
+  ]
 },{
   "id": 14323,
   "title": [
@@ -381212,13 +381220,16 @@
     "Obvious paths: east, northwest."
   ],
   "wayto": {
-    "14322": "east",
-    "14324": "northwest"
+    "14322": "e",
+    "14324": "nw"
   },
   "timeto": {
     "14322": 0.2,
     "14324": 0.2
-  }
+  },
+  "uid": [
+    208304
+  ]
 },{
   "id": 14324,
   "title": [
@@ -381231,13 +381242,16 @@
     "Obvious paths: southeast, west."
   ],
   "wayto": {
-    "14323": "southeast",
-    "14325": "west"
+    "14323": "se",
+    "14325": "w"
   },
   "timeto": {
     "14323": 0.2,
     "14325": 0.2
-  }
+  },
+  "uid": [
+    208305
+  ]
 },{
   "id": 14325,
   "title": [
@@ -381250,13 +381264,16 @@
     "Obvious paths: east."
   ],
   "wayto": {
-    "14324": "east",
+    "14324": "e",
     "14326": "go open archway"
   },
   "timeto": {
     "14324": 0.2,
     "14326": 0.2
-  }
+  },
+  "uid": [
+    208306
+  ]
 },{
   "id": 14326,
   "title": [
@@ -381273,7 +381290,10 @@
   },
   "timeto": {
     "14325": 0.2
-  }
+  },
+  "uid": [
+    208307
+  ]
 },{
   "id": 14327,
   "title": [
