@@ -388573,11 +388573,13 @@
   ],
   "wayto": {
     "14655": "north",
-    "14657": "climb stairway"
+    "14657": "climb stairway",
+    "51800": "go archway"
   },
   "timeto": {
     "14655": 0.2,
-    "14657": 0.2
+    "14657": 0.2,
+    "51800": 0.2
   }
 },{
   "id": 14657,
@@ -485375,4 +485377,24 @@
   "timeto": {
     "8311": 0.2
   }
+},{
+  "id": 51800,
+  "title": [
+    "[[Dintacui Apartments, Garden Room]]"
+  ],
+  "description": [
+    "This garden is furnished with thick pillows laid upon a tiled floor.  They form a hexagonal pattern around a single rosebush, fragrant with flowers.  Orange trees form a canopy, supplying sustenance and shelter from inclement weather."
+  ],
+  "paths": [
+    "Obvious paths: none."
+  ],
+  "wayto": {
+    "14656": "go archway"
+  },
+  "timeto": {
+    "14656": 0.2
+  },
+  "uid": [
+    0
+  ]
 }]
