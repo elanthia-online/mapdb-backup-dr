@@ -96519,10 +96519,12 @@
     "Obvious paths: west."
   ],
   "wayto": {
-    "3325": "west"
+    "3325": "west",
+    "51802": ";e fput 'search'; waitrt?; move 'go forest trail'"
   },
   "timeto": {
-    "3325": 0.2
+    "3325": 0.2,
+    "51802": 0.2
   },
   "image": "Therengia, 41, El Bains Stop-1.gif",
   "image_coords": [
@@ -105229,11 +105231,11 @@
     "A little bit of sky peeks through the thick forest canopy, shedding fingers of light upon the immediate area.  Astonishingly, the forest is awash with colors, from brilliant flowers to myriad shades of green.  Along with the clarity, though, comes the intense feeling of being closely scrutinized."
   ],
   "paths": [
-    "Obvious paths: northeast, southwest."
+    "Obvious paths: southwest."
   ],
   "wayto": {
     "3639": "southwest",
-    "3641": "northeast"
+    "3641": "climb fallen tree"
   },
   "timeto": {
     "3639": 0.2,
@@ -105258,10 +105260,10 @@
     "Undulating lichen cover the base of a particularly tight-knit group of oaks standing in the center of the path.  Their pale pink color gleams in the darkness, illuminated by an internal chemical.  Wailing and hooting sounds fill the air, but nothing moves within the trees."
   ],
   "paths": [
-    "Obvious paths: southwest, northwest."
+    "Obvious paths: northwest."
   ],
   "wayto": {
-    "3640": "southwest",
+    "3640": "climb fallen tree",
     "3642": "northwest"
   },
   "timeto": {
@@ -105292,7 +105294,7 @@
   "wayto": {
     "3641": "southeast",
     "3643": "northeast",
-    "9552": "climb tree"
+    "9552": "climb felled tree"
   },
   "timeto": {
     "3641": 0.2,
@@ -105341,11 +105343,11 @@
     "Thinning trees along the eastern edge of the forest reveal a road running parallel to the shadowy path.  As a tentative breeze billows and wanes, it carries the soft sound of a strummed guitar accompanied by lively yet far-off voices.  The path itself grows less marshy and more rocky, while the canopy overhead is rapidly diminishing."
   ],
   "paths": [
-    "Obvious paths: south."
+    "Obvious paths: east, south."
   ],
   "wayto": {
     "3643": "south",
-    "3645": "go road"
+    "3645": "east"
   },
   "timeto": {
     "3643": 0.2,
@@ -105361,7 +105363,7 @@
 },{
   "id": 3645,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "A wide dirt road runs parallel to the mountains from this clearing in the expansive forest.  A soft breeze cools the area, dispersing clouds to reveal brilliant stars in the night sky."
@@ -105387,7 +105389,7 @@
 },{
   "id": 3646,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "Heavily-trampled patches of grass indicate that some large caravan or animal herd has traveled here recently.  An occasional glimpse eastward through trees which fringe the road provides a hint of a clearing not far to the northeast.  Buzzing insects bite and bother, and shrill whistles fill the air."
@@ -105413,17 +105415,17 @@
 },{
   "id": 3647,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "The mighty mountain range of Ker'Leor dominates the western sky, rising dark and imposing into a thick bank of churning clouds.  Though the air is crisp and amazingly invigorating, the mental image of unblinking eyes staring from the forest shadows has always assaulted travelers along this stretch of the road."
   ],
   "paths": [
-    "Obvious paths: southwest, northwest."
+    "Obvious paths: southwest."
   ],
   "wayto": {
     "3646": "southwest",
-    "3648": "northwest"
+    "3648": "climb fallen trunk"
   },
   "timeto": {
     "3646": 0.2,
@@ -105439,18 +105441,18 @@
 },{
   "id": 3648,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "Constant chittering issues forth from the branches of nearby trees.  Though they tilt and sway, no creature is ever seen moving among the sparse leaves.  Hoots and whistles, followed by the strains of a lilting female voice in gentle song, ride the wind from a small clearing to the east."
   ],
   "paths": [
-    "Obvious paths: east, southeast, northwest."
+    "Obvious paths: northwest."
   ],
   "wayto": {
-    "3647": "southeast",
+    "3647": "climb fallen trunk",
     "3649": "northwest",
-    "3650": "east"
+    "3650": "climb sandstrike crystals"
   },
   "timeto": {
     "3647": 0.2,
@@ -105471,7 +105473,7 @@
 },{
   "id": 3649,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "In a curious twist of horticulture, several rows of vegetables grow in tight formation along the roadside.  Wild carrots, vanderpeas and purple corbane flourish.  A few hedges of iffithyl, an herb known to ward off pests, are planted here and there within each row."
@@ -105506,11 +105508,11 @@
     "Emerald grass fed by a nearby water source look too groomed to be a natural part of these surroundings.  All sound has died away save the whoosh of wind through the ring of trees which encase this clearing."
   ],
   "paths": [
-    "Obvious paths: east, west."
+    "Obvious paths: east."
   ],
   "wayto": {
-    "3648": "west",
-    "3651": "e"
+    "3648": "climb sandstrike crystals",
+    "3651": "east"
   },
   "timeto": {
     "3648": 0.2,
@@ -105564,12 +105566,12 @@
     "Rolling grass gives way to a bluff of exposed rock, then dips down to the rim of a small, freshwater lake.  Daisies and dirdel dance amidst moro grasses at the water's edge.  The rock itself continues to rise along the eastern perimeter of the lake, reminiscent of the rim of a volcanic cauldron with its onyx-colored, smooth surface."
   ],
   "paths": [
-    "Obvious paths: southwest."
+    "Obvious paths: northeast, southwest."
   ],
   "wayto": {
-    "3651": "sw",
-    "3657": "go rock",
-    "11599": "go lake"
+    "3651": "southwest",
+    "3657": "northeast",
+    "11599": "go small lake"
   },
   "timeto": {
     "3651": 0.2,
@@ -105589,7 +105591,7 @@
 },{
   "id": 3653,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "Deep gutters are cut into the roadside like crude irrigation ditches."
@@ -105618,7 +105620,7 @@
 },{
   "id": 3654,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "The rocky base of Ker'Leor blots out all of the western sky.  In the soft moonlight, only a bank of clouds hovering high above breaks the endless wall of black that seems to stretch ever northward.",
@@ -105648,7 +105650,7 @@
 },{
   "id": 3655,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "Sparse stands of trees line the road as it inclines along the base of Ker'Leor.  Chunks of rock dot the ground, some nearly the size of boulders.  As the breeze builds and wanes, it carries the lively beat and tinkle of a faraway tambourine."
@@ -105674,7 +105676,7 @@
 },{
   "id": 3656,
   "title": [
-    "[[Ker'Leor, Gypsy Road]]"
+    "[[Ker'Leor, Forest Road]]"
   ],
   "description": [
     "Sparse stands of trees line the road as it inclines along the base of Ker'Leor.  Chunks of rock dot the ground, some nearly the size of boulders.  As the breeze builds and wanes, it carries the lively beat and tinkle of a faraway tambourine."
@@ -266783,7 +266785,7 @@
   ],
   "wayto": {
     "3642": "climb tree",
-    "9553": "sw"
+    "9553": "southwest"
   },
   "timeto": {
     "3642": 0.2,
@@ -266805,11 +266807,11 @@
     "Black tree trunks stand in the perpetual gloom, individual branches lost in the tangle overhead.  Pine needles underfoot deaden sound.  The air tastes of decay with an overlay of dust, as though nothing living had walked the ground in a long time.  Facing away from the path is a haycart, its wheels broken and the sodden, rotted mass inside it barely recognizable as hay."
   ],
   "paths": [
-    "Obvious paths: northeast, south, west."
+    "Obvious paths: northeast, west."
   ],
   "wayto": {
     "9552": "ne",
-    "9554": "s",
+    "9554": "climb tangled deadfall",
     "9559": "w"
   },
   "timeto": {
@@ -266833,12 +266835,12 @@
     "The lower branches of the pine trees jut stiffly from the trunks, bristling with needles that look black in the thin light.  A tattered kerchief lies half-buried on a small mound by the roots of one tree, all that's left of some lost Gypsy."
   ],
   "paths": [
-    "Obvious paths: north, southwest, west."
+    "Obvious paths: southwest, west."
   ],
   "wayto": {
-    "9553": "n",
-    "9555": "sw",
-    "9558": "w"
+    "9553": "climb tangled deadfall",
+    "9555": "southwest",
+    "9558": "west"
   },
   "timeto": {
     "9553": 0.2,
@@ -297844,12 +297846,12 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "10850": "e",
-    "19421": "sw"
+    "10850": ";e move('e') ; waitrt?",
+    "19421": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10850": 0.2,
-    "19421": 0.2
+    "10850": 1.2,
+    "19421": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -297870,12 +297872,12 @@
     "Obvious paths: northeast, west, northwest."
   ],
   "wayto": {
-    "10851": "nw",
-    "10855": "ne"
+    "10851": ";e move('nw') ; waitrt?",
+    "10855": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10851": 0.2,
-    "10855": 0.2
+    "10851": 1.2,
+    "10855": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -297896,12 +297898,12 @@
     "Obvious paths: southeast, northwest."
   ],
   "wayto": {
-    "10850": "se",
-    "10852": "nw"
+    "10850": ";e move('se') ; waitrt?",
+    "10852": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10850": 0.2,
-    "10852": 0.2
+    "10850": 1.2,
+    "10852": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -297922,16 +297924,16 @@
     "Obvious paths: east, southeast, southwest, northwest."
   ],
   "wayto": {
-    "10851": "se",
-    "10853": "nw",
-    "10872": "e",
-    "19419": "sw"
+    "10851": ";e move('se') ; waitrt?",
+    "10853": ";e move('nw') ; waitrt?",
+    "10872": ";e move('e') ; waitrt?",
+    "19419": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10851": 0.2,
-    "10853": 0.2,
-    "10872": 0.2,
-    "19419": 0.2
+    "10851": 1.2,
+    "10853": 1.2,
+    "10872": 1.2,
+    "19419": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -297952,14 +297954,14 @@
     "Obvious paths: northeast, southeast, northwest."
   ],
   "wayto": {
-    "10852": "se",
-    "10854": "nw",
-    "10864": "ne"
+    "10852": ";e move('se') ; waitrt?",
+    "10854": ";e move('nw') ; waitrt?",
+    "10864": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10852": 0.2,
-    "10854": 0.2,
-    "10864": 0.2
+    "10852": 1.2,
+    "10854": 1.2,
+    "10864": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -297980,14 +297982,14 @@
     "Obvious paths: east, southeast, southwest."
   ],
   "wayto": {
-    "10853": "se",
-    "10863": "sw",
-    "10864": "e"
+    "10853": ";e move('se') ; waitrt?",
+    "10863": ";e move('sw') ; waitrt?",
+    "10864": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10853": 0.2,
-    "10863": 0.2,
-    "10864": 0.2
+    "10853": 1.2,
+    "10863": 1.2,
+    "10864": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298008,14 +298010,14 @@
     "Obvious paths: south, southwest, northwest."
   ],
   "wayto": {
-    "10850": "sw",
-    "10856": "s",
-    "10873": "nw"
+    "10850": ";e move('sw') ; waitrt?",
+    "10856": ";e move('s') ; waitrt?",
+    "10873": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10850": 0.2,
-    "10856": 0.2,
-    "10873": 0.2
+    "10850": 1.2,
+    "10856": 1.2,
+    "10873": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298036,16 +298038,16 @@
     "Obvious paths: north, southeast, south, southwest."
   ],
   "wayto": {
-    "10855": "n",
-    "10861": "se",
-    "10862": "s",
-    "19426": "sw"
+    "10855": ";e move('n') ; waitrt?",
+    "10861": ";e move('se') ; waitrt?",
+    "10862": ";e move('s') ; waitrt?",
+    "19426": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10855": 0.2,
-    "10861": 0.2,
-    "10862": 0.2,
-    "19426": 0.2
+    "10855": 1.2,
+    "10861": 1.2,
+    "10862": 1.2,
+    "19426": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298066,12 +298068,12 @@
     "Obvious paths: south, west."
   ],
   "wayto": {
-    "10858": "s",
-    "19425": "w"
+    "10858": ";e move('s') ; waitrt?",
+    "19425": ";e move('w') ; waitrt?"
   },
   "timeto": {
-    "10858": 0.2,
-    "19425": 0.2
+    "10858": 1.2,
+    "19425": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298092,12 +298094,12 @@
     "Obvious paths: north, northeast."
   ],
   "wayto": {
-    "10857": "n",
-    "10859": "ne"
+    "10857": ";e move('n') ; waitrt?",
+    "10859": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10857": 0.2,
-    "10859": 0.2
+    "10857": 1.2,
+    "10859": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298118,14 +298120,14 @@
     "Obvious paths: north, southeast, southwest."
   ],
   "wayto": {
-    "10858": "sw",
-    "10860": "n",
-    "10909": "se"
+    "10858": ";e move('sw') ; waitrt?",
+    "10860": ";e move('n') ; waitrt?",
+    "10909": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10858": 0.2,
-    "10860": 0.2,
-    "10909": 0.2
+    "10858": 1.2,
+    "10860": 1.2,
+    "10909": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298146,12 +298148,14 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10859": "s",
-    "10861": "nw"
+    "10859": ";e move('s') ; waitrt?",
+    "10861": ";e move('nw') ; waitrt?",
+    "12057": "climb vulture beak"
   },
   "timeto": {
-    "10859": 0.2,
-    "10861": 0.2
+    "10859": 1.2,
+    "10861": 1.2,
+    "12057": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298172,14 +298176,14 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "10856": "nw",
-    "10860": "se",
-    "10862": "sw"
+    "10856": ";e move('nw') ; waitrt?",
+    "10860": ";e move('se') ; waitrt?",
+    "10862": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10856": 0.2,
-    "10860": 0.2,
-    "10862": 0.2
+    "10856": 1.2,
+    "10860": 1.2,
+    "10862": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298200,12 +298204,12 @@
     "Obvious paths: north, northeast, southwest."
   ],
   "wayto": {
-    "10861": "ne",
-    "19425": "sw"
+    "10861": ";e move('ne') ; waitrt?",
+    "19425": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10861": 0.2,
-    "19425": 0.2
+    "10861": 1.2,
+    "19425": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298226,12 +298230,12 @@
     "Obvious paths: northeast, southeast."
   ],
   "wayto": {
-    "10854": "ne",
-    "19418": "se"
+    "10854": ";e move('ne') ; waitrt?",
+    "19418": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10854": 0.2,
-    "19418": 0.2
+    "10854": 1.2,
+    "19418": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298252,14 +298256,14 @@
     "Obvious paths: northeast, southwest, west, northwest."
   ],
   "wayto": {
-    "10853": "sw",
-    "10854": "w",
-    "10865": "nw"
+    "10853": ";e move('sw') ; waitrt?",
+    "10854": ";e move('w') ; waitrt?",
+    "10865": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10853": 0.2,
-    "10854": 0.2,
-    "10865": 0.2
+    "10853": 1.2,
+    "10854": 1.2,
+    "10865": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298280,12 +298284,12 @@
     "Obvious paths: northeast, east, southeast, west."
   ],
   "wayto": {
-    "10866": "w",
-    "10869": "ne"
+    "10866": ";e move('w') ; waitrt?",
+    "10869": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10866": 0.2,
-    "10869": 0.2
+    "10866": 1.2,
+    "10869": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298306,12 +298310,12 @@
     "Obvious paths: north, east."
   ],
   "wayto": {
-    "10865": "e",
-    "10867": "n"
+    "10865": ";e move('e') ; waitrt?",
+    "10867": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "10865": 0.2,
-    "10867": 0.2
+    "10865": 1.2,
+    "10867": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298332,14 +298336,14 @@
     "Obvious paths: northeast, south."
   ],
   "wayto": {
-    "10930": "ne",
-    "10934": "s"
+    "10930": ";e move('ne') ; waitrt?",
+    "10934": ";e move('s') ; waitrt?"
   },
   "timeto": {
     "10866": 0.2,
     "10868": 0.2,
-    "10930": 0.2,
-    "10934": 0.2
+    "10930": 1.2,
+    "10934": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298360,14 +298364,14 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "10867": "sw",
-    "10869": "se",
-    "10880": "nw"
+    "10867": ";e move('sw') ; waitrt?",
+    "10869": ";e move('se') ; waitrt?",
+    "10880": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10867": 0.2,
-    "10869": 0.2,
-    "10880": 0.2
+    "10867": 1.2,
+    "10869": 1.2,
+    "10880": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298388,14 +298392,14 @@
     "Obvious paths: east, southeast, southwest, northwest."
   ],
   "wayto": {
-    "10868": "nw",
-    "10870": "se",
-    "10879": "e"
+    "10868": ";e move('nw') ; waitrt?",
+    "10870": ";e move('se') ; waitrt?",
+    "10879": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10868": 0.2,
-    "10870": 0.2,
-    "10879": 0.2
+    "10868": 1.2,
+    "10870": 1.2,
+    "10879": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298416,14 +298420,14 @@
     "Obvious paths: south, southwest, west, northwest."
   ],
   "wayto": {
-    "10865": "w",
-    "10869": "nw",
-    "10871": "s"
+    "10865": ";e move('w') ; waitrt?",
+    "10869": ";e move('nw') ; waitrt?",
+    "10871": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10865": 0.2,
-    "10869": 0.2,
-    "10871": 0.2
+    "10865": 1.2,
+    "10869": 1.2,
+    "10871": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298444,14 +298448,14 @@
     "Obvious paths: north, northeast, south."
   ],
   "wayto": {
-    "10870": "n",
-    "10872": "s",
-    "10874": "ne"
+    "10870": ";e move('n') ; waitrt?",
+    "10872": ";e move('s') ; waitrt?",
+    "10874": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10870": 0.2,
-    "10872": 0.2,
-    "10874": 0.2
+    "10870": 1.2,
+    "10872": 1.2,
+    "10874": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298472,14 +298476,14 @@
     "Obvious paths: north, east, west."
   ],
   "wayto": {
-    "10852": "w",
-    "10871": "n",
-    "10873": "e"
+    "10852": ";e move('w') ; waitrt?",
+    "10871": ";e move('n') ; waitrt?",
+    "10873": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10852": 0.2,
-    "10871": 0.2,
-    "10873": 0.2
+    "10852": 1.2,
+    "10871": 1.2,
+    "10873": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298500,14 +298504,14 @@
     "Obvious paths: northeast, southeast, west."
   ],
   "wayto": {
-    "10855": "se",
-    "10872": "w",
-    "10875": "ne"
+    "10855": ";e move('se') ; waitrt?",
+    "10872": ";e move('w') ; waitrt?",
+    "10875": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10855": 0.2,
-    "10872": 0.2,
-    "10875": 0.2
+    "10855": 1.2,
+    "10872": 1.2,
+    "10875": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298528,12 +298532,12 @@
     "Obvious paths: northeast, south, southwest."
   ],
   "wayto": {
-    "10875": "s",
-    "10876": "ne"
+    "10875": ";e move('s') ; waitrt?",
+    "10876": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10875": 0.2,
-    "10876": 0.2
+    "10875": 1.2,
+    "10876": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298554,12 +298558,12 @@
     "Obvious paths: north, southwest."
   ],
   "wayto": {
-    "10873": "sw",
-    "10874": "n"
+    "10873": ";e move('sw') ; waitrt?",
+    "10874": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "10873": 0.2,
-    "10874": 0.2
+    "10873": 1.2,
+    "10874": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298580,14 +298584,14 @@
     "Obvious paths: north, southwest, northwest."
   ],
   "wayto": {
-    "10874": "sw",
-    "10877": "n",
-    "10879": "nw"
+    "10874": ";e move('sw') ; waitrt?",
+    "10877": ";e move('n') ; waitrt?",
+    "10879": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10874": 0.2,
-    "10877": 0.2,
-    "10879": 0.2
+    "10874": 1.2,
+    "10877": 1.2,
+    "10879": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298608,14 +298612,14 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10876": "s",
-    "10878": "nw",
-    "10891": "ne"
+    "10876": ";e move('s') ; waitrt?",
+    "10878": ";e move('nw') ; waitrt?",
+    "10891": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10876": 0.2,
-    "10878": 0.2,
-    "10891": 0.2
+    "10876": 1.2,
+    "10878": 1.2,
+    "10891": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298636,14 +298640,14 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "10877": "se",
-    "10879": "sw",
-    "10884": "nw"
+    "10877": ";e move('se') ; waitrt?",
+    "10879": ";e move('sw') ; waitrt?",
+    "10884": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10877": 0.2,
-    "10879": 0.2,
-    "10884": 0.2
+    "10877": 1.2,
+    "10879": 1.2,
+    "10884": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298664,12 +298668,12 @@
     "Obvious paths: northeast, southeast, west."
   ],
   "wayto": {
-    "10869": "w",
-    "10878": "ne"
+    "10869": ";e move('w') ; waitrt?",
+    "10878": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10869": 0.2,
-    "10878": 0.2
+    "10869": 1.2,
+    "10878": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298690,12 +298694,12 @@
     "Obvious paths: northeast, southeast."
   ],
   "wayto": {
-    "10868": "se",
-    "10881": "ne"
+    "10868": ";e move('se') ; waitrt?",
+    "10881": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10868": 0.2,
-    "10881": 0.2
+    "10868": 1.2,
+    "10881": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298716,12 +298720,12 @@
     "Obvious paths: south, southwest."
   ],
   "wayto": {
-    "10880": "sw",
-    "10882": "s"
+    "10880": ";e move('sw') ; waitrt?",
+    "10882": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10880": 0.2,
-    "10882": 0.2
+    "10880": 1.2,
+    "10882": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298742,12 +298746,12 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10881": "n",
-    "10883": "se"
+    "10881": ";e move('n') ; waitrt?",
+    "10883": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10881": 0.2,
-    "10883": 0.2
+    "10881": 1.2,
+    "10883": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298768,12 +298772,12 @@
     "Obvious paths: east, northwest."
   ],
   "wayto": {
-    "10882": "nw",
-    "10884": "e"
+    "10882": ";e move('nw') ; waitrt?",
+    "10884": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10882": 0.2,
-    "10884": 0.2
+    "10882": 1.2,
+    "10884": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298794,14 +298798,14 @@
     "Obvious paths: northeast, southeast, west."
   ],
   "wayto": {
-    "10878": "se",
-    "10883": "w",
-    "10885": "ne"
+    "10878": ";e move('se') ; waitrt?",
+    "10883": ";e move('w') ; waitrt?",
+    "10885": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10878": 0.2,
-    "10883": 0.2,
-    "10885": 0.2
+    "10878": 1.2,
+    "10883": 1.2,
+    "10885": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298822,12 +298826,12 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "10884": "sw",
-    "10886": "e"
+    "10884": ";e move('sw') ; waitrt?",
+    "10886": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10884": 0.2,
-    "10886": 0.2
+    "10884": 1.2,
+    "10886": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298848,14 +298852,14 @@
     "Obvious paths: northeast, southeast, west."
   ],
   "wayto": {
-    "10885": "w",
-    "10887": "ne",
-    "10891": "se"
+    "10885": ";e move('w') ; waitrt?",
+    "10887": ";e move('ne') ; waitrt?",
+    "10891": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10885": 0.2,
-    "10887": 0.2,
-    "10891": 0.2
+    "10885": 1.2,
+    "10887": 1.2,
+    "10891": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298876,12 +298880,12 @@
     "Obvious paths: south, southwest."
   ],
   "wayto": {
-    "10886": "sw",
-    "10888": "s"
+    "10886": ";e move('sw') ; waitrt?",
+    "10888": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10886": 0.2,
-    "10888": 0.2
+    "10886": 1.2,
+    "10888": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298902,13 +298906,13 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10887": "n",
-    "10889": "se"
+    "10887": ";e move('n') ; waitrt?",
+    "10889": ";e move('se') ; waitrt?"
   },
   "timeto": {
     "9610": 0.2,
-    "10887": 0.2,
-    "10889": 0.2
+    "10887": 1.2,
+    "10889": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298929,14 +298933,14 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "10888": "nw",
-    "10890": "sw",
-    "10892": "se"
+    "10888": ";e move('nw') ; waitrt?",
+    "10890": ";e move('sw') ; waitrt?",
+    "10892": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10888": 0.2,
-    "10890": 0.2,
-    "10892": 0.2
+    "10888": 1.2,
+    "10890": 1.2,
+    "10892": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298957,12 +298961,12 @@
     "Obvious paths: northeast, southeast, southwest, west."
   ],
   "wayto": {
-    "10889": "ne",
-    "10891": "w"
+    "10889": ";e move('ne') ; waitrt?",
+    "10891": ";e move('w') ; waitrt?"
   },
   "timeto": {
-    "10889": 0.2,
-    "10891": 0.2
+    "10889": 1.2,
+    "10891": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -298983,12 +298987,12 @@
     "Obvious paths: east, southwest, northwest."
   ],
   "wayto": {
-    "10877": "sw",
-    "10890": "e"
+    "10877": ";e move('sw') ; waitrt?",
+    "10890": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10877": 0.2,
-    "10890": 0.2
+    "10877": 1.2,
+    "10890": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299009,10 +299013,10 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "10893": "s"
+    "10893": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10893": 0.2
+    "10893": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299033,12 +299037,12 @@
     "Obvious paths: north, southeast, southwest."
   ],
   "wayto": {
-    "10894": "sw",
-    "10913": "se"
+    "10894": ";e move('sw') ; waitrt?",
+    "10913": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10894": 0.2,
-    "10913": 0.2
+    "10894": 1.2,
+    "10913": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299059,14 +299063,14 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10893": "ne",
-    "10895": "nw",
-    "10912": "s"
+    "10893": ";e move('ne') ; waitrt?",
+    "10895": ";e move('nw') ; waitrt?",
+    "10912": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10893": 0.2,
-    "10895": 0.2,
-    "10912": 0.2
+    "10893": 1.2,
+    "10895": 1.2,
+    "10912": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299087,14 +299091,14 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "10890": "nw",
-    "10894": "se",
-    "10896": "sw"
+    "10890": ";e move('nw') ; waitrt?",
+    "10894": ";e move('se') ; waitrt?",
+    "10896": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10890": 0.2,
-    "10894": 0.2,
-    "10896": 0.2
+    "10890": 1.2,
+    "10894": 1.2,
+    "10896": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299115,12 +299119,12 @@
     "Obvious paths: northeast, southeast."
   ],
   "wayto": {
-    "10895": "ne",
-    "10897": "se"
+    "10895": ";e move('ne') ; waitrt?",
+    "10897": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10895": 0.2,
-    "10897": 0.2
+    "10895": 1.2,
+    "10897": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299141,12 +299145,12 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "10896": "nw",
-    "10898": "s"
+    "10896": ";e move('nw') ; waitrt?",
+    "10898": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10896": 0.2,
-    "10898": 0.2
+    "10896": 1.2,
+    "10898": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299167,12 +299171,12 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10897": "n",
-    "10899": "se"
+    "10897": ";e move('n') ; waitrt?",
+    "10899": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10897": 0.2,
-    "10899": 0.2
+    "10897": 1.2,
+    "10899": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299193,14 +299197,14 @@
     "Obvious paths: northeast, southwest, northwest."
   ],
   "wayto": {
-    "10898": "nw",
-    "10900": "sw",
-    "10915": "ne"
+    "10898": ";e move('nw') ; waitrt?",
+    "10900": ";e move('sw') ; waitrt?",
+    "10915": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10898": 0.2,
-    "10900": 0.2,
-    "10915": 0.2
+    "10898": 1.2,
+    "10900": 1.2,
+    "10915": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299221,14 +299225,14 @@
     "Obvious paths: northeast, southeast, south."
   ],
   "wayto": {
-    "10899": "ne",
-    "10901": "s",
-    "10925": "se"
+    "10899": ";e move('ne') ; waitrt?",
+    "10901": ";e move('s') ; waitrt?",
+    "10925": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10899": 0.2,
-    "10901": 0.2,
-    "10925": 0.2
+    "10899": 1.2,
+    "10901": 1.2,
+    "10925": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299249,12 +299253,12 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10900": "n",
-    "10902": "se"
+    "10900": ";e move('n') ; waitrt?",
+    "10902": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10900": 0.2,
-    "10902": 0.2
+    "10900": 1.2,
+    "10902": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299275,12 +299279,12 @@
     "Obvious paths: west, northwest."
   ],
   "wayto": {
-    "10901": "nw",
-    "10903": "w"
+    "10901": ";e move('nw') ; waitrt?",
+    "10903": ";e move('w') ; waitrt?"
   },
   "timeto": {
-    "10901": 0.2,
-    "10903": 0.2
+    "10901": 1.2,
+    "10903": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299301,14 +299305,14 @@
     "Obvious paths: east, south, southwest."
   ],
   "wayto": {
-    "10902": "e",
-    "10904": "s",
-    "10908": "sw"
+    "10902": ";e move('e') ; waitrt?",
+    "10904": ";e move('s') ; waitrt?",
+    "10908": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10902": 0.2,
-    "10904": 0.2,
-    "10908": 0.2
+    "10902": 1.2,
+    "10904": 1.2,
+    "10908": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299329,10 +299333,10 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10905": "se"
+    "10905": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10905": 0.2
+    "10905": 1.2
   }
 },{
   "id": 10905,
@@ -299346,10 +299350,10 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10906": "s"
+    "10906": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10906": 0.2
+    "10906": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299370,14 +299374,14 @@
     "Obvious paths: north, southeast, west."
   ],
   "wayto": {
-    "10905": "n",
-    "10907": "w",
-    "10934": "se"
+    "10905": ";e move('n') ; waitrt?",
+    "10907": ";e move('w') ; waitrt?",
+    "10934": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10905": 0.2,
-    "10907": 0.2,
-    "10934": 0.2
+    "10905": 1.2,
+    "10907": 1.2,
+    "10934": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299398,14 +299402,14 @@
     "Obvious paths: east, southeast, northwest."
   ],
   "wayto": {
-    "10906": "e",
-    "10908": "nw",
-    "10911": "se"
+    "10906": ";e move('e') ; waitrt?",
+    "10908": ";e move('nw') ; waitrt?",
+    "10911": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10906": 0.2,
-    "10908": 0.2,
-    "10911": 0.2
+    "10906": 1.2,
+    "10908": 1.2,
+    "10911": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299426,14 +299430,14 @@
     "Obvious paths: northeast, southeast, southwest."
   ],
   "wayto": {
-    "10860": "sw",
-    "10903": "ne",
-    "10907": "se"
+    "10860": ";e move('sw') ; waitrt?",
+    "10903": ";e move('ne') ; waitrt?",
+    "10907": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10860": 0.2,
-    "10903": 0.2,
-    "10907": 0.2
+    "10860": 1.2,
+    "10903": 1.2,
+    "10907": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299454,12 +299458,12 @@
     "Obvious paths: southeast, northwest."
   ],
   "wayto": {
-    "10859": "nw",
-    "10910": "se"
+    "10859": ";e move('nw') ; waitrt?",
+    "10910": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10859": 0.2,
-    "10910": 0.2
+    "10859": 1.2,
+    "10910": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299480,12 +299484,12 @@
     "Obvious paths: north, northwest."
   ],
   "wayto": {
-    "10909": "nw",
-    "10911": "n"
+    "10909": ";e move('nw') ; waitrt?",
+    "10911": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "10909": 0.2,
-    "10911": 0.2
+    "10909": 1.2,
+    "10911": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299506,12 +299510,12 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "10907": "nw",
-    "10910": "s"
+    "10907": ";e move('nw') ; waitrt?",
+    "10910": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10907": 0.2,
-    "10910": 0.2
+    "10907": 1.2,
+    "10910": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299532,10 +299536,10 @@
     "Obvious paths: north."
   ],
   "wayto": {
-    "10894": "n"
+    "10894": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "10894": 0.2
+    "10894": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299556,10 +299560,10 @@
     "Obvious paths: southwest, northwest."
   ],
   "wayto": {
-    "10914": "sw"
+    "10914": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10914": 0.2
+    "10914": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299580,12 +299584,12 @@
     "Obvious paths: northeast, south."
   ],
   "wayto": {
-    "10913": "ne",
-    "10915": "s"
+    "10913": ";e move('ne') ; waitrt?",
+    "10915": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10913": 0.2,
-    "10915": 0.2
+    "10913": 1.2,
+    "10915": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299606,14 +299610,14 @@
     "Obvious paths: north, northeast, southeast, southwest."
   ],
   "wayto": {
-    "10899": "sw",
-    "10914": "n",
-    "10916": "ne"
+    "10899": ";e move('sw') ; waitrt?",
+    "10914": ";e move('n') ; waitrt?",
+    "10916": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10899": 0.2,
-    "10914": 0.2,
-    "10916": 0.2
+    "10899": 1.2,
+    "10914": 1.2,
+    "10916": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299634,12 +299638,12 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "10915": "sw",
-    "10917": "e"
+    "10915": ";e move('sw') ; waitrt?",
+    "10917": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10915": 0.2,
-    "10917": 0.2
+    "10915": 1.2,
+    "10917": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299660,12 +299664,12 @@
     "Obvious paths: southeast, southwest, west."
   ],
   "wayto": {
-    "10916": "w",
-    "10918": "sw"
+    "10916": ";e move('w') ; waitrt?",
+    "10918": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10916": 0.2,
-    "10918": 0.2
+    "10916": 1.2,
+    "10918": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299686,12 +299690,12 @@
     "Obvious paths: northeast, east, southwest, northwest."
   ],
   "wayto": {
-    "10915": "nw",
-    "10919": "e"
+    "10915": ";e move('nw') ; waitrt?",
+    "10919": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10915": 0.2,
-    "10919": 0.2
+    "10915": 1.2,
+    "10919": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299712,12 +299716,12 @@
     "Obvious paths: southeast, south, west."
   ],
   "wayto": {
-    "10920": "se",
-    "10922": "s"
+    "10920": ";e move('se') ; waitrt?",
+    "10922": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10920": 0.2,
-    "10922": 0.2
+    "10920": 1.2,
+    "10922": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299738,12 +299742,12 @@
     "Obvious paths: north, southwest, northwest."
   ],
   "wayto": {
-    "10921": "n",
-    "10928": "sw"
+    "10921": ";e move('n') ; waitrt?",
+    "10928": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10921": 0.2,
-    "10928": 0.2
+    "10921": 1.2,
+    "10928": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299764,10 +299768,10 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "10917": "nw"
+    "10917": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10917": 0.2
+    "10917": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299788,12 +299792,12 @@
     "Obvious paths: north, southwest, west."
   ],
   "wayto": {
-    "10923": "w",
-    "10927": "sw"
+    "10923": ";e move('w') ; waitrt?",
+    "10927": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10923": 0.2,
-    "10927": 0.2
+    "10923": 1.2,
+    "10927": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299814,12 +299818,12 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "10922": "e",
-    "10924": "sw"
+    "10922": ";e move('e') ; waitrt?",
+    "10924": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10922": 0.2,
-    "10924": 0.2
+    "10922": 1.2,
+    "10924": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299840,10 +299844,10 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10925": "nw"
+    "10925": ";e move('nw') ; waitrt?"
   },
   "timeto": {
-    "10925": 0.2
+    "10925": 1.2
   }
 },{
   "id": 10925,
@@ -299857,10 +299861,10 @@
     "Obvious paths: east, southeast, northwest."
   ],
   "wayto": {
-    "10926": "e"
+    "10926": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "10926": 0.2
+    "10926": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299881,10 +299885,10 @@
     "Obvious paths: northeast, west."
   ],
   "wayto": {
-    "10918": "ne"
+    "10918": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10918": 0.2
+    "10918": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299905,12 +299909,12 @@
     "Obvious paths: northeast, east, south, southwest."
   ],
   "wayto": {
-    "10928": "e",
-    "10929": "sw"
+    "10928": ";e move('e') ; waitrt?",
+    "10929": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10928": 0.2,
-    "10929": 0.2
+    "10928": 1.2,
+    "10929": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299931,12 +299935,12 @@
     "Obvious paths: northeast, west."
   ],
   "wayto": {
-    "10920": "ne",
-    "10927": "w"
+    "10920": ";e move('ne') ; waitrt?",
+    "10927": ";e move('w') ; waitrt?"
   },
   "timeto": {
-    "10920": 0.2,
-    "10927": 0.2
+    "10920": 1.2,
+    "10927": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299957,12 +299961,12 @@
     "Obvious paths: north, northeast, southeast, southwest."
   ],
   "wayto": {
-    "10905": "sw",
-    "10930": "se"
+    "10905": ";e move('sw') ; waitrt?",
+    "10930": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10905": 0.2,
-    "10930": 0.2
+    "10905": 1.2,
+    "10930": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -299983,14 +299987,14 @@
     "Obvious paths: northeast, southwest, northwest."
   ],
   "wayto": {
-    "10867": "sw",
-    "10929": "nw",
-    "10931": "ne"
+    "10867": ";e move('sw') ; waitrt?",
+    "10929": ";e move('nw') ; waitrt?",
+    "10931": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10867": 0.2,
-    "10929": 0.2,
-    "10931": 0.2
+    "10867": 1.2,
+    "10929": 1.2,
+    "10931": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -300011,12 +300015,12 @@
     "Obvious paths: north, southeast, southwest."
   ],
   "wayto": {
-    "10927": "n",
-    "10932": "se"
+    "10927": ";e move('n') ; waitrt?",
+    "10932": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10927": 0.2,
-    "10932": 0.2
+    "10927": 1.2,
+    "10932": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -300037,12 +300041,12 @@
     "Obvious paths: west, northwest."
   ],
   "wayto": {
-    "10931": "nw",
-    "10933": "w"
+    "10931": ";e move('nw') ; waitrt?",
+    "10933": ";e move('w') ; waitrt?"
   },
   "timeto": {
-    "10931": 0.2,
-    "10933": 0.2
+    "10931": 1.2,
+    "10933": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -300063,12 +300067,12 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "10932": "e",
-    "10934": "sw"
+    "10932": ";e move('e') ; waitrt?",
+    "10934": ";e move('sw') ; waitrt?"
   },
   "timeto": {
-    "10932": 0.2,
-    "10934": 0.2
+    "10932": 1.2,
+    "10934": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -300089,14 +300093,14 @@
     "Obvious paths: north, northeast, northwest."
   ],
   "wayto": {
-    "10867": "n",
-    "10906": "nw",
-    "10933": "ne"
+    "10867": ";e move('n') ; waitrt?",
+    "10906": ";e move('nw') ; waitrt?",
+    "10933": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "10867": 0.2,
-    "10906": 0.2,
-    "10933": 0.2
+    "10867": 1.2,
+    "10906": 1.2,
+    "10933": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -327608,7 +327612,7 @@
     "12050": "s",
     "12052": "se",
     "12054": "sw",
-    "12058": "climb crevice"
+    "12058": "climb jagged crevice"
   },
   "timeto": {
     "12050": 0.2,
@@ -327799,12 +327803,12 @@
     "Obvious paths: up."
   ],
   "wayto": {
-    "12051": "climb crevice",
-    "12059": "up"
+    "12051": "climb jagged crevice",
+    "12059": ";e move('up') ; waitrt?"
   },
   "timeto": {
     "12051": 0.2,
-    "12059": 0.2
+    "12059": 10.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -327825,12 +327829,12 @@
     "Obvious paths: up, down."
   ],
   "wayto": {
-    "12058": "down",
-    "12060": "up"
+    "12058": ";e move('down') ; waitrt?",
+    "12060": ";e move('up') ; waitrt?"
   },
   "timeto": {
-    "12058": 0.2,
-    "12060": 0.2
+    "12058": 10.2,
+    "12060": 10.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -327852,11 +327856,13 @@
   ],
   "wayto": {
     "4416": "go portal",
-    "12061": "jump swamp"
+    "12061": "jump swamp",
+    "12059": ";e move('down') ; waitrt?"
   },
   "timeto": {
     "4416": 0.2,
-    "12061": 0.2
+    "12061": 0.2,
+    "12059": 10.2
   }
 },{
   "id": 12061,
@@ -458958,14 +458964,14 @@
     "Obvious paths: southeast, northwest."
   ],
   "wayto": {
-    "10863": "nw",
+    "10863": ";e move('nw') ; waitrt?",
     "19416": "climb tree",
-    "19419": "se"
+    "19419": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10863": 0.2,
+    "10863": 1.2,
     "19416": 0.2,
-    "19419": 0.2
+    "19419": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -458989,14 +458995,14 @@
     "Obvious paths: northeast, south, northwest."
   ],
   "wayto": {
-    "10852": "ne",
-    "19418": "nw",
-    "19421": "s"
+    "10852": ";e move('ne') ; waitrt?",
+    "19418": ";e move('nw') ; waitrt?",
+    "19421": ";e move('s') ; waitrt?"
   },
   "timeto": {
-    "10852": 0.2,
-    "19418": 0.2,
-    "19421": 0.2
+    "10852": 1.2,
+    "19418": 1.2,
+    "19421": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459049,14 +459055,14 @@
     "Obvious paths: north, northeast, southeast."
   ],
   "wayto": {
-    "10849": "ne",
-    "19419": "n",
-    "19422": "se"
+    "10849": ";e move('ne') ; waitrt?",
+    "19419": ";e move('n') ; waitrt?",
+    "19422": ";e move('se') ; waitrt?"
   },
   "timeto": {
-    "10849": 0.2,
-    "19419": 0.2,
-    "19422": 0.2
+    "10849": 1.2,
+    "19419": 1.2,
+    "19422": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459080,12 +459086,12 @@
     "Obvious paths: southwest, northwest."
   ],
   "wayto": {
-    "19421": "nw",
-    "19423": "southwest"
+    "19421": ";e move('nw') ; waitrt?",
+    "19423": ";e move('southwest') ; waitrt?"
   },
   "timeto": {
-    "19421": 0.2,
-    "19423": 0.2
+    "19421": 1.2,
+    "19423": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459109,12 +459115,12 @@
     "Obvious paths: northeast, east."
   ],
   "wayto": {
-    "19422": "ne",
-    "19424": "e"
+    "19422": ";e move('ne') ; waitrt?",
+    "19424": ";e move('e') ; waitrt?"
   },
   "timeto": {
-    "19422": 0.2,
-    "19424": 0.2
+    "19422": 1.2,
+    "19424": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459138,12 +459144,12 @@
     "Obvious paths: northeast, west."
   ],
   "wayto": {
-    "19423": "w",
-    "19425": "ne"
+    "19423": ";e move('w') ; waitrt?",
+    "19425": ";e move('ne') ; waitrt?"
   },
   "timeto": {
-    "19423": 0.2,
-    "19425": 0.2
+    "19423": 1.2,
+    "19425": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459167,16 +459173,16 @@
     "Obvious paths: north, northeast, east, southwest."
   ],
   "wayto": {
-    "10857": "e",
-    "10862": "ne",
-    "19424": "sw",
-    "19426": "n"
+    "10857": ";e move('e') ; waitrt?",
+    "10862": ";e move('ne') ; waitrt?",
+    "19424": ";e move('sw') ; waitrt?",
+    "19426": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "10857": 0.2,
-    "10862": 0.2,
-    "19424": 0.2,
-    "19426": 0.2
+    "10857": 1.2,
+    "10862": 1.2,
+    "19424": 1.2,
+    "19426": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459197,14 +459203,14 @@
     "Obvious paths: northeast, south, southwest."
   ],
   "wayto": {
-    "10856": "ne",
-    "19425": "s",
-    "19427": "southwest"
+    "10856": ";e move('ne') ; waitrt?",
+    "19425": ";e move('s') ; waitrt?",
+    "19427": ";e move('southwest') ; waitrt?"
   },
   "timeto": {
-    "10856": 0.2,
-    "19425": 0.2,
-    "19427": 0.2
+    "10856": 1.2,
+    "19425": 1.2,
+    "19427": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -459225,12 +459231,12 @@
     "Obvious paths: north, northeast."
   ],
   "wayto": {
-    "19426": "ne",
-    "19428": "n"
+    "19426": ";e move('ne') ; waitrt?",
+    "19428": ";e move('n') ; waitrt?"
   },
   "timeto": {
-    "19426": 0.2,
-    "19428": 0.2
+    "19426": 1.2,
+    "19428": 1.2
   },
   "image": "Therengia, 31a, Zaulfung Swamp.gif",
   "image_coords": [
@@ -485415,6 +485421,26 @@
   },
   "timeto": {
     "13445": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51802,
+  "title": [
+    "[[Dark Thicket, Shrouded Clearing]]"
+  ],
+  "description": [
+    "The trees form a horseshoe around the dark green clearing, the heavy foliage from the various oaks and ash that grow abundantly here weaving a tangled canopy which blocks light with the completeness of death.  Pushed up against the very center of the \"shoe\" is a magnificent statue of a proud-faced woman holding a basin in her hands.  A faint forest trail leads off from where the grove opens up, slicing neatly through a second growth of trees before vanishing into the woods."
+  ],
+  "paths": [
+    "Obvious paths: none."
+  ],
+  "wayto": {
+    "3326": "go forest trail"
+  },
+  "timeto": {
+    "3326": 0.2
   },
   "uid": [
     0
