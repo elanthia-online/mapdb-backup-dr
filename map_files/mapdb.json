@@ -327216,9 +327216,9 @@
     "Obvious exits: northeast, east, northwest."
   ],
   "wayto": {
-    "12037": "northwest",
+    "12037": "nw",
     "12038": "e",
-    "12041": "northeast",
+    "12041": "ne",
     "12161": "go open",
     "19089": ";e multifput('go open','go passage')"
   },
@@ -327238,6 +327238,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55111
   ]
 },{
   "id": 12037,
@@ -327251,9 +327254,9 @@
     "Obvious exits: northeast, east, southeast."
   ],
   "wayto": {
-    "12036": "southeast",
-    "12041": "east",
-    "12042": "northeast"
+    "12036": "se",
+    "12041": "e",
+    "12042": "ne"
   },
   "timeto": {
     "12036": 0.2,
@@ -327269,6 +327272,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55113
   ]
 },{
   "id": 12038,
@@ -327283,7 +327289,8 @@
   ],
   "wayto": {
     "12036": "w",
-    "12041": "northwest"
+    "12039": "ne",
+    "12041": "nw"
   },
   "timeto": {
     "12036": 0.2,
@@ -327299,6 +327306,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55112
   ]
 },{
   "id": 12039,
@@ -327312,9 +327322,9 @@
     "Obvious exits: southwest, west, northwest."
   ],
   "wayto": {
-    "12038": "southwest",
-    "12040": "northwest",
-    "12041": "sw"
+    "12038": "sw",
+    "12040": "nw",
+    "12041": "w"
   },
   "timeto": {
     "12038": 0.2,
@@ -327330,6 +327340,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55115
   ]
 },{
   "id": 12040,
@@ -327343,8 +327356,9 @@
     "Obvious exits: southeast, southwest, west."
   ],
   "wayto": {
-    "12039": "southeast",
-    "12042": "west",
+    "12039": "se",
+    "12041": "sw",
+    "12042": "w",
     "12165": "go narrow fissure"
   },
   "timeto": {
@@ -327363,6 +327377,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55117
   ]
 },{
   "id": 12041,
@@ -327376,10 +327393,12 @@
     "Obvious exits: northeast, east, southeast, southwest, west, northwest."
   ],
   "wayto": {
-    "12037": "west",
-    "12038": "southeast",
-    "12039": "east",
-    "12042": null
+    "12036": "sw",
+    "12037": "w",
+    "12038": "se",
+    "12039": "e",
+    "12040": "ne",
+    "12042": "nw"
   },
   "timeto": {
     "12036": 0.2,
@@ -327398,6 +327417,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55114
   ]
 },{
   "id": 12042,
@@ -327411,9 +327433,9 @@
     "Obvious exits: east, southeast, southwest."
   ],
   "wayto": {
-    "12037": "southwest",
-    "12040": "east",
-    "12041": "southeast"
+    "12037": "sw",
+    "12040": "e",
+    "12041": "se"
   },
   "timeto": {
     "12037": 0.2,
@@ -327429,6 +327451,9 @@
   ],
   "tags": [
     "fuligin_moths"
+  ],
+  "uid": [
+    55116
   ]
 },{
   "id": 12043,
@@ -327856,13 +327881,13 @@
   ],
   "wayto": {
     "4416": "go portal",
-    "12061": "jump swamp",
-    "12059": ";e move('down') ; waitrt?"
+    "12059": ";e move('down') ; waitrt?",
+    "12061": "jump swamp"
   },
   "timeto": {
     "4416": 0.2,
-    "12061": 0.2,
-    "12059": 10.2
+    "12059": 10.2,
+    "12061": 0.2
   }
 },{
   "id": 12061,
@@ -330220,9 +330245,9 @@
   ],
   "wayto": {
     "12040": "go narrow fissure",
-    "12166": "northwest",
-    "12170": "east",
-    "12171": "northeast"
+    "12166": "nw",
+    "12170": "e",
+    "12171": "ne"
   },
   "timeto": {
     "12040": 0.2,
@@ -330239,6 +330264,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55118
   ]
 },{
   "id": 12166,
@@ -330252,9 +330280,9 @@
     "Obvious exits: northeast, east, southeast."
   ],
   "wayto": {
-    "12165": "southeast",
-    "12167": "northeast",
-    "12171": "east"
+    "12165": "se",
+    "12167": "ne",
+    "12171": "e"
   },
   "timeto": {
     "12165": 0.2,
@@ -330270,6 +330298,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55120
   ]
 },{
   "id": 12167,
@@ -330283,9 +330314,9 @@
     "Obvious exits: east, southeast, southwest."
   ],
   "wayto": {
-    "12166": "southwest",
-    "12168": "east",
-    "12171": "southeast"
+    "12166": "sw",
+    "12168": "e",
+    "12171": "se"
   },
   "timeto": {
     "12166": 0.2,
@@ -330301,6 +330332,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55123
   ]
 },{
   "id": 12168,
@@ -330314,9 +330348,9 @@
     "Obvious exits: southeast, southwest, west."
   ],
   "wayto": {
-    "12167": "west",
-    "12169": "southeast",
-    "12171": "southwest"
+    "12167": "w",
+    "12169": "se",
+    "12171": "sw"
   },
   "timeto": {
     "12167": 0.2,
@@ -330332,6 +330366,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55124
   ]
 },{
   "id": 12169,
@@ -330345,9 +330382,9 @@
     "Obvious exits: southwest, west, northwest."
   ],
   "wayto": {
-    "12168": "northwest",
-    "12170": "southwest",
-    "12171": "west"
+    "12168": "nw",
+    "12170": "sw",
+    "12171": "w"
   },
   "timeto": {
     "12168": 0.2,
@@ -330363,6 +330400,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55122
   ]
 },{
   "id": 12170,
@@ -330376,9 +330416,9 @@
     "Obvious exits: northeast, west, northwest."
   ],
   "wayto": {
-    "12165": "west",
-    "12169": "northeast",
-    "12171": "northwest"
+    "12165": "w",
+    "12169": "ne",
+    "12171": "nw"
   },
   "timeto": {
     "12165": 0.2,
@@ -330394,6 +330434,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55119
   ]
 },{
   "id": 12171,
@@ -330407,12 +330450,12 @@
     "Obvious exits: northeast, east, southeast, southwest, west, northwest."
   ],
   "wayto": {
-    "12165": "southwest",
-    "12166": "west",
-    "12167": "northwest",
-    "12168": "northeast",
-    "12169": "east",
-    "12170": "southeast"
+    "12165": "sw",
+    "12166": "w",
+    "12167": "nw",
+    "12168": "ne",
+    "12169": "e",
+    "12170": "se"
   },
   "timeto": {
     "12165": 0.2,
@@ -330431,6 +330474,9 @@
   ],
   "tags": [
     "void_moths"
+  ],
+  "uid": [
+    55121
   ]
 },{
   "id": 12172,
