@@ -87266,12 +87266,14 @@
   "wayto": {
     "2991": "east",
     "2993": "west",
-    "13133": "climb wide steps"
+    "13133": "climb wide steps",
+    "51803": "go alley"
   },
   "timeto": {
     "2991": 0.2,
     "2993": 0.2,
-    "13133": 0.2
+    "13133": 0.2,
+    "51803": 0.2
   },
   "image": "Therengia, 35, Throne City.gif",
   "image_coords": [
@@ -353803,15 +353805,19 @@
     "On either side of the entrance, the walls are filled with restored tile mosaics depicting life in Imperial times.  The hues of blue, gold, and green, all framed by lustrous white marble, extend from the floor to nearly the ceiling, a sharp contrast to the otherwise beautiful yet unadorned museum walls.  A few ivory-colored stone benches give rest for the weary, allowing them a relaxing pause after a day of exhibit browsing."
   ],
   "paths": [
-    "Obvious exits: southeast, south, southwest."
+    "Obvious exits: east, southeast, south, southwest."
   ],
   "wayto": {
     "13135": "southwest",
-    "13137": "southeast"
+    "13137": "southeast",
+    "51808": "e",
+    "13138": "s"
   },
   "timeto": {
     "13135": 0.2,
-    "13137": 0.2
+    "13137": 0.2,
+    "13138": 0.2,
+    "51808": 0.2
   }
 },{
   "id": 13135,
@@ -353866,17 +353872,21 @@
     "Nestled between two elegant columns is a tabletop diorama, its surface covered with tiny model ships on an ocean of blue velvet.  A sweeping alabaster staircase ascends to the upper floor just behind the diorama, giving those coming up or down a bird's eye view of the miniature naval arrangement.  Furthering the area's ship-going theme is a worm-eaten wooden heketel'tegreis, strategically placed in front of a nearby acanth door.  A brass plaque explains the relevance of the various exhibits."
   ],
   "paths": [
-    "Obvious exits: southwest, west, northwest."
+    "Obvious exits: north, southwest, west, northwest."
   ],
   "wayto": {
     "13135": "west",
     "13136": "southwest",
-    "13141": "climb alabaster staircase"
+    "13141": "climb alabaster staircase",
+    "51808": "n",
+    "13138": "w"
   },
   "timeto": {
     "13135": 0.2,
     "13136": 0.2,
-    "13141": 0.2
+    "13141": 0.2,
+    "51808": 0.2,
+    "13138": 0.2
   }
 },{
   "id": 13138,
@@ -353890,9 +353900,9 @@
     "Obvious exits: north, east, south, west."
   ],
   "wayto": {
-    "13134": "north",
+    "13134": "n",
     "13136": "south",
-    "13137": "east"
+    "13137": "e"
   },
   "timeto": {
     "13134": 0.2,
@@ -485487,6 +485497,144 @@
   },
   "timeto": {
     "3326": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51803,
+  "title": [
+    "[[Old Throne City, Vagabond's Row]]"
+  ],
+  "description": [
+    "Rubbish and blankets are strewn across the alleyway, possibly left by littering hands or blown by the wind.  A tarp-covered statue stands near the street.  Between this marble monstrosity and the empty crates stacked nearby, it is unlikely that passers-by would notice this area at all.  Serving as one side of this man-made canyon is the wall of the nearby museum, a makeshift wooden scaffolding ascending its surface."
+  ],
+  "paths": [
+    "Obvious paths: north."
+  ],
+  "wayto": {
+    "51804": "climb wooden scaffolding",
+    "2992": "n"
+  },
+  "timeto": {
+    "51804": 0.2,
+    "2992": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51804,
+  "title": [
+    "[[Museum of Imperial History, Rooftop]]"
+  ],
+  "description": [
+    "By day, the view would certainly be a commanding one, but now consists only of the distant twinkling lights of passing boats on the Faldesu.  Much closer, a makeshift wooden scaffolding peaks at the edge of the wall, very nearly matching the height of the museum itself."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast."
+  ],
+  "wayto": {
+    "51805": "ne",
+    "51807": "se",
+    "51806": "e",
+    "51803": "climb wooden scaffolding"
+  },
+  "timeto": {
+    "51805": 0.2,
+    "51807": 0.2,
+    "51806": 0.2,
+    "51803": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51805,
+  "title": [
+    "[[Museum of Imperial History, Northern Rooftop]]"
+  ],
+  "description": [
+    "Though the ornamentation on the roof's edge effectively forms a parapet, the street below can be surveyed easily by quick glances between the stone alfars and soldiers.  Anyone on Dahl Aeliy would be hard pressed to spot a lurker hiding on this building, and such a task would be even harder for those living in the luxurious residential areas further north.  From the rooftops, leisurely study of Throne City's layout can be taken for granted."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest."
+  ],
+  "wayto": {
+    "51806": "s",
+    "51804": "sw"
+  },
+  "timeto": {
+    "51806": 0.2,
+    "51804": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51806,
+  "title": [
+    "[[Museum of Imperial History, Rooftop]]"
+  ],
+  "description": [
+    "Shady figures move along other rooftops, their faces hidden by deep cloaks of various sullen hues.  Luckily for anyone at this vantage point, the forms take no notice of other rooftops as their attentions are aimed downward and south.  They blink in and out of view, appearing on other buildings, moving in utter silence like ghosts, their goals equally ethereal."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west."
+  ],
+  "wayto": {
+    "51807": "s",
+    "51805": "n",
+    "51804": "w"
+  },
+  "timeto": {
+    "51807": 0.2,
+    "51805": 0.2,
+    "51804": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51807,
+  "title": [
+    "[[Museum of Imperial History, Southern Rooftop]]"
+  ],
+  "description": [
+    "The mingling, contrary scents of roses and horses arise from below, drifting from private gardens nestled behind the Palace as well as the nearby palatial stalls.  Though ivy and flowering vines cover the stone, the walls of the Palace are notably unrestored, bearing centuries of chips and marks.  Those who did the restoration certainly never intended to impress anyone who might be on the rooftop of the museum."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest."
+  ],
+  "wayto": {
+    "51804": "nw",
+    "51806": "n"
+  },
+  "timeto": {
+    "51804": 0.2,
+    "51806": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51808,
+  "title": [
+    "[[Museum of Imperial History, Archive]]"
+  ],
+  "description": [
+    "This dimly lit but organized space is dedicated to the preservation and management of the museum's historical and cultural materials.  The room is kept at a cool temperature and low humidity levels to ensure the artifacts are preserved over time.  Carefully labeled and cataloged materials are stored in specialized containers that protect them from damage and deterioration.  There are several workspaces where researchers and scholars can access the materials and conduct their studies."
+  ],
+  "paths": [
+    "Obvious exits: south, west."
+  ],
+  "wayto": {
+    "13137": "s",
+    "13134": "w"
+  },
+  "timeto": {
+    "13134": 0.2,
+    "13137": 0.2
   },
   "uid": [
     0
