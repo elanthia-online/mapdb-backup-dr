@@ -238530,8 +238530,8 @@
     620
   ],
   "tags": [
-    "ods",
-    "ODS"
+    "ODS",
+    "ods"
   ]
 },{
   "id": 8507,
@@ -314755,8 +314755,8 @@
     245
   ],
   "tags": [
-    "Atladene",
-    "atladene"
+    "atladene",
+    "Atladene"
   ]
 },{
   "id": 11537,
@@ -355198,8 +355198,8 @@
     "7933": 0.2
   },
   "tags": [
-    "rkm",
     "RKM",
+    "rkm",
     "rkm curios"
   ]
 },{
@@ -389579,8 +389579,8 @@
     "7867": 0.2
   },
   "tags": [
-    "jaks",
-    "JAKS"
+    "JAKS",
+    "jaks"
   ]
 },{
   "id": 14727,
@@ -435212,7 +435212,8 @@
     "[[The Crossing, Riverlace Lane]]"
   ],
   "description": [
-    "Ornate bronze lampposts stand opposite the opulent manors stacked along the avenue, dormant for the day.  Across the river to the east, the High Temple can be seen rising majestically over Longbow Bridge, its brightly burning beacon flames visible even against the daytime sky."
+    "Ornate bronze lampposts stand opposite the opulent manors stacked along the avenue, dormant for the day.  Across the river to the east, the High Temple can be seen rising majestically over Longbow Bridge, its brightly burning beacon flames visible even against the daytime sky.",
+    "Ornate bronze lampposts softly illuminate the opulent manors stacked along the avenue, but their meager light falls short of the Oxenwaithe River rushing by to the east.  An occasional fishing boat slips by on the darkened waters, its piloting lanterns bobbing like specters in the night as the flames of the High Temple flicker dimly in the background."
   ],
   "paths": [
     "Obvious paths: north."
