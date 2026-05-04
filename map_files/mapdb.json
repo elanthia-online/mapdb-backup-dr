@@ -121164,7 +121164,8 @@
     "[[Clerics' Guild, West Courtyard]]"
   ],
   "description": [
-    "A small brick building faces an iron gate on opposite sides of the dusty courtyard.  A stout door on the south side leads back into the largest building.  Granite cisterns are wedged snugly against the various buildings, positioned to collect rainwater and snow melt funneled by drip channels cut into each sloping roof.  Sickly ivy clings tenaciously to the fortified wall curving protectively around the compound."
+    "A small brick building faces an iron gate on opposite sides of the dusty courtyard.  A stout door on the south side leads back into the largest building.  Granite cisterns are wedged snugly against the various buildings, positioned to collect rainwater and snow melt funneled by drip channels cut into each sloping roof.  Sickly ivy clings tenaciously to the fortified wall curving protectively around the compound.",
+    "Torches gutter and flicker in sheltered spots, casting a pale light over large cisterns and a large building which blots out a portion of the southern night sky.  A vine-covered wall enclosing the compound curves to the north and south and disappears into the darkness.  A cast iron gate allows access into a smaller building, while a stout door leads into the main building."
   ],
   "paths": [
     "Obvious paths: none."
@@ -121185,6 +121186,9 @@
     124,
     64,
     144
+  ],
+  "uid": [
+    4218719
   ]
 },{
   "id": 4204,
@@ -238530,8 +238534,8 @@
     620
   ],
   "tags": [
-    "ODS",
-    "ods"
+    "ods",
+    "ODS"
   ]
 },{
   "id": 8507,
@@ -314755,8 +314759,8 @@
     245
   ],
   "tags": [
-    "atladene",
-    "Atladene"
+    "Atladene",
+    "atladene"
   ]
 },{
   "id": 11537,
@@ -355198,8 +355202,8 @@
     "7933": 0.2
   },
   "tags": [
-    "RKM",
     "rkm",
+    "RKM",
     "rkm curios"
   ]
 },{
@@ -389579,8 +389583,8 @@
     "7867": 0.2
   },
   "tags": [
-    "JAKS",
-    "jaks"
+    "jaks",
+    "JAKS"
   ]
 },{
   "id": 14727,
