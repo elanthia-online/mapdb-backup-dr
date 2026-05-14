@@ -59414,10 +59414,12 @@
     "Obvious paths: east."
   ],
   "wayto": {
-    "2001": "east"
+    "2001": "east",
+    "51820": "go stable door"
   },
   "timeto": {
-    "2001": 0.2
+    "2001": 0.2,
+    "51820": 0.2
   },
   "image": "zoluren-61-leth_deriel-1377283956.png",
   "image_coords": [
@@ -60135,11 +60137,13 @@
   ],
   "wayto": {
     "2020": "northwest",
-    "2031": "southeast"
+    "2031": "southeast",
+    "51815": "go tool shed"
   },
   "timeto": {
     "2020": 0.2,
-    "2031": 0.2
+    "2031": 0.2,
+    "51815": 0.2
   },
   "image": "zoluren-61-leth_deriel-1377283956.png",
   "image_coords": [
@@ -60147,6 +60151,9 @@
     788,
     352,
     806
+  ],
+  "uid": [
+    100081
   ]
 },{
   "id": 2028,
@@ -61245,11 +61252,13 @@
   ],
   "wayto": {
     "2060": "northwest",
-    "2064": "southeast"
+    "2064": "southeast",
+    "51813": "go vine-covered cottage"
   },
   "timeto": {
     "2060": 0.2,
-    "2064": 0.2
+    "2064": 0.2,
+    "51813": 0.2
   },
   "image": "zoluren-61-leth_deriel-1377283956.png",
   "image_coords": [
@@ -61257,6 +61266,9 @@
     792,
     518,
     806
+  ],
+  "uid": [
+    100067
   ]
 },{
   "id": 2066,
@@ -485311,4 +485323,174 @@
     "51810": 0.2,
     "51811": 0.2
   }
+},{
+  "id": 51813,
+  "title": [
+    "[[Dove's Delightful Dwellings]]"
+  ],
+  "description": [
+    "At first glance, one might easily mistake this charming shop for a private home, so discreet and well-placed are the displays of quality building materials.  Thin slabs of stone form colorful tiled patterns up the walls, and thick logs of expensive woods form an attractive border around the floor.  Dove, a slender Elven woman, busies herself about her wares with a jar of lemon oil and a soft cotton cloth."
+  ],
+  "paths": [
+    "Obvious exits: out."
+  ],
+  "wayto": {
+    "2065": "out",
+    "51814": "go vine curtain"
+  },
+  "timeto": {
+    "2065": 0.2,
+    "51814": 0.2
+  },
+  "uid": [
+    103201
+  ]
+},{
+  "id": 51814,
+  "title": [
+    "[[Dove's Doors]]"
+  ],
+  "description": [
+    "The pleasing fragrance of fresh-cut elm and wild flowers fills the back room of Dove's charming shop, drifting in on a light breeze from the woods beyond the wide-open windows.  A young Elf closely resembling the proprietor leans against a low counter at the back of the room, her face alight with an impish smile as customers peruse the selection of hand-turned doors on display."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "51813": "go vine curtain"
+  },
+  "timeto": {
+    "51813": 0.2
+  },
+  "uid": [
+    103202
+  ]
+},{
+  "id": 51815,
+  "title": [
+    "[[Leth Deriel Crafting Society Outpost, Main Room]]"
+  ],
+  "description": [
+    "Hooks shaped like small leaves hold decorative tools more ornamental than useful, their polished handles gleaming softly.  A faint scent of cedar drifts from the smooth plank floor, grounding the room in simple craftsmanship."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "2027": "go vine-framed doorway",
+    "51816": "northwest",
+    "51817": "northeast",
+    "51818": "southeast",
+    "51819": "southwest"
+  },
+  "timeto": {
+    "2027": 0.2,
+    "51816": 0.2,
+    "51817": 0.2,
+    "51818": 0.2,
+    "51819": 0.2
+  },
+  "uid": [
+    236901
+  ]
+},{
+  "id": 51816,
+  "title": [
+    "[[Leth Deriel Crafting Society Outpost, Enchanting Emporium]]"
+  ],
+  "description": [
+    "Exposed rafters span the ceiling, supporting an assortment of hanging lanterns.  Wide boards cover the floor in even rows, their surfaces worn smooth from use.  Along one wall, sheets of worked metal display etched symbols arranged in precise, deliberate patterns."
+  ],
+  "paths": [
+    "Obvious exits: southeast."
+  ],
+  "wayto": {
+    "51815": "southeast"
+  },
+  "timeto": {
+    "51815": 0.2
+  },
+  "uid": [
+    236903
+  ]
+},{
+  "id": 51817,
+  "title": [
+    "[[Leth Deriel Crafting Society Outpost, Engineering Enclave]]"
+  ],
+  "description": [
+    "Panels of brushed steel form a decorative border along the walls, their matte finish accented by precise rivetwork.  The walls are covered in detailed diagrams, and anchored with sprocket-headed brass pins."
+  ],
+  "paths": [
+    "Obvious exits: southwest."
+  ],
+  "wayto": {
+    "51815": "southwest"
+  },
+  "timeto": {
+    "51815": 0.2
+  },
+  "uid": [
+    236904
+  ]
+},{
+  "id": 51818,
+  "title": [
+    "[[Leth Deriel Crafting Society Outpost, Outfitting Outlet]]"
+  ],
+  "description": [
+    "Soft plum and ivory stripes accent the plank walls, bordered with intricate filigree trim painted in stitch-like strokes.  Delicate silhouettes of spools, needles, and looping thread are woven into the decorative motif."
+  ],
+  "paths": [
+    "Obvious exits: northwest."
+  ],
+  "wayto": {
+    "51815": "northwest"
+  },
+  "timeto": {
+    "51815": 0.2
+  },
+  "uid": [
+    236905
+  ]
+},{
+  "id": 51819,
+  "title": [
+    "[[Leth Deriel Crafting Society Outpost, Alchemy Annex]]"
+  ],
+  "description": [
+    "Wood plank walls bear faint scorch marks that form curling patterns across their surface, as if left by careful experimentation.  Large wooden plaques hang in neat alignment, each carved to resemble a piece of parchment inscribed with simple geometric symbols."
+  ],
+  "paths": [
+    "Obvious exits: northeast."
+  ],
+  "wayto": {
+    "51815": "northeast"
+  },
+  "timeto": {
+    "51815": 0.2
+  },
+  "uid": [
+    236902
+  ]
+},{
+  "id": 51820,
+  "title": [
+    "[[Horse Barn, Inside]]"
+  ],
+  "description": [
+    "Delightfully fragrant to a horse, the barn's humid air is redolent with the aroma of manure mingled with sweat.  Several wooden stalls heaped with fresh, dry straw line this oblong room.  Each stall has a feedbag hanging from the back wall, and a stone trough filled with water."
+  ],
+  "paths": [
+    "Obvious exits: out."
+  ],
+  "wayto": {
+    "2002": "out"
+  },
+  "timeto": {
+    "2002": 0.2
+  },
+  "uid": [
+    100091
+  ]
 }]
