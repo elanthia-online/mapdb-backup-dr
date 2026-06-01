@@ -354113,11 +354113,13 @@
   ],
   "wayto": {
     "13165": "o",
-    "13167": "n"
+    "13167": "n",
+    "51826": "go tall stall"
   },
   "timeto": {
     "13165": 0.2,
-    "13167": 0.2
+    "13167": 0.2,
+    "51826": 0.2
   }
 },{
   "id": 13167,
@@ -485609,5 +485611,25 @@
   },
   "uid": [
     2022128
+  ]
+},{
+  "id": 51826,
+  "title": [
+    "[[Bewla's Dye Cases, Stall]]"
+  ],
+  "description": [
+    "Sturdy wooden planks support an awning that provide shelter from the elements for the wares offered.  Behind the counter, a clerk is perched atop a cushioned stool and gleefully greets visitors as they come and go.  Warm light radiating from a small gaethzen orb keeps the stall illuminated day or night."
+  ],
+  "paths": [
+    "Obvious exits: out."
+  ],
+  "wayto": {
+    "13166": "out"
+  },
+  "timeto": {
+    "13166": 0.2
+  },
+  "uid": [
+    0
   ]
 }]
