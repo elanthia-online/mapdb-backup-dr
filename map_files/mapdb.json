@@ -430829,8 +430829,8 @@
   "wayto": {
     "16343": "climb steep trail",
     "16345": "north",
-    "16346": "northeast",
-    "16349": "east"
+    "16349": "east",
+    "16346": "northeast"
   },
   "timeto": {
     "16343": 0.2,
@@ -430857,17 +430857,21 @@
     "Grassland stretches out from the edges of the plateau, a mass of undulating greenery that effectively hides the rocky soil beneath.  Songbirds dart amongst the stems, their melodious voices rising above the susurration of the swaying leaves."
   ],
   "paths": [
-    "Obvious paths: east, southeast, south."
+    "Obvious paths: north, northeast, east, southeast, south."
   ],
   "wayto": {
-    "16344": "south",
+    "16349": "southeast",
+    "51828": "northeast",
     "16346": "east",
-    "16349": "southeast"
+    "51827": "north",
+    "16344": "south"
   },
   "timeto": {
     "16344": 0.2,
     "16346": 0.2,
-    "16349": 0.2
+    "16349": 0.2,
+    "51827": 0.2,
+    "51828": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -430888,21 +430892,27 @@
     "Grassland stretches out from the edges of the plateau, with only a few shrubs to break the monotony of the whispering grasses swaying in the wind.  Birds soar above the cliff, using the updrafts to gain altitude above the forests spread at the feet of the plateau."
   ],
   "paths": [
-    "Obvious paths: east, southeast, south, southwest, west."
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
-    "16344": "southwest",
-    "16345": "west",
-    "16347": "east",
     "16348": "southeast",
-    "16349": "south"
+    "16349": "south",
+    "16344": "southwest",
+    "51827": "northwest",
+    "51828": "north",
+    "51829": "northeast",
+    "16347": "east",
+    "16345": "west"
   },
   "timeto": {
     "16344": 0.2,
     "16345": 0.2,
     "16347": 0.2,
     "16348": 0.2,
-    "16349": 0.2
+    "16349": 0.2,
+    "51828": 0.2,
+    "51829": 0.2,
+    "51827": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -430923,19 +430933,23 @@
     "Grassland stretches out from the edges of the plateau, the thick growth almost hiding a winding trail that snakes towards a small vale cupped within the rocky outcrop."
   ],
   "paths": [
-    "Obvious paths: south, southwest, west."
+    "Obvious paths: north, south, southwest, west, northwest."
   ],
   "wayto": {
-    "16346": "west",
     "16348": "south",
     "16349": "southwest",
-    "16350": "go trail"
+    "16350": "go trail",
+    "51828": "northwest",
+    "51829": "north",
+    "16346": "west"
   },
   "timeto": {
     "16346": 0.2,
     "16348": 0.2,
     "16349": 0.2,
-    "16350": 0.2
+    "16350": 0.2,
+    "51829": 0.2,
+    "51828": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -485628,6 +485642,82 @@
   },
   "timeto": {
     "13166": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51827,
+  "title": [
+    "[[Wyvern Plateau, Grassland]]"
+  ],
+  "description": [
+    "Grassland stretches out from the edges of the plateau, stems waving in the ever-present wind.  Thick mats of dead vegetation pad the ground, decaying reminders of the savannah's past."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south."
+  ],
+  "wayto": {
+    "16346": "southeast",
+    "51828": "east",
+    "16345": "south"
+  },
+  "timeto": {
+    "16345": 0.2,
+    "16346": 0.2,
+    "51828": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51828,
+  "title": [
+    "[[Wyvern Plateau, Grassland]]"
+  ],
+  "description": [
+    "Grassland stretches endlessly out from the plateau's edge, the wind blowing through the stalks creating a low rustling sound that blends into the background.  An occasional animal wallow testifies to the sheer size of the prairie's inhabitants."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, southwest, west."
+  ],
+  "wayto": {
+    "16345": "southwest",
+    "16346": "south",
+    "16347": "southeast",
+    "51829": "east",
+    "51827": "west"
+  },
+  "timeto": {
+    "16346": 0.2,
+    "16347": 0.2,
+    "16345": 0.2,
+    "51827": 0.2,
+    "51829": 0.2
+  },
+  "uid": [
+    0
+  ]
+},{
+  "id": 51829,
+  "title": [
+    "[[Wyvern Plateau, Grassland]]"
+  ],
+  "description": [
+    "Grassland stretches out from the edges of the plateau, stems and leaves undulating in the constant wind.  A few boulders rise above the tops of the grasses, each one serving as a waypoint in the otherwise featureless savannah."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west."
+  ],
+  "wayto": {
+    "16346": "southwest",
+    "51828": "west",
+    "16347": "south"
+  },
+  "timeto": {
+    "16347": 0.2,
+    "16346": 0.2,
+    "51828": 0.2
   },
   "uid": [
     0
