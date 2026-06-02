@@ -19599,11 +19599,11 @@
   ],
   "wayto": {
     "687": "north",
-    "19199": "south"
+    "689": "south"
   },
   "timeto": {
     "687": 0.2,
-    "19199": 0.2
+    "689": 0.2
   },
   "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
   "image_coords": [
@@ -19625,22 +19625,24 @@
     "The path here leads in a north-south direction.  Underfoot, crude paving gravel competes with mud and sand to sabotage your steps.  The sucking, squishing sound and the decaying smell of swampy soil fills the air, as you scrape the remains of some thick, blood-bloated worms off your boots and continue on.  To the south you notice a few sorry huts, and to the east, several tall structures dominate the horizon."
   ],
   "paths": [
-    "Obvious paths: north, southwest."
+    "Obvious paths: north, southeast, southwest."
   ],
   "wayto": {
     "688": "north",
-    "690": "southwest"
+    "690": "southwest",
+    "13094": "se"
   },
   "timeto": {
     "688": 0.2,
-    "690": 0.2
+    "690": 0.2,
+    "13094": 0.2
   },
   "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
   "image_coords": [
-    212,
-    511,
-    228,
-    527
+    209,
+    412,
+    222,
+    425
   ],
   "tags": [
     "rock"
@@ -19657,14 +19659,14 @@
     "Obvious paths: northeast, southeast, west."
   ],
   "wayto": {
+    "689": "northeast",
     "691": "west",
-    "692": "southeast",
-    "19199": "northeast"
+    "692": "southeast"
   },
   "timeto": {
+    "689": 0.2,
     "691": 0.2,
-    "692": 0.2,
-    "19199": 0.2
+    "692": 0.2
   },
   "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
   "image_coords": [
@@ -352333,14 +352335,14 @@
     "Obvious paths: east, south, northwest."
   ],
   "wayto": {
+    "689": "nw",
     "13095": "e",
-    "13097": "s",
-    "19199": "nw"
+    "13097": "s"
   },
   "timeto": {
+    "689": 0.2,
     "13095": 0.2,
-    "13097": 0.2,
-    "19199": 0.2
+    "13097": 0.2
   },
   "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
   "image_coords": [
@@ -430829,8 +430831,8 @@
   "wayto": {
     "16343": "climb steep trail",
     "16345": "north",
-    "16349": "east",
-    "16346": "northeast"
+    "16346": "northeast",
+    "16349": "east"
   },
   "timeto": {
     "16343": 0.2,
@@ -430860,11 +430862,11 @@
     "Obvious paths: north, northeast, east, southeast, south."
   ],
   "wayto": {
-    "16349": "southeast",
-    "51828": "northeast",
+    "16344": "south",
     "16346": "east",
+    "16349": "southeast",
     "51827": "north",
-    "16344": "south"
+    "51828": "northeast"
   },
   "timeto": {
     "16344": 0.2,
@@ -430895,14 +430897,14 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "16344": "southwest",
+    "16345": "west",
+    "16347": "east",
     "16348": "southeast",
     "16349": "south",
-    "16344": "southwest",
     "51827": "northwest",
     "51828": "north",
-    "51829": "northeast",
-    "16347": "east",
-    "16345": "west"
+    "51829": "northeast"
   },
   "timeto": {
     "16344": 0.2,
@@ -430910,9 +430912,9 @@
     "16347": 0.2,
     "16348": 0.2,
     "16349": 0.2,
+    "51827": 0.2,
     "51828": 0.2,
-    "51829": 0.2,
-    "51827": 0.2
+    "51829": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -430936,20 +430938,20 @@
     "Obvious paths: north, south, southwest, west, northwest."
   ],
   "wayto": {
+    "16346": "west",
     "16348": "south",
     "16349": "southwest",
     "16350": "go trail",
     "51828": "northwest",
-    "51829": "north",
-    "16346": "west"
+    "51829": "north"
   },
   "timeto": {
     "16346": 0.2,
     "16348": 0.2,
     "16349": 0.2,
     "16350": 0.2,
-    "51829": 0.2,
-    "51828": 0.2
+    "51828": 0.2,
+    "51829": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -431036,7 +431038,7 @@
     "Cupped within the surrounding grassland, a small vale enclosed by low rocky walls stetches around a small spring.  Tendrils of water flow out from the spring, feeding two meager rivulets winding amongst the savannah."
   ],
   "paths": [
-    "Obvious paths: north, west."
+    "Obvious paths: north, west, northwest."
   ],
   "wayto": {
     "16347": "go trail",
@@ -431057,6 +431059,9 @@
   ],
   "tags": [
     "bulls_vale"
+  ],
+  "uid": [
+    2022112
   ]
 },{
   "id": 16351,
@@ -431067,15 +431072,17 @@
     "The meandering streamlet eventually peters out into nothingness, its moisture dispersing amongst the thirsty grasses.  A few stray boulders mark the edge of the plateau, providing some warning of the plunge into the surrounding forest lurking below."
   ],
   "paths": [
-    "Obvious paths: south, southwest."
+    "Obvious paths: south, southwest, west."
   ],
   "wayto": {
     "16350": "south",
-    "16352": "southwest"
+    "16352": "southwest",
+    "51830": "west"
   },
   "timeto": {
     "16350": 0.2,
-    "16352": 0.2
+    "16352": 0.2,
+    "51830": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -431086,6 +431093,9 @@
   ],
   "tags": [
     "bulls_vale"
+  ],
+  "uid": [
+    2022114
   ]
 },{
   "id": 16352,
@@ -431096,15 +431106,17 @@
     "Ending rather abruptly, the tiny stream drains away into a crevice, disappearing completely into the rocks of the plateau without a trace.  Not far from the crevice, the plateau itself ends in a sheer drop off to the forest far, far below."
   ],
   "paths": [
-    "Obvious paths: northeast, east."
+    "Obvious paths: north, northeast, east."
   ],
   "wayto": {
     "16350": "east",
-    "16351": "northeast"
+    "16351": "northeast",
+    "51830": "north"
   },
   "timeto": {
     "16350": 0.2,
-    "16351": 0.2
+    "16351": 0.2,
+    "51830": 0.2
   },
   "image": "Ilithi, Wyvern Plateau-3.png",
   "image_coords": [
@@ -431115,6 +431127,9 @@
   ],
   "tags": [
     "bulls_vale"
+  ],
+  "uid": [
+    2022113
   ]
 },{
   "id": 16353,
@@ -454145,37 +454160,6 @@
     394,
     403,
     409
-  ]
-},{
-  "id": 19199,
-  "title": [
-    "[[Middens, Gravel Way]]"
-  ],
-  "description": [
-    "The path here leads in a north-south direction.  Underfoot, crude paving gravel competes with mud and sand to sabotage your steps.  The sucking, squishing sound and the decaying smell of swampy soil fills the air, as you scrape the remains of some thick, blood-bloated worms off your boots and continue on.  To the south you notice a few sorry huts, and to the east, several tall structures dominate the horizon."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, southwest."
-  ],
-  "wayto": {
-    "688": "north",
-    "690": "southwest",
-    "13094": "se"
-  },
-  "timeto": {
-    "688": 0.2,
-    "690": 0.2,
-    "13094": 0.2
-  },
-  "image": "zoluren-8-east_gate_and_moonie_guild-1508272530.gif",
-  "image_coords": [
-    209,
-    414,
-    220,
-    426
-  ],
-  "tags": [
-    "louts"
   ]
 },{
   "id": 19200,
@@ -485658,9 +485642,9 @@
     "Obvious paths: east, southeast, south."
   ],
   "wayto": {
+    "16345": "south",
     "16346": "southeast",
-    "51828": "east",
-    "16345": "south"
+    "51828": "east"
   },
   "timeto": {
     "16345": 0.2,
@@ -485668,7 +485652,7 @@
     "51828": 0.2
   },
   "uid": [
-    0
+    2022130
   ]
 },{
   "id": 51828,
@@ -485685,18 +485669,18 @@
     "16345": "southwest",
     "16346": "south",
     "16347": "southeast",
-    "51829": "east",
-    "51827": "west"
+    "51827": "west",
+    "51829": "east"
   },
   "timeto": {
+    "16345": 0.2,
     "16346": 0.2,
     "16347": 0.2,
-    "16345": 0.2,
     "51827": 0.2,
     "51829": 0.2
   },
   "uid": [
-    0
+    2022131
   ]
 },{
   "id": 51829,
@@ -485711,15 +485695,37 @@
   ],
   "wayto": {
     "16346": "southwest",
-    "51828": "west",
-    "16347": "south"
+    "16347": "south",
+    "51828": "west"
   },
   "timeto": {
-    "16347": 0.2,
     "16346": 0.2,
+    "16347": 0.2,
     "51828": 0.2
   },
   "uid": [
-    0
+    2022132
+  ]
+},{
+  "id": 51830,
+  "title": [
+    "[[Wyvern Plateau, Grassy Vale]]"
+  ],
+  "description": [
+    "Grasses choke the ground, completely covering the floor of the tiny dell.  Sheer rock faces climb skyward, forming the escarpments that enclose the valley."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south."
+  ],
+  "wayto": {
+    "16351": "east",
+    "16352": "south"
+  },
+  "timeto": {
+    "16351": 0.2,
+    "16352": 0.2
+  },
+  "uid": [
+    2022133
   ]
 }]
