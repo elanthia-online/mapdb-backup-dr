@@ -254725,13 +254725,16 @@
     "Trinkets, toys, bags, and tools of all sorts appear strewn onto every available space.  The visual assault of colorful containers along racks, counters, bins, and shelves does nothing to improve the dusty and cob-web ridden state of the shop.  Nearly every inch of the floor space is taken up by sale surfaces, leaving walking room at a minimum."
   ],
   "paths": [
+    "Obvious exits: east, west.",
     "Obvious exits: east."
   ],
   "wayto": {
-    "9088": "e"
+    "9088": "e",
+    "51842": "w"
   },
   "timeto": {
-    "9088": 0.2
+    "9088": 0.2,
+    "51842": 0.2
   },
   "image": "Zoluren, Crossing, The Strand.png",
   "image_coords": [
@@ -254794,6 +254797,9 @@
     189,
     622,
     206
+  ],
+  "uid": [
+    421044
   ]
 },{
   "id": 9090,
@@ -485950,4 +485956,21 @@
   "uid": [
     1220131
   ]
+},{
+  "id": 51842,
+  "title": [
+    "[[Fenwyrthie's, Knickknacks]]"
+  ],
+  "description": [
+    "An eclectic assortment of tiny treasures crowds every available space.  Polished stones, carved figures, curious tools, and countless unidentifiable objects are wedged onto shelves, stacked upon counters, and scattered among baskets and bins.  Oddments and baubles from distant places mingle with common trinkets, forming a patchwork display that stretches from floor to rafters.  Only a few narrow paths remain between the cluttered arrangements."
+  ],
+  "paths": [
+    "Obvious exits: east."
+  ],
+  "wayto": {
+    "9087": "e"
+  },
+  "timeto": {
+    "9087": 0.2
+  }
 }]
