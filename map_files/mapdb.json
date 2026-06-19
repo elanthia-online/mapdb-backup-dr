@@ -109583,8 +109583,8 @@
   ],
   "wayto": {
     "3798": "southeast",
-    "11457": "east",
-    "15517": "go door"
+    "15517": "go door",
+    "11457": "east"
   },
   "timeto": {
     "3798": 0.2,
@@ -312731,17 +312731,19 @@
     "Someone or something has crudely hacked out an extension of the passage, roughly working the walls just enough to allow travel deeper into the caverns and subterranean areas that surround Hibarnhvidar.  The unfinished feel of the excavation extends to the flooring, which is uneven and treacherous underfoot."
   ],
   "paths": [
-    "Obvious exits: west."
+    "Obvious exits: east, west."
   ],
   "wayto": {
     "3799": "w",
     "16514": "go charred archway",
-    "16520": "go side passage"
+    "16520": "go side passage",
+    "51843": "east"
   },
   "timeto": {
     "3799": 0.2,
     "16514": 0.2,
-    "16520": 0.2
+    "16520": 0.2,
+    "51843": 0.2
   },
   "image": "Forfedhdar, Cavern of Fire.png",
   "image_coords": [
@@ -485972,5 +485974,173 @@
   },
   "timeto": {
     "9087": 0.2
+  }
+},{
+  "id": 51843,
+  "title": [
+    "[[Cavern of Fire, Rough Tunnel]]"
+  ],
+  "description": [
+    "Roughly hacked out walls meet with the unevenly finished floor in this crudely crafted passageway.  A faint odor of smoke mingles with a musky, animal scent."
+  ],
+  "paths": [
+    "Obvious exits: east, west."
+  ],
+  "wayto": {
+    "51844": "east",
+    "11457": "west"
+  },
+  "timeto": {
+    "51844": 0.2,
+    "11457": 0.2
+  }
+},{
+  "id": 51844,
+  "title": [
+    "[[Cavern of Fire, Rough Tunnel]]"
+  ],
+  "description": [
+    "Cut through the stone with a minimum of care and a maximum of haste, the passage burrows deeper into the ground.  On one wall, an opening into a natural cavern shows where the excavators intersected with a pre-existing grotto."
+  ],
+  "paths": [
+    "Obvious exits: west."
+  ],
+  "wayto": {
+    "51845": "go cavern opening"
+  },
+  "timeto": {
+    "51845": 0.2
+  }
+},{
+  "id": 51845,
+  "title": [
+    "[[Cavern of Fire, Limestone Cave]]"
+  ],
+  "description": [
+    "Limestone walls enclose this naturally formed grotto deep underground.  Through the opening, a crudely hacked out tunnel can be glimpsed."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest."
+  ],
+  "wayto": {
+    "51846": "s",
+    "51848": "sw",
+    "51850": "se",
+    "51844": "go cavern opening"
+  },
+  "timeto": {
+    "51846": 0.2,
+    "51848": 0.2,
+    "51850": 0.2,
+    "51844": 0.2
+  }
+},{
+  "id": 51846,
+  "title": [
+    "[[Cavern of Fire, Near a Pool]]"
+  ],
+  "description": [
+    "Occasionally disturbed by a drip from one of the stalactites overhead, the still waters of the pool are dark and deep.  Flowstone covers much of the floor, the product of many years of deposited sediments forming into wavy formations."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, southwest, west."
+  ],
+  "wayto": {
+    "51845": "n",
+    "51848": "w",
+    "51849": "sw",
+    "51847": "s"
+  },
+  "timeto": {
+    "51847": 0.2,
+    "51845": 0.2,
+    "51848": 0.2,
+    "51849": 0.2
+  }
+},{
+  "id": 51847,
+  "title": [
+    "[[Cavern of Fire, Limestone Cave]]"
+  ],
+  "description": [
+    "Stalactites thrust up from the ground, some almost touching the stalagmites reaching down from the ceiling.  A faint musky scent hints of the animals that make this cavern their home."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, west, northwest."
+  ],
+  "wayto": {
+    "51846": "n",
+    "51848": "nw",
+    "51849": "w",
+    "51850": "ne"
+  },
+  "timeto": {
+    "51846": 0.2,
+    "51848": 0.2,
+    "51850": 0.2,
+    "51849": 0.2
+  }
+},{
+  "id": 51848,
+  "title": [
+    "[[Cavern of Fire, Limestone Cave]]"
+  ],
+  "description": [
+    "Periodically, a gentle *drip*drip*drip* echoes through the area from somewhere else in the cavern.  Overhead, bats dart and zip about as they flit through the space."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, south."
+  ],
+  "wayto": {
+    "51849": "s",
+    "51845": "ne",
+    "51846": "e",
+    "51847": "se"
+  },
+  "timeto": {
+    "51849": 0.2,
+    "51847": 0.2,
+    "51846": 0.2,
+    "51845": 0.2
+  }
+},{
+  "id": 51849,
+  "title": [
+    "[[Cavern of Fire, Limestone Cave]]"
+  ],
+  "description": [
+    "Piles of bones lie in irregular stacks in the corners of the cavern.  Each mound is jumbled up with other debris and rotting bits of meat and other noxious matter."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east."
+  ],
+  "wayto": {
+    "51848": "n",
+    "51846": "ne",
+    "51847": "e"
+  },
+  "timeto": {
+    "51848": 0.2,
+    "51846": 0.2,
+    "51847": 0.2
+  }
+},{
+  "id": 51850,
+  "title": [
+    "[[Cavern of Fire, Limestone Cave]]"
+  ],
+  "description": [
+    "Water seeps from the walls, collecting into a tiny pool before snaking across the floor in a tiny rivlet and disappearing deeper in the cavern."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest."
+  ],
+  "wayto": {
+    "51847": "sw",
+    "51845": "nw"
+  },
+  "timeto": {
+    "51847": 0.2,
+    "51845": 0.2
   }
 }]
