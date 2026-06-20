@@ -109583,8 +109583,8 @@
   ],
   "wayto": {
     "3798": "southeast",
-    "15517": "go door",
-    "11457": "east"
+    "11457": "east",
+    "15517": "go door"
   },
   "timeto": {
     "3798": 0.2,
@@ -238554,8 +238554,8 @@
     620
   ],
   "tags": [
-    "ODS",
-    "ods"
+    "ods",
+    "ODS"
   ]
 },{
   "id": 8507,
@@ -314788,8 +314788,8 @@
     245
   ],
   "tags": [
-    "atladene",
-    "Atladene"
+    "Atladene",
+    "atladene"
   ]
 },{
   "id": 11537,
@@ -355236,8 +355236,8 @@
     "7933": 0.2
   },
   "tags": [
-    "RKM",
     "rkm",
+    "RKM",
     "rkm curios"
   ]
 },{
@@ -360896,13 +360896,18 @@
   "wayto": {
     "13444": "north",
     "13446": "climb stairwell",
-    "51801": "go archway"
+    "51801": "go archway",
+    "51851": "go arch"
   },
   "timeto": {
     "13444": 0.2,
     "13446": 0.2,
-    "51801": 0.2
-  }
+    "51801": 0.2,
+    "51851": 0.2
+  },
+  "uid": [
+    80065
+  ]
 },{
   "id": 13446,
   "title": [
@@ -389617,8 +389622,8 @@
     "7867": 0.2
   },
   "tags": [
-    "JAKS",
-    "jaks"
+    "jaks",
+    "JAKS"
   ]
 },{
   "id": 14727,
@@ -485987,12 +485992,12 @@
     "Obvious exits: east, west."
   ],
   "wayto": {
-    "51844": "east",
-    "11457": "west"
+    "11457": "west",
+    "51844": "east"
   },
   "timeto": {
-    "51844": 0.2,
-    "11457": 0.2
+    "11457": 0.2,
+    "51844": 0.2
   }
 },{
   "id": 51844,
@@ -486023,16 +486028,16 @@
     "Obvious exits: southeast, south, southwest."
   ],
   "wayto": {
+    "51844": "go cavern opening",
     "51846": "s",
     "51848": "sw",
-    "51850": "se",
-    "51844": "go cavern opening"
+    "51850": "se"
   },
   "timeto": {
+    "51844": 0.2,
     "51846": 0.2,
     "51848": 0.2,
-    "51850": 0.2,
-    "51844": 0.2
+    "51850": 0.2
   }
 },{
   "id": 51846,
@@ -486047,13 +486052,13 @@
   ],
   "wayto": {
     "51845": "n",
+    "51847": "s",
     "51848": "w",
-    "51849": "sw",
-    "51847": "s"
+    "51849": "sw"
   },
   "timeto": {
-    "51847": 0.2,
     "51845": 0.2,
+    "51847": 0.2,
     "51848": 0.2,
     "51849": 0.2
   }
@@ -486077,8 +486082,8 @@
   "timeto": {
     "51846": 0.2,
     "51848": 0.2,
-    "51850": 0.2,
-    "51849": 0.2
+    "51849": 0.2,
+    "51850": 0.2
   }
 },{
   "id": 51848,
@@ -486092,16 +486097,16 @@
     "Obvious exits: northeast, east, southeast, south."
   ],
   "wayto": {
-    "51849": "s",
     "51845": "ne",
     "51846": "e",
-    "51847": "se"
+    "51847": "se",
+    "51849": "s"
   },
   "timeto": {
-    "51849": 0.2,
-    "51847": 0.2,
+    "51845": 0.2,
     "51846": 0.2,
-    "51845": 0.2
+    "51847": 0.2,
+    "51849": 0.2
   }
 },{
   "id": 51849,
@@ -486115,14 +486120,14 @@
     "Obvious exits: north, northeast, east."
   ],
   "wayto": {
-    "51848": "n",
     "51846": "ne",
-    "51847": "e"
+    "51847": "e",
+    "51848": "n"
   },
   "timeto": {
-    "51848": 0.2,
     "51846": 0.2,
-    "51847": 0.2
+    "51847": 0.2,
+    "51848": 0.2
   }
 },{
   "id": 51850,
@@ -486136,11 +486141,31 @@
     "Obvious exits: southwest, west, northwest."
   ],
   "wayto": {
-    "51847": "sw",
-    "51845": "nw"
+    "51845": "nw",
+    "51847": "sw"
   },
   "timeto": {
-    "51847": 0.2,
-    "51845": 0.2
+    "51845": 0.2,
+    "51847": 0.2
   }
+},{
+  "id": 51851,
+  "title": [
+    "[[Korhege Apartments, Garden]]"
+  ],
+  "description": [
+    "Oralana and climbers of maugwort, gravid with brown berries, tumble in profusion over gently eroded stone benches and tables in this central garden area.  The fragrance is mellow yet spicy, like standing downwind of a distant caravan loaded with herbs and costly fabrics."
+  ],
+  "paths": [
+    "Obvious paths: none."
+  ],
+  "wayto": {
+    "13445": "go arch"
+  },
+  "timeto": {
+    "13445": 0.2
+  },
+  "uid": [
+    80066
+  ]
 }]
