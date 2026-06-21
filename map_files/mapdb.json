@@ -360896,14 +360896,12 @@
   "wayto": {
     "13444": "north",
     "13446": "climb stairwell",
-    "51801": "go archway",
-    "51851": "go arch"
+    "51801": "go archway"
   },
   "timeto": {
     "13444": 0.2,
     "13446": 0.2,
-    "51801": 0.2,
-    "51851": 0.2
+    "51801": 0.2
   },
   "uid": [
     80065
@@ -388270,7 +388268,10 @@
     "14655": 0.2,
     "14657": 0.2,
     "51800": 0.2
-  }
+  },
+  "uid": [
+    80073
+  ]
 },{
   "id": 14657,
   "title": [
@@ -485088,7 +485089,7 @@
     "14656": 0.2
   },
   "uid": [
-    0
+    80074
   ]
 },{
   "id": 51801,
@@ -485108,7 +485109,8 @@
     "13445": 0.2
   },
   "uid": [
-    0
+    0,
+    80066
   ]
 },{
   "id": 51802,
@@ -486148,24 +486150,4 @@
     "51845": 0.2,
     "51847": 0.2
   }
-},{
-  "id": 51851,
-  "title": [
-    "[[Korhege Apartments, Garden]]"
-  ],
-  "description": [
-    "Oralana and climbers of maugwort, gravid with brown berries, tumble in profusion over gently eroded stone benches and tables in this central garden area.  The fragrance is mellow yet spicy, like standing downwind of a distant caravan loaded with herbs and costly fabrics."
-  ],
-  "paths": [
-    "Obvious paths: none."
-  ],
-  "wayto": {
-    "13445": "go arch"
-  },
-  "timeto": {
-    "13445": 0.2
-  },
-  "uid": [
-    80066
-  ]
 }]
