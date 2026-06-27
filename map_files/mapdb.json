@@ -26647,7 +26647,7 @@
     "915": "east",
     "916": "west",
     "919": "southwest",
-    "15891": ";e fput 'go amusement pier'; fput 'south'",
+    "15889": "go amusement pier",
     "16136": "go build"
   },
   "timeto": {
@@ -26655,7 +26655,7 @@
     "915": 0.2,
     "916": 0.2,
     "919": 0.2,
-    "15891": 0.2,
+    "15889": 0.2,
     "16136": 0.2
   },
   "image": "zoluren-1-crossing-1377284934.png",
@@ -26667,6 +26667,9 @@
   ],
   "tags": [
     "rock"
+  ],
+  "uid": [
+    10120
   ]
 },{
   "id": 900,
@@ -394328,10 +394331,10 @@
     "Obvious exits: none."
   ],
   "wayto": {
-    "12744": "go flap"
+    "15902": "go canvas flap"
   },
   "timeto": {
-    "12744": 0.2
+    "15902": 0.2
   }
 },{
   "id": 14938,
@@ -418542,14 +418545,16 @@
   "wayto": {
     "899": "go elaborate gate",
     "15890": "southeast",
-    "15891": "south",
-    "15892": "southwest"
+    "15891": "s",
+    "15892": "southwest",
+    "16705": "go sandalwood caravans"
   },
   "timeto": {
     "899": 0.2,
     "15890": 0.2,
     "15891": 0.2,
-    "15892": 0.2
+    "15892": 0.2,
+    "16705": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418562,6 +418567,9 @@
     "meta:mapcategory:Zoluren",
     "meta:mapname:Zoluren - Crossing Amusement Pier",
     "meta:mapshortname:Crossing Amusement Pier"
+  ],
+  "uid": [
+    26001
   ]
 },{
   "id": 15890,
@@ -418576,7 +418584,7 @@
   ],
   "wayto": {
     "15889": "northwest",
-    "15891": "west",
+    "15891": "w",
     "15897": "south"
   },
   "timeto": {
@@ -418590,6 +418598,9 @@
     165,
     311,
     185
+  ],
+  "uid": [
+    26004
   ]
 },{
   "id": 15891,
@@ -418603,14 +418614,18 @@
     "Obvious paths: north, east, west."
   ],
   "wayto": {
-    "15889": "north",
+    "15889": "n",
     "15890": "east",
-    "15892": "west"
+    "15892": "w",
+    "51854": "go hide-covered wagon",
+    "51855": "go silk tent"
   },
   "timeto": {
     "15889": 0.2,
     "15890": 0.2,
-    "15892": 0.2
+    "15892": 0.2,
+    "51854": 0.2,
+    "51855": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418618,6 +418633,9 @@
     165,
     257,
     186
+  ],
+  "uid": [
+    26002
   ]
 },{
   "id": 15892,
@@ -418632,15 +418650,17 @@
   ],
   "wayto": {
     "15889": "northeast",
-    "15891": "east",
+    "15891": "e",
     "15893": "south",
-    "50972": "go tent"
+    "50972": "go tent",
+    "51009": "go wooden wagon"
   },
   "timeto": {
     "15889": 0.2,
     "15891": 0.2,
     "15893": 0.2,
-    "50972": 0.2
+    "50972": 0.2,
+    "51009": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418648,6 +418668,9 @@
     166,
     195,
     183
+  ],
+  "uid": [
+    26003
   ]
 },{
   "id": 15893,
@@ -418741,13 +418764,15 @@
   ],
   "wayto": {
     "15893": "west",
-    "15897": "east",
-    "15900": "south"
+    "15897": "e",
+    "15900": "south",
+    "51853": "go whimsical wagon"
   },
   "timeto": {
     "15893": 0.2,
     "15897": 0.2,
-    "15900": 0.2
+    "15900": 0.2,
+    "51853": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418755,6 +418780,9 @@
     236,
     251,
     253
+  ],
+  "uid": [
+    26007
   ]
 },{
   "id": 15897,
@@ -418769,7 +418797,7 @@
     "Obvious paths: north, south, west."
   ],
   "wayto": {
-    "15890": "north",
+    "15890": "n",
     "15896": "west",
     "15898": "go row",
     "15899": "south"
@@ -418786,6 +418814,9 @@
     237,
     311,
     253
+  ],
+  "uid": [
+    26006
   ]
 },{
   "id": 15898,
@@ -418847,18 +418878,20 @@
     "Obvious paths: north, east, south, west."
   ],
   "wayto": {
-    "15896": "north",
+    "15896": "n",
     "15899": "east",
     "15901": "go crowd",
     "15902": "west",
-    "15908": "south"
+    "15908": "south",
+    "51852": "go wooden caravan"
   },
   "timeto": {
     "15896": 0.2,
     "15899": 0.2,
     "15901": 0.2,
     "15902": 0.2,
-    "15908": 0.2
+    "15908": 0.2,
+    "51852": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418866,6 +418899,9 @@
     346,
     257,
     366
+  ],
+  "uid": [
+    26015
   ]
 },{
   "id": 15901,
@@ -418903,12 +418939,16 @@
     "Obvious paths: east, south."
   ],
   "wayto": {
-    "15900": "east",
-    "15910": "south"
+    "14937": "go canvas pavilion",
+    "15900": "e",
+    "15910": "south",
+    "51851": "go tall wagon"
   },
   "timeto": {
+    "14937": 0.2,
     "15900": 0.2,
-    "15910": 0.2
+    "15910": 0.2,
+    "51851": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -418916,6 +418956,9 @@
     348,
     200,
     366
+  ],
+  "uid": [
+    26016
   ]
 },{
   "id": 15903,
@@ -439633,11 +439676,12 @@
     "Obvious exits: none."
   ],
   "wayto": {
-    "16154": "go sandalwood door",
+    "15889": "go sandalwood door",
     "16706": "go opal-beaded curtain"
   },
   "timeto": {
     "12745": 0.2,
+    "15889": 0.2,
     "16154": 0.2,
     "16706": 0.2
   },
@@ -467690,13 +467734,16 @@
     "Obvious exits: none."
   ],
   "wayto": {
-    "12720": "go door"
+    "12720": "go door",
+    "15892": "go wood door"
   },
   "timeto": {
-    "12720": 0.2
+    "12720": 0.2,
+    "15892": 0.2
   },
   "tags": [
     "gfraffles",
+    "raffles",
     "raffles"
   ]
 },{
@@ -486149,5 +486196,112 @@
   "timeto": {
     "51845": 0.2,
     "51847": 0.2
+  }
+},{
+  "id": 51851,
+  "title": [
+    "[[Alteration Wagon, Waiting Room]]"
+  ],
+  "description": [
+    "Bright lanterns hang from the surprisingly tall ceiling, illuminating the room below.  Silk panels draped along the walls absorb the general noise of the room, while plush cushions scattered across the polished oak floor provide seating for those awaiting their chance at working with a merchant.  A thick curtain hangs between an archway across from the door leading out."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "15902": "go door"
+  },
+  "timeto": {
+    "15902": 0.2
+  },
+  "tags": [
+    "alterations"
+  ]
+},{
+  "id": 51852,
+  "title": [
+    "[[Explorers' Outfitters, Willow Room]]"
+  ],
+  "description": [
+    "Curving willow limbs create an abstract pattern across the walls and ceiling, while thicker branches are crafted into rounded tables that seem to flow up from the polished floor.  A single piece of the same wood is used to create the arching willow doorway that leads back outside."
+  ],
+  "paths": [
+    "Obvious exits: east."
+  ],
+  "wayto": {
+    "15900": "go willow doorway"
+  },
+  "timeto": {
+    "15900": 0.2
+  }
+},{
+  "id": 51853,
+  "title": [
+    "[[The Book Wyrm, Punderful Gifts]]"
+  ],
+  "description": [
+    "Gaethzen orbs strung from the ceiling give off a soft light, illuminating the rainbow-hued dragon painted across one wall with a veritable trove of books scattered around its feet.  Beneath one of the dragon's wings is an artfully arranged display of greeting cards, the other wing is opened protectively over some tables full of books.  A small oak bench sits in the corner tucked out of the way."
+  ],
+  "paths": [
+    "Obvious exits: east."
+  ],
+  "wayto": {
+    "15896": "go dragonwood door"
+  },
+  "timeto": {
+    "15896": 0.2
+  }
+},{
+  "id": 51854,
+  "title": [
+    "[[Call Of The Wild, Showroom]]"
+  ],
+  "description": [
+    "Covering the wagon's ceiling an abundance of pine boughs have been hung to recreate the look of a forest's canopy, lending a fresh scent to the air and hiding all sources of artificial light spotlighting the displayed merchandise.  A variety of painted trees cover the walls, their muted shades of green helping to reinforce the woodland scene.  Roughly-hewn containers are carefully arranged to form paths through the room, directing shoppers through the available stock for sale."
+  ],
+  "paths": [
+    "Obvious exits: west."
+  ],
+  "wayto": {
+    "15891": "go wooden door",
+    "51856": "w"
+  },
+  "timeto": {
+    "15891": 0.2,
+    "51856": 0.2
+  }
+},{
+  "id": 51855,
+  "title": [
+    "[[Head to Toe, Showroom]]"
+  ],
+  "description": [
+    "Grey and silver silk panels frame the walls of this shop.  Stands are arranged in front of a mahogany counter polished to a high sheen that is bare except for a silver tray in one corner.  Racks behind the counter are draped with different fabrics.  Clerks talk in muted voices pointing out the mannequins and then step back to wait quietly."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "15891": "go tent flap"
+  },
+  "timeto": {
+    "15891": 0.2
+  }
+},{
+  "id": 51856,
+  "title": [
+    "[[Call Of The Wild, Fur Salon]]"
+  ],
+  "description": [
+    "Mirrors panel the walls, their reflective surface framed by pooling drapes of white gauze.  Tiny crystals sprinkled along the sheer fabric gives it the glittering effect of freshly fallen snow, which is repeated in a thick covering of plush carpet on the floor.  Statuesque racks, fashioned from an assortment of materials, show the available merchandise to its best advantage."
+  ],
+  "paths": [
+    "Obvious exits: east."
+  ],
+  "wayto": {
+    "51854": "e"
+  },
+  "timeto": {
+    "51854": 0.2
   }
 }]
