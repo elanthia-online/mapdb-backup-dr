@@ -418652,15 +418652,13 @@
     "15889": "northeast",
     "15891": "e",
     "15893": "south",
-    "50972": "go tent",
-    "51009": "go wooden wagon"
+    "50972": "go tent"
   },
   "timeto": {
     "15889": 0.2,
     "15891": 0.2,
     "15893": 0.2,
-    "50972": 0.2,
-    "51009": 0.2
+    "50972": 0.2
   },
   "image": "Zoluren, Crossing Amusement Pier.png",
   "image_coords": [
@@ -467734,12 +467732,10 @@
     "Obvious exits: none."
   ],
   "wayto": {
-    "12720": "go door",
-    "15892": "go wood door"
+    "12720": "go door"
   },
   "timeto": {
-    "12720": 0.2,
-    "15892": 0.2
+    "12720": 0.2
   },
   "tags": [
     "gfraffles",
