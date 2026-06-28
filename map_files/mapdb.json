@@ -60793,11 +60793,13 @@
   ],
   "wayto": {
     "2039": "northwest",
-    "2059": "southeast"
+    "2059": "southeast",
+    "51857": "go silverbirch boutique"
   },
   "timeto": {
     "2039": 0.2,
-    "2059": 0.2
+    "2059": 0.2,
+    "51857": 0.2
   },
   "image": "zoluren-61-leth_deriel-1377283956.png",
   "image_coords": [
@@ -60805,6 +60807,9 @@
     712,
     442,
     728
+  ],
+  "uid": [
+    100070
   ]
 },{
   "id": 2049,
@@ -238557,8 +238562,8 @@
     620
   ],
   "tags": [
-    "ods",
-    "ODS"
+    "ODS",
+    "ods"
   ]
 },{
   "id": 8507,
@@ -314791,8 +314796,8 @@
     245
   ],
   "tags": [
-    "Atladene",
-    "atladene"
+    "atladene",
+    "Atladene"
   ]
 },{
   "id": 11537,
@@ -355239,8 +355244,8 @@
     "7933": 0.2
   },
   "tags": [
-    "rkm",
     "RKM",
+    "rkm",
     "rkm curios"
   ]
 },{
@@ -389626,8 +389631,8 @@
     "7867": 0.2
   },
   "tags": [
-    "jaks",
-    "JAKS"
+    "JAKS",
+    "jaks"
   ]
 },{
   "id": 14727,
@@ -486300,4 +486305,24 @@
   "timeto": {
     "51854": 0.2
   }
+},{
+  "id": 51857,
+  "title": [
+    "[[Wild Couture, Atelier]]"
+  ],
+  "description": [
+    "The exclusive boutique is nestled inside an enormous silverbirch tree with pale bark walls and carpeted by a lush profusion of soft green moss.  Strewn with glowing gaethzen leaves, a waxed satin canopy is draped across the tree's taller branches, illuminating a collection of delicate silver displays."
+  ],
+  "paths": [
+    "Obvious exits: out."
+  ],
+  "wayto": {
+    "2048": "out"
+  },
+  "timeto": {
+    "2048": 0.2
+  },
+  "uid": [
+    103301
+  ]
 }]
