@@ -238562,8 +238562,8 @@
     620
   ],
   "tags": [
-    "ODS",
-    "ods"
+    "ods",
+    "ODS"
   ]
 },{
   "id": 8507,
@@ -314796,8 +314796,8 @@
     245
   ],
   "tags": [
-    "atladene",
-    "Atladene"
+    "Atladene",
+    "atladene"
   ]
 },{
   "id": 11537,
@@ -355244,8 +355244,8 @@
     "7933": 0.2
   },
   "tags": [
-    "RKM",
     "rkm",
+    "RKM",
     "rkm curios"
   ]
 },{
@@ -389631,8 +389631,8 @@
     "7867": 0.2
   },
   "tags": [
-    "JAKS",
-    "jaks"
+    "jaks",
+    "JAKS"
   ]
 },{
   "id": 14727,
@@ -443813,13 +443813,18 @@
   "wayto": {
     "16875": "go derelict gate",
     "16877": "north",
-    "16878": "west"
+    "16878": "west",
+    "51858": "go work"
   },
   "timeto": {
     "16875": 0.2,
     "16877": 0.2,
-    "16878": 0.2
-  }
+    "16878": 0.2,
+    "51858": 0.2
+  },
+  "uid": [
+    234101
+  ]
 },{
   "id": 16877,
   "title": [
@@ -486324,5 +486329,183 @@
   },
   "uid": [
     103301
+  ]
+},{
+  "id": 51858,
+  "title": [
+    "[[Workshop, Vestibule]]"
+  ],
+  "description": [
+    "Round pegs stick out from one side wall, set into the weathered planks to provide a place to hang cloaks or aprons.  A cloak, dusty and almost rotted away from age, still hangs forlornly as if waiting for its owner.  Dust covers the floor and settles into the gaps between the floorboards."
+  ],
+  "paths": [
+    "Obvious exits: east."
+  ],
+  "wayto": {
+    "16876": "go door",
+    "51859": "e"
+  },
+  "timeto": {
+    "16876": 0.2,
+    "51859": 0.2
+  },
+  "uid": [
+    234201
+  ]
+},{
+  "id": 51859,
+  "title": [
+    "[[Workroom, Workspace]]"
+  ],
+  "description": [
+    "Open floorspace is ringed by dust-covered equipment, some of it decayed into piles of rotting or rusted parts that are utterly incapable of identification.  Dried leaves mix with the dirt and filth to form a thick layer of detrius on the floors.  A few holes in the roof show where the leaves gained entrance."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, west."
+  ],
+  "wayto": {
+    "51858": "w",
+    "51860": "n",
+    "51861": "ne",
+    "51862": "e",
+    "51863": "se",
+    "51864": "s"
+  },
+  "timeto": {
+    "51858": 0.2,
+    "51860": 0.2,
+    "51861": 0.2,
+    "51862": 0.2,
+    "51863": 0.2,
+    "51864": 0.2
+  },
+  "uid": [
+    234203
+  ]
+},{
+  "id": 51860,
+  "title": [
+    "[[Workroom, Workspace]]"
+  ],
+  "description": [
+    "Racks containing dusty tools stand against the walls.  A few worktables stand nearby with equipment haphazardly scattered atop them as if abandoned in mid-task.  High overhead, the exposed roof beams provide a staging area for the complex lattice of spiderwebs."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south."
+  ],
+  "wayto": {
+    "51859": "s",
+    "51861": "e",
+    "51862": "se"
+  },
+  "timeto": {
+    "51859": 0.2,
+    "51861": 0.2,
+    "51862": 0.2
+  },
+  "uid": [
+    234202
+  ]
+},{
+  "id": 51861,
+  "title": [
+    "[[Workroom, Storage]]"
+  ],
+  "description": [
+    "Bins and barrels hold the rotting and decaying remains of materials once used in this working area.  A few burlap sacks lie in crumbling heaps against the walls, what they once contained long since decayed away."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west."
+  ],
+  "wayto": {
+    "51859": "sw",
+    "51860": "w",
+    "51862": "s"
+  },
+  "timeto": {
+    "51859": 0.2,
+    "51860": 0.2,
+    "51862": 0.2
+  },
+  "uid": [
+    234205
+  ]
+},{
+  "id": 51862,
+  "title": [
+    "[[Workroom, Workspace]]"
+  ],
+  "description": [
+    "Pegs on one wall hold the remains of tools, although a few have lost handles or other parts.  Dangling ropes hang from the roofbeams, their exact purpose long since lost to time.  Dust covers everything in a thick shroud of concealing grime and grit."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west, northwest."
+  ],
+  "wayto": {
+    "51859": "w",
+    "51860": "nw",
+    "51861": "n",
+    "51862": "e",
+    "51863": "s",
+    "51864": "sw"
+  },
+  "timeto": {
+    "51859": 0.2,
+    "51860": 0.2,
+    "51861": 0.2,
+    "51862": 0.2,
+    "51863": 0.2,
+    "51864": 0.2
+  },
+  "uid": [
+    234206
+  ]
+},{
+  "id": 51863,
+  "title": [
+    "[[Workroom, Workspace]]"
+  ],
+  "description": [
+    "Two sawhorses are set up in the middle of the area, spaced far apart.  A rusting saw leans against one leg, its blade warped and bent from its long wait.  Two lanterns, long since guttered out, hang suspended on chains from the exposed beams overhead."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest."
+  ],
+  "wayto": {
+    "51859": "nw",
+    "51862": "n",
+    "51864": "w"
+  },
+  "timeto": {
+    "51859": 0.2,
+    "51862": 0.2,
+    "51864": 0.2
+  },
+  "uid": [
+    234207
+  ]
+},{
+  "id": 51864,
+  "title": [
+    "[[Workroom, Storage]]"
+  ],
+  "description": [
+    "Once these shelves held parts and materials for use in the workshop, but now they are covered with corroded and crumbling lumps.  The shelving itself shows signs of disrepair, with some uprights leaning dangerously and others appearing ready to buckle at any moment."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east."
+  ],
+  "wayto": {
+    "51859": "n",
+    "51862": "ne",
+    "51863": "e"
+  },
+  "timeto": {
+    "51859": 0.2,
+    "51862": 0.2,
+    "51863": 0.2
+  },
+  "uid": [
+    234204
   ]
 }]
