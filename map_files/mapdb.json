@@ -47038,10 +47038,12 @@
     "Obvious paths: up."
   ],
   "wayto": {
-    "1565": "up"
+    "1565": "up",
+    "51865": "go narrow crack"
   },
   "timeto": {
-    "1565": 0.2
+    "1565": 0.2,
+    "51865": 0.2
   },
   "image": "Zoluren, 5, Rocky Outcrop.png",
   "image_coords": [
@@ -47052,6 +47054,9 @@
   ],
   "tags": [
     "dire_bears"
+  ],
+  "uid": [
+    222019
   ]
 },{
   "id": 1567,
@@ -57344,7 +57349,7 @@
   ],
   "wayto": {
     "1928": "north",
-    "1930": "southeast"
+    "1930": "se"
   },
   "timeto": {
     "1928": 0.2,
@@ -57361,6 +57366,9 @@
     "grass",
     "rock",
     "stick"
+  ],
+  "uid": [
+    231101
   ]
 },{
   "id": 1930,
@@ -57374,8 +57382,8 @@
     "Obvious paths: southwest, northwest."
   ],
   "wayto": {
-    "1929": "northwest",
-    "1931": "southwest",
+    "1929": "nw",
+    "1931": "sw",
     "9365": "go shadows"
   },
   "timeto": {
@@ -57393,6 +57401,9 @@
   "tags": [
     "grass",
     "rock"
+  ],
+  "uid": [
+    231102
   ]
 },{
   "id": 1931,
@@ -57406,7 +57417,7 @@
     "Obvious paths: northeast, south."
   ],
   "wayto": {
-    "1930": "northeast",
+    "1930": "ne",
     "1932": "south"
   },
   "timeto": {
@@ -57423,6 +57434,9 @@
   "tags": [
     "grass",
     "rock"
+  ],
+  "uid": [
+    231103
   ]
 },{
   "id": 1932,
@@ -86479,6 +86493,9 @@
     311,
     287,
     327
+  ],
+  "uid": [
+    265004
   ]
 },{
   "id": 2962,
@@ -86571,11 +86588,13 @@
   ],
   "wayto": {
     "2961": "west",
-    "12964": "go stream"
+    "12964": "go stream",
+    "12992": "go bank"
   },
   "timeto": {
     "2961": 0.2,
-    "12964": 0.2
+    "12964": 0.2,
+    "12992": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -86583,6 +86602,9 @@
     311,
     319,
     327
+  ],
+  "uid": [
+    265005
   ]
 },{
   "id": 2966,
@@ -238562,8 +238584,8 @@
     620
   ],
   "tags": [
-    "ods",
-    "ODS"
+    "ODS",
+    "ods"
   ]
 },{
   "id": 8507,
@@ -261020,8 +261042,8 @@
   ],
   "wayto": {
     "9351": "go deviating trail",
-    "9353": "west",
-    "9355": "northeast"
+    "9353": "w",
+    "9355": "ne"
   },
   "timeto": {
     "9351": 0.2,
@@ -261050,8 +261072,8 @@
     "Obvious paths: east, west."
   ],
   "wayto": {
-    "9352": "east",
-    "9354": "west"
+    "9352": "e",
+    "9354": "w"
   },
   "timeto": {
     "9352": 0.2,
@@ -261063,6 +261085,9 @@
     762,
     707,
     775
+  ],
+  "uid": [
+    415302
   ]
 },{
   "id": 9354,
@@ -261076,7 +261101,7 @@
     "Obvious paths: east."
   ],
   "wayto": {
-    "9353": "east",
+    "9353": "e",
     "10040": "go shallow ford"
   },
   "timeto": {
@@ -261089,6 +261114,9 @@
     764,
     672,
     777
+  ],
+  "uid": [
+    415301
   ]
 },{
   "id": 9355,
@@ -261102,8 +261130,8 @@
     "Obvious paths: north, southwest."
   ],
   "wayto": {
-    "9352": "southwest",
-    "9356": "north",
+    "9352": "sw",
+    "9356": "n",
     "13234": "go broken shrine"
   },
   "timeto": {
@@ -261133,8 +261161,8 @@
     "Obvious paths: north, south."
   ],
   "wayto": {
-    "9355": "south",
-    "9357": "north"
+    "9355": "s",
+    "9357": "n"
   },
   "timeto": {
     "9355": 0.2,
@@ -261162,7 +261190,7 @@
     "Obvious paths: south."
   ],
   "wayto": {
-    "9356": "south",
+    "9356": "s",
     "9358": "go narrow path"
   },
   "timeto": {
@@ -261175,6 +261203,9 @@
     656,
     786,
     669
+  ],
+  "uid": [
+    415306
   ]
 },{
   "id": 9358,
@@ -261201,6 +261232,9 @@
     611,
     741,
     624
+  ],
+  "uid": [
+    415307
   ]
 },{
   "id": 9359,
@@ -261215,8 +261249,8 @@
     "Obvious paths: southwest, northwest."
   ],
   "wayto": {
-    "9358": "southwest",
-    "9360": "northwest"
+    "9358": "sw",
+    "9360": "nw"
   },
   "timeto": {
     "9358": 0.2,
@@ -261228,6 +261262,9 @@
     567,
     786,
     580
+  ],
+  "uid": [
+    415308
   ]
 },{
   "id": 9360,
@@ -261241,8 +261278,8 @@
     "Obvious paths: southeast, northwest."
   ],
   "wayto": {
-    "9359": "southeast",
-    "9361": "northwest"
+    "9359": "se",
+    "9361": "nw"
   },
   "timeto": {
     "9359": 0.2,
@@ -261254,6 +261291,9 @@
     520,
     739,
     533
+  ],
+  "uid": [
+    415309
   ]
 },{
   "id": 9361,
@@ -261268,8 +261308,8 @@
     "Obvious paths: southeast, northwest."
   ],
   "wayto": {
-    "9360": "southeast",
-    "19202": "northwest"
+    "9360": "se",
+    "19202": "nw"
   },
   "timeto": {
     "9360": 0.2,
@@ -261281,6 +261321,9 @@
     500,
     718,
     513
+  ],
+  "uid": [
+    415310
   ]
 },{
   "id": 9362,
@@ -261294,8 +261337,8 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "9363": "southwest",
-    "19202": "east"
+    "9363": "sw",
+    "19202": "e"
   },
   "timeto": {
     "9363": 0.2,
@@ -261307,6 +261350,9 @@
     479,
     670,
     492
+  ],
+  "uid": [
+    415312
   ]
 },{
   "id": 9363,
@@ -261321,8 +261367,8 @@
     "Obvious paths: northeast, northwest."
   ],
   "wayto": {
-    "9362": "northeast",
-    "9364": "northwest"
+    "9362": "ne",
+    "9364": "nw"
   },
   "timeto": {
     "9362": 0.2,
@@ -261334,6 +261380,9 @@
     509,
     639,
     522
+  ],
+  "uid": [
+    415313
   ]
 },{
   "id": 9364,
@@ -261347,8 +261396,8 @@
     "Obvious paths: southeast, west."
   ],
   "wayto": {
-    "9363": "southeast",
-    "9365": "west"
+    "9363": "se",
+    "9365": "w"
   },
   "timeto": {
     "9363": 0.2,
@@ -261360,6 +261409,9 @@
     477,
     607,
     490
+  ],
+  "uid": [
+    415314
   ]
 },{
   "id": 9365,
@@ -261376,7 +261428,7 @@
   "wayto": {
     "1930": "go open",
     "9364": "go weed-choked trail",
-    "19201": "south"
+    "19201": "s"
   },
   "timeto": {
     "1930": 0.2,
@@ -261389,6 +261441,9 @@
     478,
     397,
     491
+  ],
+  "uid": [
+    415001
   ]
 },{
   "id": 9366,
@@ -261403,7 +261458,7 @@
     "Obvious paths: southwest, northwest."
   ],
   "wayto": {
-    "9367": "southwest",
+    "9367": "sw",
     "19201": "nw"
   },
   "timeto": {
@@ -261419,6 +261474,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415003
   ]
 },{
   "id": 9367,
@@ -261434,11 +261492,12 @@
   ],
   "wayto": {
     "9366": "ne",
-    "9368": "go deer trail"
+    "51871": "go deer trail"
   },
   "timeto": {
     "9366": 0.2,
-    "9368": 0.2
+    "9368": 0.2,
+    "51871": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -261449,6 +261508,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415105
   ]
 },{
   "id": 9368,
@@ -278723,8 +278785,8 @@
     "Obvious paths: east, west."
   ],
   "wayto": {
-    "9354": "east",
-    "10041": "west",
+    "9354": "e",
+    "10041": "w",
     "14183": "go sheltered cove"
   },
   "timeto": {
@@ -278738,6 +278800,9 @@
     762,
     620,
     775
+  ],
+  "uid": [
+    415207
   ]
 },{
   "id": 10041,
@@ -278752,8 +278817,8 @@
   ],
   "wayto": {
     "10040": "go shallow ford",
-    "10042": "southeast",
-    "10043": "west"
+    "10042": "se",
+    "10043": "w"
   },
   "timeto": {
     "10040": 0.2,
@@ -278766,6 +278831,9 @@
     764,
     569,
     777
+  ],
+  "uid": [
+    415205
   ]
 },{
   "id": 10042,
@@ -278779,7 +278847,7 @@
     "Obvious paths: northwest."
   ],
   "wayto": {
-    "10041": "northwest"
+    "10041": "nw"
   },
   "timeto": {
     "10041": 0.2
@@ -278790,6 +278858,9 @@
     815,
     619,
     828
+  ],
+  "uid": [
+    415206
   ]
 },{
   "id": 10043,
@@ -278803,8 +278874,8 @@
     "Obvious paths: north, east."
   ],
   "wayto": {
-    "10041": "east",
-    "10044": "north"
+    "10041": "e",
+    "10044": "n"
   },
   "timeto": {
     "10041": 0.2,
@@ -278816,6 +278887,9 @@
     764,
     543,
     777
+  ],
+  "uid": [
+    415204
   ]
 },{
   "id": 10044,
@@ -278829,8 +278903,8 @@
     "Obvious paths: north, south."
   ],
   "wayto": {
-    "10043": "south",
-    "10045": "north"
+    "10043": "s",
+    "10045": "n"
   },
   "timeto": {
     "10043": 0.2,
@@ -278842,6 +278916,9 @@
     725,
     543,
     738
+  ],
+  "uid": [
+    415203
   ]
 },{
   "id": 10045,
@@ -278855,8 +278932,8 @@
     "Obvious paths: south, northwest."
   ],
   "wayto": {
-    "10044": "south",
-    "10046": "northwest"
+    "10044": "s",
+    "10046": "nw"
   },
   "timeto": {
     "10044": 0.2,
@@ -278868,6 +278945,9 @@
     687,
     542,
     700
+  ],
+  "uid": [
+    415202
   ]
 },{
   "id": 10046,
@@ -278881,12 +278961,13 @@
     "Obvious paths: southeast."
   ],
   "wayto": {
-    "9368": "go dirt path",
-    "10045": "southeast"
+    "10045": "se",
+    "51871": "go dirt path"
   },
   "timeto": {
     "9368": 0.2,
-    "10045": 0.2
+    "10045": 0.2,
+    "51871": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -278894,6 +278975,9 @@
     652,
     505,
     665
+  ],
+  "uid": [
+    415201
   ]
 },{
   "id": 10047,
@@ -278907,12 +278991,13 @@
     "Obvious paths: west."
   ],
   "wayto": {
-    "9371": "climb embankment",
-    "10048": "west"
+    "10048": "w",
+    "51874": "climb embankment"
   },
   "timeto": {
     "9371": 0.2,
-    "10048": 0.2
+    "10048": 0.2,
+    "51874": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -278920,6 +279005,9 @@
     813,
     383,
     826
+  ],
+  "uid": [
+    415019
   ]
 },{
   "id": 10048,
@@ -278933,8 +279021,8 @@
     "Obvious paths: east, west."
   ],
   "wayto": {
-    "10047": "east",
-    "10049": "west"
+    "10047": "e",
+    "10049": "w"
   },
   "timeto": {
     "10047": 0.2,
@@ -278946,6 +279034,9 @@
     814,
     355,
     827
+  ],
+  "uid": [
+    415018
   ]
 },{
   "id": 10049,
@@ -278960,8 +279051,8 @@
     "Obvious paths: east, northwest."
   ],
   "wayto": {
-    "10048": "east",
-    "10050": "northwest"
+    "10048": "e",
+    "10050": "nw"
   },
   "timeto": {
     "10048": 0.2,
@@ -278987,12 +279078,13 @@
     "Obvious paths: north, southeast."
   ],
   "wayto": {
-    "10049": "southeast",
-    "10051": "north"
+    "10049": "se",
+    "51873": "n"
   },
   "timeto": {
     "10049": 0.2,
-    "10051": 0.2
+    "10051": 0.2,
+    "51873": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -279000,6 +279092,9 @@
     790,
     299,
     803
+  ],
+  "uid": [
+    415016
   ]
 },{
   "id": 10051,
@@ -279094,12 +279189,13 @@
     "Obvious paths: north."
   ],
   "wayto": {
-    "10053": "climb roots",
-    "10055": "north"
+    "10055": "north",
+    "51869": "climb roots"
   },
   "timeto": {
     "10053": 0.2,
-    "10055": 0.2
+    "10055": 0.2,
+    "51869": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -279110,6 +279206,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415012
   ]
 },{
   "id": 10055,
@@ -279124,7 +279223,7 @@
     "Obvious paths: northeast, south."
   ],
   "wayto": {
-    "10054": "south",
+    "10054": "s",
     "10056": "northeast"
   },
   "timeto": {
@@ -279140,6 +279239,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415011
   ]
 },{
   "id": 10056,
@@ -279154,7 +279256,7 @@
     "Obvious paths: northeast, southwest."
   ],
   "wayto": {
-    "10055": "southwest",
+    "10055": "sw",
     "10057": "northeast"
   },
   "timeto": {
@@ -279170,6 +279272,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415010
   ]
 },{
   "id": 10057,
@@ -279184,7 +279289,7 @@
     "Obvious paths: northeast, southwest."
   ],
   "wayto": {
-    "10056": "southwest",
+    "10056": "sw",
     "19201": "northeast"
   },
   "timeto": {
@@ -279200,6 +279305,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415004
   ]
 },{
   "id": 10058,
@@ -314796,8 +314904,8 @@
     245
   ],
   "tags": [
-    "Atladene",
-    "atladene"
+    "atladene",
+    "Atladene"
   ]
 },{
   "id": 11537,
@@ -349567,6 +349675,9 @@
     531,
     496,
     542
+  ],
+  "uid": [
+    265073
   ]
 },{
   "id": 12975,
@@ -349593,6 +349704,9 @@
     554,
     521,
     567
+  ],
+  "uid": [
+    265072
   ]
 },{
   "id": 12976,
@@ -349621,6 +349735,9 @@
     578,
     546,
     593
+  ],
+  "uid": [
+    265071
   ]
 },{
   "id": 12977,
@@ -349634,9 +349751,10 @@
     "Obvious paths: northwest."
   ],
   "wayto": {
-    "12976": "nw"
+    "12975": "nw"
   },
   "timeto": {
+    "12975": 0.2,
     "12976": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
@@ -349645,6 +349763,9 @@
     602,
     567,
     614
+  ],
+  "uid": [
+    265070
   ]
 },{
   "id": 12978,
@@ -349659,11 +349780,15 @@
   ],
   "wayto": {
     "12974": "go log",
-    "12979": "e"
+    "12979": "e",
+    "12983": "ne",
+    "12990": "nw"
   },
   "timeto": {
     "12974": 0.2,
-    "12979": 0.2
+    "12979": 0.2,
+    "12983": 0.2,
+    "12990": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -349671,6 +349796,9 @@
     867,
     474,
     878
+  ],
+  "uid": [
+    265084
   ]
 },{
   "id": 12979,
@@ -349697,6 +349825,9 @@
     867,
     500,
     877
+  ],
+  "uid": [
+    265107
   ]
 },{
   "id": 12980,
@@ -349723,6 +349854,9 @@
     904,
     499,
     918
+  ],
+  "uid": [
+    265106
   ]
 },{
   "id": 12981,
@@ -349751,6 +349885,9 @@
     866,
     540,
     878
+  ],
+  "uid": [
+    265104
   ]
 },{
   "id": 12982,
@@ -349775,6 +349912,9 @@
     906,
     540,
     917
+  ],
+  "uid": [
+    265105
   ]
 },{
   "id": 12983,
@@ -349788,11 +349928,13 @@
     "Obvious paths: north, south, southwest, northwest."
   ],
   "wayto": {
+    "12978": "sw",
     "12981": "s",
     "12984": "n",
     "12985": "nw"
   },
   "timeto": {
+    "12978": 0.2,
     "12981": 0.2,
     "12984": 0.2,
     "12985": 0.2
@@ -349803,6 +349945,9 @@
     800,
     540,
     811
+  ],
+  "uid": [
+    265103
   ]
 },{
   "id": 12984,
@@ -349830,6 +349975,9 @@
     678,
     543,
     689
+  ],
+  "uid": [
+    265102
   ]
 },{
   "id": 12985,
@@ -349845,12 +349993,14 @@
   "wayto": {
     "12983": "se",
     "12986": "e",
-    "12988": "n"
+    "12988": "n",
+    "12990": "sw"
   },
   "timeto": {
     "12983": 0.2,
     "12986": 0.2,
-    "12988": 0.2
+    "12988": 0.2,
+    "12990": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -349861,6 +350011,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265100
   ]
 },{
   "id": 12986,
@@ -349887,6 +350040,9 @@
     679,
     502,
     690
+  ],
+  "uid": [
+    265101
   ]
 },{
   "id": 12987,
@@ -349915,6 +350071,9 @@
     596,
     460,
     603
+  ],
+  "uid": [
+    265098
   ]
 },{
   "id": 12988,
@@ -349930,13 +350089,15 @@
   "wayto": {
     "12985": "s",
     "12987": "ne",
-    "12989": "sw"
+    "12989": "sw",
+    "12999": "nw"
   },
   "timeto": {
     "12985": 0.2,
     "12987": 0.2,
     "12988": 0.2,
-    "12989": 0.2
+    "12989": 0.2,
+    "12999": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -349947,6 +350108,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265099
   ]
 },{
   "id": 12989,
@@ -349961,6 +350125,7 @@
   ],
   "wayto": {
     "12988": "ne",
+    "12990": "se",
     "12991": "nw"
   },
   "timeto": {
@@ -349974,6 +350139,9 @@
     722,
     329,
     736
+  ],
+  "uid": [
+    265086
   ]
 },{
   "id": 12990,
@@ -349987,10 +350155,16 @@
     "Obvious paths: northeast, southeast, southwest, northwest."
   ],
   "wayto": {
-    "12989": "nw"
+    "12978": "se",
+    "12985": "ne",
+    "12989": "nw",
+    "12993": "sw"
   },
   "timeto": {
-    "12989": 0.2
+    "12978": 0.2,
+    "12985": 0.2,
+    "12989": 0.2,
+    "12993": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -349998,6 +350172,9 @@
     746,
     351,
     756
+  ],
+  "uid": [
+    265085
   ]
 },{
   "id": 12991,
@@ -350011,12 +350188,14 @@
     "Obvious paths: northeast, southeast, southwest."
   ],
   "wayto": {
-    "12989": null,
-    "12992": "n"
+    "12989": "se",
+    "12992": "sw",
+    "12996": "ne"
   },
   "timeto": {
     "12989": 0.2,
-    "12992": 0.2
+    "12992": 0.2,
+    "12996": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -350027,6 +350206,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265087
   ]
 },{
   "id": 12992,
@@ -350040,10 +350222,12 @@
     "Obvious paths: north, northeast."
   ],
   "wayto": {
-    "12991": "sw",
+    "2965": "go bank",
+    "12991": "ne",
     "12993": "n"
   },
   "timeto": {
+    "2965": 0.2,
     "12991": 0.2,
     "12993": 0.2
   },
@@ -350056,6 +350240,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265088
   ]
 },{
   "id": 12993,
@@ -350069,10 +350256,12 @@
     "Obvious paths: north, northeast, south."
   ],
   "wayto": {
+    "12990": null,
     "12992": "s",
     "12994": "n"
   },
   "timeto": {
+    "12990": 0.2,
     "12992": 0.2,
     "12994": 0.2
   },
@@ -350082,6 +350271,9 @@
     650,
     207,
     662
+  ],
+  "uid": [
+    265089
   ]
 },{
   "id": 12994,
@@ -350108,6 +350300,9 @@
     614,
     208,
     626
+  ],
+  "uid": [
+    265090
   ]
 },{
   "id": 12995,
@@ -350121,11 +350316,14 @@
     "Obvious paths: east, southeast, southwest."
   ],
   "wayto": {
+    "12993": ";e echo \"#{Room.current.id}:#{Room.current.wayto}\"",
     "12994": "sw",
     "12995": "w",
-    "12997": "se"
+    "12996": "se",
+    "12997": "e"
   },
   "timeto": {
+    "12993": 0.2,
     "12994": 0.2,
     "12995": 0.2,
     "12996": 0.2,
@@ -350137,6 +350335,9 @@
     536,
     288,
     548
+  ],
+  "uid": [
+    265091
   ]
 },{
   "id": 12996,
@@ -350150,10 +350351,12 @@
     "Obvious paths: east, southwest, northwest."
   ],
   "wayto": {
+    "12991": "sw",
     "12995": "nw",
-    "12999": null
+    "12999": "e"
   },
   "timeto": {
+    "12991": 0.2,
     "12995": 0.2,
     "12999": 0.2
   },
@@ -350166,6 +350369,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265095
   ]
 },{
   "id": 12997,
@@ -350180,10 +350386,12 @@
   ],
   "wayto": {
     "12987": "nw",
+    "12995": "w",
     "12998": "se"
   },
   "timeto": {
     "12987": 0.2,
+    "12995": 0.2,
     "12998": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
@@ -350192,6 +350400,9 @@
     534,
     327,
     549
+  ],
+  "uid": [
+    265092
   ]
 },{
   "id": 12998,
@@ -350218,6 +350429,9 @@
     558,
     349,
     569
+  ],
+  "uid": [
+    265093
   ]
 },{
   "id": 12999,
@@ -350232,6 +350446,7 @@
   ],
   "wayto": {
     "12988": "se",
+    "12996": "w",
     "12998": "nw",
     "13000": "ne",
     "13001": "e"
@@ -350252,6 +350467,9 @@
   ],
   "tags": [
     "moss_meys_leth"
+  ],
+  "uid": [
+    265094
   ]
 },{
   "id": 13000,
@@ -350266,11 +350484,13 @@
   ],
   "wayto": {
     "12987": "se",
-    "12999": "sw"
+    "12999": "sw",
+    "13001": "e"
   },
   "timeto": {
     "12987": 0.2,
-    "12999": 0.2
+    "12999": 0.2,
+    "13001": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
   "image_coords": [
@@ -350278,6 +350498,9 @@
     556,
     394,
     566
+  ],
+  "uid": [
+    265096
   ]
 },{
   "id": 13001,
@@ -350291,9 +350514,11 @@
     "Obvious paths: southeast, west."
   ],
   "wayto": {
+    "12987": "se",
     "13000": "w"
   },
   "timeto": {
+    "12987": 0.2,
     "13000": 0.2
   },
   "image": "Zoluren, 61a, Boggy Marsh of Leth.gif",
@@ -350302,6 +350527,9 @@
     554,
     419,
     567
+  ],
+  "uid": [
+    265097
   ]
 },{
   "id": 13002,
@@ -355244,8 +355472,8 @@
     "7933": 0.2
   },
   "tags": [
-    "rkm",
     "RKM",
+    "rkm",
     "rkm curios"
   ]
 },{
@@ -355667,6 +355895,9 @@
     609,
     677,
     622
+  ],
+  "uid": [
+    415320
   ]
 },{
   "id": 13235,
@@ -389631,8 +389862,8 @@
     "7867": 0.2
   },
   "tags": [
-    "jaks",
-    "JAKS"
+    "JAKS",
+    "jaks"
   ]
 },{
   "id": 14727,
@@ -454249,12 +454480,13 @@
     "Obvious paths: northwest."
   ],
   "wayto": {
-    "9371": "northwest"
+    "51874": "nw"
   },
   "timeto": {
     "": 0.2,
     "9371": 0.2,
-    "19201": 0.2
+    "19201": 0.2,
+    "51874": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -454262,6 +454494,9 @@
     794,
     464,
     807
+  ],
+  "uid": [
+    415110
   ]
 },{
   "id": 19201,
@@ -454275,9 +454510,9 @@
     "Obvious paths: north, southeast, southwest."
   ],
   "wayto": {
-    "9365": "north",
-    "9366": "southeast",
-    "10057": "southwest"
+    "9365": "n",
+    "9366": "se",
+    "10057": "sw"
   },
   "timeto": {
     "9365": 0.2,
@@ -454293,6 +454528,9 @@
   ],
   "tags": [
     "putrid_tree_snake"
+  ],
+  "uid": [
+    415002
   ]
 },{
   "id": 19202,
@@ -454306,8 +454544,8 @@
     "Obvious paths: southeast, west."
   ],
   "wayto": {
-    "9361": "southeast",
-    "9362": "west"
+    "9361": "se",
+    "9362": "w"
   },
   "timeto": {
     "9361": 0.2,
@@ -454319,6 +454557,9 @@
     478,
     697,
     491
+  ],
+  "uid": [
+    415311
   ]
 },{
   "id": 19204,
@@ -486507,5 +486748,261 @@
   },
   "uid": [
     234204
+  ]
+},{
+  "id": 51865,
+  "title": [
+    "[[Enclosed Pathway, Cavern]]"
+  ],
+  "description": [
+    "A tight pathway crushes all around, the rock face revealing deep cracks and sparkling minerals.  A breathless sigh can be felt ahead as the air is pulled forward, stirring the dust around your feet.  Something shimmers in the air, and there is an odd pressure behind your eyes."
+  ],
+  "paths": [
+    "Obvious exits: west."
+  ],
+  "wayto": {
+    "1566": "go narrow crack",
+    "51866": "w"
+  },
+  "timeto": {
+    "1566": 0.2,
+    "51866": 0.2
+  }
+},{
+  "id": 51866,
+  "title": [
+    "[[Enclosed Pathway, Cavern]]"
+  ],
+  "description": [
+    "The pathway narrows, making it difficult to squeeze forward.  The walls are brecciated and catch at your clothing.  Faint whispers angrily echo ahead."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest."
+  ],
+  "wayto": {
+    "51865": "e",
+    "51867": "nw"
+  },
+  "timeto": {
+    "51865": 0.2,
+    "51867": 0.2
+  }
+},{
+  "id": 51867,
+  "title": [
+    "[[Crushing Pathway, Cavern]]"
+  ],
+  "description": [
+    "There is barely enough space to progress along the pathway.  Thin branches writhe through cracks in the tunnel, grasping at you.  A repeated command beckons you to continue on, but you cannot remember the exact words."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast."
+  ],
+  "wayto": {
+    "51866": "se",
+    "51868": "n"
+  },
+  "timeto": {
+    "51866": 0.2,
+    "51868": 0.2
+  }
+},{
+  "id": 51868,
+  "title": [
+    "[[At the foot of the Ziggurat, Cavern]]"
+  ],
+  "description": [
+    "A massive cavern stretches in all directions, wide and large enough to engulf a massive ziggurat that stretches upward, an enormous stairwell leading to the top.  The gigantic steps are clearly for something greater than a mortal such as yourself, and the steps are well worn in the middle.  The ziggurat is without adornment, save a single strip of unknown symbols written in a tight script along the center of the staircase.  The cavern walls seethe with writhing branches, which glows with a gentle but steady light.  Nearby stands a simple plinth, atop which rests a stone and ivy crown."
+  ],
+  "paths": [
+    "Obvious exits: south."
+  ],
+  "wayto": {
+    "51867": "s"
+  },
+  "timeto": {
+    "51867": 0.2
+  }
+},{
+  "id": 51869,
+  "title": [
+    "[[Forest of Night, Outer Wood]]"
+  ],
+  "description": [
+    "A clinging white mist on the forest floor seems to tug at the feet, and the heaviness of the night air seeks to aid the strange miasma in its task."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south."
+  ],
+  "wayto": {
+    "10054": "climb roots",
+    "51870": "s",
+    "51871": "se"
+  },
+  "timeto": {
+    "10054": 0.2,
+    "51870": 0.2,
+    "51871": 0.2
+  },
+  "uid": [
+    415013
+  ]
+},{
+  "id": 51870,
+  "title": [
+    "[[Forest of Night, Outer Wood]]"
+  ],
+  "description": [
+    "Silent silvery-white mist wraps its coils about ankles and knees, moving up from where it wraps around the trees, like a snake waiting to strike."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south."
+  ],
+  "wayto": {
+    "51869": "n",
+    "51871": "ne",
+    "51872": "e",
+    "51873": "s",
+    "51875": "se"
+  },
+  "timeto": {
+    "51869": 0.2,
+    "51871": 0.2,
+    "51872": 0.2,
+    "51873": 0.2,
+    "51875": 0.2
+  },
+  "uid": [
+    415014
+  ]
+},{
+  "id": 51871,
+  "title": [
+    "[[Forest of Night, Path]]"
+  ],
+  "description": [
+    "The spreading boughs of the black ironwood trees shield what little light is available, trapping you inside the cold, shivering night.  Eerily, the one thing that keeps you from being plunged in total darkness is a layer of white fog that covers the ground and reflects a pale light of its own, just barely illuminating a river bank that rises up off to the side."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "9367": "go trail",
+    "10046": "go bank",
+    "51869": "nw",
+    "51870": "sw",
+    "51872": "se"
+  },
+  "timeto": {
+    "9367": 0.2,
+    "10046": 0.2,
+    "51869": 0.2,
+    "51870": 0.2,
+    "51872": 0.2
+  },
+  "uid": [
+    415106
+  ]
+},{
+  "id": 51872,
+  "title": [
+    "[[Forest of Night, Path]]"
+  ],
+  "description": [
+    "The trees and foliage are so black they seem to blend into each other, making it hard to distinguish separate shapes.  The only thing you can pick out is the glaring reflection of the eyes of the birds that perch in the trees, their steady, hateful gaze watching you, as if waiting expectantly for something."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west, northwest."
+  ],
+  "wayto": {
+    "51870": "w",
+    "51871": "nw",
+    "51875": "sw"
+  },
+  "timeto": {
+    "51870": 0.2,
+    "51871": 0.2,
+    "51875": 0.2
+  },
+  "uid": [
+    415107
+  ]
+},{
+  "id": 51873,
+  "title": [
+    "[[Forest of Night, Outer Wood]]"
+  ],
+  "description": [
+    "Southward, the wood appears to thin and grows ever more thickly to the north.  The path seems a bit wider here as if this is a well-traveled stretch of grass, but between the darkness of night and the foliage cover above it is difficult to make out any clear tracks."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south."
+  ],
+  "wayto": {
+    "10050": "s",
+    "51870": "n",
+    "51874": "e",
+    "51875": "ne"
+  },
+  "timeto": {
+    "10050": 0.2,
+    "51870": 0.2,
+    "51874": 0.2,
+    "51875": 0.2
+  },
+  "uid": [
+    415015
+  ]
+},{
+  "id": 51874,
+  "title": [
+    "[[Forest of Night, Path]]"
+  ],
+  "description": [
+    "The path winds unsteadily through the wood like a drunken snake with half-protruding stones for scales.  Sadly, most of these \"scales\" have long vanished, pried out as time and disuse wear down the road to a ghost of what it used to be.  Patches of deep green grass stick through the cracks in the remaining stones, the serrated edges catching at flesh and clothing.  An overgrown path, in worse state than the road you now walk, splits off from the main trail, eventually vanishing into the trees."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, west."
+  ],
+  "wayto": {
+    "10047": "climb path",
+    "19200": "se",
+    "51873": "w",
+    "51875": "n"
+  },
+  "timeto": {
+    "10047": 0.2,
+    "19200": 0.2,
+    "51873": 0.2,
+    "51875": 0.2
+  },
+  "uid": [
+    415109
+  ]
+},{
+  "id": 51875,
+  "title": [
+    "[[Forest of Night, Path]]"
+  ],
+  "description": [
+    "The bright shine of raven eyes watch you as you pass along the sylvan path.  A cold, restless white mist covers the forest floor, and from time to time a clinging tendril reaches out and seems to almost seek you out, wrapping about feet, ankles, and legs."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, southwest, northwest."
+  ],
+  "wayto": {
+    "51870": "nw",
+    "51872": "ne",
+    "51873": "sw",
+    "51874": "s"
+  },
+  "timeto": {
+    "51870": 0.2,
+    "51872": 0.2,
+    "51873": 0.2,
+    "51874": 0.2
+  },
+  "uid": [
+    415108
   ]
 }]
