@@ -29695,7 +29695,8 @@
     "wood chip",
     "yew branch",
     "yew limb",
-    "yew stick"
+    "yew stick",
+    "meta:trashcan:bucket"
   ]
 },{
   "id": 993,
@@ -162819,7 +162820,8 @@
     "torn cloth",
     "trashbin",
     "wood chip",
-    "wood splinter"
+    "wood splinter",
+    "meta:trashcan:marble statue"
   ]
 },{
   "id": 5714,
