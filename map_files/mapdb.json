@@ -29661,6 +29661,7 @@
     "maple branch",
     "maple limb",
     "maple stick",
+    "meta:trashcan:bucket",
     "moabi stick",
     "nail",
     "nexus",
@@ -29695,8 +29696,7 @@
     "wood chip",
     "yew branch",
     "yew limb",
-    "yew stick",
-    "meta:trashcan:bucket"
+    "yew stick"
   ]
 },{
   "id": 993,
@@ -162815,13 +162815,13 @@
     "meta:mapcategory:Zoluren",
     "meta:mapname:Zoluren - Crossing Empath, Cleric, Ranger, and Paladin Guilds",
     "meta:mapshortname:Crossing Empath, Cleric, Ranger, and Paladin Guilds",
+    "meta:trashcan:marble statue",
     "nexus",
     "shoe tack",
     "torn cloth",
     "trashbin",
     "wood chip",
-    "wood splinter",
-    "meta:trashcan:marble statue"
+    "wood splinter"
   ]
 },{
   "id": 5714,
@@ -261494,12 +261494,11 @@
   ],
   "wayto": {
     "9366": "ne",
-    "51871": "go deer trail"
+    "9368": "go deer trail"
   },
   "timeto": {
     "9366": 0.2,
-    "9368": 0.2,
-    "51871": 0.2
+    "9368": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -261524,17 +261523,21 @@
     "The spreading boughs of the black ironwood trees cast deep shadows over the winding path.  A slope off to one side of the path descends down toward a grassy river bank, the black waters of the river barely visible from the road, but clearly audible."
   ],
   "paths": [
-    "Obvious paths: southeast."
+    "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
     "9367": "go narrow trail",
     "9369": "southeast",
-    "10046": "go river bank"
+    "10046": "go river bank",
+    "10052": "southwest",
+    "10053": "northwest"
   },
   "timeto": {
     "9367": 0.2,
     "9369": 0.2,
-    "10046": 0.2
+    "10046": 0.2,
+    "10052": 0.2,
+    "10053": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -261542,6 +261545,9 @@
     653,
     434,
     666
+  ],
+  "uid": [
+    415106
   ]
 },{
   "id": 9369,
@@ -261553,15 +261559,17 @@
     "It is nearly as dark as night here, and certainly as gloomy.  The coloring of the bark on the ironwoods is so flat and depthless, it causes them at first glance to appear to be shadowy doorways into an unknown abyss.  Black-feathered birds perch on the trees, each and every one a carrion species.  Beady yellow eyes gaze down at you, watching, waiting."
   ],
   "paths": [
-    "Obvious paths: southwest, northwest."
+    "Obvious paths: southwest, west, northwest."
   ],
   "wayto": {
     "9368": "northwest",
-    "9370": "southwest"
+    "9370": "southwest",
+    "10052": "west"
   },
   "timeto": {
     "9368": 0.2,
-    "9370": 0.2
+    "9370": 0.2,
+    "10052": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -261569,6 +261577,9 @@
     686,
     468,
     699
+  ],
+  "uid": [
+    415107
   ]
 },{
   "id": 9370,
@@ -261580,15 +261591,19 @@
     "The forest's silent sentinels, the black ironwood trees, rise up to either side, blocking off any attempt to advance through the wood other than by the path that it seems they have deigned to allow pass through here.  The bright, restless eyes of the nesting ravens that reside within the boughs of the trees watch you as you pass, and you feel an unnatural intelligence within their cold, yellowed gaze."
   ],
   "paths": [
-    "Obvious paths: northeast, south."
+    "Obvious paths: northeast, south, southwest, northwest."
   ],
   "wayto": {
     "9369": "northeast",
-    "9371": "south"
+    "9371": "south",
+    "10051": "southwest",
+    "10052": "northwest"
   },
   "timeto": {
     "9369": 0.2,
-    "9371": 0.2
+    "9371": 0.2,
+    "10051": 0.2,
+    "10052": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -261596,6 +261611,9 @@
     717,
     436,
     730
+  ],
+  "uid": [
+    415108
   ]
 },{
   "id": 9371,
@@ -261606,16 +261624,18 @@
     "The path winds unsteadily through the wood like a drunken snake with half-protruding stones for scales.  Sadly, most of these \"scales\" have long vanished, pried out as time and disuse wear down the road to a ghost of what it used to be.  Patches of deep green grass stick through the cracks in the remaining stones, the serrated edges catching at flesh and clothing.  An overgrown path, in worse state than the road you now walk, splits off from the main trail, eventually vanishing into the trees."
   ],
   "paths": [
-    "Obvious paths: north, southeast."
+    "Obvious paths: north, southeast, west."
   ],
   "wayto": {
     "9370": "north",
     "10047": "climb overgrown path",
+    "10051": "west",
     "19200": "southeast"
   },
   "timeto": {
     "9370": 0.2,
     "10047": 0.2,
+    "10051": 0.2,
     "19200": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
@@ -261624,6 +261644,9 @@
     764,
     433,
     777
+  ],
+  "uid": [
+    415109
   ]
 },{
   "id": 9372,
@@ -278963,13 +278986,12 @@
     "Obvious paths: southeast."
   ],
   "wayto": {
-    "10045": "se",
-    "51871": "go dirt path"
+    "9368": "go dirt path",
+    "10045": "se"
   },
   "timeto": {
     "9368": 0.2,
-    "10045": 0.2,
-    "51871": 0.2
+    "10045": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -278993,13 +279015,12 @@
     "Obvious paths: west."
   ],
   "wayto": {
-    "10048": "w",
-    "51874": "climb embankment"
+    "9371": "climb embankment",
+    "10048": "w"
   },
   "timeto": {
     "9371": 0.2,
-    "10048": 0.2,
-    "51874": 0.2
+    "10048": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -279081,12 +279102,11 @@
   ],
   "wayto": {
     "10049": "se",
-    "51873": "n"
+    "10051": "north"
   },
   "timeto": {
     "10049": 0.2,
-    "10051": 0.2,
-    "51873": 0.2
+    "10051": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -279108,13 +279128,17 @@
     "The trees thin out to the south, but grow all the more thicker to the north.  The grass looks freshly trodden with tracks made by something other than deer or rabbit."
   ],
   "paths": [
-    "Obvious paths: north, south."
+    "Obvious paths: north, northeast, east, south."
   ],
   "wayto": {
+    "9370": "northeast",
+    "9371": "east",
     "10050": "south",
     "10052": "north"
   },
   "timeto": {
+    "9370": 0.2,
+    "9371": 0.2,
     "10050": 0.2,
     "10052": 0.2
   },
@@ -279124,6 +279148,9 @@
     762,
     300,
     775
+  ],
+  "uid": [
+    415015
   ]
 },{
   "id": 10052,
@@ -279135,13 +279162,19 @@
     "The delicate trill of a songbird fills the air, its song at once beautiful and sad."
   ],
   "paths": [
-    "Obvious paths: north, south."
+    "Obvious paths: north, northeast, east, southeast, south."
   ],
   "wayto": {
+    "9368": "northeast",
+    "9369": "east",
+    "9370": "southeast",
     "10051": "south",
     "10053": "north"
   },
   "timeto": {
+    "9368": 0.2,
+    "9369": 0.2,
+    "9370": 0.2,
     "10051": 0.2,
     "10053": 0.2
   },
@@ -279151,6 +279184,9 @@
     718,
     299,
     731
+  ],
+  "uid": [
+    415014
   ]
 },{
   "id": 10053,
@@ -279162,13 +279198,15 @@
     "Originating from somewhere vaguely southward, the distant trill of a songbird echoes through the wood and cuts the squawks of the roosting ravens like a knife.  The air feels thick and heavy, as if the trees shirk the burden of air and darkness and lay it instead upon the shoulders of intruders."
   ],
   "paths": [
-    "Obvious paths: south."
+    "Obvious paths: southeast, south."
   ],
   "wayto": {
+    "9368": "southeast",
     "10052": "south",
     "10054": "climb roots"
   },
   "timeto": {
+    "9368": 0.2,
     "10052": 0.2,
     "10054": 0.2
   },
@@ -279178,6 +279216,9 @@
     671,
     298,
     684
+  ],
+  "uid": [
+    415013
   ]
 },{
   "id": 10054,
@@ -279191,13 +279232,12 @@
     "Obvious paths: north."
   ],
   "wayto": {
-    "10055": "north",
-    "51869": "climb roots"
+    "10053": "climb roots",
+    "10055": "north"
   },
   "timeto": {
     "10053": 0.2,
-    "10055": 0.2,
-    "51869": 0.2
+    "10055": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -454482,13 +454522,10 @@
     "Obvious paths: northwest."
   ],
   "wayto": {
-    "51874": "nw"
+    "9371": "northwest"
   },
   "timeto": {
-    "": 0.2,
-    "9371": 0.2,
-    "19201": 0.2,
-    "51874": 0.2
+    "9371": 0.2
   },
   "image": "zoluren-60-str-1524886254.gif",
   "image_coords": [
@@ -486827,188 +486864,6 @@
   "timeto": {
     "51867": 0.2
   }
-},{
-  "id": 51869,
-  "title": [
-    "[[Forest of Night, Outer Wood]]"
-  ],
-  "description": [
-    "A clinging white mist on the forest floor seems to tug at the feet, and the heaviness of the night air seeks to aid the strange miasma in its task."
-  ],
-  "paths": [
-    "Obvious paths: southeast, south."
-  ],
-  "wayto": {
-    "10054": "climb roots",
-    "51870": "s",
-    "51871": "se"
-  },
-  "timeto": {
-    "10054": 0.2,
-    "51870": 0.2,
-    "51871": 0.2
-  },
-  "uid": [
-    415013
-  ]
-},{
-  "id": 51870,
-  "title": [
-    "[[Forest of Night, Outer Wood]]"
-  ],
-  "description": [
-    "Silent silvery-white mist wraps its coils about ankles and knees, moving up from where it wraps around the trees, like a snake waiting to strike."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south."
-  ],
-  "wayto": {
-    "51869": "n",
-    "51871": "ne",
-    "51872": "e",
-    "51873": "s",
-    "51875": "se"
-  },
-  "timeto": {
-    "51869": 0.2,
-    "51871": 0.2,
-    "51872": 0.2,
-    "51873": 0.2,
-    "51875": 0.2
-  },
-  "uid": [
-    415014
-  ]
-},{
-  "id": 51871,
-  "title": [
-    "[[Forest of Night, Path]]"
-  ],
-  "description": [
-    "The spreading boughs of the black ironwood trees shield what little light is available, trapping you inside the cold, shivering night.  Eerily, the one thing that keeps you from being plunged in total darkness is a layer of white fog that covers the ground and reflects a pale light of its own, just barely illuminating a river bank that rises up off to the side."
-  ],
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest."
-  ],
-  "wayto": {
-    "9367": "go trail",
-    "10046": "go bank",
-    "51869": "nw",
-    "51870": "sw",
-    "51872": "se"
-  },
-  "timeto": {
-    "9367": 0.2,
-    "10046": 0.2,
-    "51869": 0.2,
-    "51870": 0.2,
-    "51872": 0.2
-  },
-  "uid": [
-    415106
-  ]
-},{
-  "id": 51872,
-  "title": [
-    "[[Forest of Night, Path]]"
-  ],
-  "description": [
-    "The trees and foliage are so black they seem to blend into each other, making it hard to distinguish separate shapes.  The only thing you can pick out is the glaring reflection of the eyes of the birds that perch in the trees, their steady, hateful gaze watching you, as if waiting expectantly for something."
-  ],
-  "paths": [
-    "Obvious paths: southwest, west, northwest."
-  ],
-  "wayto": {
-    "51870": "w",
-    "51871": "nw",
-    "51875": "sw"
-  },
-  "timeto": {
-    "51870": 0.2,
-    "51871": 0.2,
-    "51875": 0.2
-  },
-  "uid": [
-    415107
-  ]
-},{
-  "id": 51873,
-  "title": [
-    "[[Forest of Night, Outer Wood]]"
-  ],
-  "description": [
-    "Southward, the wood appears to thin and grows ever more thickly to the north.  The path seems a bit wider here as if this is a well-traveled stretch of grass, but between the darkness of night and the foliage cover above it is difficult to make out any clear tracks."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south."
-  ],
-  "wayto": {
-    "10050": "s",
-    "51870": "n",
-    "51874": "e",
-    "51875": "ne"
-  },
-  "timeto": {
-    "10050": 0.2,
-    "51870": 0.2,
-    "51874": 0.2,
-    "51875": 0.2
-  },
-  "uid": [
-    415015
-  ]
-},{
-  "id": 51874,
-  "title": [
-    "[[Forest of Night, Path]]"
-  ],
-  "description": [
-    "The path winds unsteadily through the wood like a drunken snake with half-protruding stones for scales.  Sadly, most of these \"scales\" have long vanished, pried out as time and disuse wear down the road to a ghost of what it used to be.  Patches of deep green grass stick through the cracks in the remaining stones, the serrated edges catching at flesh and clothing.  An overgrown path, in worse state than the road you now walk, splits off from the main trail, eventually vanishing into the trees."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, west."
-  ],
-  "wayto": {
-    "10047": "climb path",
-    "19200": "se",
-    "51873": "w",
-    "51875": "n"
-  },
-  "timeto": {
-    "10047": 0.2,
-    "19200": 0.2,
-    "51873": 0.2,
-    "51875": 0.2
-  },
-  "uid": [
-    415109
-  ]
-},{
-  "id": 51875,
-  "title": [
-    "[[Forest of Night, Path]]"
-  ],
-  "description": [
-    "The bright shine of raven eyes watch you as you pass along the sylvan path.  A cold, restless white mist covers the forest floor, and from time to time a clinging tendril reaches out and seems to almost seek you out, wrapping about feet, ankles, and legs."
-  ],
-  "paths": [
-    "Obvious paths: northeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "51870": "nw",
-    "51872": "ne",
-    "51873": "sw",
-    "51874": "s"
-  },
-  "timeto": {
-    "51870": 0.2,
-    "51872": 0.2,
-    "51873": 0.2,
-    "51874": 0.2
-  },
-  "uid": [
-    415108
-  ]
 },{
   "id": 51876,
   "title": [
