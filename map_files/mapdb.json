@@ -294206,29 +294206,10 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west."
   ],
   "wayto": {
-    "10721": "s"
+    "51469": "s"
   },
   "timeto": {
-    "10721": 0.2
-  }
-},{
-  "id": 10721,
-  "title": [
-    "[[Monastery, Blueberry Bushes]]"
-  ],
-  "description": [
-    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, west, northwest."
-  ],
-  "wayto": {
-    "10722": "s",
-    "10723": "e"
-  },
-  "timeto": {
-    "10722": 0.2,
-    "10723": 0.2
+    "51469": 0.2
   }
 },{
   "id": 10722,
@@ -302101,12 +302082,12 @@
     "Obvious paths: southwest."
   ],
   "wayto": {
-    "11018": "climb trail",
-    "11020": "sw"
+    "2761": "sw",
+    "11018": "climb trail"
   },
   "timeto": {
-    "11018": 0.2,
-    "11020": 0.2
+    "2761": 0.2,
+    "11018": 0.2
   },
   "image": "Ilitha, 66, Bottom of STR.gif",
   "image_coords": [
@@ -302115,117 +302096,6 @@
     961,
     824
   ]
-},{
-  "id": 11020,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "Colorful buttes formed from tinted layers of soil rise majestically above the expanse of the savannah to the northeast.  To the southwest, the land sinks into a wide shallow depression full of shortgrass punctuated by pink and purple flowers."
-  ],
-  "paths": [
-    "Obvious paths: northeast, west."
-  ],
-  "wayto": {
-    "2760": "w",
-    "11019": "ne"
-  },
-  "timeto": {
-    "2760": 0.2,
-    "11019": 0.2
-  },
-  "image": "Ilitha, 66, Bottom of STR.gif",
-  "image_coords": [
-    906,
-    854,
-    920,
-    866
-  ]
-},{
-  "id": 11021,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "The ground slopes downward into a wide, shallow depression to the west.  Sparse prairie shortgrass grows along the perimeter, thickening into a lush green field dotted with pink and purple flowers toward the center of the depression.  To the northeast, colorfully striated cliffs rise above the horizon."
-  ],
-  "paths": [
-    "Obvious paths: southwest, west, northwest."
-  ],
-  "wayto": {
-    "2755": "sw",
-    "11022": "w"
-  },
-  "timeto": {
-    "2755": 0.2,
-    "2760": 0.2,
-    "11021": 0.2,
-    "11022": 0.2
-  }
-},{
-  "id": 11022,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "At the center of this broad, shallow crater the earth is alive with lush green prairie shortgrass brightened by tiny pink and purple sweet vetch blossoms."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, southeast, southwest, west, northwest."
-  ],
-  "wayto": {
-    "2754": "sw",
-    "2757": "nw",
-    "2760": "ne",
-    "11023": "n"
-  },
-  "timeto": {
-    "2754": 0.2,
-    "2755": 0.2,
-    "2757": 0.2,
-    "2760": 0.2,
-    "11023": 0.2
-  }
-},{
-  "id": 11023,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "The ground slopes downward into a wide, shallow depression to the northeast.  Sparse prairie shortgrass grows along the perimeter, thickening into a lush green field dotted with pink and purple flowers toward the center of the depression.  Beyond the hollow, colorfully striated cliffs rise above the horizon."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, west."
-  ],
-  "wayto": {
-    "2755": "e",
-    "11024": "w"
-  },
-  "timeto": {
-    "2755": 0.2,
-    "2758": 0.2,
-    "11023": 0.2,
-    "11024": 0.2
-  }
-},{
-  "id": 11024,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "As if announcing the transition to high desert plains, a solitary prophet tree lifts silvery-barked and heavily spiked limbs to the sky.  Its deep scarlet blossoms hang like a benediction over the plains and frame a distant view of the vividly variegated badlands to the east."
-  ],
-  "paths": [
-    "Obvious paths: east, west."
-  ],
-  "wayto": {
-    "2752": "w",
-    "11023": "e"
-  },
-  "timeto": {
-    "2752": 0.2,
-    "11023": 0.2
-  }
 },{
   "id": 11025,
   "title": [
@@ -327231,23 +327101,6 @@
   "uid": [
     55116
   ]
-},{
-  "id": 12043,
-  "title": [
-    "[[Willow Walk, Garden Path]]"
-  ],
-  "description": [
-    "A tangle of cloudberry bushes has grown so lush and tall that those seeking to walk by must move to the edge of the path, pushing past their sturdy stems.  In season, the berries are gathered and made into both tasty foodstuffs, and a particularly sweet and intoxicating wine."
-  ],
-  "paths": [
-    "Obvious paths: north, east, west."
-  ],
-  "wayto": {
-    "8255": "e"
-  },
-  "timeto": {
-    "8255": 0.2
-  }
 },{
   "id": 12044,
   "title": [
@@ -485125,22 +484978,6 @@
   ],
   "uid": [
     4220043
-  ]
-},{
-  "id": 51787,
-  "title": [
-    "[[Hag's Crag, Vela'Tohr Overlook]]"
-  ],
-  "description": [
-    "Deep gouges formed by wind and ice mar the hard granite of the mountainside.  Rivulets of water that have dribbled down from these small crevices are forever frozen, forming strangely shaped ice sculptures upon the sleek rock."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, west."
-  ],
-  "wayto": {},
-  "timeto": {},
-  "uid": [
-    4220011
   ]
 },{
   "id": 51788,
