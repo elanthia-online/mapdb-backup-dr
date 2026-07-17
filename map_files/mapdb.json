@@ -121638,6 +121638,9 @@
     "meta:mapcategory:Forfedhdar",
     "meta:mapname:Forfedhdar - Adder's Coil",
     "meta:mapshortname:Adder's Coil"
+  ],
+  "uid": [
+    4218101
   ]
 },{
   "id": 4220,
@@ -121667,6 +121670,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218102
   ]
 },{
   "id": 4221,
@@ -121696,6 +121702,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218103
   ]
 },{
   "id": 4222,
@@ -121725,6 +121734,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218104
   ]
 },{
   "id": 4223,
@@ -121756,6 +121768,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218105
   ]
 },{
   "id": 4224,
@@ -121785,6 +121800,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218106
   ]
 },{
   "id": 4225,
@@ -121814,6 +121832,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218107
   ]
 },{
   "id": 4226,
@@ -121843,6 +121864,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218108
   ]
 },{
   "id": 4227,
@@ -121873,6 +121897,9 @@
   ],
   "tags": [
     "maidens_tress"
+  ],
+  "uid": [
+    4218109
   ]
 },{
   "id": 4228,
@@ -121903,6 +121930,9 @@
   "tags": [
     "maidens_tress",
     "matron_tress"
+  ],
+  "uid": [
+    4218111
   ]
 },{
   "id": 4229,
@@ -121933,6 +121963,9 @@
   "tags": [
     "maidens_tress",
     "matron_tress"
+  ],
+  "uid": [
+    4218112
   ]
 },{
   "id": 4230,
@@ -121963,6 +121996,9 @@
   "tags": [
     "maidens_tress",
     "matron_tress"
+  ],
+  "uid": [
+    4218113
   ]
 },{
   "id": 4231,
@@ -121995,6 +122031,9 @@
     "maidens_tress",
     "matron_tress",
     "rock"
+  ],
+  "uid": [
+    4218114
   ]
 },{
   "id": 4232,
@@ -122025,6 +122064,9 @@
   "tags": [
     "maidens_tress",
     "matron_tress"
+  ],
+  "uid": [
+    4218115
   ]
 },{
   "id": 4233,
@@ -122064,6 +122106,9 @@
     "stem",
     "stick",
     "twig"
+  ],
+  "uid": [
+    4218116
   ]
 },{
   "id": 4234,
@@ -122093,6 +122138,9 @@
   ],
   "tags": [
     "matron_tress"
+  ],
+  "uid": [
+    4218117
   ]
 },{
   "id": 4235,
@@ -122119,6 +122167,9 @@
     139,
     235,
     157
+  ],
+  "uid": [
+    4218118
   ]
 },{
   "id": 4236,
@@ -122145,6 +122196,9 @@
     189,
     287,
     209
+  ],
+  "uid": [
+    4218119
   ]
 },{
   "id": 4237,
@@ -122171,6 +122225,9 @@
     141,
     336,
     161
+  ],
+  "uid": [
+    4218110
   ]
 },{
   "id": 4238,
@@ -122197,6 +122254,9 @@
     90,
     387,
     110
+  ],
+  "uid": [
+    4218120
   ]
 },{
   "id": 4239,
@@ -135093,11 +135153,13 @@
   ],
   "wayto": {
     "4698": "south",
-    "4704": ";e move 'north'; move 'west'; move 'southwest'"
+    "4704": ";e move 'north'; move 'west'; move 'southwest'",
+    "12646": "north"
   },
   "timeto": {
     "4698": 0.2,
-    "4704": 0.5
+    "4704": 0.5,
+    "12646": 0.2
   },
   "image": "Qi, 90, Ratha Tier 1 and 2.png",
   "image_coords": [
@@ -135106,67 +135168,6 @@
     471,
     669
   ]
-},{
-  "id": 4701,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Tall iron standards mark the entrance to the Bazaar, the slightly tattered penants flapping in the occasional breeze.  Traffic is heavy here as carts pull up to load provisions and unload wares.  Shoppers find themselves milling about the entrance, pondering their purchases."
-  ],
-  "wayto": {
-    "4700": "south",
-    "4702": "west",
-    "7131": "north",
-    "7472": "northeast",
-    "7473": "north"
-  },
-  "timeto": {
-    "4700": 0.2,
-    "4702": 0.2,
-    "7131": 0.2,
-    "7472": 0.2,
-    "7473": 0.2
-  }
-},{
-  "id": 4702,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Bedraggled peddlers make their way to this spot daily, as bargain hunters from every corner of Elanthia converge here at the entrance to the great Bazaar.  Deeply recessed into the cliff face, a large dark opening looms to the east.  A smoky haze swirls playfully, eluding the wisp of a breeze threatening to blow it away."
-  ],
-  "wayto": {
-    "4701": "east",
-    "4704": "southwest",
-    "7177": "northwest",
-    "7476": "north"
-  },
-  "timeto": {
-    "4701": 0.2,
-    "4704": 0.2,
-    "7177": 0.2,
-    "7476": 0.2
-  }
-},{
-  "id": 4703,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast."
-  ],
-  "wayto": {
-    "4716": "east",
-    "7195": "southeast"
-  },
-  "timeto": {
-    "4716": 0.2,
-    "7195": 0.2
-  }
 },{
   "id": 4704,
   "title": [
@@ -135180,11 +135181,13 @@
   ],
   "wayto": {
     "4700": ";e move 'northeast'; move 'east'; move 'south'",
-    "4705": "west"
+    "4705": "west",
+    "12648": "northeast"
   },
   "timeto": {
     "4700": 0.5,
-    "4705": 0.2
+    "4705": 0.2,
+    "12648": 0.2
   },
   "image": "Qi, 90, Ratha Tier 1 and 2.png",
   "image_coords": [
@@ -135460,25 +135463,6 @@
     "wood chip"
   ]
 },{
-  "id": 4713,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: southwest, west."
-  ],
-  "wayto": {
-    "4701": "southwest",
-    "4714": "west"
-  },
-  "timeto": {
-    "4701": 0.2,
-    "4714": 0.2
-  }
-},{
   "id": 4714,
   "title": [
     "[[Ratha, Bazaar]]"
@@ -135490,84 +135474,22 @@
     "Obvious paths: north, northeast, east, south, northwest."
   ],
   "wayto": {
-    "4701": "south",
-    "4713": "east",
-    "4715": "northwest",
-    "4717": "north",
-    "4719": "northeast"
+    "4721": "north",
+    "4730": "northeast",
+    "5325": "east",
+    "12646": "south",
+    "51896": "northwest"
   },
   "timeto": {
-    "4701": 0.2,
-    "4713": 0.2,
-    "4715": 0.2,
-    "4717": 0.2,
-    "4719": 0.2
-  }
-},{
-  "id": 4715,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast."
-  ],
-  "wayto": {
-    "4714": "southeast",
-    "4718": "north"
+    "4721": 0.2,
+    "4730": 0.2,
+    "5325": 0.2,
+    "12646": 0.2,
+    "51896": 0.2
   },
-  "timeto": {
-    "4714": 0.2,
-    "4718": 0.2
-  }
-},{
-  "id": 4716,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: northeast, south, west."
-  ],
-  "wayto": {
-    "4702": "south",
-    "4703": "west",
-    "4717": "northeast"
-  },
-  "timeto": {
-    "4702": 0.2,
-    "4703": 0.2,
-    "4717": 0.2
-  }
-},{
-  "id": 4717,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, east, south, southwest, northwest."
-  ],
-  "wayto": {
-    "4714": "south",
-    "4716": "southwest",
-    "4718": "northwest",
-    "4719": "east",
-    "4720": "north"
-  },
-  "timeto": {
-    "4714": 0.2,
-    "4716": 0.2,
-    "4718": 0.2,
-    "4719": 0.2,
-    "4720": 0.2
-  }
+  "uid": [
+    3014008
+  ]
 },{
   "id": 4718,
   "title": [
@@ -135580,17 +135502,20 @@
     "Obvious paths: north, northeast, southeast, south."
   ],
   "wayto": {
-    "4715": "south",
-    "4717": "southeast",
-    "4721": "north",
-    "4725": "northeast"
+    "4719": "southeast",
+    "4749": "north",
+    "5331": "south",
+    "51890": "northeast"
   },
   "timeto": {
-    "4715": 0.2,
-    "4717": 0.2,
-    "4721": 0.2,
-    "4725": 0.2
-  }
+    "4719": 0.2,
+    "4749": 0.2,
+    "5331": 0.2,
+    "51890": 0.2
+  },
+  "uid": [
+    3014025
+  ]
 },{
   "id": 4719,
   "title": [
@@ -135603,40 +135528,18 @@
     "Obvious paths: southwest, west, northwest."
   ],
   "wayto": {
-    "4714": "southwest",
-    "4717": "west",
-    "4720": "northwest"
+    "4718": "northwest",
+    "5331": "west",
+    "51895": "southwest"
   },
   "timeto": {
-    "4714": 0.2,
-    "4717": 0.2,
-    "4720": 0.2
-  }
-},{
-  "id": 4720,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, northwest."
-  ],
-  "wayto": {
-    "4754": "east",
-    "12619": "northwest",
-    "12622": "east",
-    "12624": "southeast",
-    "12668": "south"
+    "4718": 0.2,
+    "5331": 0.2,
+    "51895": 0.2
   },
-  "timeto": {
-    "4754": 0.2,
-    "12619": 0.2,
-    "12622": 0.2,
-    "12624": 0.2,
-    "12668": 0.2
-  }
+  "uid": [
+    3014017
+  ]
 },{
   "id": 4721,
   "title": [
@@ -135650,173 +135553,22 @@
     "Obvious paths: northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
-    "4718": "south",
-    "4725": "east",
-    "4729": "northeast",
-    "4747": "northwest",
-    "7200": "southeast"
+    "4714": "south",
+    "4730": "east",
+    "5325": "southeast",
+    "51893": "northeast",
+    "51896": "west"
   },
   "timeto": {
-    "4718": 0.2,
-    "4725": 0.2,
-    "4729": 0.2,
-    "4747": 0.2,
-    "7200": 0.2
-  }
-},{
-  "id": 4722,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, south."
-  ],
-  "wayto": {
-    "4721": "east",
-    "4723": "south"
-  },
-  "timeto": {
-    "4721": 0.2,
-    "4723": 0.2
-  }
-},{
-  "id": 4723,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, south."
-  ],
-  "wayto": {
-    "4722": "north",
-    "4724": "south"
-  },
-  "timeto": {
-    "4722": 0.2,
-    "4724": 0.2
-  }
-},{
-  "id": 4724,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north."
-  ],
-  "wayto": {
-    "4749": "north"
-  },
-  "timeto": {
-    "4749": 0.2
-  }
-},{
-  "id": 4725,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, southwest, west, northwest."
-  ],
-  "wayto": {
-    "4718": "southwest",
-    "4721": "west",
-    "4726": "northwest",
-    "4730": "northeast",
-    "4731": "east"
-  },
-  "timeto": {
-    "4718": 0.2,
-    "4721": 0.2,
-    "4726": 0.2,
+    "4714": 0.2,
     "4730": 0.2,
-    "4731": 0.2
-  }
-},{
-  "id": 4726,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, west, northwest.",
-    "Obvious paths: north, northeast, east, southwest, northwest."
-  ],
-  "wayto": {
-    "4725": "southeast",
-    "4727": "northwest",
-    "4728": "west",
-    "4732": "east",
-    "4734": "northeast",
-    "4747": "west",
-    "4749": "north",
-    "4750": "northeast",
-    "7197": "northwest",
-    "7198": "north"
+    "5325": 0.2,
+    "51893": 0.2,
+    "51896": 0.2
   },
-  "timeto": {
-    "4725": 0.2,
-    "4727": 0.2,
-    "4728": 0.2,
-    "4732": 0.2,
-    "4734": 0.2,
-    "4747": 0.2,
-    "4749": 0.2,
-    "4750": 0.2,
-    "7197": 0.2,
-    "7198": 0.2
-  }
-},{
-  "id": 4727,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: southeast, south."
-  ],
-  "wayto": {
-    "4726": "southeast",
-    "4728": "south"
-  },
-  "timeto": {
-    "4726": 0.2,
-    "4728": 0.2
-  }
-},{
-  "id": 4728,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, east."
-  ],
-  "wayto": {
-    "4726": "east",
-    "4727": "north"
-  },
-  "timeto": {
-    "4726": 0.2,
-    "4727": 0.2
-  }
+  "uid": [
+    3014009
+  ]
 },{
   "id": 4729,
   "title": [
@@ -135829,13 +135581,16 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
-    "4721": "southwest",
-    "4730": "east"
+    "5331": "southwest",
+    "51892": "east"
   },
   "timeto": {
-    "4721": 0.2,
-    "4730": 0.2
-  }
+    "5331": 0.2,
+    "51892": 0.2
+  },
+  "uid": [
+    3014018
+  ]
 },{
   "id": 4730,
   "title": [
@@ -135848,15 +135603,18 @@
     "Obvious paths: north, southwest, west."
   ],
   "wayto": {
-    "4725": "southwest",
-    "4729": "west",
-    "4732": "north"
+    "4714": "southwest",
+    "4721": "west",
+    "51893": "north"
   },
   "timeto": {
-    "4725": 0.2,
-    "4729": 0.2,
-    "4732": 0.2
-  }
+    "4714": 0.2,
+    "4721": 0.2,
+    "51893": 0.2
+  },
+  "uid": [
+    3014002
+  ]
 },{
   "id": 4731,
   "title": [
@@ -135870,61 +135628,18 @@
     "Obvious paths: north, west, northwest."
   ],
   "wayto": {
-    "12621": "northwest",
-    "12622": "west",
-    "12623": "north"
+    "5327": "north",
+    "51892": "west",
+    "51894": "northwest"
   },
   "timeto": {
-    "12621": 0.2,
-    "12622": 0.2,
-    "12623": 0.2
-  }
-},{
-  "id": 4732,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: south, west, northwest."
-  ],
-  "wayto": {
-    "4726": "west",
-    "4730": "south",
-    "4733": "northwest"
+    "5327": 0.2,
+    "51892": 0.2,
+    "51894": 0.2
   },
-  "timeto": {
-    "4726": 0.2,
-    "4730": 0.2,
-    "4733": 0.2
-  }
-},{
-  "id": 4733,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "4726": "south",
-    "4732": "southeast",
-    "4734": "northwest",
-    "4748": "north",
-    "4749": "southwest"
-  },
-  "timeto": {
-    "4726": 0.2,
-    "4732": 0.2,
-    "4734": 0.2,
-    "4748": 0.2,
-    "4749": 0.2
-  }
+  "uid": [
+    3014004
+  ]
 },{
   "id": 4734,
   "title": [
@@ -135939,27 +135654,22 @@
     "Obvious paths: southeast, southwest, northwest."
   ],
   "wayto": {
-    "4721": "southwest",
-    "4726": "southwest",
-    "4731": "southeast",
+    "4735": "west",
     "4748": "east",
-    "7196": "northwest",
-    "7199": "southeast",
-    "12619": "southwest",
-    "12620": "south",
-    "12621": "southeast"
+    "51884": "southeast",
+    "51885": "south",
+    "51887": "southwest"
   },
   "timeto": {
-    "4721": 0.2,
-    "4726": 0.2,
-    "4731": 0.2,
+    "4735": 0.2,
     "4748": 0.2,
-    "7196": 0.2,
-    "7199": 0.2,
-    "12619": 0.2,
-    "12620": 0.2,
-    "12621": 0.2
-  }
+    "51884": 0.2,
+    "51885": 0.2,
+    "51887": 0.2
+  },
+  "uid": [
+    3015111
+  ]
 },{
   "id": 4735,
   "title": [
@@ -135972,12 +135682,13 @@
     "Obvious paths: east, southeast, south, southwest."
   ],
   "wayto": {
+    "4734": "east",
     "4736": "southwest",
     "4743": "south",
-    "4744": "southeast",
-    "7140": "east"
+    "4744": "southeast"
   },
   "timeto": {
+    "4734": 0.2,
     "4736": 0.2,
     "4743": 0.2,
     "4744": 0.2
@@ -135988,6 +135699,9 @@
     187,
     533,
     217
+  ],
+  "uid": [
+    3015110
   ]
 },{
   "id": 4736,
@@ -136241,23 +135955,6 @@
     255
   ]
 },{
-  "id": 4745,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: northeast."
-  ],
-  "wayto": {
-    "4734": "northeast"
-  },
-  "timeto": {
-    "4734": 0.2
-  }
-},{
   "id": 4746,
   "title": [
     "[[Ratha, Bazaar]]"
@@ -136269,34 +135966,18 @@
     "Obvious paths: north, northeast, southeast."
   ],
   "wayto": {
-    "4726": "southeast",
-    "4734": "north",
-    "4748": "northeast"
+    "12648": "southeast",
+    "51895": "north",
+    "51896": "northeast"
   },
   "timeto": {
-    "4726": 0.2,
-    "4734": 0.2,
-    "4748": 0.2
-  }
-},{
-  "id": 4747,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast."
-  ],
-  "wayto": {
-    "4721": "southeast",
-    "4726": "east"
+    "12648": 0.2,
+    "51895": 0.2,
+    "51896": 0.2
   },
-  "timeto": {
-    "4721": 0.2,
-    "4726": 0.2
-  }
+  "uid": [
+    3014022
+  ]
 },{
   "id": 4748,
   "title": [
@@ -136309,11 +135990,20 @@
     "Obvious paths: south, southwest, west."
   ],
   "wayto": {
-    "7140": "w"
+    "4734": "west",
+    "51884": "south",
+    "51885": "southwest",
+    "51888": "southeast"
   },
   "timeto": {
-    "7140": 0.2
-  }
+    "4734": 0.2,
+    "51884": 0.2,
+    "51885": 0.2,
+    "51888": 0.2
+  },
+  "uid": [
+    3015112
+  ]
 },{
   "id": 4749,
   "title": [
@@ -136326,32 +136016,16 @@
     "Obvious paths: northeast, south."
   ],
   "wayto": {
-    "4724": "south",
-    "12668": "northeast"
+    "4718": "south",
+    "51886": "northeast"
   },
   "timeto": {
-    "4724": 0.2,
-    "12668": 0.2
-  }
-},{
-  "id": 4750,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: southwest, northwest."
-  ],
-  "wayto": {
-    "4726": "southwest",
-    "4748": "northwest"
+    "4718": 0.2,
+    "51886": 0.2
   },
-  "timeto": {
-    "4726": 0.2,
-    "4748": 0.2
-  }
+  "uid": [
+    3014026
+  ]
 },{
   "id": 4751,
   "title": [
@@ -136449,13 +136123,16 @@
     "Obvious paths: north, west."
   ],
   "wayto": {
-    "4720": "west",
-    "4731": "north"
+    "51884": "north",
+    "51886": "west"
   },
   "timeto": {
-    "4720": 0.2,
-    "4731": 0.2
-  }
+    "51884": 0.2,
+    "51886": 0.2
+  },
+  "uid": [
+    3014013
+  ]
 },{
   "id": 4755,
   "title": [
@@ -151834,88 +151511,6 @@
     "retan_dolomar"
   ]
 },{
-  "id": 5313,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, southwest."
-  ],
-  "wayto": {
-    "5314": "southwest",
-    "5315": "southeast",
-    "5316": "east"
-  },
-  "timeto": {
-    "5314": 0.2,
-    "5315": 0.2,
-    "5316": 0.2
-  }
-},{
-  "id": 5314,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast."
-  ],
-  "wayto": {
-    "12619": "north",
-    "12620": "northeast"
-  },
-  "timeto": {
-    "12619": 0.2,
-    "12620": 0.2
-  }
-},{
-  "id": 5315,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, west, northwest."
-  ],
-  "wayto": {
-    "5313": "northwest",
-    "5328": "southeast",
-    "5329": "west",
-    "5331": "south",
-    "5333": "east"
-  },
-  "timeto": {
-    "5313": 0.2,
-    "5328": 0.2,
-    "5329": 0.2,
-    "5331": 0.2,
-    "5333": 0.2
-  }
-},{
-  "id": 5316,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, west, northwest."
-  ],
-  "wayto": {
-    "4734": "northwest"
-  },
-  "timeto": {
-    "4734": 0.2
-  }
-},{
   "id": 5317,
   "title": [
     "[[Onsuwayo's Clinic, Foyer]]"
@@ -151945,149 +151540,6 @@
     "dust bunnie"
   ]
 },{
-  "id": 5318,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: south."
-  ],
-  "wayto": {
-    "4702": "south"
-  },
-  "timeto": {
-    "4702": 0.2
-  }
-},{
-  "id": 5319,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: southeast."
-  ],
-  "wayto": {
-    "4702": "southeast"
-  },
-  "timeto": {
-    "4702": 0.2
-  }
-},{
-  "id": 5320,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, southwest."
-  ],
-  "wayto": {
-    "5321": "southwest",
-    "5324": "south",
-    "5328": "northeast",
-    "5331": "north"
-  },
-  "timeto": {
-    "5321": 0.2,
-    "5324": 0.2,
-    "5328": 0.2,
-    "5331": 0.2
-  }
-},{
-  "id": 5321,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, west."
-  ],
-  "wayto": {
-    "5320": "northeast",
-    "5322": "west",
-    "5323": "southeast",
-    "5324": "east",
-    "5327": "north"
-  },
-  "timeto": {
-    "5320": 0.2,
-    "5322": 0.2,
-    "5323": 0.2,
-    "5324": 0.2,
-    "5327": 0.2
-  }
-},{
-  "id": 5322,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, south."
-  ],
-  "wayto": {
-    "4724": "south",
-    "5321": "east",
-    "5327": "northeast"
-  },
-  "timeto": {
-    "4724": 0.2,
-    "5321": 0.2,
-    "5327": 0.2
-  }
-},{
-  "id": 5323,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, south, northwest."
-  ],
-  "wayto": {
-    "5321": "northwest",
-    "5325": "southeast"
-  },
-  "timeto": {
-    "5321": 0.2,
-    "5325": 0.2
-  }
-},{
-  "id": 5324,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, south, west."
-  ],
-  "wayto": {
-    "5320": "north",
-    "5321": "west",
-    "5323": "south"
-  },
-  "timeto": {
-    "5320": 0.2,
-    "5321": 0.2,
-    "5323": 0.2
-  }
-},{
   "id": 5325,
   "title": [
     "[[Ratha, Bazaar]]"
@@ -152099,34 +151551,18 @@
     "Obvious paths: southwest, west, northwest."
   ],
   "wayto": {
-    "4701": "southwest",
-    "5323": "northwest",
-    "5326": "west"
+    "4714": "west",
+    "4721": "northwest",
+    "12646": "southwest"
   },
   "timeto": {
-    "4701": 0.2,
-    "5323": 0.2,
-    "5326": 0.2
-  }
-},{
-  "id": 5326,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south."
-  ],
-  "wayto": {
-    "4701": "south",
-    "5325": "east"
+    "4714": 0.2,
+    "4721": 0.2,
+    "12646": 0.2
   },
-  "timeto": {
-    "4701": 0.2,
-    "5325": 0.2
-  }
+  "uid": [
+    3014001
+  ]
 },{
   "id": 5327,
   "title": [
@@ -152139,76 +151575,16 @@
     "Obvious paths: south, southwest."
   ],
   "wayto": {
-    "5321": "south",
-    "5322": "southwest"
+    "4731": "south",
+    "51892": "southwest"
   },
   "timeto": {
-    "5321": 0.2,
-    "5322": 0.2
-  }
-},{
-  "id": 5328,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, southwest, west, northwest."
-  ],
-  "wayto": {
-    "5315": "northwest",
-    "5320": "southwest",
-    "5331": "west",
-    "5333": "north"
+    "4731": 0.2,
+    "51892": 0.2
   },
-  "timeto": {
-    "5315": 0.2,
-    "5320": 0.2,
-    "5331": 0.2,
-    "5333": 0.2
-  }
-},{
-  "id": 5329,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, northwest."
-  ],
-  "wayto": {
-    "5315": "east",
-    "5330": "northwest"
-  },
-  "timeto": {
-    "5315": 0.2,
-    "5330": 0.2
-  }
-},{
-  "id": 5330,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast, south."
-  ],
-  "wayto": {
-    "4734": "northeast",
-    "7197": "south",
-    "7198": "southeast"
-  },
-  "timeto": {
-    "4734": 0.2,
-    "7197": 0.2,
-    "7198": 0.2
-  }
+  "uid": [
+    3014005
+  ]
 },{
   "id": 5331,
   "title": [
@@ -152221,76 +151597,22 @@
     "Obvious paths: north, northeast, east, southeast, south."
   ],
   "wayto": {
-    "5315": "north",
-    "5320": "south",
-    "5328": "east",
-    "5332": "southeast",
-    "5333": "northeast"
+    "4718": "north",
+    "4719": "east",
+    "4729": "northeast",
+    "51895": "south",
+    "51896": "southeast"
   },
   "timeto": {
-    "5315": 0.2,
-    "5320": 0.2,
-    "5328": 0.2,
-    "5332": 0.2,
-    "5333": 0.2
-  }
-},{
-  "id": 5332,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: northwest."
-  ],
-  "wayto": {
-    "5331": "northwest"
+    "4718": 0.2,
+    "4719": 0.2,
+    "4729": 0.2,
+    "51895": 0.2,
+    "51896": 0.2
   },
-  "timeto": {
-    "5331": 0.2
-  }
-},{
-  "id": 5333,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, south, southwest, west."
-  ],
-  "wayto": {
-    "5315": "west",
-    "5328": "south",
-    "5331": "southwest",
-    "5334": "north"
-  },
-  "timeto": {
-    "5315": 0.2,
-    "5328": 0.2,
-    "5331": 0.2,
-    "5334": 0.2
-  }
-},{
-  "id": 5334,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: south, northwest."
-  ],
-  "wayto": {
-    "4748": "northwest"
-  },
-  "timeto": {
-    "4748": 0.2
-  }
+  "uid": [
+    3014024
+  ]
 },{
   "id": 5335,
   "title": [
@@ -201841,27 +201163,6 @@
     357
   ]
 },{
-  "id": 7127,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east."
-  ],
-  "wayto": {
-    "7128": "east",
-    "7129": "northeast",
-    "7131": "north"
-  },
-  "timeto": {
-    "7128": 0.2,
-    "7129": 0.2,
-    "7131": 0.2
-  }
-},{
   "id": 7128,
   "title": [
     "[[Emmiline's Cottage, Kitchen]]"
@@ -201880,256 +201181,6 @@
   "timeto": {
     "7178": 0.2,
     "12111": 0.2
-  }
-},{
-  "id": 7129,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, east, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "7127": "southwest",
-    "7128": "south",
-    "7130": "northwest",
-    "7132": "north",
-    "7134": "southeast",
-    "7135": "east"
-  },
-  "timeto": {
-    "7127": 0.2,
-    "7128": 0.2,
-    "7130": 0.2,
-    "7132": 0.2,
-    "7134": 0.2,
-    "7135": 0.2
-  }
-},{
-  "id": 7130,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, south."
-  ],
-  "wayto": {
-    "7129": "southeast",
-    "7131": "south",
-    "7133": "north",
-    "7136": "northeast"
-  },
-  "timeto": {
-    "7129": 0.2,
-    "7131": 0.2,
-    "7133": 0.2,
-    "7136": 0.2
-  }
-},{
-  "id": 7131,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south."
-  ],
-  "wayto": {
-    "4701": "south",
-    "7130": "north",
-    "7132": "northeast"
-  },
-  "timeto": {
-    "4701": 0.2,
-    "7130": 0.2,
-    "7132": 0.2
-  }
-},{
-  "id": 7132,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, south, southwest, northwest."
-  ],
-  "wayto": {
-    "7129": "south",
-    "7131": "southwest",
-    "7133": "northwest",
-    "7136": "north"
-  },
-  "timeto": {
-    "7129": 0.2,
-    "7131": 0.2,
-    "7133": 0.2,
-    "7136": 0.2
-  }
-},{
-  "id": 7133,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southeast, south."
-  ],
-  "wayto": {
-    "7130": "south",
-    "7132": "southeast"
-  },
-  "timeto": {
-    "7130": 0.2,
-    "7132": 0.2
-  }
-},{
-  "id": 7134,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "7129": "northwest"
-  },
-  "timeto": {
-    "7129": 0.2
-  }
-},{
-  "id": 7135,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, west."
-  ],
-  "wayto": {
-    "7129": "west"
-  },
-  "timeto": {
-    "7129": 0.2
-  }
-},{
-  "id": 7136,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "7130": "southwest",
-    "7132": "south",
-    "7137": "northwest",
-    "7138": "southeast",
-    "7139": "northeast",
-    "7477": "south",
-    "7481": "southwest",
-    "7483": "southeast",
-    "7484": "northwest"
-  },
-  "timeto": {
-    "7130": 0.2,
-    "7132": 0.2,
-    "7137": 0.2,
-    "7138": 0.2,
-    "7139": 0.2,
-    "7477": 0.2,
-    "7481": 0.2,
-    "7483": 0.2,
-    "7484": 0.2
-  }
-},{
-  "id": 7137,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast."
-  ],
-  "wayto": {
-    "7136": "southeast"
-  },
-  "timeto": {
-    "7136": 0.2
-  }
-},{
-  "id": 7138,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, northwest."
-  ],
-  "wayto": {
-    "7136": "northwest"
-  },
-  "timeto": {
-    "7136": 0.2
-  }
-},{
-  "id": 7139,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, southwest, west, northwest."
-  ],
-  "wayto": {
-    "7140": "northwest"
-  },
-  "timeto": {
-    "7140": 0.2
-  }
-},{
-  "id": 7140,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Brightly colored tents dot the crowded walkways, traffic flowing in, out and in between them.  A group of gaily dressed women saunter by wielding baskets filled with fruits and vegetables."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, southwest, west."
-  ],
-  "wayto": {
-    "4735": "west",
-    "4748": "east"
-  },
-  "timeto": {
-    "4735": 0.2,
-    "4748": 0.2
   }
 },{
   "id": 7141,
@@ -202778,346 +201829,6 @@
     702
   ]
 },{
-  "id": 7162,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: northeast, south."
-  ],
-  "wayto": {
-    "7127": "south",
-    "7140": "northeast"
-  },
-  "timeto": {
-    "7127": 0.2,
-    "7140": 0.2
-  }
-},{
-  "id": 7163,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, west, northwest."
-  ],
-  "wayto": {
-    "4748": "north",
-    "7140": "northwest",
-    "7164": "west"
-  },
-  "timeto": {
-    "4748": 0.2,
-    "7140": 0.2,
-    "7164": 0.2
-  }
-},{
-  "id": 7164,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, southwest."
-  ],
-  "wayto": {
-    "4748": "northeast",
-    "7127": "southwest",
-    "7140": "north",
-    "7163": "east",
-    "7165": "southeast"
-  },
-  "timeto": {
-    "4748": 0.2,
-    "7127": 0.2,
-    "7140": 0.2,
-    "7163": 0.2,
-    "7165": 0.2
-  }
-},{
-  "id": 7165,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southeast, southwest, west, northwest."
-  ],
-  "wayto": {
-    "7164": "northwest",
-    "7166": "southwest",
-    "7169": "west",
-    "7170": "southeast"
-  },
-  "timeto": {
-    "7164": 0.2,
-    "7166": 0.2,
-    "7169": 0.2,
-    "7170": 0.2
-  }
-},{
-  "id": 7166,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast, west."
-  ],
-  "wayto": {
-    "7165": "northeast",
-    "7167": "west",
-    "7168": "southeast"
-  },
-  "timeto": {
-    "7165": 0.2,
-    "7167": 0.2,
-    "7168": 0.2
-  }
-},{
-  "id": 7167,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east."
-  ],
-  "wayto": {
-    "7166": "east",
-    "7169": "northeast"
-  },
-  "timeto": {
-    "7166": 0.2,
-    "7169": 0.2
-  }
-},{
-  "id": 7168,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, west, northwest."
-  ],
-  "wayto": {
-    "7128": "south",
-    "7166": "northwest",
-    "7173": "southwest",
-    "7184": "southeast",
-    "7185": "west",
-    "7186": "north"
-  },
-  "timeto": {
-    "7128": 0.2,
-    "7166": 0.2,
-    "7173": 0.2,
-    "7184": 0.2,
-    "7185": 0.2,
-    "7186": 0.2
-  }
-},{
-  "id": 7169,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east, southwest, west."
-  ],
-  "wayto": {
-    "7127": "west",
-    "7165": "east",
-    "7167": "southwest"
-  },
-  "timeto": {
-    "7127": 0.2,
-    "7165": 0.2,
-    "7167": 0.2
-  }
-},{
-  "id": 7170,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northwest."
-  ],
-  "wayto": {
-    "7165": "northwest",
-    "7171": "north"
-  },
-  "timeto": {
-    "7165": 0.2,
-    "7171": 0.2
-  }
-},{
-  "id": 7171,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, south."
-  ],
-  "wayto": {
-    "7170": "south",
-    "7172": "north"
-  },
-  "timeto": {
-    "7170": 0.2,
-    "7172": 0.2
-  }
-},{
-  "id": 7172,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: south, northwest."
-  ],
-  "wayto": {
-    "4748": "northwest"
-  },
-  "timeto": {
-    "4748": 0.2
-  }
-},{
-  "id": 7173,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, southwest, west, northwest."
-  ],
-  "wayto": {
-    "7128": "east",
-    "7168": "northeast",
-    "7174": "northwest",
-    "7175": "west",
-    "7176": "southwest",
-    "7179": "southeast",
-    "7185": "north"
-  },
-  "timeto": {
-    "7128": 0.2,
-    "7168": 0.2,
-    "7174": 0.2,
-    "7175": 0.2,
-    "7176": 0.2,
-    "7179": 0.2,
-    "7185": 0.2
-  }
-},{
-  "id": 7174,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southeast."
-  ],
-  "wayto": {
-    "7173": "southeast"
-  },
-  "timeto": {
-    "7173": 0.2
-  }
-},{
-  "id": 7175,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east."
-  ],
-  "wayto": {
-    "12628": "east"
-  },
-  "timeto": {
-    "12628": 0.2
-  }
-},{
-  "id": 7176,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast, south."
-  ],
-  "wayto": {
-    "7173": "northeast",
-    "7177": "south",
-    "7180": "southeast"
-  },
-  "timeto": {
-    "7173": 0.2,
-    "7177": 0.2,
-    "7180": 0.2
-  }
-},{
-  "id": 7177,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast."
-  ],
-  "wayto": {
-    "4702": "southeast",
-    "7176": "north",
-    "7186": "northeast",
-    "7474": "northeast",
-    "7475": "north"
-  },
-  "timeto": {
-    "4702": 0.2,
-    "7176": 0.2,
-    "7186": 0.2,
-    "7474": 0.2,
-    "7475": 0.2
-  }
-},{
   "id": 7178,
   "title": [
     "[[Emmiline's Cottage, Bedroom]]"
@@ -203133,56 +201844,6 @@
   },
   "timeto": {
     "7128": 0.2
-  }
-},{
-  "id": 7179,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "7173": "northwest",
-    "7178": "southeast",
-    "7180": "southwest",
-    "7182": "east",
-    "7183": "south",
-    "7184": "northeast"
-  },
-  "timeto": {
-    "7173": 0.2,
-    "7178": 0.2,
-    "7180": 0.2,
-    "7182": 0.2,
-    "7183": 0.2,
-    "7184": 0.2
-  }
-},{
-  "id": 7180,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, northwest."
-  ],
-  "wayto": {
-    "4702": "south",
-    "7176": "northwest",
-    "7179": "northeast",
-    "7186": "north"
-  },
-  "timeto": {
-    "4702": 0.2,
-    "7176": 0.2,
-    "7179": 0.2,
-    "7186": 0.2
   }
 },{
   "id": 7181,
@@ -203211,117 +201872,6 @@
   "tags": [
     "mamas"
   ]
-},{
-  "id": 7182,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: south, southwest, west."
-  ],
-  "wayto": {
-    "7178": "south",
-    "7179": "west",
-    "7183": "southwest"
-  },
-  "timeto": {
-    "7178": 0.2,
-    "7179": 0.2,
-    "7183": 0.2
-  }
-},{
-  "id": 7183,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south."
-  ],
-  "wayto": {
-    "4701": "south",
-    "7179": "north",
-    "7182": "northeast"
-  },
-  "timeto": {
-    "4701": 0.2,
-    "7179": 0.2,
-    "7182": 0.2
-  }
-},{
-  "id": 7184,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southwest, northwest."
-  ],
-  "wayto": {
-    "7168": "northwest",
-    "7179": "southwest",
-    "7473": "southwest",
-    "7477": "northwest"
-  },
-  "timeto": {
-    "7168": 0.2,
-    "7179": 0.2,
-    "7473": 0.2,
-    "7477": 0.2
-  }
-},{
-  "id": 7185,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, south."
-  ],
-  "wayto": {
-    "7168": "east",
-    "7173": "south",
-    "7186": "northeast",
-    "7478": "east",
-    "7480": "south",
-    "7484": "northeast"
-  },
-  "timeto": {
-    "7168": 0.2,
-    "7173": 0.2,
-    "7186": 0.2,
-    "7478": 0.2,
-    "7480": 0.2,
-    "7484": 0.2
-  }
-},{
-  "id": 7186,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: south, southwest."
-  ],
-  "wayto": {
-    "7168": "south",
-    "7185": "southwest"
-  },
-  "timeto": {
-    "7168": 0.2,
-    "7185": 0.2
-  }
 },{
   "id": 7187,
   "title": [
@@ -203515,121 +202065,6 @@
     637,
     1113
   ]
-},{
-  "id": 7195,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, southwest, northwest."
-  ],
-  "wayto": {},
-  "timeto": {}
-},{
-  "id": 7196,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast, south, southwest."
-  ],
-  "wayto": {
-    "4734": "north",
-    "4748": "northeast",
-    "7197": "southwest",
-    "7198": "south"
-  },
-  "timeto": {
-    "4734": 0.2,
-    "4748": 0.2,
-    "7197": 0.2,
-    "7198": 0.2
-  }
-},{
-  "id": 7197,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, southeast."
-  ],
-  "wayto": {
-    "4726": "southeast",
-    "5330": "north",
-    "7196": "northeast",
-    "12624": "northeast",
-    "12668": "north"
-  },
-  "timeto": {
-    "4726": 0.2,
-    "5330": 0.2,
-    "7196": 0.2,
-    "12624": 0.2
-  }
-},{
-  "id": 7198,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, northwest."
-  ],
-  "wayto": {
-    "4726": "south",
-    "4734": "southeast",
-    "5330": "northwest",
-    "7196": "north"
-  },
-  "timeto": {
-    "4726": 0.2,
-    "4734": 0.2,
-    "5330": 0.2,
-    "7196": 0.2
-  }
-},{
-  "id": 7199,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, northwest."
-  ],
-  "wayto": {
-    "4734": "northwest",
-    "4748": "north"
-  },
-  "timeto": {
-    "4734": 0.2,
-    "4748": 0.2
-  }
-},{
-  "id": 7200,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, northwest."
-  ],
-  "wayto": {},
-  "timeto": {}
 },{
   "id": 7201,
   "title": [
@@ -210921,325 +209356,6 @@
     118,
     1204
   ]
-},{
-  "id": 7472,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: southwest."
-  ],
-  "wayto": {
-    "4701": "southwest"
-  },
-  "timeto": {
-    "4701": 0.2
-  }
-},{
-  "id": 7473,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, west, northwest."
-  ],
-  "wayto": {
-    "4701": "south",
-    "7184": "northeast",
-    "7474": "northwest",
-    "7476": "west",
-    "7482": "north"
-  },
-  "timeto": {
-    "4701": 0.2,
-    "7184": 0.2,
-    "7474": 0.2,
-    "7476": 0.2,
-    "7482": 0.2
-  }
-},{
-  "id": 7474,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southeast, southwest, west."
-  ],
-  "wayto": {
-    "7177": "southwest",
-    "7473": "southeast",
-    "7475": "west"
-  },
-  "timeto": {
-    "7177": 0.2,
-    "7473": 0.2,
-    "7475": 0.2
-  }
-},{
-  "id": 7475,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south."
-  ],
-  "wayto": {
-    "7177": "south",
-    "7474": "east",
-    "7480": "north",
-    "7481": "northeast"
-  },
-  "timeto": {
-    "7177": 0.2,
-    "7474": 0.2,
-    "7480": 0.2,
-    "7481": 0.2
-  }
-},{
-  "id": 7476,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, south."
-  ],
-  "wayto": {
-    "4702": "south",
-    "7473": "east",
-    "7482": "northeast"
-  },
-  "timeto": {
-    "4702": 0.2,
-    "7473": 0.2,
-    "7482": 0.2
-  }
-},{
-  "id": 7477,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, northwest."
-  ],
-  "wayto": {
-    "7136": "north",
-    "7184": "southeast",
-    "7478": "northwest",
-    "7483": "east"
-  },
-  "timeto": {
-    "7136": 0.2,
-    "7184": 0.2,
-    "7478": 0.2,
-    "7483": 0.2
-  }
-},{
-  "id": 7478,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast, west, northwest."
-  ],
-  "wayto": {
-    "7185": "west",
-    "7477": "southeast",
-    "7479": "northwest",
-    "7486": "northeast"
-  },
-  "timeto": {
-    "7185": 0.2,
-    "7477": 0.2,
-    "7479": 0.2,
-    "7486": 0.2
-  }
-},{
-  "id": 7479,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southeast."
-  ],
-  "wayto": {
-    "7478": "southeast"
-  },
-  "timeto": {
-    "7478": 0.2
-  }
-},{
-  "id": 7480,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, east, south."
-  ],
-  "wayto": {
-    "7185": "north",
-    "7475": "south",
-    "7481": "east"
-  },
-  "timeto": {
-    "7185": 0.2,
-    "7475": 0.2,
-    "7481": 0.2
-  }
-},{
-  "id": 7481,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, southwest, west."
-  ],
-  "wayto": {
-    "7136": "northeast",
-    "7475": "southwest",
-    "7480": "west"
-  },
-  "timeto": {
-    "7136": 0.2,
-    "7475": 0.2,
-    "7480": 0.2
-  }
-},{
-  "id": 7482,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: northeast, south, southwest."
-  ],
-  "wayto": {
-    "7473": "south",
-    "7476": "southwest",
-    "7483": "northeast"
-  },
-  "timeto": {
-    "7473": 0.2,
-    "7476": 0.2,
-    "7483": 0.2
-  }
-},{
-  "id": 7483,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, southwest, west, northwest."
-  ],
-  "wayto": {
-    "7136": "northwest",
-    "7477": "west",
-    "7482": "southwest",
-    "7485": "north"
-  },
-  "timeto": {
-    "7136": 0.2,
-    "7477": 0.2,
-    "7482": 0.2,
-    "7485": 0.2
-  }
-},{
-  "id": 7484,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, east, southeast, southwest."
-  ],
-  "wayto": {
-    "7136": "southeast",
-    "7185": "southwest",
-    "7486": "east"
-  },
-  "timeto": {
-    "7136": 0.2,
-    "7185": 0.2,
-    "7486": 0.2
-  }
-},{
-  "id": 7485,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: south, southwest, northwest."
-  ],
-  "wayto": {
-    "7486": "northwest",
-    "12630": "south",
-    "12643": "southwest",
-    "12647": "south"
-  },
-  "timeto": {
-    "7486": 0.2,
-    "12630": 0.2
-  }
-},{
-  "id": 7486,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, southwest, west."
-  ],
-  "wayto": {
-    "7136": "south",
-    "7478": "southwest",
-    "7484": "west"
-  },
-  "timeto": {
-    "7136": 0.2,
-    "7478": 0.2,
-    "7484": 0.2
-  }
 },{
   "id": 7487,
   "title": [
@@ -341346,284 +339462,6 @@
     169
   ]
 },{
-  "id": 12619,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, southeast, south."
-  ],
-  "wayto": {
-    "4720": "southeast",
-    "4734": "northeast",
-    "5314": "south",
-    "12620": "east"
-  },
-  "timeto": {
-    "4720": 0.2,
-    "4734": 0.2,
-    "5314": 0.2,
-    "12620": 0.2
-  }
-},{
-  "id": 12620,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southwest, west."
-  ],
-  "wayto": {
-    "4734": "north",
-    "4748": "northeast",
-    "5314": "southwest",
-    "12619": "west",
-    "12621": "east"
-  },
-  "timeto": {
-    "4734": 0.2,
-    "4748": 0.2,
-    "5314": 0.2,
-    "12619": 0.2,
-    "12621": 0.2
-  }
-},{
-  "id": 12621,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, west, northwest."
-  ],
-  "wayto": {
-    "4731": "southeast",
-    "4734": "northwest",
-    "4748": "north",
-    "12620": "west",
-    "12622": "south"
-  },
-  "timeto": {
-    "4731": 0.2,
-    "4734": 0.2,
-    "4748": 0.2,
-    "12620": 0.2,
-    "12622": 0.2
-  }
-},{
-  "id": 12622,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south, west."
-  ],
-  "wayto": {
-    "4720": "west",
-    "4731": "east",
-    "12621": "north",
-    "12623": "northeast",
-    "12624": "south"
-  },
-  "timeto": {
-    "4720": 0.2,
-    "4731": 0.2,
-    "12621": 0.2,
-    "12623": 0.2,
-    "12624": 0.2
-  }
-},{
-  "id": 12623,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
-  ],
-  "paths": [
-    "Obvious paths: south, southwest, northwest."
-  ],
-  "wayto": {
-    "4731": "south",
-    "12622": "southwest"
-  },
-  "timeto": {
-    "12622": 0.2
-  }
-},{
-  "id": 12624,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "4720": "northwest",
-    "7197": "southwest",
-    "12622": "north",
-    "12625": "south",
-    "12626": "southeast",
-    "12627": "north"
-  },
-  "timeto": {
-    "4720": 0.2,
-    "7197": 0.2,
-    "12622": 0.2,
-    "12625": 0.2,
-    "12626": 0.2,
-    "12627": 0.2
-  }
-},{
-  "id": 12625,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, east, south, northwest."
-  ],
-  "wayto": {
-    "12624": "north",
-    "12668": "northwest"
-  },
-  "timeto": {
-    "12624": 0.2
-  }
-},{
-  "id": 12626,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: west, northwest."
-  ],
-  "wayto": {
-    "12624": "northwest"
-  },
-  "timeto": {
-    "12624": 0.2
-  }
-},{
-  "id": 12627,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south, west."
-  ],
-  "wayto": {
-    "12632": "south",
-    "12635": "west",
-    "12636": "north",
-    "12637": "northeast",
-    "12638": "east"
-  },
-  "timeto": {
-    "12632": 0.2,
-    "12635": 0.2,
-    "12636": 0.2,
-    "12637": 0.2,
-    "12638": 0.2
-  }
-},{
-  "id": 12628,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, west, northwest."
-  ],
-  "wayto": {
-    "7175": "west",
-    "7485": "southeast",
-    "12629": "north",
-    "12630": "south",
-    "12631": "northwest"
-  },
-  "timeto": {
-    "7175": 0.2,
-    "7485": 0.2,
-    "12629": 0.2,
-    "12630": 0.2,
-    "12631": 0.2
-  }
-},{
-  "id": 12629,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, east, south, northwest."
-  ],
-  "wayto": {
-    "12628": "south",
-    "12632": "north",
-    "12633": "east",
-    "12634": "northwest"
-  },
-  "timeto": {
-    "12628": 0.2,
-    "12632": 0.2,
-    "12633": 0.2,
-    "12634": 0.2
-  }
-},{
-  "id": 12630,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, southwest, west."
-  ],
-  "wayto": {
-    "7175": "west",
-    "12628": "north",
-    "12642": "northeast",
-    "12643": "south",
-    "12644": "southwest",
-    "12645": "west"
-  },
-  "timeto": {
-    "7175": 0.2,
-    "12628": 0.2,
-    "12642": 0.2,
-    "12643": 0.2,
-    "12644": 0.2,
-    "12645": 0.2
-  }
-},{
   "id": 12631,
   "title": [
     "[[Chedik Bridge, Engineer's Tower]]"
@@ -341648,288 +339486,6 @@
     4530106
   ]
 },{
-  "id": 12632,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, northwest."
-  ],
-  "wayto": {
-    "12627": "north",
-    "12629": "south",
-    "12631": "southwest",
-    "12633": "southeast",
-    "12635": "northwest"
-  },
-  "timeto": {
-    "12627": 0.2,
-    "12629": 0.2,
-    "12631": 0.2,
-    "12633": 0.2,
-    "12635": 0.2
-  }
-},{
-  "id": 12633,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: west, northwest."
-  ],
-  "wayto": {
-    "12629": "west",
-    "12632": "northwest"
-  },
-  "timeto": {
-    "12629": 0.2,
-    "12632": 0.2
-  }
-},{
-  "id": 12634,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, west."
-  ],
-  "wayto": {
-    "12631": "south"
-  },
-  "timeto": {}
-},{
-  "id": 12635,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, northwest."
-  ],
-  "wayto": {
-    "12641": "northwest"
-  },
-  "timeto": {}
-},{
-  "id": 12636,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, west, northwest."
-  ],
-  "wayto": {
-    "4748": "north",
-    "7140": "northwest",
-    "12627": "south",
-    "12638": "southeast",
-    "12639": "west"
-  },
-  "timeto": {
-    "4748": 0.2,
-    "7140": 0.2,
-    "12627": 0.2,
-    "12638": 0.2,
-    "12639": 0.2
-  }
-},{
-  "id": 12637,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: south, southwest, northwest."
-  ],
-  "wayto": {
-    "4748": "northwest",
-    "12627": "southwest",
-    "12638": "south"
-  },
-  "timeto": {
-    "4748": 0.2,
-    "12627": 0.2,
-    "12638": 0.2
-  }
-},{
-  "id": 12638,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, west, northwest."
-  ],
-  "wayto": {
-    "12627": "west",
-    "12636": "northwest",
-    "12637": "north"
-  },
-  "timeto": {
-    "12627": 0.2,
-    "12636": 0.2,
-    "12637": 0.2
-  }
-},{
-  "id": 12639,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southwest, west."
-  ],
-  "wayto": {
-    "4748": "northeast",
-    "7140": "north",
-    "12636": "east",
-    "12640": "southwest",
-    "12641": "west"
-  },
-  "timeto": {
-    "4748": 0.2,
-    "7140": 0.2,
-    "12636": 0.2,
-    "12640": 0.2,
-    "12641": 0.2
-  }
-},{
-  "id": 12640,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast."
-  ],
-  "wayto": {
-    "12639": "northeast",
-    "12641": "north"
-  },
-  "timeto": {}
-},{
-  "id": 12641,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: northeast, east, southeast, south."
-  ],
-  "wayto": {
-    "7140": "northeast",
-    "12635": "southeast",
-    "12639": "east",
-    "12640": "south"
-  },
-  "timeto": {
-    "7140": 0.2,
-    "12635": 0.2,
-    "12639": 0.2,
-    "12640": 0.2
-  }
-},{
-  "id": 12642,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: southwest."
-  ],
-  "wayto": {
-    "12630": "southwest"
-  },
-  "timeto": {}
-},{
-  "id": 12643,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, south, west."
-  ],
-  "wayto": {
-    "7485": "northeast",
-    "12630": "north",
-    "12644": "west",
-    "12646": "south"
-  },
-  "timeto": {
-    "7485": 0.2,
-    "12630": 0.2,
-    "12644": 0.2,
-    "12646": 0.2
-  }
-},{
-  "id": 12644,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, south."
-  ],
-  "wayto": {
-    "12630": "northeast",
-    "12643": "east",
-    "12645": "north",
-    "12648": "south"
-  },
-  "timeto": {
-    "12630": 0.2,
-    "12643": 0.2,
-    "12645": 0.2,
-    "12648": 0.2
-  }
-},{
-  "id": 12645,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: east, south."
-  ],
-  "wayto": {
-    "12630": "east",
-    "12644": "south"
-  },
-  "timeto": {}
-},{
   "id": 12646,
   "title": [
     "[[Ratha, Bazaar]]"
@@ -341942,10 +339498,14 @@
   ],
   "wayto": {
     "4700": "south",
+    "4714": "north",
+    "5325": "northeast",
     "12648": "west"
   },
   "timeto": {
     "4700": 0.2,
+    "4714": 0.2,
+    "5325": 0.2,
     "12648": 0.2
   },
   "image": "Qi, 90, Ratha Tier 1 and 2.png",
@@ -341954,26 +339514,10 @@
     625,
     472,
     646
+  ],
+  "uid": [
+    3010075
   ]
-},{
-  "id": 12647,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, southwest."
-  ],
-  "wayto": {
-    "7485": "north",
-    "12646": "southwest"
-  },
-  "timeto": {
-    "7485": 0.2,
-    "12646": 0.2
-  }
 },{
   "id": 12648,
   "title": [
@@ -341987,15 +339531,15 @@
   ],
   "wayto": {
     "4704": "southwest",
-    "12644": "north",
+    "4746": "northwest",
     "12646": "east",
-    "12649": "northwest"
+    "51897": "north"
   },
   "timeto": {
     "4704": 0.2,
-    "12644": 0.2,
+    "4746": 0.2,
     "12646": 0.2,
-    "12649": 0.2
+    "51897": 0.2
   },
   "image": "Qi, 90, Ratha Tier 1 and 2.png",
   "image_coords": [
@@ -342003,39 +339547,10 @@
     626,
     439,
     639
+  ],
+  "uid": [
+    3010074
   ]
-},{
-  "id": 12649,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Roiling with festive chaos, the walkways of this multicultural bazaar are lined with colorful pennants, and crowded with milling shoppers from every corner of Elanthia.  Music, laughter, strange dialects and foreign tongues fill the air as merchants strike deals on everything from the finest raiment and precious gems to the most mundane of household staples.  Packs of impatient children stop to gaze hungrily at the latest in edible delicacies on display."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast."
-  ],
-  "wayto": {
-    "12648": "southeast",
-    "12650": "north"
-  },
-  "timeto": {
-    "12648": 0.2,
-    "12650": 0.2
-  }
-},{
-  "id": 12650,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "Boisterous throngs of bargain hunters and opportunists fill the passages.  Strange music and revelry echo throughout the inner recesses of the smoky, half-lit bazaar.  As if mesmerized by the enchanted atmosphere, traders and shoppers, brigands and thieves move in wave-like synchrony from merchant to merchant."
-  ],
-  "paths": [
-    "Obvious paths: south."
-  ],
-  "wayto": {},
-  "timeto": {}
 },{
   "id": 12651,
   "title": [
@@ -342449,46 +339964,6 @@
   "tags": [
     "retan_dolomar"
   ]
-},{
-  "id": 12668,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: north, southeast, south, southwest, west."
-  ],
-  "wayto": {
-    "4720": "north",
-    "4749": "southwest",
-    "7197": "south",
-    "12625": "southeast",
-    "12669": "west"
-  },
-  "timeto": {
-    "4720": 0.2,
-    "4749": 0.2,
-    "7197": 0.2,
-    "12625": 0.2,
-    "12669": 0.2
-  }
-},{
-  "id": 12669,
-  "title": [
-    "[[Ratha, Bazaar]]"
-  ],
-  "description": [
-    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
-  ],
-  "paths": [
-    "Obvious paths: east."
-  ],
-  "wayto": {
-    "12668": "east"
-  },
-  "timeto": {}
 },{
   "id": 12670,
   "title": [
@@ -447306,23 +444781,6 @@
     "crauyarin_scuttler"
   ]
 },{
-  "id": 17007,
-  "title": [
-    "[[Vela'Tohr Edge, Adder's Coil]]"
-  ],
-  "description": [
-    "Giant ferns sweep out into the pathway here, brushing passersby with their feathery fronds.  The distant sounds of trickling water cascades through the air, beckoning from the depths of the mysterious wood."
-  ],
-  "paths": [
-    "Obvious paths: northwest."
-  ],
-  "wayto": {
-    "4227": "go twisting pathway"
-  },
-  "timeto": {
-    "4227": 0.2
-  }
-},{
   "id": 17008,
   "title": [
     "[[Boar Clan, Tusky Pens]]"
@@ -485735,5 +483193,361 @@
   },
   "uid": [
     4221508
+  ]
+},{
+  "id": 51884,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, southwest, northwest."
+  ],
+  "wayto": {
+    "4734": "northwest",
+    "4748": "north",
+    "4754": "south",
+    "51886": "southwest",
+    "51888": "east",
+    "51889": "southeast"
+  },
+  "timeto": {
+    "4734": 0.2,
+    "4748": 0.2,
+    "4754": 0.2,
+    "51886": 0.2,
+    "51888": 0.2,
+    "51889": 0.2
+  },
+  "uid": [
+    3014014
+  ]
+},{
+  "id": 51885,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, south, west."
+  ],
+  "wayto": {
+    "4734": "north",
+    "4748": "northeast",
+    "51886": "south",
+    "51887": "west"
+  },
+  "timeto": {
+    "4734": 0.2,
+    "4748": 0.2,
+    "51886": 0.2,
+    "51887": 0.2
+  },
+  "uid": [
+    3014021
+  ]
+},{
+  "id": 51886,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, southwest, northwest."
+  ],
+  "wayto": {
+    "4749": "southwest",
+    "4754": "east",
+    "51884": "northeast",
+    "51885": "north",
+    "51887": "northwest",
+    "51890": "south"
+  },
+  "timeto": {
+    "4749": 0.2,
+    "4754": 0.2,
+    "51884": 0.2,
+    "51885": 0.2,
+    "51887": 0.2,
+    "51890": 0.2
+  },
+  "uid": [
+    3014020
+  ]
+},{
+  "id": 51887,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast."
+  ],
+  "wayto": {
+    "4734": "northeast",
+    "51885": "east",
+    "51886": "southeast"
+  },
+  "timeto": {
+    "4734": 0.2,
+    "51885": 0.2,
+    "51886": 0.2
+  },
+  "uid": [
+    3014028
+  ]
+},{
+  "id": 51888,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest."
+  ],
+  "wayto": {
+    "4748": "northwest",
+    "51884": "west"
+  },
+  "timeto": {
+    "4748": 0.2,
+    "51884": 0.2
+  },
+  "uid": [
+    3014007
+  ]
+},{
+  "id": 51889,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest."
+  ],
+  "wayto": {
+    "51884": "northwest",
+    "51894": "southwest"
+  },
+  "timeto": {
+    "51884": 0.2,
+    "51894": 0.2
+  },
+  "uid": [
+    3014006
+  ]
+},{
+  "id": 51890,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "4718": "southwest",
+    "51886": "north",
+    "51891": "northwest",
+    "51892": "southeast"
+  },
+  "timeto": {
+    "4718": 0.2,
+    "51886": 0.2,
+    "51891": 0.2,
+    "51892": 0.2
+  },
+  "uid": [
+    3014019
+  ]
+},{
+  "id": 51891,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: southeast."
+  ],
+  "wayto": {
+    "51890": "southeast"
+  },
+  "timeto": {
+    "51890": 0.2
+  },
+  "uid": [
+    3014027
+  ]
+},{
+  "id": 51892,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, west, northwest."
+  ],
+  "wayto": {
+    "4729": "west",
+    "4731": "east",
+    "5327": "northeast",
+    "51890": "northwest",
+    "51893": "southeast"
+  },
+  "timeto": {
+    "4729": 0.2,
+    "4731": 0.2,
+    "5327": 0.2,
+    "51890": 0.2,
+    "51893": 0.2
+  },
+  "uid": [
+    3014011
+  ]
+},{
+  "id": 51893,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, northwest."
+  ],
+  "wayto": {
+    "4721": "southwest",
+    "4730": "south",
+    "51892": "northwest"
+  },
+  "timeto": {
+    "4721": 0.2,
+    "4730": 0.2,
+    "51892": 0.2
+  },
+  "uid": [
+    3014003
+  ]
+},{
+  "id": 51894,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast."
+  ],
+  "wayto": {
+    "4731": "southeast",
+    "51889": "northeast"
+  },
+  "timeto": {
+    "4731": 0.2,
+    "51889": 0.2
+  },
+  "uid": [
+    3014012
+  ]
+},{
+  "id": 51895,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south."
+  ],
+  "wayto": {
+    "4719": "northeast",
+    "4746": "south",
+    "5331": "north",
+    "51896": "east",
+    "51897": "southeast"
+  },
+  "timeto": {
+    "4719": 0.2,
+    "4746": 0.2,
+    "5331": 0.2,
+    "51896": 0.2,
+    "51897": 0.2
+  },
+  "uid": [
+    3014023
+  ]
+},{
+  "id": 51896,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The scents of the day mingle with the silence of night as the smells of the bazaar linger long after the merchants have turned in.  Shards of lamp light sporadically pierce the confines of the marketplace, causing both illumination and shadow."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, southwest, west, northwest."
+  ],
+  "wayto": {
+    "4714": "southeast",
+    "4721": "east",
+    "4746": "southwest",
+    "5331": "northwest",
+    "51895": "west",
+    "51897": "south"
+  },
+  "timeto": {
+    "4714": 0.2,
+    "4721": 0.2,
+    "4746": 0.2,
+    "5331": 0.2,
+    "51895": 0.2,
+    "51897": 0.2
+  },
+  "uid": [
+    3014016
+  ]
+},{
+  "id": 51897,
+  "title": [
+    "[[Ratha, Bazaar]]"
+  ],
+  "description": [
+    "The once crowded, chaotic bazaar now stands silent, both merchant and shopper resting with the sun.  The colorful pennants marking the marketplace are now nothing more than shades of black, waiting to regain their luster in a new day."
+  ],
+  "paths": [
+    "Obvious paths: north, south, northwest."
+  ],
+  "wayto": {
+    "12648": "south",
+    "51895": "northwest",
+    "51896": "north"
+  },
+  "timeto": {
+    "12648": 0.2,
+    "51895": 0.2,
+    "51896": 0.2
+  },
+  "uid": [
+    3014015
   ]
 }]
