@@ -293978,40 +293978,6 @@
     229134
   ]
 },{
-  "id": 10712,
-  "title": [
-    "[[Monastery, Drained Field]]"
-  ],
-  "description": [
-    "A raccoon's beady black eyes peer from behind a clump of stalks still standing, as it gnaws hopefully at a dried out ear of corn.  The furrow of stricken plants continues to the west and a dirt path leads off to the northeast.  A chirring sound comes from the drainage ditch lining the field."
-  ],
-  "paths": [
-    "Obvious paths: northeast, west."
-  ],
-  "wayto": {
-    "10713": "ne"
-  },
-  "timeto": {
-    "10713": 0.2
-  }
-},{
-  "id": 10713,
-  "title": [
-    "[[Monastery, Field Path]]"
-  ],
-  "description": [
-    "Impressions left by the hooves of dray beasts and footprints left by the monks mix with those of ...something else... in the rich black soil.  Clumps of tough grass grow against the weathered stone wall which lines one side of the path, preventing entry onto the monastery grounds."
-  ],
-  "paths": [
-    "Obvious paths: southeast, southwest."
-  ],
-  "wayto": {
-    "10714": "se"
-  },
-  "timeto": {
-    "10714": 0.2
-  }
-},{
   "id": 10714,
   "title": [
     "[[Monastery, Field Path]]"
@@ -302177,21 +302143,6 @@
     "ssgui_malchata",
     "ssugi_malchata"
   ]
-},{
-  "id": 11025,
-  "title": [
-    "[[Prairie, Wylder Spring]]"
-  ],
-  "description": [
-    "A family of ducks floats calmly on the surface of the spring, weaving through waterlillies and the trailing limbs of a weeping willow near the shore before venturing into the clearer waters in the middle.  To the east, the rolling gold and green of the prairie returns."
-  ],
-  "paths": [
-    "Obvious paths: east, southwest, northwest."
-  ],
-  "wayto": {},
-  "timeto": {
-    "2751": 0.2
-  }
 },{
   "id": 11026,
   "title": [
@@ -327182,23 +327133,6 @@
   "uid": [
     55116
   ]
-},{
-  "id": 12044,
-  "title": [
-    "[[Willow Walk, Willow Tree]]"
-  ],
-  "description": [
-    "The massive weeping willow tree for which the garden is named spreads its trailing branches toward the ground, veiling the area and swaying with every breath of passing breeze to both reveal and conceal.  Occasionally, the leaves part enough to allow a glimpse to the south of the Sorrow Garden in which the Empath Guild Leader stands, and the tall wrought-iron fence running between there and here."
-  ],
-  "paths": [
-    "Obvious paths: east, west, northwest."
-  ],
-  "wayto": {
-    "8247": null
-  },
-  "timeto": {
-    "8247": 0.2
-  }
 },{
   "id": 12045,
   "title": [
