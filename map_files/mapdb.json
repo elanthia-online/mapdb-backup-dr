@@ -294183,17 +294183,35 @@
     "[[Monastery, Blueberry Bushes]]"
   ],
   "description": [
-    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
+    "Dark green moss dapples the high stone wall skirting one side of the path, and fronds from the bushes overhang the narrow trail in places.  Tiny black ants have built several mounds near the base of one bush.  An ant struggles with a plump blueberry, straining to haul it back to the nest."
   ],
   "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, northwest."
+    "Obvious paths: east, southeast, south, southwest, west."
   ],
   "wayto": {
-    "10720": "s"
+    "10720": "s",
+    "10725": "w",
+    "10728": "se",
+    "10729": "e",
+    "51465": "sw"
   },
   "timeto": {
-    "10720": 0.2
-  }
+    "10720": 0.2,
+    "10725": 0.2,
+    "10728": 0.2,
+    "10729": 0.2,
+    "51465": 0.2
+  },
+  "image": "Zoluren, 6, North Gate & Monastary.png",
+  "image_coords": [
+    563,
+    432,
+    576,
+    443
+  ],
+  "uid": [
+    229112
+  ]
 },{
   "id": 10720,
   "title": [
@@ -294203,31 +294221,120 @@
     "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
   ],
   "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west."
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
-    "51469": "s"
+    "10719": "n",
+    "10721": "s",
+    "10723": "se",
+    "10725": "nw",
+    "10728": "e",
+    "10729": "ne",
+    "51465": "w",
+    "51466": "sw"
   },
   "timeto": {
-    "51469": 0.2
-  }
+    "10719": 0.2,
+    "10721": 0.2,
+    "10723": 0.2,
+    "10725": 0.2,
+    "10728": 0.2,
+    "10729": 0.2,
+    "51465": 0.2,
+    "51466": 0.2
+  },
+  "image": "Zoluren, 6, North Gate & Monastary.png",
+  "image_coords": [
+    564,
+    480,
+    576,
+    491
+  ],
+  "uid": [
+    229111
+  ]
+},{
+  "id": 10721,
+  "title": [
+    "[[Monastery, Blueberry Bushes]]"
+  ],
+  "description": [
+    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
+  ],
+  "wayto": {
+    "10720": "n",
+    "10722": "s",
+    "10723": "e",
+    "10727": "se",
+    "10728": "ne",
+    "51462": "sw",
+    "51465": "nw",
+    "51466": "w"
+  },
+  "timeto": {
+    "10720": 0.2,
+    "10722": 0.2,
+    "10723": 0.2,
+    "10727": 0.2,
+    "10728": 0.2,
+    "51462": 0.2,
+    "51465": 0.2,
+    "51466": 0.2
+  },
+  "image": "Zoluren, 6, North Gate & Monastary.png",
+  "image_coords": [
+    560,
+    529,
+    577,
+    542
+  ],
+  "uid": [
+    229110
+  ]
 },{
   "id": 10722,
   "title": [
     "[[Monastery, Blueberry Bushes]]"
   ],
   "description": [
-    "Dark green moss dapples the high stone wall skirting one side of the path, and fronds from the bushes overhang the narrow trail in places.  Tiny red ants have built several mounds near the base of one bush.  One struggles with a plump blueberry, straining to haul it back to the nest."
+    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
   ],
   "paths": [
-    "Obvious paths: north, northeast, east, northwest."
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
-    "10716": "nw"
+    "10721": "n",
+    "10723": "ne",
+    "10724": "sw",
+    "10726": "se",
+    "10727": "e",
+    "51462": "w",
+    "51466": "nw",
+    "51467": "s"
   },
   "timeto": {
-    "10716": 0.2
-  }
+    "10721": 0.2,
+    "10723": 0.2,
+    "10724": 0.2,
+    "10726": 0.2,
+    "10727": 0.2,
+    "51462": 0.2,
+    "51466": 0.2,
+    "51467": 0.2
+  },
+  "image": "Zoluren, 6, North Gate & Monastary.png",
+  "image_coords": [
+    563,
+    573,
+    574,
+    586
+  ],
+  "uid": [
+    229109
+  ]
 },{
   "id": 10723,
   "title": [
@@ -294240,24 +294347,24 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10720": "nw",
+    "10721": "w",
+    "10722": "sw",
     "10727": "s",
     "10728": "n",
     "10730": "ne",
     "10731": "e",
-    "10732": "se",
-    "51468": "sw",
-    "51469": "w",
-    "51470": "nw"
+    "10732": "se"
   },
   "timeto": {
+    "10720": 0.2,
+    "10721": 0.2,
+    "10722": 0.2,
     "10727": 0.2,
     "10728": 0.2,
     "10730": 0.2,
     "10731": 0.2,
-    "10732": 0.2,
-    "51468": 0.2,
-    "51469": 0.2,
-    "51470": 0.2
+    "10732": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294281,18 +294388,18 @@
     "Obvious paths: north, northeast, east, west, northwest."
   ],
   "wayto": {
+    "10722": "ne",
     "16762": "w",
     "51462": "n",
     "51463": "nw",
-    "51467": "e",
-    "51468": "ne"
+    "51467": "e"
   },
   "timeto": {
+    "10722": 0.2,
     "16762": 0.2,
     "51462": 0.2,
     "51463": 0.2,
-    "51467": 0.2,
-    "51468": 0.2
+    "51467": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294316,18 +294423,18 @@
     "Obvious paths: east, southeast, south, southwest, west."
   ],
   "wayto": {
+    "10719": "e",
+    "10720": "se",
     "16760": "w",
     "16761": "sw",
-    "51465": "s",
-    "51470": "se",
-    "51471": "e"
+    "51465": "s"
   },
   "timeto": {
+    "10719": 0.2,
+    "10720": 0.2,
     "16760": 0.2,
     "16761": 0.2,
-    "51465": 0.2,
-    "51470": 0.2,
-    "51471": 0.2
+    "51465": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294351,16 +294458,16 @@
     "Obvious paths: north, northeast, west, northwest."
   ],
   "wayto": {
+    "10722": "nw",
     "10727": "n",
     "10732": "ne",
-    "51467": "w",
-    "51468": "nw"
+    "51467": "w"
   },
   "timeto": {
+    "10722": 0.2,
     "10727": 0.2,
     "10732": 0.2,
-    "51467": 0.2,
-    "51468": 0.2
+    "51467": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294387,22 +294494,22 @@
     "Obvious paths: north, northeast, east, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10721": "nw",
+    "10722": "w",
     "10723": "n",
     "10726": "s",
     "10731": "ne",
     "10732": "e",
-    "51467": "sw",
-    "51468": "w",
-    "51469": "nw"
+    "51467": "sw"
   },
   "timeto": {
+    "10721": 0.2,
+    "10722": 0.2,
     "10723": 0.2,
     "10726": 0.2,
     "10731": 0.2,
     "10732": 0.2,
-    "51467": 0.2,
-    "51468": 0.2,
-    "51469": 0.2
+    "51467": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294429,22 +294536,22 @@
     "Obvious paths: north, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10719": "nw",
+    "10720": "w",
+    "10721": "sw",
     "10723": "s",
     "10729": "n",
     "10730": "e",
-    "10731": "se",
-    "51469": "sw",
-    "51470": "w",
-    "51471": "nw"
+    "10731": "se"
   },
   "timeto": {
+    "10719": 0.2,
+    "10720": 0.2,
+    "10721": 0.2,
     "10723": 0.2,
     "10729": 0.2,
     "10730": 0.2,
-    "10731": 0.2,
-    "51469": 0.2,
-    "51470": 0.2,
-    "51471": 0.2
+    "10731": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -294471,16 +294578,16 @@
     "Obvious paths: southeast, south, southwest, west."
   ],
   "wayto": {
+    "10719": "w",
+    "10720": "sw",
     "10728": "s",
-    "10730": "se",
-    "51470": "sw",
-    "51471": "w"
+    "10730": "se"
   },
   "timeto": {
+    "10719": 0.2,
+    "10720": 0.2,
     "10728": 0.2,
-    "10730": 0.2,
-    "51470": 0.2,
-    "51471": 0.2
+    "10730": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -302069,32 +302176,6 @@
   "tags": [
     "ssgui_malchata",
     "ssugi_malchata"
-  ]
-},{
-  "id": 11019,
-  "title": [
-    "[[Haizen Jan Aradan, Prairie]]"
-  ],
-  "description": [
-    "The distinctively colored plateaus of the Mosaic Bluffs rise above the northern horizon.  Massive columns tower over the surrounding prairie and slender spires arch in fantastic shapes."
-  ],
-  "paths": [
-    "Obvious paths: southwest."
-  ],
-  "wayto": {
-    "2761": "sw",
-    "11018": "climb trail"
-  },
-  "timeto": {
-    "2761": 0.2,
-    "11018": 0.2
-  },
-  "image": "Ilitha, 66, Bottom of STR.gif",
-  "image_coords": [
-    947,
-    811,
-    961,
-    824
   ]
 },{
   "id": 11025,
@@ -477623,24 +477704,24 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10721": "ne",
+    "10722": "e",
     "10724": "s",
     "16762": "sw",
     "51463": "w",
     "51464": "nw",
     "51466": "n",
-    "51467": "se",
-    "51468": "e",
-    "51469": "ne"
+    "51467": "se"
   },
   "timeto": {
+    "10721": 0.2,
+    "10722": 0.2,
     "10724": 0.2,
     "16762": 0.2,
     "51463": 0.2,
     "51464": 0.2,
     "51466": 0.2,
-    "51467": 0.2,
-    "51468": 0.2,
-    "51469": 0.2
+    "51467": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -477734,24 +477815,24 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10719": "ne",
+    "10720": "e",
+    "10721": "se",
     "10725": "n",
     "16760": "nw",
     "16761": "w",
     "51464": "sw",
-    "51466": "s",
-    "51469": "se",
-    "51470": "e",
-    "51471": "ne"
+    "51466": "s"
   },
   "timeto": {
+    "10719": 0.2,
+    "10720": 0.2,
+    "10721": 0.2,
     "10725": 0.2,
     "16760": 0.2,
     "16761": 0.2,
     "51464": 0.2,
-    "51466": 0.2,
-    "51469": 0.2,
-    "51470": 0.2,
-    "51471": 0.2
+    "51466": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -477775,24 +477856,24 @@
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
   ],
   "wayto": {
+    "10720": "ne",
+    "10721": "e",
+    "10722": "se",
     "16761": "nw",
     "51462": "s",
     "51463": "sw",
     "51464": "w",
-    "51465": "n",
-    "51468": "se",
-    "51469": "e",
-    "51470": "ne"
+    "51465": "n"
   },
   "timeto": {
+    "10720": 0.2,
+    "10721": 0.2,
+    "10722": 0.2,
     "16761": 0.2,
     "51462": 0.2,
     "51463": 0.2,
     "51464": 0.2,
-    "51465": 0.2,
-    "51468": 0.2,
-    "51469": 0.2,
-    "51470": 0.2
+    "51465": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -477816,18 +477897,18 @@
     "Obvious paths: north, northeast, east, west, northwest."
   ],
   "wayto": {
+    "10722": "n",
     "10724": "w",
     "10726": "e",
     "10727": "ne",
-    "51462": "nw",
-    "51468": "n"
+    "51462": "nw"
   },
   "timeto": {
+    "10722": 0.2,
     "10724": 0.2,
     "10726": 0.2,
     "10727": 0.2,
-    "51462": 0.2,
-    "51468": 0.2
+    "51462": 0.2
   },
   "image": "Zoluren, 6, North Gate & Monastary.png",
   "image_coords": [
@@ -477838,164 +477919,6 @@
   ],
   "uid": [
     229108
-  ]
-},{
-  "id": 51468,
-  "title": [
-    "[[Monastery, Blueberry Bushes]]"
-  ],
-  "description": [
-    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
-  ],
-  "wayto": {
-    "10723": "ne",
-    "10724": "sw",
-    "10726": "se",
-    "10727": "e",
-    "51462": "w",
-    "51466": "nw",
-    "51467": "s",
-    "51469": "n"
-  },
-  "timeto": {
-    "10723": 0.2,
-    "10724": 0.2,
-    "10726": 0.2,
-    "10727": 0.2,
-    "51462": 0.2,
-    "51466": 0.2,
-    "51467": 0.2,
-    "51469": 0.2
-  },
-  "image": "Zoluren, 6, North Gate & Monastary.png",
-  "image_coords": [
-    563,
-    573,
-    574,
-    586
-  ],
-  "uid": [
-    229109
-  ]
-},{
-  "id": 51469,
-  "title": [
-    "[[Monastery, Blueberry Bushes]]"
-  ],
-  "description": [
-    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
-  ],
-  "wayto": {
-    "10723": "e",
-    "10727": "se",
-    "10728": "ne",
-    "51462": "sw",
-    "51465": "nw",
-    "51466": "w",
-    "51468": "s",
-    "51470": "n"
-  },
-  "timeto": {
-    "10723": 0.2,
-    "10727": 0.2,
-    "10728": 0.2,
-    "51462": 0.2,
-    "51465": 0.2,
-    "51466": 0.2,
-    "51468": 0.2,
-    "51470": 0.2
-  },
-  "image": "Zoluren, 6, North Gate & Monastary.png",
-  "image_coords": [
-    560,
-    529,
-    577,
-    542
-  ],
-  "uid": [
-    229110
-  ]
-},{
-  "id": 51470,
-  "title": [
-    "[[Monastery, Blueberry Bushes]]"
-  ],
-  "description": [
-    "Brambly bushes create a close thicket criss-crossed by paths littered with fallen blueberries.  The smell of over-ripe fruit lingers in the air like drying honey.  Scraps of loosely woven netting -- an attempt to foil birds -- cling to the shrubs."
-  ],
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."
-  ],
-  "wayto": {
-    "10723": "se",
-    "10725": "nw",
-    "10728": "e",
-    "10729": "ne",
-    "51465": "w",
-    "51466": "sw",
-    "51469": "s",
-    "51471": "n"
-  },
-  "timeto": {
-    "10723": 0.2,
-    "10725": 0.2,
-    "10728": 0.2,
-    "10729": 0.2,
-    "51465": 0.2,
-    "51466": 0.2,
-    "51469": 0.2,
-    "51471": 0.2
-  },
-  "image": "Zoluren, 6, North Gate & Monastary.png",
-  "image_coords": [
-    564,
-    480,
-    576,
-    491
-  ],
-  "uid": [
-    229111
-  ]
-},{
-  "id": 51471,
-  "title": [
-    "[[Monastery, Blueberry Bushes]]"
-  ],
-  "description": [
-    "Dark green moss dapples the high stone wall skirting one side of the path, and fronds from the bushes overhang the narrow trail in places.  Tiny black ants have built several mounds near the base of one bush.  An ant struggles with a plump blueberry, straining to haul it back to the nest."
-  ],
-  "paths": [
-    "Obvious paths: east, southeast, south, southwest, west."
-  ],
-  "wayto": {
-    "10725": "w",
-    "10728": "se",
-    "10729": "e",
-    "51465": "sw",
-    "51470": "s"
-  },
-  "timeto": {
-    "10725": 0.2,
-    "10728": 0.2,
-    "10729": 0.2,
-    "51465": 0.2,
-    "51470": 0.2
-  },
-  "image": "Zoluren, 6, North Gate & Monastary.png",
-  "image_coords": [
-    563,
-    432,
-    576,
-    443
-  ],
-  "uid": [
-    229112
   ]
 },{
   "id": 51472,
