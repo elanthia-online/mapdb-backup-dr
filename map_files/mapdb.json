@@ -447086,9 +447086,11 @@
     "Obvious exits: south, northwest."
   ],
   "wayto": {
+    "13553": "northwest",
     "16764": "south"
   },
   "timeto": {
+    "13553": 0.2,
     "16764": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
@@ -447113,9 +447115,11 @@
     "Obvious exits: north, southwest."
   ],
   "wayto": {
+    "16763": "north",
     "16765": "southwest"
   },
   "timeto": {
+    "16763": 0.2,
     "16765": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
@@ -447140,9 +447144,11 @@
     "Obvious exits: northeast, down."
   ],
   "wayto": {
+    "16764": "northeast",
     "16766": "down"
   },
   "timeto": {
+    "16764": 0.2,
     "16766": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
@@ -448012,14 +448018,15 @@
     "Obvious exits: east, south, west."
   ],
   "wayto": {
+    "16790": "go double doors",
     "16796": "west",
-    "16799": "south",
+    "16798": "south",
     "16800": "east"
   },
   "timeto": {
+    "16790": 0.2,
     "16796": 0.2,
     "16798": 0.2,
-    "16799": 0.2,
     "16800": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
@@ -448153,15 +448160,14 @@
   ],
   "wayto": {
     "16792": "north",
+    "16795": "west",
     "16799": "south",
-    "16800": "west",
     "16801": "east"
   },
   "timeto": {
     "16792": 0.2,
     "16795": 0.2,
     "16799": 0.2,
-    "16800": 0.2,
     "16801": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
@@ -448246,10 +448252,12 @@
     "Obvious exits: north."
   ],
   "wayto": {
-    "16802": "north"
+    "16802": "north",
+    "51900": "go debris-choked crevice"
   },
   "timeto": {
-    "16802": 0.2
+    "16802": 0.2,
+    "51900": 0.2
   },
   "image": "Zoluren, 8a, Lost Xing & Buried Mansion.gif",
   "image_coords": [
@@ -492879,4 +492887,95 @@
   "uid": [
     4012042
   ]
+},{
+  "id": 51900,
+  "title": [
+    "[[Vast Cavern, Sandstone Ledge]]"
+  ],
+  "description": [
+    "Excavated back into the depths of the earth, a crude vault has been wrestled from the ancient sandstone.  Craggy and discolored by the dampness of the ages, the stone cavity begins far below to embrace the dank above."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "51901": "climb steps"
+  },
+  "timeto": {
+    "51901": 0.2
+  }
+},{
+  "id": 51901,
+  "title": [
+    "[[Vast Cavern, Scarred Chamber]]"
+  ],
+  "description": [
+    "Whether by design or simply from random creation, intricate patterns circle the dank ruins that litter the floor of the cavern.  Hundreds of massive claw marks interweave with each other, tracking back and forth between the cavern walls, the ruins, and up along a sizable length of the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: south."
+  ],
+  "wayto": {
+    "51900": "climb steps",
+    "51902": "south"
+  },
+  "timeto": {
+    "51900": 0.2,
+    "51902": 0.2
+  }
+},{
+  "id": 51902,
+  "title": [
+    "[[Vast Cavern, Central Collapse]]"
+  ],
+  "description": [
+    "Upon the floor of this uneven and jumbled cavern are the cluttered remains of a collapse, the heavy stone and block shattered and cracked from the obvious force of their fall.  Despite the mammoth rocks' weight, they quiver and shudder with the constant vibrations that echo throughout this vast underground.  Humming audibly and partially buried, lies a slagged pile of translucent material."
+  ],
+  "paths": [
+    "Obvious exits: north, west."
+  ],
+  "wayto": {
+    "51901": "north",
+    "51903": "west"
+  },
+  "timeto": {
+    "51901": 0.2,
+    "51903": 0.2
+  }
+},{
+  "id": 51903,
+  "title": [
+    "[[Vast Cavern, Sidereal Collapse]]"
+  ],
+  "description": [
+    "Deeply embedded in the walls is an array of translucent shards, stuck fast as if hurled like arrows from a giant crossbow.  Chime-like overtones ring out from the shards as they quiver and pulse in sympathy with a deep, persistent thrumming that fills the air.  Rubble lies strewn everywhere, and so pockmarked is the ceiling and walls that it's a wonder the cavern is actually able to support itself against the constant vibrations."
+  ],
+  "paths": [
+    "Obvious exits: east, down."
+  ],
+  "wayto": {
+    "51902": "east",
+    "51904": "down"
+  },
+  "timeto": {
+    "51902": 0.2,
+    "51904": 0.2
+  }
+},{
+  "id": 51904,
+  "title": [
+    "[[Vast Cavern, Sunken Collapse]]"
+  ],
+  "description": [
+    "Massive blocks of stone and shattered rock fill this sunken pit incompletely, revealing dark gaps through which pebbles and debris slide into occasionally.  Wedged between some of the choking collapse is a partially crushed glove, frozen in a grasping gesture as it lies pinned into place.  The remains of its owner are certainly buried beneath the ruin nearby."
+  ],
+  "paths": [
+    "Obvious exits: up."
+  ],
+  "wayto": {
+    "51903": "up"
+  },
+  "timeto": {
+    "51903": 0.2
+  }
 }]
