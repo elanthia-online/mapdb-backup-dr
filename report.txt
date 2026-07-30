@@ -277,6 +277,12 @@ diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.js
 8141 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
 {"id"=>8141, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, southeast, northwest."], "wayto"=>{"8051"=>"northwest"}, "timeto"=>{"8051"=>0.2}}
 --------------------------------------------------
+8500 [[Therenborough, Carousel Square]] Therengia (u1026100)
+TYPE ERROR: OLD PATH IS A String
+--------------------------------------------------
+8775 [[Crossing Forging Society, Supplies]] Crossing Forging Society (u44003)
+TYPE ERROR: OLD PATH IS A String
+--------------------------------------------------
 12597 [[Darkmist Moor]] -- deleted room
 {"id"=>12597, "title"=>["[[Darkmist Moor]]"], "description"=>["Grass-covered upland rolls drearily westward beneath a thin veil of mist.  An empty streambed snakes through the variegated waste and arrives here at the edge of the moor, where an apparent mudslide has taken out a hefty portion of the bluffs that overlook the eastern bayou."], "paths"=>["Obvious paths: north, northeast."], "wayto"=>{"12598"=>"n"}, "timeto"=>{"12598"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[403, 566, 423, 584]}
 --------------------------------------------------
@@ -331,6 +337,9 @@ diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.js
 12614 [[Darkmist Moor]] -- deleted room
 {"id"=>12614, "title"=>["[[Darkmist Moor]]"], "description"=>["Thick mist has collected in the depression of this quiet gully, enhancing its natural seclusion.  A damp pile of cinders, the recent remains of a small campfire, smolers in the dewy grass near a stunted juniper."], "paths"=>["Obvious paths: southeast."], "wayto"=>{}, "timeto"=>{}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[151, 386, 171, 407]}
 --------------------------------------------------
+13507 [[Fang Cove, Carousel]]  (u9789100)
+TYPE ERROR: OLD PATH IS A String
+--------------------------------------------------
 13618 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
 {"id"=>13618, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8061"=>"se", "8075"=>"e"}, "timeto"=>{"8061"=>0.2, "8075"=>0.2}}
 --------------------------------------------------
@@ -352,6 +361,9 @@ diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.js
 15179 [[Darkmist Moor]] -- deleted room
 {"id"=>15179, "title"=>["[[Darkmist Moor]]"], "description"=>["The landscape stretches uneventfully outward in all directions, with only the occasional bush or scrubby tree peeking above the tall grasses that prevail along the rolling moorlands."], "paths"=>["Obvious paths: north, northeast, southeast."], "wayto"=>{"12598"=>"se", "12606"=>"n"}, "timeto"=>{"12598"=>0.2, "12606"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[369, 495, 387, 514]}
 --------------------------------------------------
+16958 [[Aesthene's Close, Crystal Chamber]]  (u)
+TYPE ERROR: OLD PATH IS A String
+--------------------------------------------------
 51949 [[Darkmist Moor, Nightshade Tangle]] -- new room
 {"id"=>51949, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: north, southwest, west."], "wayto"=>{"8064"=>"w", "51950"=>"n"}, "timeto"=>{"8064"=>0.2, "51950"=>0.2}, "uid"=>[2270115]}
 --------------------------------------------------
@@ -365,7 +377,7 @@ old map max: 51948
 current map max: 51951
 old map size: 18563
 current map size: 18496
-17 rooms with changes found.
+21 rooms with changes found.
 3 new rooms
 70 deleted rooms
 0 room titles no longer found
