@@ -1,207 +1,373 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-106 [[Arthe Dale, Willow Pond]]  (u81011)
-    added uid:   [81011]
+2857 [[Jademist River, Rose Arbor]] Southern Trade Route South of the Gondola (u2030045)
+  old wayto['8051'] =    ";e fput 'search'; waitrt?; fput 'go path'"
+  new wayto['8051'] =    "go path"
+!!!!!!!! STRINGPROC CHANGE IN WAYTO / TIMETO DETECTED !!!!!!!!
+  old timeto['8051'] =    3
+  new timeto['8051'] =    0.2
 --------------------------------------------------
-531 [[Aldamus House, Sitting Room]]  (u1019042)
-    added uid:   [1019042]
+8051 [[Darkmist Moor]] Darkmist Moor (u2270102)
+  old wayto['2857'] =    "go path"
+  new wayto['2857'] =    "go dirt path"
+  old wayto['8108'] =    "go bone"
+  new wayto['8108'] =    "go bones"
 --------------------------------------------------
-532 [[Aldamus House, Conservatory]]  (u1019043)
-    added uid:   [1019043]
+8052 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270103)
+  old wayto['8053'] =    "se"
+  new wayto['8053'] =    "southeast"
 --------------------------------------------------
-2428 [[Harbor Tower, Roof]]  (u471914)
-    added uid:   [471914]
+8055 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270121)
+  added wayto:
+    8053: [[Darkmist Moor, Nightshade Tangle]] => "northwest"
+    8072: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+    51949: [[Darkmist Moor, Nightshade Tangle]] => "ne"
+  added timeto:
+    8053: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    8072: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    51949: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-3197 [[Midwife's Cottage, Porch]]  (u1028020)
-    added uid:   [1028020]
+8056 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8056, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world.", "Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: northeast, east, southwest."], "wayto"=>{"8055"=>"northeast", "8057"=>"southwest", "8065"=>"southwest", "8067"=>"northeast", "8071"=>"east", "8078"=>"east"}, "timeto"=>{"8055"=>0.2, "8057"=>0.2, "8065"=>0.2, "8067"=>0.2, "8071"=>0.2, "8078"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[139, 753, 154, 768]}
 --------------------------------------------------
-4218 [[Vela'Tohr Outskirts, An Abandoned Field]]  (u4218904)
-    added uid:   [4218904]
+8057 [[Darkmist Moor, Nightshade Tangle]]  (u2270119)
+  removed wayto:
+    8058: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+    8060: [[Darkmist Moor, Scraggly Treetop]] => "southwest"
+  old wayto['8123'] =    "sw"
+  new wayto['8123'] =    "southwest"
+  removed timeto:
+    8058: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-4437 [[The Chapel of Raven's Point]]  (u4402450)
-    added uid:   [4402450]
+8058 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8058, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: northeast, southeast, southwest."], "wayto"=>{}, "timeto"=>{}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[207, 719, 222, 735]}
 --------------------------------------------------
-5621 [[Aesry Surlaenis'a, Shadaer]]  (u3107004)
-    added uid:   [3107004]
+8059 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8059, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tall grasses sway under the ebb and flow of the dark purple mists, kissing the verdant blades with icy dew.  Patches of colorful nightshade bloom amidst the grasses, a beautiful yet deadly addition to this dark, wild garden."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"8060"=>"southeast", "8063"=>"northeast"}, "timeto"=>{"8060"=>0.2, "8063"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[190, 635, 205, 648]}
 --------------------------------------------------
-5622 [[Aesry Surlaenis'a, Shadaer]]  (u3107008)
-    added uid:   [3107008]
+8061 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8061, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: northeast, west."], "wayto"=>{"8060"=>"northeast", "8079"=>"west", "13619"=>"w"}, "timeto"=>{"8060"=>0.2, "8079"=>0.2, "13619"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[171, 751, 190, 768]}
 --------------------------------------------------
-5624 [[Aesry Surlaenis'a, Shadaer]]  (u3107009)
-    added uid:   [3107009]
+8062 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8062, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Irregular patches of tall grass and squat shrubs lie beneath a sinuous blanket of dark purple mist.  The twisted shadow of an occasional barren tree looms in the foggy distance.", "Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade.", "Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: northeast, east, northwest."], "wayto"=>{"8060"=>"northwest", "8090"=>"northeast"}, "timeto"=>{"8060"=>0.2, "8090"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[240, 751, 257, 767]}
 --------------------------------------------------
-6914 [[Manor House, Curia]]  (u154102)
-    added uid:   [154102]
+8063 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8063, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tendrils of blooming nightshade climb high through the dark mists into the vacant claw-like trees, appearing to give the deceased husks some semblance of life, however perverted.", "Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: north, southwest, west."], "wayto"=>{"8059"=>"southwest", "8064"=>"west", "8066"=>"north", "8081"=>"north", "8092"=>"southwest"}, "timeto"=>{"8059"=>0.2, "8064"=>0.2, "8066"=>0.2, "8081"=>0.2, "8092"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[207, 617, 222, 631]}
 --------------------------------------------------
-7058 [[Theren Keep, Dais]]  (u1023109)
-    added uid:   [1023109]
+8064 [[Darkmist Moor, Nightshade Tangle]]  (u2270114)
+  added wayto:
+    51949: [[Darkmist Moor, Nightshade Tangle]] => "e"
+    51951: [[Darkmist Moor, Nightshade Tangle]] => "sw"
+  removed wayto:
+    8063: [[Darkmist Moor, Nightshade Tangle]] => "east"
+    8067: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+  old wayto['8051'] =    "northeast"
+  new wayto['8051'] =    "ne"
+  added timeto:
+    51949: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    51951: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+  removed timeto:
+    8063: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    8067: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-7651 [[Jantspyre River, In the Water]]  (u1400035)
-    added uid:   [1400035]
+8065 [[Darkmist Moor, Nightshade Tangle]]  (u2270105)
+  removed wayto:
+    8056: [[Darkmist Moor, Nightshade Tangle]] => "northeast"
+    13619: [[Darkmist Moor, Nightshade Tangle]] => "ne"
+  removed timeto:
+    8056: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    13619: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-7964 [[Wilderness]]  (u220021)
-    added uid:   [220021]
+8066 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8066, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Barren of leaves, wretched trees loom up from the tall grass looking a great deal like upturned claws.  A somber mist perpetually hangs in the air, dampening your lungs with its weight."], "paths"=>["Obvious paths: southeast, south."], "wayto"=>{"8063"=>"south", "8069"=>"southeast"}, "timeto"=>{"8063"=>0.2, "8069"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[207, 583, 222, 597]}
 --------------------------------------------------
-8060 [[Darkmist Moor, Scraggly Treetop]]  (u2270133)
-    added uid:   [2270133]
+8067 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8067, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world.", "Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, northwest."], "wayto"=>{"8064"=>"northeast", "8080"=>"northwest"}, "timeto"=>{"8064"=>0.2, "8080"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[137, 649, 155, 665]}
+--------------------------------------------------
+8068 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8068, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dusky scent of nightshade seems to manifest visually as the rolling, dark mists that are omnipresent over the wild moor.  The grasses waver in a lilting motion, enchanted by the intoxicating aroma."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"8105"=>"southwest"}, "timeto"=>{"8105"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[105, 616, 121, 631]}
+--------------------------------------------------
+8069 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8069, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Irregular patches of tall grass and squat shrubs lie beneath a sinuous blanket of dark purple mist.  The twisted shadow of an occasional barren tree looms in the foggy distance."], "paths"=>["Obvious paths: north, northwest."], "wayto"=>{"8066"=>"northwest", "8070"=>"north"}, "timeto"=>{"8066"=>0.2, "8070"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[241, 617, 257, 632]}
+--------------------------------------------------
+8070 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8070, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: southeast, south, northwest."], "wayto"=>{"8071"=>"northwest"}, "timeto"=>{"8071"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[241, 581, 256, 599]}
+--------------------------------------------------
+8071 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8071, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: east, southeast, west."], "wayto"=>{"8072"=>"west"}, "timeto"=>{"8072"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[206, 548, 223, 564]}
+--------------------------------------------------
+8072 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270122)
+  added wayto:
+    8055: [[Darkmist Moor, Nightshade Tangle]] => "ne"
+    8057: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+  removed wayto:
+    8065: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+    8139: [[Darkmist Moor, Nightshade Tangle]] => "northeast"
+  added timeto:
+    8055: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    8057: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+  removed timeto:
+    8139: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+--------------------------------------------------
+8074 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8074, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tendrils of blooming nightshade climb high through the dark mists into the vacant claw-like trees, appearing to give the deceased husks some semblance of life, however perverted."], "paths"=>["Obvious paths: northeast, west."], "wayto"=>{}, "timeto"=>{}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[275, 751, 290, 769]}
+--------------------------------------------------
+8075 [[Darkmist Moor, Tamsine's Sorrow]] Darkmist Moor (u2270131)
+  removed wayto:
+    13618: [[Darkmist Moor, Nightshade Tangle]] => "w"
+  removed timeto:
+    13618: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+--------------------------------------------------
+8076 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8076, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world."], "paths"=>["Obvious paths: southeast, northwest."], "wayto"=>{"8077"=>"northwest"}, "timeto"=>{"8077"=>0.2}}
+--------------------------------------------------
+8077 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8077, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world."], "paths"=>["Obvious paths: northeast, southeast, northwest."], "wayto"=>{"8051"=>"northwest", "8054"=>"northeast", "8076"=>"southeast"}, "timeto"=>{"8051"=>0.2, "8054"=>0.2, "8076"=>0.2}}
+--------------------------------------------------
+8078 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8078, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world."], "paths"=>["Obvious paths: east, southeast, west."], "wayto"=>{"8056"=>"west", "8097"=>"southeast", "8098"=>"east"}, "timeto"=>{"8056"=>0.2, "8097"=>0.2, "8098"=>0.2}}
+--------------------------------------------------
+8079 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8079, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tall grasses sway under the ebb and flow of the dark purple mists, kissing the verdant blades with icy dew.  Patches of colorful nightshade bloom amidst the grasses, a beautiful yet deadly addition to this dark, wild garden."], "paths"=>["Obvious paths: northeast, east, northwest."], "wayto"=>{"8075"=>";e move 'east';  move 'northeast'; move 'northwest'; move 'northeast' move 'southeast'; move 'east'"}, "timeto"=>{"8075"=>0.2}}
+--------------------------------------------------
+8080 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8080, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"8067"=>"southeast", "8081"=>"southwest"}, "timeto"=>{"8067"=>0.2, "8081"=>0.2}}
+--------------------------------------------------
+8081 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8081, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: southeast, south."], "wayto"=>{"8063"=>"south", "8096"=>"southeast"}, "timeto"=>{"8063"=>0.2, "8096"=>0.2}}
+--------------------------------------------------
+8083 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8083, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8084"=>"northwest", "8088"=>"southeast"}, "timeto"=>{"8084"=>0.2, "8088"=>0.2}}
+--------------------------------------------------
+8084 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8084, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"8083"=>"southeast", "8086"=>"southwest"}, "timeto"=>{"8083"=>0.2, "8086"=>0.2}}
+--------------------------------------------------
+8085 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8085, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, east, southwest."], "wayto"=>{"8057"=>"southwest", "8075"=>"northeast", "8088"=>"east"}, "timeto"=>{"8057"=>0.2, "8075"=>0.2, "8088"=>0.2}}
+--------------------------------------------------
+8086 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8086, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tendrils of blooming nightshade climb high through the dark mists into the vacant claw-like trees, appearing to give the deceased husks some semblance of life, however perverted."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"8084"=>"northeast", "8091"=>"southeast"}, "timeto"=>{"8084"=>0.2, "8091"=>0.2}}
+--------------------------------------------------
+8087 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270124)
+  added wayto:
+    8123: [[Darkmist Moor, Nightshade Tangle]] => "northeast"
+  removed wayto:
+    8060: [[Darkmist Moor, Scraggly Treetop]] => "northeast"
+    8062: [[Darkmist Moor, Nightshade Tangle]] => "southeast"
+  added timeto:
+    8123: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+  removed timeto:
+    8062: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+--------------------------------------------------
+8088 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270123)
+  added wayto:
+    8087: [[Darkmist Moor, Nightshade Tangle]] => "northeast"
+  removed wayto:
+    8060: [[Darkmist Moor, Scraggly Treetop]] => "northeast"
+  old wayto['8072'] =    "west"
+  new wayto['8072'] =    "w"
+  added timeto:
+    8087: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+--------------------------------------------------
+8091 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270128)
+  removed wayto:
+    8086: [[Darkmist Moor, Nightshade Tangle]] => "northwest"
+    8137: [[Darkmist Moor, Nightshade Tangle]] => "southwest"
+  removed timeto:
+    8086: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    8137: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+--------------------------------------------------
+8092 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8092, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"8060"=>"southeast", "8063"=>"northeast"}, "timeto"=>{"8060"=>0.2, "8063"=>0.2}}
+--------------------------------------------------
+8094 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270120)
+  old wayto['8095'] =    "southeast"
+  new wayto['8095'] =    "se"
+--------------------------------------------------
+8095 [[Darkmist Moor, Nightshade Tangle]] Darkmist Moor (u2270130)
+  old wayto['8088'] =    "southeast"
+  new wayto['8088'] =    "se"
+  old wayto['8094'] =    "northwest"
+  new wayto['8094'] =    "nw"
+--------------------------------------------------
+8096 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8096, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tendrils of blooming nightshade climb high through the dark mists into the vacant claw-like trees, appearing to give the deceased husks some semblance of life, however perverted."], "paths"=>["Obvious paths: north, northwest."], "wayto"=>{"8081"=>"northwest", "8097"=>"north"}, "timeto"=>{"8081"=>0.2, "8097"=>0.2}}
 --------------------------------------------------
 8097 [[Darkmist Moor, Nightshade Tangle]]  (u2270111)
-    added uid:   [2270111]
+  removed wayto:
+    8078: [[Darkmist Moor, Nightshade Tangle]] => "northwest"
+    8096: [[Darkmist Moor, Nightshade Tangle]] => "south"
+  removed timeto:
+    8078: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    8096: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-8124 [[Darkmist Moor, Nightshade Tangle]]  (u2270118)
-    added uid:   [2270118]
+8098 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8098, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: west, northwest."], "wayto"=>{"8078"=>"west", "8099"=>"northwest"}, "timeto"=>{"8078"=>0.2, "8099"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[239, 545, 257, 565]}
 --------------------------------------------------
-8799 [[Sazu's Cottage, Dyeing Chamber]]  (u155008)
-    added uid:   [155008]
+8099 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8099, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tendrils of blooming nightshade climb high through the dark mists into the vacant claw-like trees, appearing to give the deceased husks some semblance of life, however perverted."], "paths"=>["Obvious paths: southeast."], "wayto"=>{"8098"=>"southeast"}, "timeto"=>{"8098"=>0.2}, "image"=>"Ilitha, 64c, Darkmist Moor.gif", "image_coords"=>[207, 512, 223, 529]}
 --------------------------------------------------
-9100 [[On A Whim, Sales Floor]]  (u71121)
-    added uid:   [71121]
+8100 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8100, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: northeast, northwest."], "wayto"=>{"8064"=>"northeast", "8101"=>"northwest"}, "timeto"=>{"8064"=>0.2, "8101"=>0.2}}
 --------------------------------------------------
-9102 [[Teh Black Market, Sales Floor]]  (u71198)
-    added uid:   [71198]
+8101 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8101, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"8100"=>"southeast", "8102"=>"southwest"}, "timeto"=>{"8100"=>0.2, "8102"=>0.2}}
 --------------------------------------------------
-9104 [[Banisad's Quest N Fest Rares, Sales Floor]]  (u71451)
-    added uid:   [71451]
+8102 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8102, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: southeast, south."], "wayto"=>{"8103"=>"s", "8104"=>"se"}, "timeto"=>{"8103"=>0.2, "8104"=>0.2}}
 --------------------------------------------------
-10577 [[Griniel's Cottage, Attic]]  (u1444216)
-    added uid:   [1444216]
+8103 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8103, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: north, southwest, west."], "wayto"=>{"8064"=>"w", "8102"=>"n", "8105"=>"southwest"}, "timeto"=>{"8064"=>0.2, "8102"=>0.2, "8105"=>0.2}}
 --------------------------------------------------
-11005 [[Remcli Amarcen, Cavern]]  (u2250055)
-  removed tags: ["lich-map-no-uid-room"]
-    added uid:   [2250055]
+8104 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8104, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: north, northwest."], "wayto"=>{"8102"=>"nw"}, "timeto"=>{"8102"=>0.2}}
 --------------------------------------------------
-11532 [[Frozen River, Beneath the Ice]]  (u2280005)
-    added uid:   [2280005]
+8105 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8105, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"8060"=>"southeast", "8103"=>"ne"}, "timeto"=>{"8060"=>0.2, "8103"=>0.2}}
 --------------------------------------------------
-11533 [[Frozen River, Beneath the Ice]]  (u2280004)
-    added uid:   [2280004]
+8107 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8107, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Tall grasses sway under the ebb and flow of the dark purple mists, kissing the verdant blades with icy dew.  Patches of colorful nightshade bloom amidst the grasses, a beautiful yet deadly addition to this dark, wild garden."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8061"=>"southeast", "8094"=>"northwest"}, "timeto"=>{"8061"=>0.2, "8094"=>0.2}}
 --------------------------------------------------
-11535 [[Frozen River, Beneath the Ice]]  (u2280002)
-    added uid:   [2280002]
+8108 [[Darkmist Moor, Trail of Bones]] Darkmist Moor (u2270301)
+  old wayto['8051'] =    "go bone"
+  new wayto['8051'] =    "go bones"
 --------------------------------------------------
-11547 [[Egress Bluffs]]  (u3060008)
-    added uid:   [3060008]
+8123 [[Darkmist Moor, Nightshade Tangle]]  (u2270132)
+  added wayto:
+    8057: [[Darkmist Moor, Nightshade Tangle]] => "northeast"
+  removed wayto:
+    8103: [[Darkmist Moor, Nightshade Tangle]] => "ne"
+    13620: [[Darkmist Moor, Nightshade Tangle]] => "nw"
+  added timeto:
+    8057: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+  removed timeto:
+    8103: [[Darkmist Moor, Nightshade Tangle]] => 0.2
+    13620: [[Darkmist Moor, Nightshade Tangle]] => 0.2
 --------------------------------------------------
-11617 [[Ain Ghazal Auberge, The River Fisher]]  (u4121505)
-    added uid:   [4121505]
+8125 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8125, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Barren of leaves, wretched trees loom up from the tall grass looking a great deal like upturned claws.  A somber mist perpetually hangs in the air, dampening your lungs with its weight."], "paths"=>["Obvious paths: northeast, east, northwest."], "wayto"=>{"8087"=>"northwest", "8089"=>"east", "8090"=>"northeast"}, "timeto"=>{"8087"=>0.2, "8089"=>0.2, "8090"=>0.2}}
 --------------------------------------------------
-11618 [[Ain Ghazal Auberge, Conversation Room]]  (u4121504)
-    added uid:   [4121504]
+8129 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8129, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Barren of leaves, wretched trees loom up from the tall grass looking a great deal like upturned claws.  A somber mist perpetually hangs in the air, dampening your lungs with its weight."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8061"=>"southeast", "8080"=>"northwest"}, "timeto"=>{"8061"=>0.2, "8080"=>0.2}}
 --------------------------------------------------
-11642 [[Ain Ghazal Chateau, Banquet Room]]  (u4121004)
-    added uid:   [4121004]
+8130 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8130, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, southeast, southwest."], "wayto"=>{"8061"=>"southwest"}, "timeto"=>{"8061"=>0.2}}
 --------------------------------------------------
-11655 [[Ain Ghazal Chateau, Bell Tower Bastion]]  (u4121106)
-    added uid:   [4121106]
+8134 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8134, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8135"=>"northwest"}, "timeto"=>{"8135"=>0.2}}
 --------------------------------------------------
-11887 [[Fala Inisharon, The White Oak]]  (u3096051)
-    added uid:   [3096051]
+8135 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8135, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"8136"=>"southwest"}, "timeto"=>{"8136"=>0.2}}
 --------------------------------------------------
-12540 [[Denison's Pub, Common Room]]  (u3103550)
-    added uid:   [3103550]
+8136 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8136, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The soft mist makes everything seem muted and far away, disconnected and tinged with the illusion of a dream world."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"8091"=>"southeast"}, "timeto"=>{"8091"=>0.2}}
 --------------------------------------------------
-12962 [[Paladins' Guild, Chapel]]  (u3021406)
-    added uid:   [3021406]
+8137 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8137, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, west."], "wayto"=>{"8138"=>"west"}, "timeto"=>{"8138"=>0.2}}
 --------------------------------------------------
-13190 [[Sephina's Lockbane]]  (u4122201)
-    added uid:   [4122201]
+8138 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8138, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: northeast, east, northwest."], "wayto"=>{"8091"=>"northwest"}, "timeto"=>{"8091"=>0.2}}
 --------------------------------------------------
-13358 [[Misrel Lemicus'a, Magical Studies Room]]  (u3102055)
-    added uid:   [3102055]
+8139 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8139, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, southwest, northwest."], "wayto"=>{"8140"=>"northwest"}, "timeto"=>{"8140"=>0.2}}
 --------------------------------------------------
-13361 [[Aesry Surlaenis'a, Inn Stables]]  (u3103541)
-    added uid:   [3103541]
+8140 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8140, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: southeast, northwest."], "wayto"=>{"8141"=>"northwest"}, "timeto"=>{"8141"=>0.2}}
 --------------------------------------------------
-13373 [[Ger Ilerthan, Courtyard]]  (u3102701)
-    added uid:   [3102701]
+8141 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>8141, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, southeast, northwest."], "wayto"=>{"8051"=>"northwest"}, "timeto"=>{"8051"=>0.2}}
 --------------------------------------------------
-13374 [[Ger Ilerthan, Courtyard]]  (u3102702)
-    added uid:   [3102702]
+12597 [[Darkmist Moor]] -- deleted room
+{"id"=>12597, "title"=>["[[Darkmist Moor]]"], "description"=>["Grass-covered upland rolls drearily westward beneath a thin veil of mist.  An empty streambed snakes through the variegated waste and arrives here at the edge of the moor, where an apparent mudslide has taken out a hefty portion of the bluffs that overlook the eastern bayou."], "paths"=>["Obvious paths: north, northeast."], "wayto"=>{"12598"=>"n"}, "timeto"=>{"12598"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[403, 566, 423, 584]}
 --------------------------------------------------
-13623 [[Prison Maze Paraphernalia, Sales Floor]]  (u71160)
-    added uid:   [71160]
+12598 [[Darkmist Moor]] -- deleted room
+{"id"=>12598, "title"=>["[[Darkmist Moor]]"], "description"=>["Clusters of heather dot the grassy incline that rolls gently westward into the vast expanse of moorland.  To the east, the view of the dark bayou slowly disappears behind a curtain of fog."], "paths"=>["Obvious paths: northeast, east, south, northwest."], "wayto"=>{"12599"=>"ne", "15179"=>"nw"}, "timeto"=>{"12599"=>0.2, "15179"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[404, 532, 422, 549]}
 --------------------------------------------------
-13786 [[Riverhaven, Small House]]  (u1018101)
-    added uid:   [1018101]
+12599 [[Darkmist Moor]] -- deleted room
+{"id"=>12599, "title"=>["[[Darkmist Moor]]"], "description"=>["The weeds and grasses of the moorland shy away from the windswept bluff that marks its eastern border, leaving blue-grey lichen to predominate the stony ridge.  With no reluctance of its own, a low layer of wispy mist cascades over the edge of the cliff."], "paths"=>["Obvious paths: south, southwest, northwest."], "wayto"=>{"12600"=>"nw"}, "timeto"=>{"12600"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[442, 494, 459, 514]}
 --------------------------------------------------
-14311 [[Field of Shields]]  (u3103090)
-    added uid:   [3103090]
+12600 [[Darkmist Moor]] -- deleted room
+{"id"=>12600, "title"=>["[[Darkmist Moor]]"], "description"=>["Silence blankets the moorland almost as heavily as the ubiquitous lichens and weeds.  With footfall muted by the damp turf and misty atmosphere, only the occasional screech of an overhead hawk cuts through the relentless quiet."], "paths"=>["Obvious paths: north, northeast, southeast, southwest, west."], "wayto"=>{"12601"=>"n", "12607"=>"ne"}, "timeto"=>{"12601"=>0.2, "12607"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[405, 458, 424, 475]}
 --------------------------------------------------
-14595 [[Tezler's Shop, Sales Floor]]  (u71271)
-    added uid:   [71271]
+12601 [[Darkmist Moor]] -- deleted room
+{"id"=>12601, "title"=>["[[Darkmist Moor]]"], "description"=>["The mottled landscape shifts in muted shades of yellow, green, and blue-grey as weeds, scrub, and stone vie lazily for dominance of the open waste.  Bleached bones occasionally speckle the scenery with off-white in places where the vegetation is especially sparse."], "paths"=>["Obvious paths: east, south, northwest."], "wayto"=>{"12602"=>"nw"}, "timeto"=>{"12602"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[404, 422, 422, 441]}
 --------------------------------------------------
-14623 [[Empath's Guild, Guildleader's Study]]  (u3102077)
-    added uid:   [3102077]
+12602 [[Darkmist Moor]] -- deleted room
+{"id"=>12602, "title"=>["[[Darkmist Moor]]"], "description"=>["Cotton-grass sways freely in the open air, the panoply of fluffy white seed heads susceptible to even the gentlest of breezes.  A rusted blade lies forgotten and half-buried in the scraggly sward, its decay accelerated by the steadfast dew and inexorable mists that dampen the environment."], "paths"=>["Obvious paths: southeast, southwest."], "wayto"=>{"12603"=>"sw"}, "timeto"=>{"12603"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[367, 386, 384, 404]}
 --------------------------------------------------
-14678 [[Forest, A Small Clearing]]  (u2522010)
-    added uid:   [2522010]
+12603 [[Darkmist Moor]] -- deleted room
+{"id"=>12603, "title"=>["[[Darkmist Moor]]"], "description"=>["The landscape stretches uneventfully outward in all directions, with only the occasional bush or scrubby tree peeking above the tall grasses that prevail along the rolling moorlands."], "paths"=>["Obvious paths: northeast, southeast, south, southwest, northwest."], "wayto"=>{"12604"=>"sw", "12608"=>"nw"}, "timeto"=>{"12604"=>0.2, "12608"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[333, 422, 350, 439]}
 --------------------------------------------------
-14725 [[Finer Things By Zincir, Sales Floor]]  (u1233351)
-    added uid:   [1233351]
+12604 [[Darkmist Moor]] -- deleted room
+{"id"=>12604, "title"=>["[[Darkmist Moor]]"], "description"=>["Low hillocks fronting pale yellow weeds roll across the moorland like waves on a calm sea.  Sporadic boulders crest the grassy swells, breaking up the flaxen expanse with dark smudges of blue and grey."], "paths"=>["Obvious paths: northeast, east, south, west."], "wayto"=>{"12605"=>"s", "15178"=>"e"}, "timeto"=>{"12605"=>0.2, "15178"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[298, 458, 315, 476]}
 --------------------------------------------------
-14726 [[JAK'S Treasures, Sales Floor]]  (u1233171)
-    added uid:   [1233171]
+12605 [[Darkmist Moor]] -- deleted room
+{"id"=>12605, "title"=>["[[Darkmist Moor]]"], "description"=>["Cranberry vines curl around a little spring bubbling up from a rocky cleft in the terrain.  A few clusters of withered fruit cling to the stubby-leafed plants, but most of this season's harvest seems to have been nibbled away by hungry wildlife."], "paths"=>["Obvious paths: north, northeast, northwest."], "wayto"=>{}, "timeto"=>{}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[297, 495, 316, 513]}
 --------------------------------------------------
-15128 [[Paladins' Guild, Sentinel's Way]]  (u70008)
-    added uid:   [70008]
+12606 [[Darkmist Moor]] -- deleted room
+{"id"=>12606, "title"=>["[[Darkmist Moor]]"], "description"=>["Torn up grasses reveal several patches of freshly disturbed earth scattered about the area.  Bits of old bone lie amongst the mud, mist, and claw marks."], "paths"=>["Obvious paths: east, south, west, northwest."], "wayto"=>{"12600"=>"e", "15178"=>"w", "15179"=>"s"}, "timeto"=>{"12600"=>0.2, "15178"=>0.2, "15179"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[369, 458, 386, 476]}
 --------------------------------------------------
-15293 [[The Enclave, Sohrac's Gembuyers]]  (u3156051)
-    added uid:   [3156051]
+12607 [[Darkmist Moor]] -- deleted room
+{"id"=>12607, "title"=>["[[Darkmist Moor]]"], "description"=>["The weeds and grasses of the moorland shy away from the windswept bluff that marks its eastern border, leaving blue-grey lichen to predominate the stony ridge.  With no reluctance of its own, a low layer of wispy mist cascades over the edge of the cliff."], "paths"=>["Obvious paths: southwest, west."], "wayto"=>{"12601"=>"w"}, "timeto"=>{"12601"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[442, 422, 458, 441]}
 --------------------------------------------------
-15359 [[Lady Atladene's Garden, Pool]]  (u2015105)
-  removed tags: ["lich-map-no-uid-room"]
-    added uid:   [2015105]
+12608 [[Darkmist Moor]] -- deleted room
+{"id"=>12608, "title"=>["[[Darkmist Moor]]"], "description"=>["Dreary hues domineer the mist-veiled landscape.  Half hidden beneath a shriveled oleander shrub, the freshly turned earth of a small animal burrow servers as reminder that the moor plays host to a thriving ecosystem despite its rather desolate presentation."], "paths"=>["Obvious paths: southeast, west, northwest."], "wayto"=>{"12609"=>"w"}, "timeto"=>{"12609"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[298, 385, 315, 407]}
 --------------------------------------------------
-15406 [[Hara'jaal, Nardel Aesker]]  (u3145008)
-    added uid:   [3145008]
+12609 [[Darkmist Moor]] -- deleted room
+{"id"=>12609, "title"=>["[[Darkmist Moor]]"], "description"=>["Low boulders coated in blue-grey lichen dot the terrain, looking very much at home amidst the muted greens and yellows of the drab moorland grasses."], "paths"=>["Obvious paths: north, east, southwest."], "wayto"=>{"12610"=>"n"}, "timeto"=>{"12610"=>0.2}}
 --------------------------------------------------
-15508 [[Quest, Fest, And Crafted, Sales Floor]]  (u71130)
-    added uid:   [71130]
+12610 [[Darkmist Moor]] -- deleted room
+{"id"=>12610, "title"=>["[[Darkmist Moor]]"], "description"=>["The landscape stretches uneventfully outward in all directions, with only the occasional bush or scrubby tree peeking above the tall grasses that prevail along the rolling moorlands."], "paths"=>["Obvious paths: southeast, south, west."], "wayto"=>{"12611"=>"w"}, "timeto"=>{"12611"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[261, 350, 278, 367]}
 --------------------------------------------------
-15745 [[The Herb Play Restaurant, Outdoor Dining]]  (u3082123)
-    added uid:   [3082123]
+12611 [[Darkmist Moor]] -- deleted room
+{"id"=>12611, "title"=>["[[Darkmist Moor]]"], "description"=>["Clumps of torn-up heather have been used to camouflage a short lean-to propped against the side of a lichen-coated outcropping of rocks.  There are traces of recent activity in the form of footsteps and flattened weeds, but any clues or personal effects of the former occupant are now long gone."], "paths"=>["Obvious paths: east, southwest."], "wayto"=>{"12612"=>"sw"}, "timeto"=>{"12612"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[225, 352, 243, 367]}
 --------------------------------------------------
-15876 [[Fever Point, Pier]]  (u3093065)
-    added uid:   [3093065]
+12612 [[Darkmist Moor]] -- deleted room
+{"id"=>12612, "title"=>["[[Darkmist Moor]]"], "description"=>["Broad slopes and inclines undulate smoothly across the grass-covered moorland, only occasionally interrupted by an errant tree or boulder in the distance.  A patchy white mist drifts languidly over the hillsides, looking not unlike an endless flock of ghostly sheep grazing far off."], "paths"=>["Obvious paths: northeast, south."], "wayto"=>{"12613"=>"s"}, "timeto"=>{"12613"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[188, 386, 207, 405]}
 --------------------------------------------------
-17049 [[Paladins' Guild, Eamonn's Office]]  (u3021403)
-    added uid:   [3021403]
+12613 [[Darkmist Moor]] -- deleted room
+{"id"=>12613, "title"=>["[[Darkmist Moor]]"], "description"=>["Sparse shrubs do little to break the monotony of the surrounding moorlands.  To the northwest, the natural path between grassy hillocks meanders down into a secluded gully."], "paths"=>["Obvious paths: north, east, northwest."], "wayto"=>{"12614"=>"nw"}, "timeto"=>{"12614"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[189, 424, 207, 441]}
 --------------------------------------------------
-17051 [[Paladins' Guild, Grand Hall of Light]]  (u3021402)
-    added uid:   [3021402]
+12614 [[Darkmist Moor]] -- deleted room
+{"id"=>12614, "title"=>["[[Darkmist Moor]]"], "description"=>["Thick mist has collected in the depression of this quiet gully, enhancing its natural seclusion.  A damp pile of cinders, the recent remains of a small campfire, smolers in the dewy grass near a stunted juniper."], "paths"=>["Obvious paths: southeast."], "wayto"=>{}, "timeto"=>{}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[151, 386, 171, 407]}
 --------------------------------------------------
-51005 [[Dream Vision, Sales Floor]]  (u1233281)
-    added uid:   [1233281]
+13618 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>13618, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: east, southeast, northwest."], "wayto"=>{"8061"=>"se", "8075"=>"e"}, "timeto"=>{"8061"=>0.2, "8075"=>0.2}}
 --------------------------------------------------
-51060 [[Northern Watch Tower, Sales Floor]]  (u71204)
-    added uid:   [71204]
+13619 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>13619, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: northeast, east, southwest."], "wayto"=>{"8065"=>"sw"}, "timeto"=>{"8057"=>0.2, "8065"=>0.2}}
 --------------------------------------------------
-51162 [[House Of Goods And Antiquities, Sales Floor]]  (u1233108)
-    added uid:   [1233108]
+13620 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>13620, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: southeast, northwest."], "wayto"=>{"13621"=>"nw"}, "timeto"=>{"13621"=>0.2}}
 --------------------------------------------------
-51163 [[Ve Aevan Gaenan, The High Altar]]  (u753002)
-    added uid:   [753002]
+13621 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>13621, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sinuous tendrils of dark purple mist swim through the air, entangling themselves in the deformed limbs of barren trees like ethereal serpents.  The dusky scent of nightshade carries over the moor."], "paths"=>["Obvious paths: northeast, southeast, northwest."], "wayto"=>{"8051"=>"nw"}, "timeto"=>{"8051"=>0.2}}
 --------------------------------------------------
-51211 [[Southern Goods And Treasures, Sales Floor]]  (u2024102)
-  removed tags: ["lich-map-no-uid-room"]
-    added uid:   [2024102]
+13622 [[Darkmist Moor, Nightshade Tangle]] -- deleted room
+{"id"=>13622, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dark mists cast a bluish-lavender pall through the air.  The motion of every shadow is magnified, twitching in wait just beyond your field of vision."], "paths"=>["Obvious paths: east, southwest."], "wayto"=>{"8065"=>"e"}, "timeto"=>{"8065"=>0.2}}
 --------------------------------------------------
-51283 [[Yrs' Greatest Deals, Sales Floor]]  (u71171)
-    added uid:   [71171]
+15178 [[Darkmist Moor]] -- deleted room
+{"id"=>15178, "title"=>["[[Darkmist Moor]]"], "description"=>["Low boulders coated in blue-grey lichen dot the terrain, looking very much at home amidst the muted greens and yellows of the drab moorland grasses."], "paths"=>["Obvious paths: north, east, southwest, west."], "wayto"=>{"12604"=>"w", "12606"=>"e"}, "timeto"=>{"12604"=>0.2, "12606"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[334, 458, 350, 475]}
 --------------------------------------------------
-51582 [[Deadman's Confide, Galley]]  (u3045204)
-    added uid:   [3045204]
+15179 [[Darkmist Moor]] -- deleted room
+{"id"=>15179, "title"=>["[[Darkmist Moor]]"], "description"=>["The landscape stretches uneventfully outward in all directions, with only the occasional bush or scrubby tree peeking above the tall grasses that prevail along the rolling moorlands."], "paths"=>["Obvious paths: north, northeast, southeast."], "wayto"=>{"12598"=>"se", "12606"=>"n"}, "timeto"=>{"12598"=>0.2, "12606"=>0.2}, "image"=>"hotrf_boleausun_bayou-1548620615.jpg", "image_coords"=>[369, 495, 387, 514]}
 --------------------------------------------------
-51586 [[Deadman's Confide, Barracks]]  (u3045219)
-    added uid:   [3045219]
+51949 [[Darkmist Moor, Nightshade Tangle]] -- new room
+{"id"=>51949, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Sharp shadows cut through the landscape, accenting the twisted silhouettes of the grotesquely haggard trees while concealing the hazards that lie hidden within the patches of tall grass."], "paths"=>["Obvious paths: north, southwest, west."], "wayto"=>{"8064"=>"w", "51950"=>"n"}, "timeto"=>{"8064"=>0.2, "51950"=>0.2}, "uid"=>[2270115]}
+--------------------------------------------------
+51950 [[Darkmist Moor, Nightshade Tangle]] -- new room
+{"id"=>51950, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["The dusky scent of nightshade seems to manifest visually as the rolling, dark mists that are omnipresent over the wild moor.  The grasses waver in a lilting motion, enchanted by the intoxicating aroma."], "paths"=>["Obvious paths: southeast, south."], "wayto"=>{"51949"=>"s"}, "timeto"=>{"51949"=>0.2}, "uid"=>[2270110]}
+--------------------------------------------------
+51951 [[Darkmist Moor, Nightshade Tangle]] -- new room
+{"id"=>51951, "title"=>["[[Darkmist Moor, Nightshade Tangle]]"], "description"=>["Swaths of dark mist drape the moor in layers of shadow, concealing the source of a malignant rustling that waits in nearby tangles of nightshade."], "paths"=>["Obvious paths: northeast, northwest."], "wayto"=>{"8064"=>"ne"}, "timeto"=>{"8064"=>0.2}, "uid"=>[2270113]}
 --------------------------------------------------
 old map max: 51948
-current map max: 51948
+current map max: 51951
 old map size: 18563
-current map size: 18563
-64 rooms with changes found.
-0 new rooms
-0 deleted rooms
+current map size: 18496
+17 rooms with changes found.
+3 new rooms
+70 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found
 0 new tags: []
