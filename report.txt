@@ -1,44 +1,206 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-51285 [[Foyer]]  (u0)
-  added wayto:
-    51913: [[Walled Memory Garden, Entrance]] => "go gate"
-  added timeto:
-    51913: [[Walled Memory Garden, Entrance]] => 0.2
+106 [[Arthe Dale, Willow Pond]]  (u81011)
+    added uid:   [81011]
 --------------------------------------------------
-51913 [[Walled Memory Garden, Entrance]] -- new room
-{"id"=>51913, "title"=>["[[Walled Memory Garden, Entrance]]"], "description"=>["Smooth cobblestones pave a modest courtyard enclosed by a tall stone wall that stretches in either direction, surrounding the entire manicured space.  Near the entrance, a decorative trebuchet fashioned entirely from tightly braided plants stands upon a low circular bed, while trimmed shrubs and carefully maintained borders frame the open space."], "paths"=>["Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest."], "wayto"=>{"51285"=>"go gate", "51914"=>"n", "51915"=>"nw", "51916"=>"ne", "51917"=>"w", "51918"=>"sw", "51919"=>"s", "51920"=>"se", "51921"=>"e"}, "timeto"=>{"51285"=>0.2, "51914"=>0.2, "51915"=>0.2, "51916"=>0.2, "51917"=>0.2, "51918"=>0.2, "51919"=>0.2, "51920"=>0.2, "51921"=>0.2}}
+531 [[Aldamus House, Sitting Room]]  (u1019042)
+    added uid:   [1019042]
 --------------------------------------------------
-51914 [[Walled Memory Garden, Spire Walk]] -- new room
-{"id"=>51914, "title"=>["[[Walled Memory Garden, Spire Walk]]"], "description"=>["A broad path of white pebbles defines a generous walkway through a meticulously maintained landscape of burgundy foliage, silver-green shrubs, and scarlet flowers.  Poised beneath a tall black iron spire, an intricate statue of the World Dragon rests upon a raised stone table."], "paths"=>["Obvious paths: southeast, south, southwest."], "wayto"=>{"51913"=>"s", "51915"=>"sw", "51916"=>"se"}, "timeto"=>{"51913"=>0.2, "51915"=>0.2, "51916"=>0.2}}
+532 [[Aldamus House, Conservatory]]  (u1019043)
+    added uid:   [1019043]
 --------------------------------------------------
-51915 [[Walled Memory Garden, Island Siege]] -- new room
-{"id"=>51915, "title"=>["[[Walled Memory Garden, Island Siege]]"], "description"=>["A large slab of dark basalt rises from a bed of neatly maintained oshu'mary plants, their trailing greenery dotted with countless tiny white blossoms.  Its polished face bears an expansive mural depicting a sailing warship approaching a rugged island, an ogre grappling an undead kraken, and a gnome fleeing on the wings of an intricate ornithopter."], "paths"=>["Obvious paths: northeast, southeast, south."], "wayto"=>{"51913"=>"se", "51914"=>"ne", "51917"=>"s"}, "timeto"=>{"51913"=>0.2, "51914"=>0.2, "51917"=>0.2}}
+2428 [[Harbor Tower, Roof]]  (u471914)
+    added uid:   [471914]
 --------------------------------------------------
-51916 [[Walled Memory Garden, Starry Path]] -- new room
-{"id"=>51916, "title"=>["[[Walled Memory Garden, Starry Path]]"], "description"=>["White pebbles line a gently curved pathway that crosses an elegant garden where clipped hedges, sculpted shrubs, and flowering borders surround an immense bed of blood-red roses.  Carefully planted to create a flawless seven-pointed star, the vibrant display is enclosed by a narrow ring of pale stone and neatly maintained greenery."], "paths"=>["Obvious paths: south, southwest, northwest."], "wayto"=>{"51913"=>"sw", "51914"=>"nw", "51921"=>"s"}, "timeto"=>{"51913"=>0.2, "51914"=>0.2, "51921"=>0.2}}
+3197 [[Midwife's Cottage, Porch]]  (u1028020)
+    added uid:   [1028020]
 --------------------------------------------------
-51917 [[Walled Memory Garden, Knots of Philosophy]] -- new room
-{"id"=>51917, "title"=>["[[Walled Memory Garden, Knots of Philosophy]]"], "description"=>["Dominating the space is a sculpture of concentric bands formed from woven vines and flowering plants.  The outer ring spirals with alternating clusters of vivid orange and pristine white blossoms, interrupted at regular intervals by broad facets planted with rich red-gold blooms.  Within, a second ring of dark foliage and smooth stone supports a series of slender spokes converging upon a perfectly rounded sphere of densely tangled reddish-brown tendrils."], "paths"=>["Obvious paths: north, east, south."], "wayto"=>{"51913"=>"e", "51915"=>"n", "51918"=>"s"}, "timeto"=>{"51913"=>0.2, "51915"=>0.2, "51918"=>0.2}}
+4218 [[Vela'Tohr Outskirts, An Abandoned Field]]  (u4218904)
+    added uid:   [4218904]
 --------------------------------------------------
-51918 [[Walled Memory Garden, Beyond the Trellis]] -- new room
-{"id"=>51918, "title"=>["[[Walled Memory Garden, Beyond the Trellis]]"], "description"=>["A towering wall of interwoven golden flowers rises from an intricately crafted trellis, dividing the garden into two distinct landscapes.  One side is planted with dense dark foliage punctuated by incarnadine blossoms, while the other flourishes with sweeping drifts of vibrant wildflowers in countless shapes and colors."], "paths"=>["Obvious paths: north, northeast, southeast."], "wayto"=>{"51913"=>"ne", "51917"=>"n", "51919"=>"se"}, "timeto"=>{"51913"=>0.2, "51917"=>0.2, "51919"=>0.2}}
+4437 [[The Chapel of Raven's Point]]  (u4402450)
+    added uid:   [4402450]
 --------------------------------------------------
-51919 [[Walled Memory Garden, Arrow's Fall]] -- new room
-{"id"=>51919, "title"=>["[[Walled Memory Garden, Arrow's Fall]]"], "description"=>["A broad lawn is bordered by neatly trimmed hedges and carefully maintained flowering beds, their orderly appearance interrupted by countless claw-tipped arrows embedded throughout the surrounding greenery and stonework.  To one side, an elaborate hedge forms the Northeast Gate of Crossing.  An innocent-looking gidii topiary stands within the open gateway, while an azurelle longbow carved with rearing dragons lies discarded."], "paths"=>["Obvious paths: north, northeast, northwest."], "wayto"=>{"51913"=>"n", "51918"=>"nw", "51920"=>"ne"}, "timeto"=>{"51913"=>0.2, "51918"=>0.2, "51920"=>0.2}}
+5621 [[Aesry Surlaenis'a, Shadaer]]  (u3107004)
+    added uid:   [3107004]
 --------------------------------------------------
-51920 [[Walled Memory Garden, Screamer's Demise]] -- new room
-{"id"=>51920, "title"=>["[[Walled Memory Garden, Screamer's Demise]]"], "description"=>["A miniature mountain of weathered boulders of varying sizes rises from carefully raked beds of pale gravel interspersed with hardy shrubs and sparse alpine greenery.  A lifelike glass statue of a cornered S'lai screamer is surrounded by a band of warriors forming a veritable wall of weapons that closes in on the grounded creature from every side."], "paths"=>["Obvious paths: north, southwest, northwest."], "wayto"=>{"51913"=>"nw", "51919"=>"sw", "51921"=>"n"}, "timeto"=>{"51913"=>0.2, "51919"=>0.2, "51921"=>0.2}}
+5622 [[Aesry Surlaenis'a, Shadaer]]  (u3107008)
+    added uid:   [3107008]
 --------------------------------------------------
-51921 [[Walled Memory Garden, Fountain of Tears]] -- new room
-{"id"=>51921, "title"=>["[[Walled Memory Garden, Fountain of Tears]]"], "description"=>["Curving beds of blooming Elven tears blossoms surround a circular fountain enclosed by neatly maintained greenery and pale stone edging.  Rising from its center, an ethereal Elven woman, crowned with a delicate diadem, wraps her arms around a human man with a sheathed short sword resting against his hip."], "paths"=>["Obvious paths: north, south, west."], "wayto"=>{"51913"=>"w", "51916"=>"n", "51920"=>"s"}, "timeto"=>{"51913"=>0.2, "51916"=>0.2, "51920"=>0.2}}
+5624 [[Aesry Surlaenis'a, Shadaer]]  (u3107009)
+    added uid:   [3107009]
 --------------------------------------------------
-old map max: 51912
-current map max: 51921
-old map size: 18534
-current map size: 18543
-1 rooms with changes found.
-9 new rooms
+6914 [[Manor House, Curia]]  (u154102)
+    added uid:   [154102]
+--------------------------------------------------
+7058 [[Theren Keep, Dais]]  (u1023109)
+    added uid:   [1023109]
+--------------------------------------------------
+7651 [[Jantspyre River, In the Water]]  (u1400035)
+    added uid:   [1400035]
+--------------------------------------------------
+7964 [[Wilderness]]  (u220021)
+    added uid:   [220021]
+--------------------------------------------------
+8060 [[Darkmist Moor, Scraggly Treetop]]  (u2270133)
+    added uid:   [2270133]
+--------------------------------------------------
+8097 [[Darkmist Moor, Nightshade Tangle]]  (u2270111)
+    added uid:   [2270111]
+--------------------------------------------------
+8124 [[Darkmist Moor, Nightshade Tangle]]  (u2270118)
+    added uid:   [2270118]
+--------------------------------------------------
+8799 [[Sazu's Cottage, Dyeing Chamber]]  (u155008)
+    added uid:   [155008]
+--------------------------------------------------
+9100 [[On A Whim, Sales Floor]]  (u71121)
+    added uid:   [71121]
+--------------------------------------------------
+9102 [[Teh Black Market, Sales Floor]]  (u71198)
+    added uid:   [71198]
+--------------------------------------------------
+9104 [[Banisad's Quest N Fest Rares, Sales Floor]]  (u71451)
+    added uid:   [71451]
+--------------------------------------------------
+10577 [[Griniel's Cottage, Attic]]  (u1444216)
+    added uid:   [1444216]
+--------------------------------------------------
+11005 [[Remcli Amarcen, Cavern]]  (u2250055)
+  removed tags: ["lich-map-no-uid-room"]
+    added uid:   [2250055]
+--------------------------------------------------
+11532 [[Frozen River, Beneath the Ice]]  (u2280005)
+    added uid:   [2280005]
+--------------------------------------------------
+11533 [[Frozen River, Beneath the Ice]]  (u2280004)
+    added uid:   [2280004]
+--------------------------------------------------
+11535 [[Frozen River, Beneath the Ice]]  (u2280002)
+    added uid:   [2280002]
+--------------------------------------------------
+11547 [[Egress Bluffs]]  (u3060008)
+    added uid:   [3060008]
+--------------------------------------------------
+11617 [[Ain Ghazal Auberge, The River Fisher]]  (u4121505)
+    added uid:   [4121505]
+--------------------------------------------------
+11618 [[Ain Ghazal Auberge, Conversation Room]]  (u4121504)
+    added uid:   [4121504]
+--------------------------------------------------
+11642 [[Ain Ghazal Chateau, Banquet Room]]  (u4121004)
+    added uid:   [4121004]
+--------------------------------------------------
+11655 [[Ain Ghazal Chateau, Bell Tower Bastion]]  (u4121106)
+    added uid:   [4121106]
+--------------------------------------------------
+11887 [[Fala Inisharon, The White Oak]]  (u3096051)
+    added uid:   [3096051]
+--------------------------------------------------
+12540 [[Denison's Pub, Common Room]]  (u3103550)
+    added uid:   [3103550]
+--------------------------------------------------
+12962 [[Paladins' Guild, Chapel]]  (u3021406)
+    added uid:   [3021406]
+--------------------------------------------------
+13190 [[Sephina's Lockbane]]  (u4122201)
+    added uid:   [4122201]
+--------------------------------------------------
+13358 [[Misrel Lemicus'a, Magical Studies Room]]  (u3102055)
+    added uid:   [3102055]
+--------------------------------------------------
+13361 [[Aesry Surlaenis'a, Inn Stables]]  (u3103541)
+    added uid:   [3103541]
+--------------------------------------------------
+13373 [[Ger Ilerthan, Courtyard]]  (u3102701)
+    added uid:   [3102701]
+--------------------------------------------------
+13374 [[Ger Ilerthan, Courtyard]]  (u3102702)
+    added uid:   [3102702]
+--------------------------------------------------
+13623 [[Prison Maze Paraphernalia, Sales Floor]]  (u71160)
+    added uid:   [71160]
+--------------------------------------------------
+13786 [[Riverhaven, Small House]]  (u1018101)
+    added uid:   [1018101]
+--------------------------------------------------
+14311 [[Field of Shields]]  (u3103090)
+    added uid:   [3103090]
+--------------------------------------------------
+14595 [[Tezler's Shop, Sales Floor]]  (u71271)
+    added uid:   [71271]
+--------------------------------------------------
+14623 [[Empath's Guild, Guildleader's Study]]  (u3102077)
+    added uid:   [3102077]
+--------------------------------------------------
+14678 [[Forest, A Small Clearing]]  (u2522010)
+    added uid:   [2522010]
+--------------------------------------------------
+14725 [[Finer Things By Zincir, Sales Floor]]  (u1233351)
+    added uid:   [1233351]
+--------------------------------------------------
+14726 [[JAK'S Treasures, Sales Floor]]  (u1233171)
+    added uid:   [1233171]
+--------------------------------------------------
+15128 [[Paladins' Guild, Sentinel's Way]]  (u70008)
+    added uid:   [70008]
+--------------------------------------------------
+15293 [[The Enclave, Sohrac's Gembuyers]]  (u3156051)
+    added uid:   [3156051]
+--------------------------------------------------
+15359 [[Lady Atladene's Garden, Pool]]  (u2015105)
+  removed tags: ["lich-map-no-uid-room"]
+    added uid:   [2015105]
+--------------------------------------------------
+15406 [[Hara'jaal, Nardel Aesker]]  (u3145008)
+    added uid:   [3145008]
+--------------------------------------------------
+15508 [[Quest, Fest, And Crafted, Sales Floor]]  (u71130)
+    added uid:   [71130]
+--------------------------------------------------
+15745 [[The Herb Play Restaurant, Outdoor Dining]]  (u3082123)
+    added uid:   [3082123]
+--------------------------------------------------
+15876 [[Fever Point, Pier]]  (u3093065)
+    added uid:   [3093065]
+--------------------------------------------------
+17049 [[Paladins' Guild, Eamonn's Office]]  (u3021403)
+    added uid:   [3021403]
+--------------------------------------------------
+17051 [[Paladins' Guild, Grand Hall of Light]]  (u3021402)
+    added uid:   [3021402]
+--------------------------------------------------
+51005 [[Dream Vision, Sales Floor]]  (u1233281)
+    added uid:   [1233281]
+--------------------------------------------------
+51060 [[Northern Watch Tower, Sales Floor]]  (u71204)
+    added uid:   [71204]
+--------------------------------------------------
+51162 [[House Of Goods And Antiquities, Sales Floor]]  (u1233108)
+    added uid:   [1233108]
+--------------------------------------------------
+51163 [[Ve Aevan Gaenan, The High Altar]]  (u753002)
+    added uid:   [753002]
+--------------------------------------------------
+51211 [[Southern Goods And Treasures, Sales Floor]]  (u2024102)
+  removed tags: ["lich-map-no-uid-room"]
+    added uid:   [2024102]
+--------------------------------------------------
+51283 [[Yrs' Greatest Deals, Sales Floor]]  (u71171)
+    added uid:   [71171]
+--------------------------------------------------
+51582 [[Deadman's Confide, Galley]]  (u3045204)
+    added uid:   [3045204]
+--------------------------------------------------
+51586 [[Deadman's Confide, Barracks]]  (u3045219)
+    added uid:   [3045219]
+--------------------------------------------------
+old map max: 51948
+current map max: 51948
+old map size: 18563
+current map size: 18563
+64 rooms with changes found.
+0 new rooms
 0 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found
