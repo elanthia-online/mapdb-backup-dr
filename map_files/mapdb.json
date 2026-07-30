@@ -267689,7 +267689,9 @@
   "description": [
     "A massive conical building rises from the cobbles at the square's center, its snowy alabaster surfaces gleaming brilliantly.  A bejeweled mosaic set above an oval doorway reads \"THE CAROUSEL.\""
   ],
-  "paths": "Obvious paths: west, out.",
+  "paths": [
+    "Obvious paths: west, out."
+  ],
   "location": "Therengia",
   "wayto": {
     "3160": "out",
@@ -276791,7 +276793,9 @@
   "description": [
     "A chamber with stone walls and a lofty, vaulted ceiling links the rooms of the forge.  Its high arches help to subdue the clangor, letting it rise and echo in the space overhead.  Waves of heat and flickering reddish light from the foundries to the west strive with the scream of the grindstones to the east and the pounding din of metal on metal from the smithies to the south."
   ],
-  "paths": "Obvious exits: north, south.",
+  "paths": [
+    "Obvious exits: north, south."
+  ],
   "location": "Crossing Forging Society",
   "wayto": {
     "8772": "north",
@@ -403235,7 +403239,9 @@
     "Aside from several torches, the hewn stone wall ringing the Carousel's core is smooth and unadorned.  A circular ceiling supports a vast framework of iron and timbers rising to the cavern's apex, and countless gears, pulleys and weights within the structure form the strikingly complex and beautiful mechanism which drives the Carousel.",
     "Aside from several torches, the hewn stone wall ringing the Carousel's core is smooth and unadorned.  A circular ceiling supports a vast framework of iron and timbers rising to the cavern's apex, and countless gears, pulleys and weights within the structure form the strikingly complex and beautiful mechanism which drives the Carousel."
   ],
-  "paths": "Obvious exits: south, west, out.",
+  "paths": [
+    "Obvious exits: south, west, out."
+  ],
   "wayto": {
     "9112": "out",
     "15875": "south",
@@ -496443,7 +496449,9 @@
   "description": [
     "The narrow, sloping sides of the vaulted ceiling create a mirror-like effect that amplifies the vivid colors that saturate the room's curved walls.  Constantly shifting in their prismatic dance, brilliant rainbows emerge from a massive, glittering crystal that is suspended in mid-air at the very center of the room.  Multiple open corridors branch away from the circular room, but an undulating, kaleidoscopic ward blocks access to all passageways except for the one to the north.  An ornately gilded ramp, located directly beneath the crystal, leads downwards into another area."
   ],
-  "paths": "Obvious exits: north.",
+  "paths": [
+    "Obvious exits: north."
+  ],
   "wayto": {
     "932": "go prismatic portal",
     "16957": "down",
