@@ -1,112 +1,185 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-1138 [[Journalai Route, Open Grasslands]] Northern Trade Road (u225105)
-  old wayto['8945'] =    "climb barricade"
-  new wayto['8945'] =    "climb heavy barricade"
+1136 [[Kaerna Village, Intersection]] Northern Trade Road (u226202)
+  old wayto['1137'] =    "west"
+  new wayto['1137'] =    "w"
 --------------------------------------------------
-8506 [[Order of the Dragon Shield, Lobby]] Riverhaven Road and Northeast Wilds (u1351102)
+1137 [[Journalai Route, Kaerna Outskirts]] Northern Trade Road (u225104)
+  old wayto['1138'] =    "west"
+  new wayto['1138'] =    "w"
 --------------------------------------------------
 8945 [[Journalai Route, Foothills]] Journalai Route (u225106)
   added wayto:
-    8947: [[Journalai Route, Rolling Hills]] => "west"
-  removed wayto:
-    8946: [[Journalai Route, Rolling Hills]] => "west"
+    8946: [[Journalai Route, Rolling Hills]] => "w"
+--------------------------------------------------
+8946 [[Journalai Route, Rolling Hills]] Journalai Route (u225107)
+  added wayto:
+    1138: [[Journalai Route, Open Grasslands]] => "climb heavy barricade"
+  old wayto['8947'] =    "west"
+  new wayto['8947'] =    "w"
   added timeto:
-    8947: [[Journalai Route, Rolling Hills]] => 0.2
+    1138: [[Journalai Route, Open Grasslands]] => 0.2
 --------------------------------------------------
 8947 [[Journalai Route, Rolling Hills]] Journalai Route (u225120)
-  old wayto['8948'] =    "west"
-  new wayto['8948'] =    "southwest"
+  old wayto['8948'] =    "southwest"
+  new wayto['8948'] =    "w"
 --------------------------------------------------
 8948 [[Journalai Route, Rolling Hills]] Journalai Route (u225130)
+  old wayto['8949'] =    "southwest"
+  new wayto['8949'] =    "sw"
+--------------------------------------------------
+8949 [[Journalai Route, Rolling Hills]] Journalai Route (u225131)
+  old wayto['8950'] =    "west"
+  new wayto['8950'] =    "w"
+--------------------------------------------------
+8950 [[Journalai Route, Rolling Hills]] Journalai Route (u225132)
   added wayto:
-    8950: [[Journalai Route, Rolling Hills]] => "northwest"
+    8948: [[Journalai Route, Rolling Hills]] => "east"
+  removed wayto:
+    8949: [[Journalai Route, Rolling Hills]] => "east"
+  old wayto['8951'] =    "west"
+  new wayto['8951'] =    "nw"
+  added timeto:
+    8948: [[Journalai Route, Rolling Hills]] => 0.2
+--------------------------------------------------
+8951 [[Journalai Route, Rolling Hills]] Journalai Route (u225133)
+  old wayto['8952'] =    "west"
+  new wayto['8952'] =    "w"
+--------------------------------------------------
+8952 [[Journalai Route, Rocky Hills]] Journalai Route (u225134)
+  added wayto:
+    8950: [[Journalai Route, Rolling Hills]] => "east"
+  removed wayto:
+    8951: [[Journalai Route, Rolling Hills]] => "east"
+  old wayto['8953'] =    "west"
+  new wayto['8953'] =    "w"
   added timeto:
     8950: [[Journalai Route, Rolling Hills]] => 0.2
 --------------------------------------------------
-8950 [[Journalai Route, Rolling Hills]] Journalai Route (u225132)
-  old wayto['8951'] =    "northwest"
-  new wayto['8951'] =    "west"
+8953 [[Journalai Route, Rockslide]] Journalai Route (u225135)
+  old wayto['9059'] =    "go rockslide"
+  new wayto['9059'] =    "go massive rockslide"
 --------------------------------------------------
-8951 [[Journalai Route, Rolling Hills]] Journalai Route (u225133)
+8968 [[Rolling Hills]] Journalai Route (u225140)
+  old wayto['8953'] =    "clim path"
+  new wayto['8953'] =    "climb path"
+--------------------------------------------------
+9059 [[Journalai Route, Rocky Pass]] Journalai Route (u218001)
+  old wayto['9060'] =    "west"
+  new wayto['9060'] =    "w"
+--------------------------------------------------
+9060 [[Journalai Route, Rocky Pass]] Journalai Route (u218002)
   added wayto:
-    8953: [[Journalai Route, Rockslide]] => "go massive rockslide"
+    8953: [[Journalai Route, Rockslide]] => "east"
+  removed wayto:
+    9059: [[Journalai Route, Rocky Pass]] => "east"
+  old wayto['9061'] =    "southwest"
+  new wayto['9061'] =    "w"
   added timeto:
     8953: [[Journalai Route, Rockslide]] => 0.2
 --------------------------------------------------
-8953 [[Journalai Route, Rockslide]] Journalai Route (u225135)
+9061 [[Journalai Route, Rocky Pass]] Journalai Route (u218003)
+  old wayto['9062'] =    "go narrow trail"
+  new wayto['9062'] =    "sw"
+--------------------------------------------------
+9062 [[Journalai Route, Shadowy Cul-de-sac]] Journalai Route (u218004)
   added wayto:
-    9060: [[Journalai Route, Rocky Pass]] => "west"
+    9060: [[Journalai Route, Rocky Pass]] => "east"
+  old wayto['11763'] =    "northwest"
+  new wayto['11763'] =    "go narrow trail"
   added timeto:
     9060: [[Journalai Route, Rocky Pass]] => 0.2
 --------------------------------------------------
-9060 [[Journalai Route, Rocky Pass]] Journalai Route (u218002)
-  old wayto['9061'] =    "west"
-  new wayto['9061'] =    "southwest"
---------------------------------------------------
-9061 [[Journalai Route, Rocky Pass]] Journalai Route (u218003)
-  old wayto['9062'] =    "southwest"
-  new wayto['9062'] =    "go narrow trail"
---------------------------------------------------
-9062 [[Journalai Route, Shadowy Cul-de-sac]] Journalai Route (u218004)
-  old wayto['11763'] =    "go trail"
-  new wayto['11763'] =    "northwest"
---------------------------------------------------
-11536 [[Lady Atladene's Garden, Healer's Glade]] Ilithi (u2015106)
---------------------------------------------------
 11763 [[Journalai Route, Dim Passage]] Journalai Route (u218007)
-  added wayto:
-    11765: [[Limestone Valley, Granite Arch]] => "go granite arch"
-  added timeto:
-    11765: [[Limestone Valley, Granite Arch]] => 0.2
+  old wayto['9062'] =    "go trail"
+  new wayto['9062'] =    "northeast"
+  old wayto['11764'] =    "northwest"
+  new wayto['11764'] =    "nw"
+--------------------------------------------------
+11764 [[Limestone Valley, Dim Tunnel]] Journalai Route (u218008)
+  old wayto['11765'] =    "go arch"
+  new wayto['11765'] =    "go granite arch"
 --------------------------------------------------
 11765 [[Limestone Valley, Granite Arch]] Journalai Route (u218009)
-  old wayto['11766'] =    "east"
-  new wayto['11766'] =    "northeast"
+  added wayto:
+    11763: [[Journalai Route, Dim Passage]] => "go narrow trail"
+  old wayto['11772'] =    "west"
+  new wayto['11772'] =    "w"
+  added timeto:
+    11763: [[Journalai Route, Dim Passage]] => 0.2
 --------------------------------------------------
 11766 [[Limestone Valley, Crystal Wall]] Journalai Route (u218010)
-  old wayto['11767'] =    "northeast"
-  new wayto['11767'] =    "northwest"
+  old wayto['11765'] =    "west"
+  new wayto['11765'] =    "w"
+  old wayto['11767'] =    "northwest"
+  new wayto['11767'] =    "ne"
 --------------------------------------------------
 11767 [[Limestone Valley, Eastern Wall]] Journalai Route (u218011)
-  old wayto['11768'] =    "northwest"
-  new wayto['11768'] =    "west"
+  old wayto['11766'] =    "southwest"
+  new wayto['11766'] =    "sw"
+  old wayto['11768'] =    "west"
+  new wayto['11768'] =    "nw"
+--------------------------------------------------
+11768 [[Limestone Valley, Northern Wall]] Journalai Route (u218012)
+  old wayto['11767'] =    "southeast"
+  new wayto['11767'] =    "se"
+  old wayto['11769'] =    "west"
+  new wayto['11769'] =    "w"
 --------------------------------------------------
 11769 [[Limestone Valley, Marble Gate]] Journalai Route (u218013)
+  old wayto['11768'] =    "east"
+  new wayto['11768'] =    "e"
+  old wayto['52009'] =    "go marble door"
+  new wayto['52009'] =    "go door"
+--------------------------------------------------
+11770 [[Limestone Valley, Northern Wall]] Journalai Route (u218014)
+  old wayto['11769'] =    "east"
+  new wayto['11769'] =    "e"
+--------------------------------------------------
+11771 [[Limestone Valley, Western Wall]] Journalai Route (u218015)
+  old wayto['11770'] =    "northeast"
+  new wayto['11770'] =    "ne"
+--------------------------------------------------
+11772 [[Limestone Valley, Marble Vein]] Journalai Route (u218016)
+  old wayto['11771'] =    "northwest"
+  new wayto['11771'] =    "nw"
+--------------------------------------------------
+52011 [[Journalai Hills, Pine Forest]]  (u218103)
   added wayto:
-    52009: [[Beyond the Marble Gate, Trail]] => "go marble door"
+    52015: [[Journalai Hills, Forest Pond]] => "sw"
   added timeto:
-    52009: [[Beyond the Marble Gate, Trail]] => 0.2
+    52015: [[Journalai Hills, Forest Pond]] => 0.2
 --------------------------------------------------
-14726 [[JAK'S Treasures, Sales Floor]]  (u1233171)
+52012 [[Journalai Hills, Pine Forest]]  (u218104)
+  added wayto:
+    52011: [[Journalai Hills, Pine Forest]] => "s"
+  added timeto:
+    52011: [[Journalai Hills, Pine Forest]] => 0.2
 --------------------------------------------------
-52009 [[Beyond the Marble Gate, Trail]] -- new room
-{"id"=>52009, "title"=>["[[Beyond the Marble Gate, Trail]]"], "description"=>["Stretching between the walls of the ravine is a large marble gate with a matching door set inside it.  The trail winds through the ravine and heads deeper into the hills."], "paths"=>["Obvious paths: north."], "wayto"=>{"11769"=>"go door", "52010"=>"n"}, "timeto"=>{"11769"=>0.2, "52010"=>0.2}, "uid"=>[218101]}
+52013 [[Journalai Hills, Pine Forest]]  (u218105)
+  added wayto:
+    52012: [[Journalai Hills, Pine Forest]] => "e"
+  added timeto:
+    52012: [[Journalai Hills, Pine Forest]] => 0.2
 --------------------------------------------------
-52010 [[Beyond the Marble Gate, Trail]] -- new room
-{"id"=>52010, "title"=>["[[Beyond the Marble Gate, Trail]]"], "description"=>["Along one side of the trail, the branches of a flowering shrub have captured matted strands of brightly colored hair.  Even with a strong breeze, the wispy lengths hardly flutter and at times appear more akin to gremlin bristles.  To the other side of the dirt pathway lies the remains of a giant marble slab.  Large portions of the stone have been crudely hacked away, and broken fragments lie strewn in a rough line leading down the ravine."], "paths"=>["Obvious paths: south, northwest."], "wayto"=>{"52009"=>"s", "52011"=>"nw"}, "timeto"=>{"52009"=>0.2, "52011"=>0.2}, "uid"=>[218102]}
+52014 [[Journalai Hills, Meadow]]  (u218106)
+  added wayto:
+    52013: [[Journalai Hills, Pine Forest]] => "ne"
+  added timeto:
+    52013: [[Journalai Hills, Pine Forest]] => 0.2
 --------------------------------------------------
-52011 [[Journalai Hills, Pine Forest]] -- new room
-{"id"=>52011, "title"=>["[[Journalai Hills, Pine Forest]]"], "description"=>["Tall pine trees tower to either side of the path, their silhouettes standing straight and unyielding, sentinels of the surrounding forest.  Tiny purple wood violets grow at the roots of one particularly large pine, scattered across the loamy earth."], "paths"=>["Obvious paths: north, southeast, southwest."], "wayto"=>{"52010"=>"se", "52012"=>"n"}, "timeto"=>{"52010"=>0.2, "52012"=>0.2}, "uid"=>[218103]}
+52015 [[Journalai Hills, Forest Pond]]  (u218107)
+  added wayto:
+    52014: [[Journalai Hills, Meadow]] => "nw"
+  added timeto:
+    52014: [[Journalai Hills, Meadow]] => 0.2
 --------------------------------------------------
-52012 [[Journalai Hills, Pine Forest]] -- new room
-{"id"=>52012, "title"=>["[[Journalai Hills, Pine Forest]]"], "description"=>["Mottled beams of gold pierce the dense canopy, illuminating columns of dancing dust motes above the needle-strewn ground.  The crisp mountain air carries the chatter of unseen canopy birds and the sharp, hot scent of baking pine sap from the older trees.  Shadows stretch and pool between the rolling knolls, masking the true depth of the treacherous, root-choked paths that wind through the hills."], "paths"=>["Obvious paths: south, west."], "wayto"=>{"52013"=>"w"}, "timeto"=>{"52013"=>0.2}, "uid"=>[218104]}
---------------------------------------------------
-52013 [[Journalai Hills, Pine Forest]] -- new room
-{"id"=>52013, "title"=>["[[Journalai Hills, Pine Forest]]"], "description"=>["A gently worn path winds beneath towering pines, where a blanket of needles and scattered cones muffles each footstep.  The distant sounds of woodland creatures drift through the otherwise tranquil forest."], "paths"=>["Obvious paths: east, southwest."], "wayto"=>{"52014"=>"sw"}, "timeto"=>{"52014"=>0.2}, "uid"=>[218105]}
---------------------------------------------------
-52014 [[Journalai Hills, Meadow]] -- new room
-{"id"=>52014, "title"=>["[[Journalai Hills, Meadow]]"], "description"=>["A break in the trees opens into a large, grassy glade.  Wildflowers dot the periphery, bowing in the breeze.  A small hole in the hilly landscape that appears to have once been the entrance to a burrow lies filled with moss-covered rocks and debris, abandoned to the elements."], "paths"=>["Obvious paths: northeast, southeast."], "wayto"=>{"52015"=>"se"}, "timeto"=>{"52015"=>0.2}, "uid"=>[218106]}
---------------------------------------------------
-52015 [[Journalai Hills, Forest Pond]] -- new room
-{"id"=>52015, "title"=>["[[Journalai Hills, Forest Pond]]"], "description"=>["At the edge of the meadow, a small pond glitters in the wan sunlight that filters through the leafy canopy of the surrounding trees.  Every so often, ripples form in the otherwise placid water, as tiny silvery fish break the surface."], "paths"=>["Obvious paths: northeast, northwest."], "wayto"=>{"52011"=>"ne"}, "timeto"=>{"52011"=>0.2}, "uid"=>[218107]}
---------------------------------------------------
-old map max: 52008
+old map max: 52015
 current map max: 52015
-old map size: 18516
+old map size: 18523
 current map size: 18523
-18 rooms with changes found.
-7 new rooms
+31 rooms with changes found.
+0 new rooms
 0 deleted rooms
 0 room titles no longer found
 0 room descriptions no longer found

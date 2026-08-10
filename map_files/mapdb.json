@@ -38620,7 +38620,7 @@
   "location": "Northern Trade Road",
   "wayto": {
     "1135": "south",
-    "1137": "west",
+    "1137": "w",
     "1139": "northeast",
     "14128": "go gilded inn"
   },
@@ -38661,7 +38661,7 @@
   "location": "Northern Trade Road",
   "wayto": {
     "1136": "east",
-    "1138": "west"
+    "1138": "w"
   },
   "timeto": {
     "1136": 0.2,
@@ -280436,6 +280436,7 @@
   "location": "Journalai Route",
   "wayto": {
     "1138": "climb barricade",
+    "8946": "w",
     "8947": "west"
   },
   "timeto": {
@@ -280471,10 +280472,12 @@
   ],
   "location": "Journalai Route",
   "wayto": {
+    "1138": "climb heavy barricade",
     "8945": "east",
-    "8947": "west"
+    "8947": "w"
   },
   "timeto": {
+    "1138": 0.2,
     "8945": 0.2,
     "8947": 0.2
   },
@@ -280505,7 +280508,7 @@
   "location": "Journalai Route",
   "wayto": {
     "8946": "east",
-    "8948": "southwest",
+    "8948": "w",
     "8954": "north"
   },
   "timeto": {
@@ -280541,7 +280544,7 @@
   "location": "Journalai Route",
   "wayto": {
     "8947": "east",
-    "8949": "southwest",
+    "8949": "sw",
     "8950": "northwest"
   },
   "timeto": {
@@ -280576,7 +280579,7 @@
   "location": "Journalai Route",
   "wayto": {
     "8948": "northeast",
-    "8950": "west"
+    "8950": "w"
   },
   "timeto": {
     "8948": 0.2,
@@ -280608,10 +280611,11 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "8949": "east",
-    "8951": "west"
+    "8948": "east",
+    "8951": "nw"
   },
   "timeto": {
+    "8948": 0.2,
     "8949": 0.2,
     "8951": 0.2
   },
@@ -280642,7 +280646,7 @@
   "location": "Journalai Route",
   "wayto": {
     "8950": "southeast",
-    "8952": "west",
+    "8952": "w",
     "8953": "go massive rockslide"
   },
   "timeto": {
@@ -280676,10 +280680,11 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "8951": "east",
-    "8953": "west"
+    "8950": "east",
+    "8953": "w"
   },
   "timeto": {
+    "8950": 0.2,
     "8951": 0.2,
     "8953": 0.2
   },
@@ -280711,7 +280716,7 @@
   "wayto": {
     "8952": "east",
     "8968": "climb path",
-    "9059": "go rockslide",
+    "9059": "go massive rockslide",
     "9060": "west"
   },
   "timeto": {
@@ -281121,7 +281126,7 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "8953": "clim path",
+    "8953": "climb path",
     "8966": "east"
   },
   "timeto": {
@@ -283693,7 +283698,7 @@
   "location": "Journalai Route",
   "wayto": {
     "8953": "go rockslide",
-    "9060": "west"
+    "9060": "w"
   },
   "timeto": {
     "8953": 0.2,
@@ -283726,11 +283731,12 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "9059": "east",
-    "9061": "southwest",
+    "8953": "east",
+    "9061": "w",
     "15768": "climb tumbled boulder"
   },
   "timeto": {
+    "8953": 0.2,
     "9059": 0.2,
     "9061": 0.2,
     "15768": 0.2
@@ -283763,7 +283769,7 @@
   "location": "Journalai Route",
   "wayto": {
     "9060": "east",
-    "9062": "go narrow trail",
+    "9062": "sw",
     "11773": "go fissure"
   },
   "timeto": {
@@ -283798,10 +283804,12 @@
   ],
   "location": "Journalai Route",
   "wayto": {
+    "9060": "east",
     "9061": "northeast",
-    "11763": "northwest"
+    "11763": "go narrow trail"
   },
   "timeto": {
+    "9060": 0.2,
     "9061": 0.2,
     "11763": 0.2
   },
@@ -355480,8 +355488,8 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "9062": "go trail",
-    "11764": "northwest",
+    "9062": "northeast",
+    "11764": "nw",
     "11765": "go granite arch"
   },
   "timeto": {
@@ -355513,7 +355521,7 @@
   "location": "Journalai Route",
   "wayto": {
     "11763": "southeast",
-    "11765": "go arch"
+    "11765": "go granite arch"
   },
   "timeto": {
     "11763": 0.2,
@@ -355542,11 +355550,13 @@
   ],
   "location": "Journalai Route",
   "wayto": {
+    "11763": "go narrow trail",
     "11764": "go arch",
     "11766": "northeast",
-    "11772": "west"
+    "11772": "w"
   },
   "timeto": {
+    "11763": 0.2,
     "11764": 0.2,
     "11766": 0.2,
     "11772": 0.2
@@ -355574,8 +355584,8 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11765": "west",
-    "11767": "northwest"
+    "11765": "w",
+    "11767": "ne"
   },
   "timeto": {
     "11765": 0.2,
@@ -355604,8 +355614,8 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11766": "southwest",
-    "11768": "west"
+    "11766": "sw",
+    "11768": "nw"
   },
   "timeto": {
     "11766": 0.2,
@@ -355634,8 +355644,8 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11767": "southeast",
-    "11769": "west"
+    "11767": "se",
+    "11769": "w"
   },
   "timeto": {
     "11767": 0.2,
@@ -355664,9 +355674,9 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11768": "east",
+    "11768": "e",
     "11770": "west",
-    "52009": "go marble door"
+    "52009": "go door"
   },
   "timeto": {
     "11768": 0.2,
@@ -355696,7 +355706,7 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11769": "east",
+    "11769": "e",
     "11771": "southwest"
   },
   "timeto": {
@@ -355726,7 +355736,7 @@
   ],
   "location": "Journalai Route",
   "wayto": {
-    "11770": "northeast",
+    "11770": "ne",
     "11772": "east"
   },
   "timeto": {
@@ -355757,7 +355767,7 @@
   "location": "Journalai Route",
   "wayto": {
     "11765": "east",
-    "11771": "northwest"
+    "11771": "nw"
   },
   "timeto": {
     "11765": 0.2,
@@ -539825,11 +539835,13 @@
   ],
   "wayto": {
     "52010": "se",
-    "52012": "n"
+    "52012": "n",
+    "52015": "sw"
   },
   "timeto": {
     "52010": 0.2,
-    "52012": 0.2
+    "52012": 0.2,
+    "52015": 0.2
   },
   "uid": [
     218103
@@ -539846,9 +539858,11 @@
     "Obvious paths: south, west."
   ],
   "wayto": {
+    "52011": "s",
     "52013": "w"
   },
   "timeto": {
+    "52011": 0.2,
     "52013": 0.2
   },
   "uid": [
@@ -539866,9 +539880,11 @@
     "Obvious paths: east, southwest."
   ],
   "wayto": {
+    "52012": "e",
     "52014": "sw"
   },
   "timeto": {
+    "52012": 0.2,
     "52014": 0.2
   },
   "uid": [
@@ -539886,9 +539902,11 @@
     "Obvious paths: northeast, southeast."
   ],
   "wayto": {
+    "52013": "ne",
     "52015": "se"
   },
   "timeto": {
+    "52013": 0.2,
     "52015": 0.2
   },
   "uid": [
@@ -539906,10 +539924,12 @@
     "Obvious paths: northeast, northwest."
   ],
   "wayto": {
-    "52011": "ne"
+    "52011": "ne",
+    "52014": "nw"
   },
   "timeto": {
-    "52011": 0.2
+    "52011": 0.2,
+    "52014": 0.2
   },
   "uid": [
     218107
