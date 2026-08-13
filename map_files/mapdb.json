@@ -87369,13 +87369,15 @@
     "2636": "north",
     "2638": "south",
     "2642": "east",
-    "13994": "go build"
+    "13994": "go shop",
+    "52153": "go handsome door"
   },
   "timeto": {
     "2636": 0.2,
     "2638": 0.2,
     "2642": 0.2,
-    "13994": 0.2
+    "13994": 0.2,
+    "52153": 0.2
   },
   "image": "Ilitha, 67e, Shard South Bridge.gif",
   "image_coords": [
@@ -87717,13 +87719,15 @@
     "2643": "west",
     "2646": "south",
     "2648": "north",
-    "13992": "go shop"
+    "13992": "go barber shop",
+    "52151": "go oak door"
   },
   "timeto": {
     "2643": 0.2,
     "2646": 0.2,
     "2648": 0.2,
-    "13992": 0.2
+    "13992": 0.2,
+    "52151": 0.2
   },
   "image": "Ilitha, 67e, Shard South Bridge.gif",
   "image_coords": [
@@ -87749,11 +87753,13 @@
   "location": "Shard South Bridge",
   "wayto": {
     "2634": "west",
-    "2647": "south"
+    "2647": "south",
+    "52149": "go red door"
   },
   "timeto": {
     "2634": 0.2,
-    "2647": 0.2
+    "2647": 0.2,
+    "52149": 0.2
   },
   "image": "Ilitha, 67e, Shard South Bridge.gif",
   "image_coords": [
@@ -252953,11 +252959,13 @@
   "location": "Dragonspine Fortress",
   "wayto": {
     "8028": "southeast",
-    "8030": "northwest"
+    "8030": "northwest",
+    "52140": "go chapel"
   },
   "timeto": {
     "8028": 0.2,
-    "8030": 0.2
+    "8030": 0.2,
+    "52140": 0.2
   },
   "image": "Ilitha, 64a, Dragonspine Fortress.gif",
   "image_coords": [
@@ -253017,13 +253025,15 @@
     "8030": "southeast",
     "8032": "up",
     "8033": "southwest",
-    "8037": "north"
+    "8037": "north",
+    "52143": "go amphitheater"
   },
   "timeto": {
     "8030": 0.2,
     "8032": 0.2,
     "8033": 0.2,
-    "8037": 0.2
+    "8037": 0.2,
+    "52143": 0.2
   },
   "image": "Ilitha, 64a, Dragonspine Fortress.gif",
   "image_coords": [
@@ -253144,12 +253154,14 @@
   "wayto": {
     "8034": "east",
     "8036": "west",
-    "8043": "go infirm"
+    "8043": "go infirmary",
+    "52141": "climb stone staircase"
   },
   "timeto": {
     "8034": 0.2,
     "8036": 0.2,
-    "8043": 0.2
+    "8043": 0.2,
+    "52141": 0.2
   },
   "image": "Ilitha, 64a, Dragonspine Fortress.gif",
   "image_coords": [
@@ -279085,12 +279097,14 @@
   "wayto": {
     "8900": "down",
     "8907": "east",
-    "9736": "northeast"
+    "9736": "northeast",
+    "52145": "climb wall"
   },
   "timeto": {
     "8900": 0.2,
     "8907": 0.2,
-    "9736": 0.2
+    "9736": 0.2,
+    "52145": 0.2
   },
   "image": "Ilithi, 68a, Darkling Wood.gif",
   "image_coords": [
@@ -279138,12 +279152,14 @@
   "wayto": {
     "8904": "down",
     "8905": "west",
-    "9733": "northwest"
+    "9733": "northwest",
+    "52148": "climb wall"
   },
   "timeto": {
     "8904": 0.2,
     "8905": 0.2,
-    "9733": 0.2
+    "9733": 0.2,
+    "52148": 0.2
   },
   "image": "Ilithi, 68a, Darkling Wood.gif",
   "image_coords": [
@@ -279205,12 +279221,14 @@
   "wayto": {
     "8903": "east",
     "8906": "west",
-    "9733": "north"
+    "9733": "north",
+    "52147": "climb wall"
   },
   "timeto": {
     "8903": 0.2,
     "8906": 0.2,
-    "9733": 0.2
+    "9733": 0.2,
+    "52147": 0.2
   },
   "image": "Ilithi, 68a, Darkling Wood.gif",
   "image_coords": [
@@ -279237,12 +279255,14 @@
   "wayto": {
     "8905": "east",
     "8907": "west",
-    "9734": "climb ladder"
+    "9734": "climb ladder",
+    "52146": "climb wall"
   },
   "timeto": {
     "8905": 0.2,
     "8907": 0.2,
-    "9734": 0.2
+    "9734": 0.2,
+    "52146": 0.2
   },
   "image": "Ilithi, 68a, Darkling Wood.gif",
   "image_coords": [
@@ -279269,12 +279289,14 @@
   "wayto": {
     "8901": "west",
     "8906": "east",
-    "9736": "north"
+    "9736": "north",
+    "52144": "climb wall"
   },
   "timeto": {
     "8901": 0.2,
     "8906": 0.2,
-    "9736": 0.2
+    "9736": 0.2,
+    "52144": 0.2
   },
   "image": "Ilithi, 68a, Darkling Wood.gif",
   "image_coords": [
@@ -413507,7 +413529,7 @@
   ],
   "location": "Ilithi",
   "wayto": {
-    "2647": "go door"
+    "2647": "go street door"
   },
   "timeto": {
     "2647": 0.2
@@ -413549,7 +413571,7 @@
   ],
   "location": "Ilithi",
   "wayto": {
-    "2637": "go door"
+    "2637": "go street door"
   },
   "timeto": {
     "2637": 0.2
@@ -426983,12 +427005,12 @@
   "wayto": {
     "14507": "southwest",
     "14509": "northwest",
-    "14510": "northeast"
+    "52135": "northeast"
   },
   "timeto": {
     "14507": 0.2,
     "14509": 0.2,
-    "14510": 0.2
+    "52135": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427013,10 +427035,12 @@
   ],
   "location": "Undershard",
   "wayto": {
-    "14508": "southeast"
+    "14508": "southeast",
+    "14510": "northeast"
   },
   "timeto": {
-    "14508": 0.2
+    "14508": 0.2,
+    "14510": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427041,14 +427065,16 @@
   ],
   "location": "Undershard",
   "wayto": {
-    "14508": "southwest"
+    "14508": "southwest",
+    "14511": "northwest",
+    "14512": "northeast",
+    "52135": "southeast"
   },
   "timeto": {
     "14508": 0.2,
-    "14509": 0.2,
-    "14510": 0.2,
+    "14511": 0.2,
     "14512": 0.2,
-    "14515": 0.2
+    "52135": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427101,10 +427127,12 @@
   ],
   "location": "Undershard",
   "wayto": {
-    "14510": "southeast"
+    "14510": "southwest",
+    "52136": "southeast"
   },
   "timeto": {
-    "14510": 0.2
+    "14510": 0.2,
+    "52136": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427129,12 +427157,12 @@
   ],
   "location": "Undershard",
   "wayto": {
-    "14510": "northwest",
-    "14515": "northeast"
+    "52134": "northeast",
+    "52135": "northwest"
   },
   "timeto": {
-    "14510": 0.2,
-    "14515": 0.2
+    "52134": 0.2,
+    "52135": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427158,8 +427186,12 @@
     "Obvious exits: southwest."
   ],
   "location": "Undershard",
-  "wayto": {},
-  "timeto": {},
+  "wayto": {
+    "52139": "southwest"
+  },
+  "timeto": {
+    "52139": 0.2
+  },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
     1230,
@@ -427183,12 +427215,12 @@
   ],
   "location": "Undershard",
   "wayto": {
-    "14510": "northwest",
-    "14513": "southwest"
+    "52138": "southwest",
+    "52139": "northwest"
   },
   "timeto": {
-    "14510": 0.2,
-    "14513": 0.2
+    "52138": 0.2,
+    "52139": 0.2
   },
   "image": "Ilithi, Undershard.png",
   "image_coords": [
@@ -427337,6 +427369,7 @@
   ],
   "location": "Undershard",
   "wayto": {
+    "14519": "north",
     "14521": "east"
   },
   "timeto": {
@@ -542591,5 +542624,829 @@
   ],
   "uid": [
     1040038
+  ]
+},{
+  "id": 52134,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Four columns -- red, yellow, green, and blue -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "14513": "southwest",
+    "52136": "northwest",
+    "52138": "southeast",
+    "52139": "northeast"
+  },
+  "timeto": {
+    "14513": 0.2,
+    "52136": 0.2,
+    "52138": 0.2,
+    "52139": 0.2
+  },
+  "uid": [
+    2040080
+  ]
+},{
+  "id": 52135,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Four columns -- white, bronze, red, and grey -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "14508": "southwest",
+    "14510": "northwest",
+    "14513": "southeast",
+    "52136": "northeast"
+  },
+  "timeto": {
+    "14508": 0.2,
+    "14510": 0.2,
+    "14513": 0.2,
+    "52136": 0.2
+  },
+  "uid": [
+    2040081
+  ]
+},{
+  "id": 52136,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Four columns -- bronze, pink, yellow, and red -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "14512": "northwest",
+    "52134": "southeast",
+    "52135": "southwest",
+    "52137": "northeast"
+  },
+  "timeto": {
+    "14512": 0.2,
+    "52134": 0.2,
+    "52135": 0.2,
+    "52137": 0.2
+  },
+  "uid": [
+    2040084
+  ]
+},{
+  "id": 52137,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Three columns -- pink, brown, and yellow -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest."
+  ],
+  "wayto": {
+    "52136": "southwest",
+    "52139": "southeast"
+  },
+  "timeto": {
+    "52136": 0.2,
+    "52139": 0.2
+  },
+  "uid": [
+    2040087
+  ]
+},{
+  "id": 52138,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Three columns -- blue, green, and silver -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest."
+  ],
+  "wayto": {
+    "14515": "northeast",
+    "52134": "northwest"
+  },
+  "timeto": {
+    "14515": 0.2,
+    "52134": 0.2
+  },
+  "uid": [
+    2040078
+  ]
+},{
+  "id": 52139,
+  "title": [
+    "[[Undershard, Cavern of Columns]]"
+  ],
+  "description": [
+    "Thick columns diagonally shadowed by each other make the perception of depth elusive, and the immediate view of this room shrinks to hide far more than it reveals.  Four columns -- yellow, brown, orange, and green -- almost obscure the rest of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest."
+  ],
+  "wayto": {
+    "14514": "northeast",
+    "14515": "southeast",
+    "52134": "southwest",
+    "52137": "northwest"
+  },
+  "timeto": {
+    "14514": 0.2,
+    "14515": 0.2,
+    "52134": 0.2,
+    "52137": 0.2
+  },
+  "uid": [
+    2040085
+  ]
+},{
+  "id": 52140,
+  "title": [
+    "[[Chyolvea Tayeu'a, Chapel of a Hundred Faiths]]"
+  ],
+  "description": [
+    "Thousands of votive candles illuminate nearly a hundred portraits, icons, and statuettes of various gods and saints, ranging from the familiar Immortals and their aspects to the completely unrecognizable.  About a third of the images are insectoid in nature."
+  ],
+  "paths": [
+    "Obvious exits: out."
+  ],
+  "wayto": {
+    "8029": "out"
+  },
+  "timeto": {
+    "8029": 0.2
+  },
+  "uid": [
+    2201101
+  ]
+},{
+  "id": 52141,
+  "title": [
+    "[[Chyolvea Tayeu'a, Stone Tower]]"
+  ],
+  "description": [
+    "The ancient tower is formed of the same inky black almhara stone as the rest of the fortress.  A circular stone staircase winds upwards to a crystal observation dome, and down to the main halls of the citadel."
+  ],
+  "paths": [
+    "Obvious exits: down."
+  ],
+  "wayto": {
+    "8035": "down",
+    "52142": "go door"
+  },
+  "timeto": {
+    "8035": 0.2,
+    "52142": 0.2
+  },
+  "uid": [
+    2201107
+  ]
+},{
+  "id": 52142,
+  "title": [
+    "[[Chyolvea Tayeu'a, Rooftop]]"
+  ],
+  "description": [
+    "The tiles of the roof are formed of a polished, inky black stone that resonates with magical energy.  The fortress spreads out below like a coin stamped with a triskele seal, although the view is partially obstructed by the crystal-domed observatory tower.  The open area known as the Chamber of All, in the center of the citadel, resembles a glaring eye."
+  ],
+  "paths": [
+    "Obvious paths: none."
+  ],
+  "wayto": {
+    "52141": "go observatory door"
+  },
+  "timeto": {
+    "52141": 0.2
+  },
+  "uid": [
+    2201108
+  ]
+},{
+  "id": 52143,
+  "title": [
+    "[[Chyolvea Tayeu'a, Amphitheater]]"
+  ],
+  "description": [
+    "The lush green grass floor of the amphitheater, slightly tiered to provide adequate seating, slopes gently down to the center.  There, like the pupil of an eye, a massive orator's stone rests.  The sloping ground creates natural acoustics that allow a speaker to be heard by all in the chamber."
+  ],
+  "paths": [
+    "Obvious paths: out."
+  ],
+  "wayto": {
+    "8031": "out"
+  },
+  "timeto": {
+    "8031": 0.2
+  },
+  "uid": [
+    2201119
+  ]
+},{
+  "id": 52144,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Darkness continues to seep through the heavy brush, dragging a hazy cloud of moisture along to accompany it.  Clinging vines weave their way in and out, their sole purpose being to entangle the limbs of the unwary in their unrelenting grasp."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "8907": "climb wall",
+    "52155": "south"
+  },
+  "timeto": {
+    "8907": 0.2,
+    "52155": 0.2
+  },
+  "uid": [
+    2110231
+  ]
+},{
+  "id": 52145,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Shrouded in a dense cloud of mist and partially covered by dry brush, several rusted caltrops lie haphazardly scattered across the hard ground.  Metal spikes form the four corners of each trap, one menacing skewer left to point upwards silently through the dark underbrush.  Ominously awaiting a victim, these malicious devices only serve to make the journey even more formidable for both man and beast."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "8901": "climb wall",
+    "52158": "northeast"
+  },
+  "timeto": {
+    "8901": 0.2,
+    "52158": 0.2
+  },
+  "uid": [
+    2110233
+  ]
+},{
+  "id": 52146,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Whether by day or by night, the thick mist enshrouds the earth like a blanket, though not a comforting cover.  The heavy haze obscures the direction and even the intensity of noises, making a snapping twig sound like a cracking whip or muting distant thunder to a muffled groan."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "8906": "climb wall",
+    "52162": "south"
+  },
+  "timeto": {
+    "8906": 0.2,
+    "52162": 0.2
+  },
+  "uid": [
+    2110236
+  ]
+},{
+  "id": 52147,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Rows of thorny vines stretch their thick tendrils down from their stealthy breaches within the limestone wall.  Spreading their engorged fingers across the narrow lane, they make it essential to consider a careful footing at all times."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "8905": "climb wall"
+  },
+  "timeto": {
+    "8905": 0.2
+  },
+  "uid": [
+    2110237
+  ]
+},{
+  "id": 52148,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Darkness continues to seep through the heavy brush, dragging a hazy cloud of moisture along to accompany it.  Clinging vines weave their way in and out, their sole purpose being to entangle the limbs of the unwary in their unrelenting grasp."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "8903": "climb wall",
+    "52162": "west",
+    "52164": "southwest"
+  },
+  "timeto": {
+    "8903": 0.2,
+    "52162": 0.2,
+    "52164": 0.2
+  },
+  "uid": [
+    2110238
+  ]
+},{
+  "id": 52149,
+  "title": [
+    "[[South Bridge Flats, The Vestibule]]"
+  ],
+  "description": [
+    "A small vestibule lit by a pewter lamp occupies the space between an ascending flight of stairs and the street door.  A thick green carpet on the stairs cushions and quiets the footsteps."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "2648": "go street door",
+    "52150": "climb stairs"
+  },
+  "timeto": {
+    "2648": 0.2,
+    "52150": 0.2
+  },
+  "uid": [
+    2016061
+  ]
+},{
+  "id": 52150,
+  "title": [
+    "[[The Second-Floor Hallway]]"
+  ],
+  "description": [
+    "The upstairs hall is quiet, with a deep-piled carpet underfoot.  The dim light of an oil lamp at the head of the stairs shows half-timber and plaster walls with a window at the street end of the room."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "52149": "climb stairs"
+  },
+  "timeto": {
+    "52149": 0.2
+  },
+  "uid": [
+    2016071
+  ]
+},{
+  "id": 52151,
+  "title": [
+    "[[South Bridge Flats, The Vestibule]]"
+  ],
+  "description": [
+    "A small vestibule lit by a pewter lamp occupies the space between an ascending flight of stairs and the street door.  A trim canvas strip on the stairs quiets the footsteps but shows what look like chemical stains."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "2647": "go street door",
+    "52152": "climb stairs"
+  },
+  "timeto": {
+    "2647": 0.2,
+    "52152": 0.2
+  },
+  "uid": [
+    2016062
+  ]
+},{
+  "id": 52152,
+  "title": [
+    "[[The Second-Floor Hallway]]"
+  ],
+  "description": [
+    "The upstairs hall is quiet now that night has come and no patrons visit the shop downstairs.  An oil lamp at the head of the stairs lights the dove-grey walls and reflects in the panes of a window at the street end of the room."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "52151": "climb stairs"
+  },
+  "timeto": {
+    "52151": 0.2
+  },
+  "uid": [
+    2016072
+  ]
+},{
+  "id": 52153,
+  "title": [
+    "[[South Bridge Flats, The Vestibule]]"
+  ],
+  "description": [
+    "A small vestibule lit by a pewter lamp occupies the space between an ascending flight of stairs and the street door.  A soft, deep purple carpet with gold edges covers the stairs."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "2637": "go street door",
+    "52154": "climb stairs"
+  },
+  "timeto": {
+    "2637": 0.2,
+    "52154": 0.2
+  },
+  "uid": [
+    2016083
+  ]
+},{
+  "id": 52154,
+  "title": [
+    "[[The Second-Floor Hallway]]"
+  ],
+  "description": [
+    "The walls of the upstairs hall are covered with cream paper hand-painted in tones of green and gold with scenes of woodland and meadow.  Two bronze lamps light the hall, and a big window graces the street end."
+  ],
+  "paths": [
+    "Obvious exits: none."
+  ],
+  "wayto": {
+    "52153": "climb stairs"
+  },
+  "timeto": {
+    "52153": 0.2
+  },
+  "uid": [
+    2016093
+  ]
+},{
+  "id": 52155,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Whether by day or by night, the thick mist enshrouds the earth like a blanket, though not a comforting cover.  The heavy haze obscures the direction and even the intensity of noises, making a snapping twig sound like a cracking whip or muting distant thunder to a muffled groan."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52144": "north",
+    "52156": "south",
+    "52157": "southwest"
+  },
+  "timeto": {
+    "52144": 0.2,
+    "52156": 0.2,
+    "52157": 0.2
+  },
+  "uid": [
+    2110230
+  ]
+},{
+  "id": 52156,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Covered with thorny vines and random patches of clinging brownish-green moss, an old well dominates the center of the clearing.  Once a popular gathering spot for the gossipmongers that previously inhabited the region, the crumbling brick and limestone structure now reeks with the stench of rotting flesh.  The overwhelming odor may even lead to the belief that it has been used as a repository for more than a few unfortunate souls."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52155": "north"
+  },
+  "timeto": {
+    "52155": 0.2
+  },
+  "uid": [
+    2110206
+  ]
+},{
+  "id": 52157,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Several small groupings of burial mounds line the brush-strewn pathway, some marked with now illegible chunks of granite and others noticeably devoid of any such designation.  Mournful and almost ghostly, a series of wailing sobs intermittently ripples along on the breeze and mingles with the ever-increasing shadows."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52155": "northeast",
+    "52158": "north",
+    "52159": "southeast"
+  },
+  "timeto": {
+    "52155": 0.2,
+    "52158": 0.2,
+    "52159": 0.2
+  },
+  "uid": [
+    2110229
+  ]
+},{
+  "id": 52158,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Dense clusters of white pine trees form patches of a dark canopy that casts deep shadows across the trail.  Rotting beams of severely weathered timber lie scattered about, providing yet another obstacle to navigation through the encroaching demon forest."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52145": "southwest",
+    "52157": "south"
+  },
+  "timeto": {
+    "52145": 0.2,
+    "52157": 0.2
+  },
+  "uid": [
+    2110232
+  ]
+},{
+  "id": 52159,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Murky and dismal, the heavy undergrowth continues to impede passage and crunches noisily underfoot.  The cacophony of savage howls and an incessant rustling in the nearby brush leave one to wonder what manner of beast lies in wait for any unsuspecting victim."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52157": "northwest",
+    "52160": "southeast"
+  },
+  "timeto": {
+    "52157": 0.2,
+    "52160": 0.2
+  },
+  "uid": [
+    2110208
+  ]
+},{
+  "id": 52160,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Dense clusters of white pine trees form patches of a dark canopy that casts deep shadows across the trail.  Rotting beams of severely weathered timber lie scattered about, providing yet another obstacle to navigation through the encroaching demon forest."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52159": "northwest",
+    "52161": "north"
+  },
+  "timeto": {
+    "52159": 0.2,
+    "52161": 0.2
+  },
+  "uid": [
+    2110209
+  ]
+},{
+  "id": 52161,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Thorny underbrush pervades the area, scratching at every passerby and slowing every pace.  Propped unceremoniously against a withered and twisted oak tree stands the rusted remains of an old sally-port, once used as a rapid means of both strike and retreat for the defenders."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52160": "south",
+    "52162": "northeast"
+  },
+  "timeto": {
+    "52160": 0.2,
+    "52162": 0.2
+  },
+  "uid": [
+    2110210
+  ]
+},{
+  "id": 52162,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Shrouded in a dense cloud of mist and partially covered by dry brush, several rusted caltrops lie haphazardly scattered across the hard ground.  Metal spikes form the four corners of each trap, one menacing skewer left to point upwards silently through the dark underbrush.  Ominously awaiting a victim, these malicious devices only serve to make the journey even more formidable for both man and beast."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52146": "north",
+    "52148": "east",
+    "52161": "southwest",
+    "52163": "northwest",
+    "52164": "south"
+  },
+  "timeto": {
+    "52146": 0.2,
+    "52148": 0.2,
+    "52161": 0.2,
+    "52163": 0.2,
+    "52164": 0.2
+  },
+  "uid": [
+    2110235
+  ]
+},{
+  "id": 52163,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Murky and dismal, the heavy undergrowth impedes passage and crunches noisily underfoot.  The cacophony of savage howls and an incessant rustling in the nearby brush leave one to wonder what manner of beast lies in wait for any unsuspecting victim."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52162": "southeast"
+  },
+  "timeto": {
+    "52162": 0.2
+  },
+  "uid": [
+    2110234
+  ]
+},{
+  "id": 52164,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Several small groupings of burial mounds line the brush-strewn pathway, some marked with now illegible chunks of granite and others noticeably devoid of any such designation.  Mournful and almost ghostly, a series of wailing sobs intermittently ripples along on the breeze and mingles with the ever-increasing shadows."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52148": "northeast",
+    "52162": "north",
+    "52165": "southwest"
+  },
+  "timeto": {
+    "52148": 0.2,
+    "52162": 0.2,
+    "52165": 0.2
+  },
+  "uid": [
+    2110215
+  ]
+},{
+  "id": 52165,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Bleak shadows weave their way in and out among the trees and overgrown shrubbery.  At once both foreboding and mysterious, the heavy forest gradually shifts and shapes itself to fully invade the once-thriving bailey."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52164": "northeast",
+    "52166": "east",
+    "52167": "south"
+  },
+  "timeto": {
+    "52164": 0.2,
+    "52166": 0.2,
+    "52167": 0.2
+  },
+  "uid": [
+    2110214
+  ]
+},{
+  "id": 52166,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Murky and dismal, the heavy undergrowth continues to impede passage and crunches noisily underfoot.  The cacophony of savage howls and an incessant rustling in the nearby brush leave one to wonder what manner of beast lies in wait for any unsuspecting victim."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52165": "west"
+  },
+  "timeto": {
+    "52165": 0.2
+  },
+  "uid": [
+    2110242
+  ]
+},{
+  "id": 52167,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Scattered about like mere pebbles, several large boulders are dwarfed by the size of the old, rusted-out trebuchet left deserted in the center of the trail.  Barely clinging by one end to the rather ill-wrought siege engine, the heavy sling dangles to the ground like a giant razor strap."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52165": "north",
+    "52168": "east",
+    "52170": "northwest"
+  },
+  "timeto": {
+    "52165": 0.2,
+    "52168": 0.2,
+    "52170": 0.2
+  },
+  "uid": [
+    2110213
+  ]
+},{
+  "id": 52168,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Rows of thorny vines stretch their thick tendrils down from their stealthy breaches within the limestone wall.  Spreading their engorged fingers across the narrow lane, they make it essential to consider a careful footing at all times."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52167": "west",
+    "52169": "south"
+  },
+  "timeto": {
+    "52167": 0.2,
+    "52169": 0.2
+  },
+  "uid": [
+    2110218
+  ]
+},{
+  "id": 52169,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Whether by day or by night, the thick mist enshrouds the earth like a blanket, though not a comforting cover.  The heavy haze obscures the direction and even the intensity of noises, making a snapping twig sound like a cracking whip or muting distant thunder to a muffled groan."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52168": "north"
+  },
+  "timeto": {
+    "52168": 0.2
+  },
+  "uid": [
+    2110219
+  ]
+},{
+  "id": 52170,
+  "title": [
+    "[[Blackthorn Canyon, Lost Ground]]"
+  ],
+  "description": [
+    "Large blocks of crenellated stone jut up through the earth, weathered and bleached by the sun long before the demon forest encroached to block out its life-giving rays.  Random piles of crumbled mortar and rubble force travelers to weave their way carefully across the narrowed pathway."
+  ],
+  "paths": [
+    "Obvious paths: obscured by a thick fog"
+  ],
+  "wayto": {
+    "52167": "southeast"
+  },
+  "timeto": {
+    "52167": 0.2
+  },
+  "uid": [
+    2110212
   ]
 }]
