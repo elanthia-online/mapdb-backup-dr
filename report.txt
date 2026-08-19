@@ -1,18 +1,129 @@
 diffing old /home/runner/work/mapdb-backup-dr/mapdb-backup-dr/map_files/mapdb.json to new /tmp/temp_map.repo
 --------------------------------------------------
-31510 [[Asketi's Mount, Summit]] Asketi's Mount (u4220102)
-  added wayto:
-    31496: [[Asketi's Mount, Summit]] => "south"
-    31532: [[Asketi's Mount, Summit]] => "northeast"
+932 [[The Strand, Sandy Path]] Zoluren (u10171)
   added timeto:
-    31496: [[Asketi's Mount, Summit]] => 0.2
-    31532: [[Asketi's Mount, Summit]] => 0.2
+    9144: [[The Gilded Wave, Foredeck]] => 0.2
+--------------------------------------------------
+4215 [[Vela'Tohr Outskirts, An Abandoned Field]] Forfedhdar (u4218910)
+  added wayto:
+    4214: [[Vela'Tohr Outskirts, An Abandoned Field]] => "east"
+    14442: [[Vela'Tohr Outskirts, An Abandoned Field]] => "west"
+  added timeto:
+    4214: [[Vela'Tohr Outskirts, An Abandoned Field]] => 0.2
+    14442: [[Vela'Tohr Outskirts, An Abandoned Field]] => 0.2
+--------------------------------------------------
+4310 [[Vela'Tohr Woods, Dark Burrows]] Dark Burrows (u4218422)
+  added wayto:
+    4304: [[Vela'Tohr Woods, Dark Burrows]] => "west"
+  added timeto:
+    4304: [[Vela'Tohr Woods, Dark Burrows]] => 0.2
+--------------------------------------------------
+6242 [[The Western Road, The Stream]]  (u2108006)
+  added timeto:
+    6243: [[The Western Road, Stream Bank]] => 0.2
+--------------------------------------------------
+7239 [[Abandoned Mine, Stony Labyrinth]] Zoluren (u459009)
+  added wayto:
+    7238: [[Abandoned Mine, Tunnel]] => "southeast"
+  added timeto:
+    7238: [[Abandoned Mine, Tunnel]] => 0.2
+--------------------------------------------------
+7651 [[Jantspyre River, In the Water]]  (u1400035)
+  added timeto:
+    7652: [[Butternut Creek, In the Water]] => 0.2
+--------------------------------------------------
+9000 [[Swotting Hall, Trader's Pit]] Zoluren (u151028)
+  added wayto:
+    8999: [[Swotting Hall, Trader's Center]] => "east"
+  added timeto:
+    8999: [[Swotting Hall, Trader's Center]] => 0.2
+--------------------------------------------------
+9002 [[Swotting Hall, Study Chamber]] Zoluren (u151023)
+  added wayto:
+    8999: [[Swotting Hall, Trader's Center]] => "south"
+  added timeto:
+    8999: [[Swotting Hall, Trader's Center]] => 0.2
+--------------------------------------------------
+10845 [[Cavern, Underground River]] Therengia (u1265682)
+  added wayto:
+    10844: [[Cavern, Underground River]] => "west"
+  added timeto:
+    10844: [[Cavern, Underground River]] => 0.2
+--------------------------------------------------
+10993 [[Remcli Amarcen, Canyon Floor]] Shard Ring Road (u2250044)
+  added timeto:
+    51547: [[Remcli Amarcen, Atop the Escarpment]] => 0.2
+--------------------------------------------------
+12061 [[Zaulfung, Urrem'tier's Spire]] Zaulfung Swamp (u1265084)
+  added wayto:
+    10890: [[Zaulfung, Dense Swamp]] => "northeast"
+  added timeto:
+    10890: [[Zaulfung, Dense Swamp]] => 0.2
+--------------------------------------------------
+12665 [[Pokekehekepi ghedo]]  (u)
+  added timeto:
+    12664: [[Pokekehekepi ghedo]] => 0.2
+    12666: [[Pokekehekepi ghedo]] => 0.2
+--------------------------------------------------
+12667 [[Pokekehekepi olpo'staho]]  (u)
+  added timeto:
+    12666: [[Pokekehekepi ghedo]] => 0.2
+--------------------------------------------------
+12678 [[Ratha Traders' Guild, Hallway]] Qi'Reshalia (u3012503)
+  added timeto:
+    12677: [[Ratha Traders' Guild, Hallway]] => 0.2
+--------------------------------------------------
+12691 [[Lileyew's Workshop, Main Room]] Ratha, Tiers Three and Four (u3021315)
+  removed wayto:
+    :  => "east"
+--------------------------------------------------
+12958 [[Deadman's Confide, Beach]]  (u)
+  removed wayto:
+    NOTES:  => "[Deadman Confide's Maze Room] - SCOUT AREA reveals room exits. Can lose sense of direction. A BESCORT is needed."
+--------------------------------------------------
+17029 [[Vela'Tohr Woods, Blighted Tangle]] Blighted Tangle (u4218201)
+  added wayto:
+    4250: [[Vela'Tohr Woods, Blighted Tangle]] => "southwest"
+  added timeto:
+    4250: [[Vela'Tohr Woods, Blighted Tangle]] => 0.2
+--------------------------------------------------
+46893 [[Temple of the North Wind, Catacombs]] Catacombs (u4221554)
+  added wayto:
+    46889: [[Temple of the North Wind, Catacombs]] => "southwest"
+  added timeto:
+    46889: [[Temple of the North Wind, Catacombs]] => 0.2
+--------------------------------------------------
+51546 [[Remcli Amarcen, Base of the Spire]]  (u)
+  added timeto:
+    51548: [[Remcli Amarcen, Atop the Spire]] => 0.2
+--------------------------------------------------
+51547 [[Remcli Amarcen, Atop the Escarpment]]  (u)
+  added timeto:
+    10993: [[Remcli Amarcen, Canyon Floor]] => 0.2
+--------------------------------------------------
+51548 [[Remcli Amarcen, Atop the Spire]]  (u)
+  added timeto:
+    51546: [[Remcli Amarcen, Base of the Spire]] => 0.2
+--------------------------------------------------
+51574 [[Deadman's Confide, Stone Cell]] Qi'Reshalia (u3045218)
+  removed wayto:
+    NOTES:  => "[One of three identical cells.]"
+--------------------------------------------------
+51575 [[Deadman's Confide, Prisoner's Hold]] Reshalia Trade Road (u3045215)
+  removed wayto:
+    NOTES:  => "[The three oak doors lead to identical cells.]"
+--------------------------------------------------
+51594 [[Deadman's Confide, Beach]]  (u)
+  removed wayto:
+    NOTES:  => "[Deadman Confide's Maze Room] - SCOUT AREA reveals room exits. Can lose sense of direction. A BESCORT is needed."
+  removed timeto:
+    NOTES:  => 0.2
 --------------------------------------------------
 old map max: 52274
 current map max: 52274
 old map size: 18779
 current map size: 18779
-1 rooms with changes found.
+24 rooms with changes found.
 0 new rooms
 0 deleted rooms
 0 room titles no longer found
